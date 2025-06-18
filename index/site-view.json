@@ -1,0 +1,30 @@
+{
+    "b2dce59e-e3b8-4467-bcb5-8f2df4bdfeb7": {
+        "name": "Looks",
+        "desc": "The List of all published looks",
+        "path": "src\/site_view\/b2dce59e-e3b8-4467-bcb5-8f2df4bdfeb7",
+        "settings": "src\/site_view\/b2dce59e-e3b8-4467-bcb5-8f2df4bdfeb7\/item.json",
+        "guid": "b2dce59e-e3b8-4467-bcb5-8f2df4bdfeb7"
+    },
+    "851ed44e-5431-4951-876f-4b62a4c56ad2": {
+        "name": "Looking",
+        "desc": "Looking at a look",
+        "path": "src\/site_view\/851ed44e-5431-4951-876f-4b62a4c56ad2",
+        "settings": "src\/site_view\/851ed44e-5431-4951-876f-4b62a4c56ad2\/item.json",
+        "guid": "851ed44e-5431-4951-876f-4b62a4c56ad2"
+    },
+    "4b94ea55-9f6a-4d3e-be0a-869dbb4ac01b": {
+        "name": "Greeting",
+        "desc": "Greeting",
+        "path": "src\/site_view\/4b94ea55-9f6a-4d3e-be0a-869dbb4ac01b",
+        "settings": "src\/site_view\/4b94ea55-9f6a-4d3e-be0a-869dbb4ac01b\/item.json",
+        "guid": "4b94ea55-9f6a-4d3e-be0a-869dbb4ac01b"
+    },
+    "2fec9afa-bf4f-4bd0-8054-715550443824": {
+        "name": "Greetings",
+        "desc": "Greetings",
+        "path": "src\/site_view\/2fec9afa-bf4f-4bd0-8054-715550443824",
+        "settings": "src\/site_view\/2fec9afa-bf4f-4bd0-8054-715550443824\/item.json",
+        "guid": "2fec9afa-bf4f-4bd0-8054-715550443824"
+    }
+}

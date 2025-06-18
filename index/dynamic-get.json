@@ -22,5 +22,11 @@
         "path": "src\/dynamic_get\/66fd1d43-860c-45c9-821a-b3364e864f64",
         "settings": "src\/dynamic_get\/66fd1d43-860c-45c9-821a-b3364e864f64\/item.json",
         "guid": "66fd1d43-860c-45c9-821a-b3364e864f64"
+    },
+    "ebfab0ae-d368-4d2a-807b-c9d2d0809a60": {
+        "name": "Item Importer",
+        "path": "src\/dynamic_get\/ebfab0ae-d368-4d2a-807b-c9d2d0809a60",
+        "settings": "src\/dynamic_get\/ebfab0ae-d368-4d2a-807b-c9d2d0809a60\/item.json",
+        "guid": "ebfab0ae-d368-4d2a-807b-c9d2d0809a60"
     }
 }

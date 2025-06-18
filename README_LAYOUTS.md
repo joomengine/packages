@@ -50,6 +50,9 @@ You can:
 
 
  - **File Display Engine** | [Details](src/layout/6e4e5acc-8a7c-49ca-be53-8f8d95bd4163) | [Settings](src/layout/6e4e5acc-8a7c-49ca-be53-8f8d95bd4163/item.json) | File Display Engine
+ - **Importer Columns Display** | [Details](src/layout/a51be5b8-9ec9-43de-9dd9-f739c8b39288) | [Settings](src/layout/a51be5b8-9ec9-43de-9dd9-f739c8b39288/item.json) | Importer Columns Display
+ - **Importer Easy Mapping** | [Details](src/layout/c4d0c28e-eb98-4c0d-a91e-34096e5606fe) | [Settings](src/layout/c4d0c28e-eb98-4c0d-a91e-34096e5606fe/item.json) | Importer Easy Mapping
+ - **Importer Messages Log** | [Details](src/layout/0777dd83-d0dd-4fb1-8a31-13013dfc5dde) | [Settings](src/layout/0777dd83-d0dd-4fb1-8a31-13013dfc5dde/item.json) | Importer Messages Log
  - **Modal** | [Details](src/layout/0eb94218-5798-4170-9ce5-5cf11607086d) | [Settings](src/layout/0eb94218-5798-4170-9ce5-5cf11607086d/item.json) | Modal
  - **Rows** | [Details](src/layout/72965abd-370c-4a16-a536-72cfd001e5dd) | [Settings](src/layout/72965abd-370c-4a16-a536-72cfd001e5dd/item.json) | Rows
  - **Table** | [Details](src/layout/2fe723e3-879e-4c08-aaf3-0de098ed7f25) | [Settings](src/layout/2fe723e3-879e-4c08-aaf3-0de098ed7f25/item.json) | Table

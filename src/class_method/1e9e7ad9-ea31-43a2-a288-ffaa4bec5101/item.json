@@ -1,0 +1,19 @@
+{
+    "name": "onPrivacyRemoveData",
+    "visibility": "public",
+    "extension_type": "plugins",
+    "guid": "1e9e7ad9-ea31-43a2-a288-ffaa4bec5101",
+    "code": "",
+    "comment": "\t\/**\r\n\t * Removes the data associated with a remove information request\r\n\t *\r\n\t * @param   PrivacyTableRequest  $request  The request record being processed\r\n\t * @param   JUser                $user     The user account associated with this request if available\r\n\t *\r\n\t * @return  void\r\n\t *\r\n\t * @since   1.0.0\r\n\t *\/",
+    "joomla_plugin_group": "2d8677ea-cda3-48d3-828d-da656c52dbe1",
+    "arguments": "PrivacyTableRequest $request, JUser $user = null",
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "2d8677ea-cda3-48d3-828d-da656c52dbe1",
+            "entity": "joomla_plugin_group",
+            "table": "#__componentbuilder_joomla_plugin_group",
+            "direction": "out"
+        }
+    ]
+}

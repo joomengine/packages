@@ -1,0 +1,20 @@
+{
+    "name": "DataTable Bootstrap5",
+    "target": 1,
+    "how": 1,
+    "type": 1,
+    "description": "",
+    "libraries": null,
+    "php_setdocument": "",
+    "addconditions": null,
+    "guid": "876b88eb-5d34-4f90-a896-80327593a787",
+    "@dependencies": [
+        {
+            "key": "library",
+            "value": "876b88eb-5d34-4f90-a896-80327593a787",
+            "entity": "library_files_folders_urls",
+            "table": "#__componentbuilder_library_files_folders_urls",
+            "direction": "in"
+        }
+    ]
+}

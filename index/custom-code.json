@@ -1,0 +1,37 @@
+{
+    "saveGUIDPower": {
+        "name": "save GUID (Power)",
+        "desc": "JCB (manual)",
+        "path": "src\/custom_code\/saveGUIDPower",
+        "settings": "src\/custom_code\/saveGUIDPower\/item.json",
+        "guid": "saveGUIDPower"
+    },
+    "setGUIDFormPower": {
+        "name": "Set GUID in Form (power)",
+        "desc": "JCB (manual)",
+        "path": "src\/custom_code\/setGUIDFormPower",
+        "settings": "src\/custom_code\/setGUIDFormPower\/item.json",
+        "guid": "setGUIDFormPower"
+    },
+    "vdmUploaderConfig": {
+        "name": "vdmUploaderConfig",
+        "desc": "JCB (manual)",
+        "path": "src\/custom_code\/vdmUploaderConfig",
+        "settings": "src\/custom_code\/vdmUploaderConfig\/item.json",
+        "guid": "vdmUploaderConfig"
+    },
+    "addUikitThreeToAdminViews": {
+        "name": "addUikitThreeToAdminViews",
+        "desc": "JCB (manual)",
+        "path": "src\/custom_code\/addUikitThreeToAdminViews",
+        "settings": "src\/custom_code\/addUikitThreeToAdminViews\/item.json",
+        "guid": "addUikitThreeToAdminViews"
+    },
+    "formControllerEdit": {
+        "name": "FormController Edit Method",
+        "desc": "JCB (manual)",
+        "path": "src\/custom_code\/formControllerEdit",
+        "settings": "src\/custom_code\/formControllerEdit\/item.json",
+        "guid": "formControllerEdit"
+    }
+}

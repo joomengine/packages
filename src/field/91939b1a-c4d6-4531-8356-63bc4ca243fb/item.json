@@ -1,0 +1,35 @@
+{
+    "name": "File (Importer)",
+    "fieldtype": "dd2e1f4b-f5db-45e8-85fa-efd27bae7b6a",
+    "datatype": "VARCHAR",
+    "indexes": "2",
+    "null_switch": "NULL",
+    "store": 0,
+    "on_get_model_field": null,
+    "on_save_model_field": null,
+    "initiator_on_get_model": "",
+    "xml": "<field\n\ttype=\"files\"\n\tname=\"file\"\n\tlabel=\"File\"\n\tdescription=\"Select relevant file option and upload file.\"\n\tclass=\"list_class\"\n\tlayout=\"joomla.form.field.list-fancy-select\"\n\treadonly=\"true\"\n\textends=\"list\"\n\ttable=\"#__###component###_file\"\n\tcomponent=\"com_###component###\"\n\tentity=\"###view###\"\n\tview=\"file\"\n\tviews=\"files\"\n\tvalue_field=\"name\"\n\tkey_field=\"guid\"\n\tprime_php=\"1\"\n\ttype_php_1=\"__.o0=base64=Oo.__Ly8gR2V0IHRoZSB1c2VyIG9iamVjdC4NCgkJJHVzZXIgPSBGYWN0b3J5OjpnZXRVc2VyKCk7DQoJCS8vIEdldCB0aGUgZGF0YWJzZSBvYmplY3QuDQoJCSRkYiA9IEZhY3Rvcnk6OmdldERCTygpOw0KCQkkcXVlcnkgPSAkZGItPmdldFF1ZXJ5KHRydWUpOw0KCQkkcXVlcnktPnNlbGVjdCgkZGItPnF1b3RlTmFtZShhcnJheSgnYS4jIyNJRCMjIycsJ2EuIyMjVEVYVCMjIycpLGFycmF5KCcjIyNJRCMjIycsJyMjI0NPREVfVEVYVCMjIycpKSk7DQoJCSRxdWVyeS0+ZnJvbSgkZGItPnF1b3RlTmFtZSgnIyMjVEFCTEUjIyMnLCAnYScpKTsNCgkJJHF1ZXJ5LT5vcmRlcignYS4jIyNURVhUIyMjIEFTQycpOw0KCQkkZGItPnNldFF1ZXJ5KChzdHJpbmcpJHF1ZXJ5KTsNCgkJJGl0ZW1zID0gJGRiLT5sb2FkT2JqZWN0TGlzdCgpOw0KCQkkb3B0aW9ucyA9IGFycmF5KCk7DQoJCWlmICgkaXRlbXMpDQoJCXsNCgkJCWZvcmVhY2goJGl0ZW1zIGFzICRpdGVtKQ0KCQkJew0KCQkJCSRvcHRpb25zW10gPSBIdG1sOjpfKCdzZWxlY3Qub3B0aW9uJywgJGl0ZW0tPiMjI0lEIyMjLCAkaXRlbS0+IyMjQ09ERV9URVhUIyMjKTsNCgkJCX0NCgkJfQ0KCQlyZXR1cm4gJG9wdGlvbnM7\"\n\/>",
+    "datalenght": "Other",
+    "javascript_view_footer": "",
+    "css_views": "",
+    "css_view": "",
+    "datadefault_other": "",
+    "datadefault": "",
+    "datalenght_other": "36",
+    "javascript_views_footer": "",
+    "add_css_view": 0,
+    "add_css_views": 0,
+    "add_javascript_view_footer": 0,
+    "add_javascript_views_footer": 0,
+    "initiator_on_save_model": "",
+    "guid": "91939b1a-c4d6-4531-8356-63bc4ca243fb",
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "dd2e1f4b-f5db-45e8-85fa-efd27bae7b6a",
+            "entity": "fieldtype",
+            "table": "#__componentbuilder_fieldtype",
+            "direction": "out"
+        }
+    ]
+}

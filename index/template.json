@@ -1,0 +1,16 @@
+{
+    "af837d58-301c-4673-b0bf-16c36b842c4a": {
+        "name": "Importer Area",
+        "desc": "Importer Area",
+        "path": "src\/template\/af837d58-301c-4673-b0bf-16c36b842c4a",
+        "settings": "src\/template\/af837d58-301c-4673-b0bf-16c36b842c4a\/item.json",
+        "guid": "af837d58-301c-4673-b0bf-16c36b842c4a"
+    },
+    "dbf2580a-f6a5-4963-8103-85b996a5bed7": {
+        "name": "Importer Queue",
+        "desc": "Importer Queue",
+        "path": "src\/template\/dbf2580a-f6a5-4963-8103-85b996a5bed7",
+        "settings": "src\/template\/dbf2580a-f6a5-4963-8103-85b996a5bed7\/item.json",
+        "guid": "dbf2580a-f6a5-4963-8103-85b996a5bed7"
+    }
+}

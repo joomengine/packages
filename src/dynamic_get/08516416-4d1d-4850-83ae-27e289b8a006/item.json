@@ -1,0 +1,51 @@
+{
+    "name": "GreetingList",
+    "main_source": 1,
+    "gettype": 2,
+    "php_calculation": "",
+    "php_router_parse": "",
+    "add_php_after_getitems": 0,
+    "add_php_router_parse": 0,
+    "view_selection": "a.id AS id\r\na.asset_id AS asset_id\r\na.greeting AS greeting\r\na.published AS published\r\na.created_by AS created_by\r\na.modified_by AS modified_by\r\na.created AS created\r\na.modified AS modified\r\na.version AS version\r\na.hits AS hits\r\na.ordering AS ordering",
+    "add_php_before_getitems": 0,
+    "add_php_before_getitem": 0,
+    "add_php_after_getitem": 0,
+    "db_table_main": null,
+    "php_custom_get": null,
+    "plugin_events": null,
+    "db_selection": "",
+    "view_table_main": "65116558-be67-4931-95be-727fbfb16db7",
+    "add_php_getlistquery": 0,
+    "join_db_table": null,
+    "select_all": 0,
+    "php_before_getitem": "",
+    "getcustom": "",
+    "php_after_getitem": "",
+    "pagination": 0,
+    "php_getlistquery": "",
+    "php_before_getitems": "",
+    "filter": null,
+    "php_after_getitems": "",
+    "where": {
+        "where0": {
+            "table_key": "a.published",
+            "operator": "1",
+            "value_key": "1"
+        }
+    },
+    "order": null,
+    "addcalculation": 0,
+    "group": null,
+    "global": null,
+    "guid": "08516416-4d1d-4850-83ae-27e289b8a006",
+    "join_view_table": null,
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "65116558-be67-4931-95be-727fbfb16db7",
+            "entity": "admin_view",
+            "table": "#__componentbuilder_admin_view",
+            "direction": "out"
+        }
+    ]
+}

@@ -1,0 +1,100 @@
+{
+    "c1053952-8a84-4398-aef1-41726f7c0043": {
+        "name": "Look",
+        "path": "src\/admin_view\/c1053952-8a84-4398-aef1-41726f7c0043",
+        "settings": "src\/admin_view\/c1053952-8a84-4398-aef1-41726f7c0043\/item.json",
+        "guid": "c1053952-8a84-4398-aef1-41726f7c0043",
+        "desc": "The demo view"
+    },
+    "65116558-be67-4931-95be-727fbfb16db7": {
+        "name": "Greetings (system name)",
+        "path": "src\/admin_view\/65116558-be67-4931-95be-727fbfb16db7",
+        "settings": "src\/admin_view\/65116558-be67-4931-95be-727fbfb16db7\/item.json",
+        "guid": "65116558-be67-4931-95be-727fbfb16db7",
+        "desc": "Greetings"
+    },
+    "19a973ea-cdfa-4c79-bbbd-1b8a37286b27": {
+        "name": "File Types (demo-look)",
+        "path": "src\/admin_view\/19a973ea-cdfa-4c79-bbbd-1b8a37286b27",
+        "settings": "src\/admin_view\/19a973ea-cdfa-4c79-bbbd-1b8a37286b27\/item.json",
+        "guid": "19a973ea-cdfa-4c79-bbbd-1b8a37286b27",
+        "desc": "File Type"
+    },
+    "595ba2c9-21fa-43a4-9af7-93c9cfb21b82": {
+        "name": "Details (look)",
+        "path": "src\/admin_view\/595ba2c9-21fa-43a4-9af7-93c9cfb21b82",
+        "settings": "src\/admin_view\/595ba2c9-21fa-43a4-9af7-93c9cfb21b82\/item.json",
+        "guid": "595ba2c9-21fa-43a4-9af7-93c9cfb21b82",
+        "desc": "Add More Details"
+    },
+    "224eb9c7-8b40-48cf-bf77-2afa291fd54a": {
+        "name": "Files",
+        "path": "src\/admin_view\/224eb9c7-8b40-48cf-bf77-2afa291fd54a",
+        "settings": "src\/admin_view\/224eb9c7-8b40-48cf-bf77-2afa291fd54a\/item.json",
+        "guid": "224eb9c7-8b40-48cf-bf77-2afa291fd54a",
+        "desc": "Files"
+    },
+    "60b7b30d-9229-4ce2-b055-9efbb7ac4cea": {
+        "name": "User Entity Map",
+        "path": "src\/admin_view\/60b7b30d-9229-4ce2-b055-9efbb7ac4cea",
+        "settings": "src\/admin_view\/60b7b30d-9229-4ce2-b055-9efbb7ac4cea\/item.json",
+        "guid": "60b7b30d-9229-4ce2-b055-9efbb7ac4cea",
+        "desc": "User Entity Maps"
+    },
+    "ab2bbdfc-c0a0-4ffc-9556-67d5af8bec64": {
+        "name": "Importer Message Logs",
+        "path": "src\/admin_view\/ab2bbdfc-c0a0-4ffc-9556-67d5af8bec64",
+        "settings": "src\/admin_view\/ab2bbdfc-c0a0-4ffc-9556-67d5af8bec64\/item.json",
+        "guid": "ab2bbdfc-c0a0-4ffc-9556-67d5af8bec64",
+        "desc": "Importer Message Logs"
+    },
+    "a9f19a16-fadb-44ea-a9b6-41130aad05ec": {
+        "name": "Item Import",
+        "path": "src\/admin_view\/a9f19a16-fadb-44ea-a9b6-41130aad05ec",
+        "settings": "src\/admin_view\/a9f19a16-fadb-44ea-a9b6-41130aad05ec\/item.json",
+        "guid": "a9f19a16-fadb-44ea-a9b6-41130aad05ec",
+        "desc": "Item Import Queue"
+    },
+    "6c6345a1-e3e4-4840-8918-831034e95b19": {
+        "name": "States",
+        "path": "src\/admin_view\/6c6345a1-e3e4-4840-8918-831034e95b19",
+        "settings": "src\/admin_view\/6c6345a1-e3e4-4840-8918-831034e95b19\/item.json",
+        "guid": "6c6345a1-e3e4-4840-8918-831034e95b19",
+        "desc": "States"
+    },
+    "3dbb581b-619a-4fb0-a6f6-e4a136ea31e2": {
+        "name": "Cities",
+        "path": "src\/admin_view\/3dbb581b-619a-4fb0-a6f6-e4a136ea31e2",
+        "settings": "src\/admin_view\/3dbb581b-619a-4fb0-a6f6-e4a136ea31e2\/item.json",
+        "guid": "3dbb581b-619a-4fb0-a6f6-e4a136ea31e2",
+        "desc": "Cities"
+    },
+    "75061367-79c2-4d5b-a75d-eca6d33507df": {
+        "name": "Timezone",
+        "path": "src\/admin_view\/75061367-79c2-4d5b-a75d-eca6d33507df",
+        "settings": "src\/admin_view\/75061367-79c2-4d5b-a75d-eca6d33507df\/item.json",
+        "guid": "75061367-79c2-4d5b-a75d-eca6d33507df",
+        "desc": "Timezones."
+    },
+    "6acc4069-1c33-4470-85a6-07bc9bb16d10": {
+        "name": "Country",
+        "path": "src\/admin_view\/6acc4069-1c33-4470-85a6-07bc9bb16d10",
+        "settings": "src\/admin_view\/6acc4069-1c33-4470-85a6-07bc9bb16d10\/item.json",
+        "guid": "6acc4069-1c33-4470-85a6-07bc9bb16d10",
+        "desc": "A list of countries."
+    },
+    "9eefa86b-6294-4512-8d62-979abf16c00d": {
+        "name": "Regions",
+        "path": "src\/admin_view\/9eefa86b-6294-4512-8d62-979abf16c00d",
+        "settings": "src\/admin_view\/9eefa86b-6294-4512-8d62-979abf16c00d\/item.json",
+        "guid": "9eefa86b-6294-4512-8d62-979abf16c00d",
+        "desc": "Regions"
+    },
+    "2e451812-45af-4015-aa0c-f5912702c9af": {
+        "name": "Sub-Regions",
+        "path": "src\/admin_view\/2e451812-45af-4015-aa0c-f5912702c9af",
+        "settings": "src\/admin_view\/2e451812-45af-4015-aa0c-f5912702c9af\/item.json",
+        "guid": "2e451812-45af-4015-aa0c-f5912702c9af",
+        "desc": "Subregions"
+    }
+}

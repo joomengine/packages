@@ -60,6 +60,7 @@ Whether you're building for:
 
  - **Greeting** | [Details](src/dynamic_get/66fd1d43-860c-45c9-821a-b3364e864f64) | [Settings](src/dynamic_get/66fd1d43-860c-45c9-821a-b3364e864f64/item.json)
  - **GreetingList** | [Details](src/dynamic_get/08516416-4d1d-4850-83ae-27e289b8a006) | [Settings](src/dynamic_get/08516416-4d1d-4850-83ae-27e289b8a006/item.json)
+ - **Item Importer** | [Details](src/dynamic_get/ebfab0ae-d368-4d2a-807b-c9d2d0809a60) | [Settings](src/dynamic_get/ebfab0ae-d368-4d2a-807b-c9d2d0809a60/item.json)
  - **Looking** | [Details](src/dynamic_get/98e6ea56-0911-4d89-b1f4-8f0bb1e4aa5a) | [Settings](src/dynamic_get/98e6ea56-0911-4d89-b1f4-8f0bb1e4aa5a/item.json)
  - **Looks** | [Details](src/dynamic_get/32b3ae7d-8aa8-47f1-ab2e-30076ddaa029) | [Settings](src/dynamic_get/32b3ae7d-8aa8-47f1-ab2e-30076ddaa029/item.json)
 

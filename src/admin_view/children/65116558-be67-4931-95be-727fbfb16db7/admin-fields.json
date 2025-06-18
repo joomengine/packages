@@ -1,0 +1,51 @@
+{
+    "admin_view": "65116558-be67-4931-95be-727fbfb16db7",
+    "addfields": {
+        "0": {
+            "field": "75e830a6-a3a5-4327-9161-3f774a6f1591",
+            "list": "1",
+            "order_list": "1",
+            "title": "1",
+            "sort": "1",
+            "search": "1",
+            "filter": "",
+            "link": "1",
+            "tab": "1",
+            "alignment": 1,
+            "order_edit": "1"
+        },
+        "1": {
+            "field": "335866ce-b81b-4329-901d-c20254135c9c",
+            "list": "1",
+            "order_list": "2",
+            "alias": "1",
+            "filter": "",
+            "tab": "1",
+            "alignment": 1,
+            "order_edit": "2"
+        }
+    },
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "65116558-be67-4931-95be-727fbfb16db7",
+            "entity": "admin_view",
+            "table": "#__componentbuilder_admin_view",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "75e830a6-a3a5-4327-9161-3f774a6f1591",
+            "entity": "field",
+            "table": "#__componentbuilder_field",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "335866ce-b81b-4329-901d-c20254135c9c",
+            "entity": "field",
+            "table": "#__componentbuilder_field",
+            "direction": "out"
+        }
+    ]
+}

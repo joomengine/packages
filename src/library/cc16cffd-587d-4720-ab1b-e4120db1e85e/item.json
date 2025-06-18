@@ -1,0 +1,20 @@
+{
+    "name": "DataTable Uikit",
+    "target": 1,
+    "how": 1,
+    "type": 1,
+    "description": "Uikit table sorting lib",
+    "libraries": null,
+    "php_setdocument": "",
+    "addconditions": null,
+    "guid": "cc16cffd-587d-4720-ab1b-e4120db1e85e",
+    "@dependencies": [
+        {
+            "key": "library",
+            "value": "cc16cffd-587d-4720-ab1b-e4120db1e85e",
+            "entity": "library_files_folders_urls",
+            "table": "#__componentbuilder_library_files_folders_urls",
+            "direction": "in"
+        }
+    ]
+}

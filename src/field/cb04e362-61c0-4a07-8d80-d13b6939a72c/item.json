@@ -1,0 +1,56 @@
+{
+    "name": "Subregions (subform)",
+    "fieldtype": "7139f2c8-a70a-46a6-bbe3-4eefe54ca515",
+    "datatype": "TEXT",
+    "indexes": "",
+    "null_switch": "NULL",
+    "store": 6,
+    "on_get_model_field": "[[[field]]] = Super___9d76b8dc_3883_4755_b11c_131d19ca8a53___Power::_('Data.Subform')->table('subregion')->get($item->guid ?? '' ,'region', 'subregions', ['guid','name','wikidataid']);",
+    "on_save_model_field": "Super___9d76b8dc_3883_4755_b11c_131d19ca8a53___Power::_('Data.Subform')->table('subregion')->set([[[field]]] ?? [], 'guid', 'region', $data['guid'] ?? '');",
+    "initiator_on_get_model": "",
+    "xml": "<field\n\ttype=\"subform\"\n\tname=\"subregions\"\n\tlabel=\"Subregions\"\n\tlayout=\"joomla.form.field.subform.repeatable\"\n\tmultiple=\"true\"\n\tbuttons=\"add,remove\"\n\tfields=\"fb3115a1-e579-401a-9b53-9469cd4739e4,5d3d34dd-4876-4c6a-86ab-b4e162f22c08,af59b3ac-6a00-42c0-bbe2-edf90dec6081\"\n\ticon=\"list\"\n\tmin=\"0\"\n\/>",
+    "datalenght": "",
+    "javascript_view_footer": "",
+    "css_views": "",
+    "css_view": "",
+    "datadefault_other": "",
+    "datadefault": "",
+    "datalenght_other": "",
+    "javascript_views_footer": "",
+    "add_css_view": 0,
+    "add_css_views": 0,
+    "add_javascript_view_footer": 0,
+    "add_javascript_views_footer": 0,
+    "initiator_on_save_model": "",
+    "guid": "cb04e362-61c0-4a07-8d80-d13b6939a72c",
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "7139f2c8-a70a-46a6-bbe3-4eefe54ca515",
+            "entity": "fieldtype",
+            "table": "#__componentbuilder_fieldtype",
+            "direction": "out"
+        },
+        {
+            "key": "field",
+            "value": "fb3115a1-e579-401a-9b53-9469cd4739e4",
+            "entity": "guid",
+            "table": "#__componentbuilder_field",
+            "direction": "out"
+        },
+        {
+            "key": "field",
+            "value": "5d3d34dd-4876-4c6a-86ab-b4e162f22c08",
+            "entity": "guid",
+            "table": "#__componentbuilder_field",
+            "direction": "out"
+        },
+        {
+            "key": "field",
+            "value": "af59b3ac-6a00-42c0-bbe2-edf90dec6081",
+            "entity": "guid",
+            "table": "#__componentbuilder_field",
+            "direction": "out"
+        }
+    ]
+}

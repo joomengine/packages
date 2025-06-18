@@ -1,0 +1,35 @@
+{
+    "name": "Description (full width)",
+    "fieldtype": "76fe1250-6fa7-49e5-a0ee-f06d8d4c9f99",
+    "datatype": "TEXT",
+    "indexes": "0",
+    "null_switch": "NULL",
+    "store": 0,
+    "on_get_model_field": "",
+    "on_save_model_field": "",
+    "initiator_on_get_model": "",
+    "xml": "<field\n\ttype=\"textarea\"\n\tname=\"description\"\n\tlabel=\"Description\"\n\trows=\"11\"\n\tcols=\"10\"\n\tdescription=\"Add Description Here\"\n\tclass=\"text_area span12\"\n\tfilter=\"HTML\"\n\thint=\"Add Description Here\"\n\/>",
+    "datalenght": "",
+    "javascript_view_footer": "",
+    "css_views": "",
+    "css_view": "",
+    "datadefault_other": "",
+    "datadefault": "",
+    "datalenght_other": "",
+    "javascript_views_footer": "",
+    "add_css_view": 0,
+    "add_css_views": 0,
+    "add_javascript_view_footer": 0,
+    "add_javascript_views_footer": 0,
+    "initiator_on_save_model": "",
+    "guid": "749a9917-90c3-49c4-9e72-aa33b0683a87",
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "76fe1250-6fa7-49e5-a0ee-f06d8d4c9f99",
+            "entity": "fieldtype",
+            "table": "#__componentbuilder_fieldtype",
+            "direction": "out"
+        }
+    ]
+}

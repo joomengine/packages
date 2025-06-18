@@ -1,0 +1,15 @@
+{
+    "system_name": "Unlock the Power of Joomla! Development",
+    "path": "",
+    "target": 2,
+    "type": 0,
+    "comment_type": 1,
+    "joomla_version": 3,
+    "function_name": "unlockThePowerOfJoomlaDevelopment",
+    "code": "\t\t\t\/\/ Get Application object\r\n\t\t\t$this->app ??= Joomla___39403062_84fb_46e0_bac4_0023f766e827___Power::getApplication();\r\n\t\t\t$this->app->enqueueMessage('<h3>Unlock the Power of Joomla! Development<\/h3><p>Curious about how this <b>[[[arg0]]]<\/b> component was built? Discover the powerful Joomla! Component Builder (<a href=\"http:\/\/vdm.bz\/component-builder\" target=\"_blank\" title=\"Joomla! Component Builder\">JCB<\/a>), a tool that simplifies and enhances component development. Join us on <a href=\"https:\/\/git.vdm.dev\/joomla\" target=\"_blank\" title=\"Joomla! Component Builder\">GIVED<\/a> to explore more and see how you can create your own custom components. The future of <a href=\"http:\/\/vdm.bz\/component-builder\" target=\"_blank\" title=\"Joomla Component Builder\">Joomla! Development<\/a> starts here!<\/p>', 'Info');\r\n",
+    "hashendtarget": "",
+    "to_line": "",
+    "from_line": "",
+    "hashtarget": "",
+    "component": "0"
+}

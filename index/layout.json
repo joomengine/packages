@@ -26,5 +26,26 @@
         "path": "src\/layout\/72965abd-370c-4a16-a536-72cfd001e5dd",
         "settings": "src\/layout\/72965abd-370c-4a16-a536-72cfd001e5dd\/item.json",
         "guid": "72965abd-370c-4a16-a536-72cfd001e5dd"
+    },
+    "0777dd83-d0dd-4fb1-8a31-13013dfc5dde": {
+        "name": "Importer Messages Log",
+        "desc": "Importer Messages Log",
+        "path": "src\/layout\/0777dd83-d0dd-4fb1-8a31-13013dfc5dde",
+        "settings": "src\/layout\/0777dd83-d0dd-4fb1-8a31-13013dfc5dde\/item.json",
+        "guid": "0777dd83-d0dd-4fb1-8a31-13013dfc5dde"
+    },
+    "c4d0c28e-eb98-4c0d-a91e-34096e5606fe": {
+        "name": "Importer Easy Mapping",
+        "desc": "Importer Easy Mapping",
+        "path": "src\/layout\/c4d0c28e-eb98-4c0d-a91e-34096e5606fe",
+        "settings": "src\/layout\/c4d0c28e-eb98-4c0d-a91e-34096e5606fe\/item.json",
+        "guid": "c4d0c28e-eb98-4c0d-a91e-34096e5606fe"
+    },
+    "a51be5b8-9ec9-43de-9dd9-f739c8b39288": {
+        "name": "Importer Columns Display",
+        "desc": "Importer Columns Display",
+        "path": "src\/layout\/a51be5b8-9ec9-43de-9dd9-f739c8b39288",
+        "settings": "src\/layout\/a51be5b8-9ec9-43de-9dd9-f739c8b39288\/item.json",
+        "guid": "a51be5b8-9ec9-43de-9dd9-f739c8b39288"
     }
 }

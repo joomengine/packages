@@ -1,0 +1,15 @@
+{
+    "system_name": "Set GUID in Form (power)",
+    "path": "",
+    "target": 2,
+    "type": 0,
+    "comment_type": 1,
+    "joomla_version": 3,
+    "function_name": "setGUIDFormPower",
+    "code": "\t\t\/\/ Only load the GUID if new item (or empty)\r\n\t\tif (0 == $id || !($val = $form->getValue('guid')))\r\n\t\t{\r\n\t\t\t$form->setValue('guid', null, Super___9c513baf_b279_43fd_ae29_a585c8cbc4f0___Power::get());\r\n\t\t}\r\n",
+    "hashendtarget": "0",
+    "to_line": "980",
+    "from_line": "974",
+    "hashtarget": "9__dc008c80098451abad327b4cb92e9611",
+    "component": "0"
+}

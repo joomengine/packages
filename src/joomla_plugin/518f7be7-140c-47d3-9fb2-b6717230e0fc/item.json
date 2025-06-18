@@ -1,0 +1,144 @@
+{
+    "system_name": "Global Privacy",
+    "class_extends": "204d6d55-d4c7-4162-bd2c-39d19302b406",
+    "joomla_plugin_group": "2d8677ea-cda3-48d3-828d-da656c52dbe1",
+    "add_sql": 0,
+    "add_php_method_uninstall": 0,
+    "add_php_postflight_update": 0,
+    "add_php_postflight_install": 0,
+    "add_update_server": 0,
+    "method_selection": {
+        "method_selection0": {
+            "method": "ddc9d897-8902-4ac3-bf38-f37e6af1a46a"
+        },
+        "method_selection1": {
+            "method": "3692862c-6688-4afe-809e-c6677b318fea"
+        },
+        "method_selection2": {
+            "method": "1e9e7ad9-ea31-43a2-a288-ffaa4bec5101"
+        }
+    },
+    "property_selection": {
+        "property_selection0": {
+            "property": "56cc0535-fd9e-4db9-93f7-9f0dc9ab2a58"
+        },
+        "property_selection1": {
+            "property": "a89d86a3-08b0-49bb-a21c-24c04ee2a280"
+        },
+        "property_selection2": {
+            "property": "af756e64-0781-4f35-a6f3-2917ccd7ca4c"
+        }
+    },
+    "add_head": 1,
+    "add_sql_uninstall": 0,
+    "addreadme": 1,
+    "head": "JLoader::register('PrivacyPlugin', JPATH_ADMINISTRATOR . '\/components\/com_privacy\/helpers\/plugin.php');\r\nJLoader::register('PrivacyRemovalStatus', JPATH_ADMINISTRATOR . '\/components\/com_privacy\/helpers\/removal\/status.php');\r\nJLoader::register('[[[Component]]]Helper', JPATH_ADMINISTRATOR . '\/components\/com_[[[component]]]\/helpers\/[[[component]]].php'); \r\n\r\nuse Joomla\\Utilities\\ArrayHelper;",
+    "update_server_target": 1,
+    "main_class_code": "\t\/**\r\n\t * Application object\r\n\t *\r\n\t * @var    CMSApplication\r\n\t * @since  1.0\r\n\t *\/\r\n\tprotected  $app;\r\n\r\n\t\/**\r\n\t * Database object\r\n\t *\r\n\t * @var    DatabaseDriver\r\n\t * @since  1.0\r\n\t *\/\r\n\tprotected  $db;\r\n\r\n\t\/**\r\n\t * Affects constructor behavior. If true, language files will be loaded automatically.\r\n\t *\r\n\t * @var    boolean\r\n\t * @since  1.0\r\n\t *\/\r\n\tprotected  $autoloadLanguage = true;\r\n\r\n\t\/**\r\n\t * Performs validation to determine if the data associated with a remove information request can be processed\r\n\t *\r\n\t * @param   PrivacyTableRequest  $request  The request record being processed\r\n\t * @param   JUser                $user     The user account associated with this request if available\r\n\t *\r\n\t * @return  PrivacyRemovalStatus\r\n\t *\r\n\t * @since   1.0\r\n\t *\/\r\n\tpublic function onPrivacyCanRemoveData(PrivacyTableRequest $request, JUser $user = null)\r\n\t{\r\n\t\t$status = new PrivacyRemovalStatus;\r\n\r\n\t\t\/\/ This plugin only processes data for registered user accounts\r\n\t\tif (!$user)\r\n\t\t{\r\n\t\t\treturn $status;\r\n\t\t}\r\n\r\n\t\t\/\/ check if the helper method is set in the component\r\n\t\tif (method_exists([[[Component]]]Helper::class, 'onPrivacyCanRemoveData'))\r\n\t\t{\r\n\t\t\t[[[Component]]]Helper::onPrivacyCanRemoveData($this, $status, $request, $user);\r\n\t\t}\r\n\r\n\t\treturn $status;\r\n\t}\r\n\r\n\t\/**\r\n\t * Processes an export request for Joomla core user data\r\n\t *\r\n\t * @param   PrivacyTableRequest  $request  The request record being processed\r\n\t * @param   JUser                $user     The user account associated with this request if available\r\n\t *\r\n\t * @return  PrivacyExportDomain[]\r\n\t *\r\n\t * @since   1.0\r\n\t *\/\r\n\tpublic function onPrivacyExportRequest(PrivacyTableRequest $request, JUser $user = null)\r\n\t{\r\n\t\t$domains = array();\r\n\r\n\t\t\/\/ This plugin only processes data for registered user accounts\r\n\t\tif (!$user)\r\n\t\t{\r\n\t\t\treturn $domains;\r\n\t\t}\r\n\r\n\t\t\/\/ check if the helper method is set in the component\r\n\t\tif (method_exists([[[Component]]]Helper::class, 'onPrivacyExportRequest'))\r\n\t\t{\r\n\t\t\t[[[Component]]]Helper::onPrivacyExportRequest($this, $domains, $request, $user);\r\n\t\t}\r\n\r\n\t\treturn $domains;\r\n\t}\r\n\r\n\t\/**\r\n\t * Removes the data associated with a remove information request\r\n\t *\r\n\t * @param   PrivacyTableRequest  $request  The request record being processed\r\n\t * @param   JUser                $user     The user account associated with this request if available\r\n\t *\r\n\t * @return  void\r\n\t *\r\n\t * @since   1.0\r\n\t *\/\r\n\tpublic function onPrivacyRemoveData(PrivacyTableRequest $request, JUser $user = null)\r\n\t{\r\n\t\t\/\/ This plugin only processes data for registered user accounts\r\n\t\tif (!$user)\r\n\t\t{\r\n\t\t\treturn;\r\n\t\t}\r\n\r\n\t\t\/\/ check if the helper method is set in the component\r\n\t\tif (method_exists([[[Component]]]Helper::class, 'onPrivacyRemoveData'))\r\n\t\t{\r\n\t\t\t[[[Component]]]Helper::onPrivacyRemoveData($this, $request, $user);\r\n\t\t}\r\n\t}",
+    "description": "The plugin to fully integrate [[[component]]] with the privacy suite of Joomla.",
+    "php_postflight_install": "\/\/ PHP Postflight (install)",
+    "plugin_version": "1.0.1",
+    "php_postflight_update": "\/\/ PHP Postflight (update)",
+    "fields": null,
+    "php_method_uninstall": "\/\/ PHP Method (uninstall)",
+    "add_php_script_construct": 0,
+    "sql": "",
+    "php_script_construct": "",
+    "sql_uninstall": "",
+    "add_php_preflight_install": 1,
+    "readme": "# ###PLUGIN_NAME### (###VERSION###)\r\n\r\n###DESCRIPTION###\r\n\r\n# Build Details\r\n\r\n+ *Company*: [###COMPANYNAME###](###AUTHORWEBSITE###)\r\n+ *Author*: [###AUTHOR###](mailto:###AUTHOREMAIL###)\r\n+ *Version*: ###VERSION###\r\n+ *Copyright*: ###COPYRIGHT###\r\n+ *License*: ###LICENSE###",
+    "php_preflight_install": "\t\t\t\/\/ check that [[[component]]] is installed\r\n\t\t\tif (!is_dir(JPATH_ADMINISTRATOR . '\/components\/com_[[[component]]]'))\r\n\t\t\t{\r\n\t\t\t\t$app->enqueueMessage('[[[component_acronym]]] must first be installed from <a href=\"[[[get_component_link]]]\" target=\"_blank\">[[[component_link_name]]]<\/a>.', 'error');\r\n\t\t\t\treturn false;\r\n\t\t\t}",
+    "update_server_url": "https:\/\/www.vdm.io\/updates\/[[[component]]]_global_privacy.xml",
+    "add_php_preflight_update": 0,
+    "php_preflight_update": "\/\/ PHP Preflight (update)",
+    "add_php_preflight_uninstall": 0,
+    "php_preflight_uninstall": "\/\/ PHP Preflight (uninstall)",
+    "guid": "518f7be7-140c-47d3-9fb2-b6717230e0fc",
+    "name": "[[[Component]]]",
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "204d6d55-d4c7-4162-bd2c-39d19302b406",
+            "entity": "class_extends",
+            "table": "#__componentbuilder_class_extends",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "2d8677ea-cda3-48d3-828d-da656c52dbe1",
+            "entity": "joomla_plugin_group",
+            "table": "#__componentbuilder_joomla_plugin_group",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "ddc9d897-8902-4ac3-bf38-f37e6af1a46a",
+            "entity": "class_method",
+            "table": "#__componentbuilder_class_method",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "3692862c-6688-4afe-809e-c6677b318fea",
+            "entity": "class_method",
+            "table": "#__componentbuilder_class_method",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "1e9e7ad9-ea31-43a2-a288-ffaa4bec5101",
+            "entity": "class_method",
+            "table": "#__componentbuilder_class_method",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "56cc0535-fd9e-4db9-93f7-9f0dc9ab2a58",
+            "entity": "class_property",
+            "table": "#__componentbuilder_class_property",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "a89d86a3-08b0-49bb-a21c-24c04ee2a280",
+            "entity": "class_property",
+            "table": "#__componentbuilder_class_property",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "af756e64-0781-4f35-a6f3-2917ccd7ca4c",
+            "entity": "class_property",
+            "table": "#__componentbuilder_class_property",
+            "direction": "out"
+        },
+        {
+            "key": "joomla_plugin",
+            "value": "518f7be7-140c-47d3-9fb2-b6717230e0fc",
+            "entity": "joomla_plugin_files_folders_urls",
+            "table": "#__componentbuilder_joomla_plugin_files_folders_urls",
+            "direction": "in"
+        },
+        {
+            "key": "target",
+            "value": "[[[component_acronym]]]",
+            "entity": "placeholder",
+            "table": "#__componentbuilder_placeholder",
+            "direction": "out"
+        },
+        {
+            "key": "target",
+            "value": "[[[get_component_link]]]",
+            "entity": "placeholder",
+            "table": "#__componentbuilder_placeholder",
+            "direction": "out"
+        },
+        {
+            "key": "target",
+            "value": "[[[component_link_name]]]",
+            "entity": "placeholder",
+            "table": "#__componentbuilder_placeholder",
+            "direction": "out"
+        }
+    ]
+}

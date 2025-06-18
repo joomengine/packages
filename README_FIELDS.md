@@ -96,6 +96,7 @@ This preserves version control while allowing your own field improvements to liv
  - **Import Status** | [Details](src/field/11698dc6-8ff6-4662-b3b7-e47494463a08) | [Settings](src/field/11698dc6-8ff6-4662-b3b7-e47494463a08/item.json)
  - **Latitude (decimal)** | [Details](src/field/f7d3d78e-2d35-4884-a997-d073f853d095) | [Settings](src/field/f7d3d78e-2d35-4884-a997-d073f853d095/item.json)
  - **Longitude (decimal)** | [Details](src/field/09c22738-6c6f-48ca-a24d-d439757e8619) | [Settings](src/field/09c22738-6c6f-48ca-a24d-d439757e8619/item.json)
+ - **Look Groups** | [Details](src/field/104f8410-a07e-4cf8-aad5-2b4db7c6864c) | [Settings](src/field/104f8410-a07e-4cf8-aad5-2b4db7c6864c/item.json)
  - **Map** | [Details](src/field/2d0566ab-cfbe-4ca2-8d05-8e2c70eda191) | [Settings](src/field/2d0566ab-cfbe-4ca2-8d05-8e2c70eda191/item.json)
  - **Message Status** | [Details](src/field/0f4fa86e-25a8-4bbf-91a3-7ea9790b4df8) | [Settings](src/field/0f4fa86e-25a8-4bbf-91a3-7ea9790b4df8/item.json)
  - **Messages** | [Details](src/field/c6e1e451-99b8-4e1b-aa19-c48c3513bf4f) | [Settings](src/field/c6e1e451-99b8-4e1b-aa19-c48c3513bf4f/item.json)

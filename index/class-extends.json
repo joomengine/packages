@@ -1,0 +1,14 @@
+{
+    "ae2fafb4-e84b-4534-ba9c-6c9e1700b318": {
+        "name": "CMSPlugin",
+        "path": "src\/class_extends\/ae2fafb4-e84b-4534-ba9c-6c9e1700b318",
+        "settings": "src\/class_extends\/ae2fafb4-e84b-4534-ba9c-6c9e1700b318\/item.json",
+        "guid": "ae2fafb4-e84b-4534-ba9c-6c9e1700b318"
+    },
+    "204d6d55-d4c7-4162-bd2c-39d19302b406": {
+        "name": "PrivacyPlugin",
+        "path": "src\/class_extends\/204d6d55-d4c7-4162-bd2c-39d19302b406",
+        "settings": "src\/class_extends\/204d6d55-d4c7-4162-bd2c-39d19302b406\/item.json",
+        "guid": "204d6d55-d4c7-4162-bd2c-39d19302b406"
+    }
+}

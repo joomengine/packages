@@ -98,9 +98,15 @@ This design encourages collaborative and modular development across multiple JCB
 ### Index of Custom Codes
 
 
+ - **Database Schema Check (call)** | [Details](src/custom_code/databaseSchemaCheckCall) | [Settings](src/custom_code/databaseSchemaCheckCall/item.json) | JCB (manual)
  - **FormController Edit Method** | [Details](src/custom_code/formControllerEdit) | [Settings](src/custom_code/formControllerEdit/item.json) | JCB (manual)
+ - **README - Contributors 2 JCB** | [Details](src/custom_code/readMEcontributors) | [Settings](src/custom_code/readMEcontributors/item.json) | JCB (manual)
  - **Set GUID in Form (power)** | [Details](src/custom_code/setGUIDFormPower) | [Settings](src/custom_code/setGUIDFormPower/item.json) | JCB (manual)
+ - **Unlock the Power of Joomla! Development** | [Details](src/custom_code/unlockThePowerOfJoomlaDevelopment) | [Settings](src/custom_code/unlockThePowerOfJoomlaDevelopment/item.json) | JCB (manual)
  - **addUikitThreeToAdminViews** | [Details](src/custom_code/addUikitThreeToAdminViews) | [Settings](src/custom_code/addUikitThreeToAdminViews/item.json) | JCB (manual)
+ - **helper::fancyDate($date)** | [Details](src/custom_code/niceFancyDate) | [Settings](src/custom_code/niceFancyDate/item.json) | JCB (manual)
+ - **helper::getItemImportFields** | [Details](src/custom_code/getItemImportFields) | [Settings](src/custom_code/getItemImportFields/item.json) | JCB (manual)
+ - **php Configuration Check (call)** | [Details](src/custom_code/phpConfigurationCheckCall) | [Settings](src/custom_code/phpConfigurationCheckCall/item.json) | JCB (manual)
  - **save GUID (Power)** | [Details](src/custom_code/saveGUIDPower) | [Settings](src/custom_code/saveGUIDPower/item.json) | JCB (manual)
  - **vdmUploaderConfig** | [Details](src/custom_code/vdmUploaderConfig) | [Settings](src/custom_code/vdmUploaderConfig/item.json) | JCB (manual)
 

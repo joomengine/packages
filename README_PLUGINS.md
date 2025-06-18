@@ -50,7 +50,11 @@ while still allowing full customization per project.
  - **Component Commands** | [Details](src/joomla_plugin/5df401b4-c9a6-42c8-b50d-87f67c8a15f3) | [Settings](src/joomla_plugin/5df401b4-c9a6-42c8-b50d-87f67c8a15f3/item.json) | Register [[[ComponentNamespace]]] Commands
 
 @since 4.0.0
+ - **Global Privacy** | [Details](src/joomla_plugin/518f7be7-140c-47d3-9fb2-b6717230e0fc) | [Settings](src/joomla_plugin/518f7be7-140c-47d3-9fb2-b6717230e0fc/item.json) | The plugin to fully integrate [[[component]]] with the privacy suite of Joomla.
  - **Global Privacy J5** | [Details](src/joomla_plugin/8aa96d76-94e3-47d1-8dd8-f430b72ed0f7) | [Settings](src/joomla_plugin/8aa96d76-94e3-47d1-8dd8-f430b72ed0f7/item.json) | The plugin to fully integrate [[[component]]] with the privacy suite of Joomla.
+ - **Powers Autoloader** | [Details](src/joomla_plugin/86dd28b5-18d4-437e-8a53-7eaf23478fc8) | [Settings](src/joomla_plugin/86dd28b5-18d4-437e-8a53-7eaf23478fc8/item.json) | Plugin to autoload the powers of [[[component]]]
+ - **PreUpVer Loader** | [Details](src/joomla_plugin/dd6580c4-6bbb-4d13-a868-0b38fbb6a66e) | [Settings](src/joomla_plugin/dd6580c4-6bbb-4d13-a868-0b38fbb6a66e/item.json) | This plugin is used to load PreUpVer on your website. So it adds https://cdn.jsdelivr.net/gh/Llewellynvdm/PreUpVer@1.0.0/dist/js/preupver.min.js to the header of your website. See: https://git.vdm.dev/Llewellyn/PreUpVer for more details.
+ - **Update (git.vdm.dev) J5** | [Details](src/joomla_plugin/5236660d-5dee-492b-925c-15b96cb6ea44) | [Settings](src/joomla_plugin/5236660d-5dee-492b-925c-15b96cb6ea44/item.json) | Add Access Token to easy update [[[Component]]]
 
 ### All used in [Joomla Component Builder](https://www.joomlacomponentbuilder.com) - [Source](https://git.vdm.dev/joomla/Component-Builder) - [Mirror](https://github.com/vdm-io/Joomla-Component-Builder) - [Download](https://git.vdm.dev/joomla/pkg-component-builder/releases)
 

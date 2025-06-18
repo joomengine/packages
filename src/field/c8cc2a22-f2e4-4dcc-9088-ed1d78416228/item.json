@@ -1,0 +1,35 @@
+{
+    "name": "Date of Birth (not required)",
+    "fieldtype": "6cf5a33f-cb25-4a58-bfec-7e1511896402",
+    "datatype": "DATE",
+    "indexes": "0",
+    "null_switch": "NOT NULL",
+    "store": 0,
+    "on_get_model_field": "",
+    "on_save_model_field": "",
+    "initiator_on_get_model": "",
+    "xml": "<field\n\ttype=\"calendar\"\n\tname=\"dateofbirth\"\n\tlabel=\"Date of Birth\"\n\tdefault=\"1970-01-01\"\n\tdescription=\"Your date of birth\"\n\tformat=\"%Y-%m-%d\"\n\tfilter=\"STRING\"\n\ttodaybutton=\"false\"\n\tminyear=\"-120\"\n\tmaxyear=\"-1\"\n\/>",
+    "datalenght": "",
+    "javascript_view_footer": "",
+    "css_views": "",
+    "css_view": "",
+    "datadefault_other": "0000-00-00",
+    "datadefault": "Other",
+    "datalenght_other": "",
+    "javascript_views_footer": "",
+    "add_css_view": 0,
+    "add_css_views": 0,
+    "add_javascript_view_footer": 0,
+    "add_javascript_views_footer": 0,
+    "initiator_on_save_model": "",
+    "guid": "c8cc2a22-f2e4-4dcc-9088-ed1d78416228",
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "6cf5a33f-cb25-4a58-bfec-7e1511896402",
+            "entity": "fieldtype",
+            "table": "#__componentbuilder_fieldtype",
+            "direction": "out"
+        }
+    ]
+}

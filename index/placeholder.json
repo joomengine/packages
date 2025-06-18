@@ -16,5 +16,47 @@
         "path": "src\/placeholder\/[[[get_component_link]]]",
         "settings": "src\/placeholder\/[[[get_component_link]]]\/item.json",
         "guid": "[[[get_component_link]]]"
+    },
+    "[[[upload_max_filesize]]]": {
+        "name": "[[[upload_max_filesize]]]",
+        "path": "src\/placeholder\/[[[upload_max_filesize]]]",
+        "settings": "src\/placeholder\/[[[upload_max_filesize]]]\/item.json",
+        "guid": "[[[upload_max_filesize]]]"
+    },
+    "[[[post_max_size]]]": {
+        "name": "[[[post_max_size]]]",
+        "path": "src\/placeholder\/[[[post_max_size]]]",
+        "settings": "src\/placeholder\/[[[post_max_size]]]\/item.json",
+        "guid": "[[[post_max_size]]]"
+    },
+    "[[[max_execution_time]]]": {
+        "name": "[[[max_execution_time]]]",
+        "path": "src\/placeholder\/[[[max_execution_time]]]",
+        "settings": "src\/placeholder\/[[[max_execution_time]]]\/item.json",
+        "guid": "[[[max_execution_time]]]"
+    },
+    "[[[max_input_vars]]]": {
+        "name": "[[[max_input_vars]]]",
+        "path": "src\/placeholder\/[[[max_input_vars]]]",
+        "settings": "src\/placeholder\/[[[max_input_vars]]]\/item.json",
+        "guid": "[[[max_input_vars]]]"
+    },
+    "[[[max_input_time]]]": {
+        "name": "[[[max_input_time]]]",
+        "path": "src\/placeholder\/[[[max_input_time]]]",
+        "settings": "src\/placeholder\/[[[max_input_time]]]\/item.json",
+        "guid": "[[[max_input_time]]]"
+    },
+    "[[[memory_limit]]]": {
+        "name": "[[[memory_limit]]]",
+        "path": "src\/placeholder\/[[[memory_limit]]]",
+        "settings": "src\/placeholder\/[[[memory_limit]]]\/item.json",
+        "guid": "[[[memory_limit]]]"
+    },
+    "[[[environment_wiki_url]]]": {
+        "name": "[[[environment_wiki_url]]]",
+        "path": "src\/placeholder\/[[[environment_wiki_url]]]",
+        "settings": "src\/placeholder\/[[[environment_wiki_url]]]\/item.json",
+        "guid": "[[[environment_wiki_url]]]"
     }
 }

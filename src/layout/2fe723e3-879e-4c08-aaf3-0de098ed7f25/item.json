@@ -1,0 +1,23 @@
+{
+    "name": "Table",
+    "description": "Table",
+    "dynamic_get": "",
+    "snippet": "0",
+    "guid": "2fe723e3-879e-4c08-aaf3-0de098ed7f25",
+    "php_view": "\/\/ Extract all keys from $displayData as individual variables.\r\nextract($displayData);\r\n\r\n\/\/ Assign default values for variables that might not be present in $displayData.\r\n\r\n\/\/ The 'table_id' parameter, defaulting to a randomly generated value if not set or is null.\r\n$table_id = $id ?? Super___1f28cb53_60d9_4db1_b517_3c7dc6b429ef___Power::random(7);\r\n\r\n\/\/ The 'name' parameter, defaulting to false if not set or is null.\r\n$name ??= false;\r\n\r\n\/\/ The 'table_class' parameter, defaulting to 'uk-table' if not set or is null.\r\n$table_class ??= 'uk-table';\r\n\r\n\/\/ The 'table_other_class' parameter, defaulting to '' if not set or is null.\r\n$table_other_class = !empty($table_other_class ?? '') ? ' ' . $table_other_class : '';\r\n\r\n\/\/ The 'table_container_class' parameter, defaulting to 'uk-overflow-auto' if not set or is null.\r\n$table_container_class ??= 'uk-overflow-auto';\r\n\r\n\/\/ The 'headers' parameter, defaulting to an array of default header values if not set or is null.\r\n$headers ??= [Text::_('No'), Text::_('Headers'), Text::_('Found')];\r\n\r\n\/\/ The 'items' parameter, defaulting to 6 if not set or is null.\r\n$items ??= 6;\r\n\r\n\/\/ The 'default_items_number' parameter, defaulting to 0 if not set or is null.\r\n$default_items_number ??= 0;\r\n\r\n\/\/ tweak to add empty rows\r\n$items_number = 0;\r\nif (is_array($items))\r\n{\r\n\t$items_number = count((array) $items);\r\n}\r\nelseif (is_numeric($items))\r\n{\r\n\t$items_number = (int) $items;\r\n}\r\n$add_items = 0;\r\nif ($default_items_number > $items_number)\r\n{\r\n\t$add_items = round($default_items_number - $items_number);\r\n}",
+    "add_php_view": 1,
+    "layout": "<div class=\"<?php echo $table_container_class; ?>\">\r\n\t<table id=\"<?php echo $table_id; ?>\" class=\"<?php echo $table_class; ?><?php echo $table_other_class; ?>\">\r\n\t\t<thead>\r\n\t\t\t<?php if (is_array($headers)): ?>\r\n\t\t\t\t<?php if ($name): ?>\r\n\t\t\t\t<tr>\r\n\t\t\t\t\t<th colspan=\"<?php echo count($headers); ?>\" style=\"text-align:center\"><b><?php echo $name; ?><\/b><\/th>\r\n\t\t\t\t<\/tr>\r\n\t\t\t\t<?php endif; ?>\r\n\t\t\t\t<tr>\r\n\t\t\t\t<?php foreach($headers as $code_name => $header): ?>\r\n\t\t\t\t\t<?php \r\n\t\t\t\t\t\tif (is_numeric($code_name))\r\n\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\t$code_name = Super___1f28cb53_60d9_4db1_b517_3c7dc6b429ef___Power::safe($header);\r\n\t\t\t\t\t\t}\r\n \t\t\t\t\t?>\r\n\t\t\t\t\t<th data-name=\"<?php echo $code_name; ?>\"><?php echo $header; ?><\/th>\r\n\t\t\t\t<?php endforeach; ?>\r\n\t\t\t\t<\/tr>\r\n\t\t\t<?php elseif (is_numeric($headers)): ?>\r\n\t\t\t\t<?php if ($name): ?>\r\n\t\t\t\t<tr>\r\n\t\t\t\t\t<th colspan=\"<?php echo (int) $headers; ?>\" style=\"text-align:center\"><b><?php echo $name; ?><\/b><\/th>\r\n\t\t\t\t<\/tr>\r\n\t\t\t\t<?php endif; ?>\r\n\t\t\t\t<tr style=\"position: absolute; top: -9999px; left: -9999px;\">\r\n\t\t\t\t<?php for( $row = 0; $row < $headers; $row++): ?>\r\n\t\t\t\t\t<th><?php echo Super___1f28cb53_60d9_4db1_b517_3c7dc6b429ef___Power::safe($row); ?><\/th>\r\n\t\t\t\t<?php endfor; ?>\r\n\t\t\t\t<\/tr>\r\n\t\t\t<?php endif; ?>\r\n\t\t<\/thead>\r\n\t\t<tbody>\r\n\t\t\t<?php echo Joomla___7ab82272_0b3d_4bb1_af35_e63a096cfe0b___Power::render('rows', ['headers' => $headers, 'items' => $items]); ?>\r\n\t\t\t<?php if ($add_items > 0): ?>\r\n\t\t\t\t<?php echo Joomla___7ab82272_0b3d_4bb1_af35_e63a096cfe0b___Power::render('rows', ['headers' => $headers, 'items' => $add_items]); ?>\r\n\t\t\t<?php endif; ?>\r\n\t\t<\/tbody>\r\n\t<\/table>\r\n<\/div>\r\n<?php\r\n\/\/ Initialize the table if [init is not set], or [is true]\r\n\/\/ To stop initialization set $displayData['init'] = false;\r\nif (!isset($displayData['init']) || $displayData['init']) :\r\n?>\r\n<script type=\"text\/javascript\">\r\ndocument.addEventListener('DOMContentLoaded', function() {\r\n\tvar <?php echo $table_id; ?> = new DataTable('#<?php echo $table_id; ?>', {\r\n\t\tpaging: false,\r\n\t\tselect: true\r\n\t});\r\n});\r\n<\/script>\r\n<?php endif; ?>",
+    "libraries": {
+        "0": "4c3e3dce-0845-46cb-9e4a-494f75dc7dd8"
+    },
+    "alias": "table",
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "72965abd-370c-4a16-a536-72cfd001e5dd",
+            "entity": "layout",
+            "table": "#__componentbuilder_layout",
+            "direction": "out"
+        }
+    ]
+}

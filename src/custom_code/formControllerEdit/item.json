@@ -1,0 +1,15 @@
+{
+    "system_name": "FormController Edit Method",
+    "path": null,
+    "target": 2,
+    "type": 0,
+    "comment_type": 1,
+    "joomla_version": 3,
+    "function_name": "formControllerEdit",
+    "code": "\t\/**\r\n\t * Method to edit an existing record.\r\n\t *\r\n\t * @param   string  $key     The name of the primary key of the URL variable.\r\n\t * @param   string  $urlVar  The name of the URL variable if different from the primary key\r\n\t *                           (sometimes required to avoid router collisions).\r\n\t *\r\n\t * @return  boolean  True if access level check and checkout passes, false otherwise.\r\n\t *\r\n\t * @since   1.6\r\n\t *\/\r\n\tpublic function edit($key = null, $urlVar = null)\r\n\t{\r\n\t\t\/\/ for modal title key selection (unique key to do mapping)\r\n\t\t$titleKey = $this->input->get('titleKey', 'id', 'word');\r\n\t\t$guid = null;\r\n\t\t$value = null;\r\n\r\n \t\t\/\/ Determine the name of the primary key for the data.\r\n\t\tif (empty($key))\r\n\t\t{\r\n\t\t\t$model = $this->getModel();\r\n\t\t\t$table = $model->getTable();\r\n\t\t\t$key = $table->getKeyName();\r\n\t\t}\r\n\r\n\t\tif ($titleKey === 'guid')\r\n\t\t{\r\n\t\t\t$guid = $this->input->get('guid', null, 'string');\r\n\t\t}\r\n\r\n\t\tif ($guid !== null && Super___9c513baf_b279_43fd_ae29_a585c8cbc4f0___Power::valid($guid))\r\n\t\t{\r\n\t\t\t$value = Super___9c513baf_b279_43fd_ae29_a585c8cbc4f0___Power::item($guid, '###view###', 'a.' . $key, '###component###');\r\n\t\t}\r\n\r\n\t\tif ($value !== null)\r\n\t\t{\r\n\t\t\t$this->input->set($key, $value);\r\n\t\t}\r\n\r\n\t\treturn parent::edit($key, $urlVar);\r\n\t}",
+    "hashendtarget": "",
+    "to_line": "",
+    "from_line": "",
+    "hashtarget": "",
+    "component": ""
+}

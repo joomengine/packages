@@ -19,5 +19,12 @@
         "path": "src\/layout\/2fe723e3-879e-4c08-aaf3-0de098ed7f25",
         "settings": "src\/layout\/2fe723e3-879e-4c08-aaf3-0de098ed7f25\/item.json",
         "guid": "2fe723e3-879e-4c08-aaf3-0de098ed7f25"
+    },
+    "72965abd-370c-4a16-a536-72cfd001e5dd": {
+        "name": "Rows",
+        "desc": "Rows",
+        "path": "src\/layout\/72965abd-370c-4a16-a536-72cfd001e5dd",
+        "settings": "src\/layout\/72965abd-370c-4a16-a536-72cfd001e5dd\/item.json",
+        "guid": "72965abd-370c-4a16-a536-72cfd001e5dd"
     }
 }

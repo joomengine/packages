@@ -34,5 +34,11 @@
         "path": "src\/dynamic_get\/0ac7277b-8f9f-4119-b22b-26f8c22e988b",
         "settings": "src\/dynamic_get\/0ac7277b-8f9f-4119-b22b-26f8c22e988b\/item.json",
         "guid": "0ac7277b-8f9f-4119-b22b-26f8c22e988b"
+    },
+    "c3542e52-cba1-42de-9ffa-0919c0082285": {
+        "name": "ImportLogMessages",
+        "path": "src\/dynamic_get\/c3542e52-cba1-42de-9ffa-0919c0082285",
+        "settings": "src\/dynamic_get\/c3542e52-cba1-42de-9ffa-0919c0082285\/item.json",
+        "guid": "c3542e52-cba1-42de-9ffa-0919c0082285"
     }
 }

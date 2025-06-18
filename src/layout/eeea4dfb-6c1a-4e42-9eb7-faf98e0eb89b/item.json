@@ -1,0 +1,21 @@
+{
+    "name": "Input Box",
+    "description": "Input Box",
+    "dynamic_get": "",
+    "snippet": "0",
+    "guid": "eeea4dfb-6c1a-4e42-9eb7-faf98e0eb89b",
+    "php_view": "\/\/ Extract all keys from $displayData as individual variables.\r\nextract($displayData);\r\n\r\n\/\/ Assign default values for variables that might not be present in $displayData.\r\n\r\n\/\/ The 'id' parameter, defaulting to an empty string if not set or is null.\r\n$id ??= '';\r\n\r\n\/\/ The 'name' parameter, defaulting to 'id' if not set or is null. Additionally, replace hyphens with underscores.\r\n$name ??= $id;\r\n$name = str_replace('-', '_', $name);\r\n\r\n\/\/ The 'label' parameter, defaulting to the 'Label' translation if not set or is null.\r\n$label ??= Text::_('Label');\r\n\r\n\/\/ The 'class_label' parameter, defaulting to 'uk-form-label' if not set or is null.\r\n$class_label ??= 'uk-form-label';\r\n\r\n\/\/ The 'class_other_label' parameter, prepended with a space if set, otherwise defaulting to an empty string.\r\n$class_other_label = isset($class_other_label) ? ' ' . $class_other_label : '';\r\n\r\n\/\/ The 'margin' parameter, defaulting to 'uk-margin-small' if not set or is null.\r\n$margin ??= 'uk-margin-small';",
+    "add_php_view": 1,
+    "layout": "<div class=\"<?php echo $margin; ?>\">\r\n\t<label class=\"<?php echo $class_label ; echo $class_other_label; ?>\" for=\"<?php echo $name; ?>\"><?php echo $label; ?><\/label>\r\n\t<div class=\"uk-form-controls\">\r\n\t\t<?php echo LayoutHelper::render('input', $displayData); ?>\r\n\t<\/div>\r\n<\/div>",
+    "libraries": null,
+    "alias": "inputbox",
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "3c3f6271-d660-4b79-9ab2-3bf2090eded1",
+            "entity": "layout",
+            "table": "#__componentbuilder_layout",
+            "direction": "out"
+        }
+    ]
+}

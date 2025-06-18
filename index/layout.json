@@ -5,5 +5,19 @@
         "path": "src\/layout\/6e4e5acc-8a7c-49ca-be53-8f8d95bd4163",
         "settings": "src\/layout\/6e4e5acc-8a7c-49ca-be53-8f8d95bd4163\/item.json",
         "guid": "6e4e5acc-8a7c-49ca-be53-8f8d95bd4163"
+    },
+    "0eb94218-5798-4170-9ce5-5cf11607086d": {
+        "name": "Modal",
+        "desc": "Modal",
+        "path": "src\/layout\/0eb94218-5798-4170-9ce5-5cf11607086d",
+        "settings": "src\/layout\/0eb94218-5798-4170-9ce5-5cf11607086d\/item.json",
+        "guid": "0eb94218-5798-4170-9ce5-5cf11607086d"
+    },
+    "2fe723e3-879e-4c08-aaf3-0de098ed7f25": {
+        "name": "Table",
+        "desc": "Table",
+        "path": "src\/layout\/2fe723e3-879e-4c08-aaf3-0de098ed7f25",
+        "settings": "src\/layout\/2fe723e3-879e-4c08-aaf3-0de098ed7f25\/item.json",
+        "guid": "2fe723e3-879e-4c08-aaf3-0de098ed7f25"
     }
 }

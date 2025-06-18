@@ -1,0 +1,20 @@
+{
+    "ddc9d897-8902-4ac3-bf38-f37e6af1a46a": {
+        "name": "onPrivacyCanRemoveData",
+        "path": "src\/class_method\/ddc9d897-8902-4ac3-bf38-f37e6af1a46a",
+        "settings": "src\/class_method\/ddc9d897-8902-4ac3-bf38-f37e6af1a46a\/item.json",
+        "guid": "ddc9d897-8902-4ac3-bf38-f37e6af1a46a"
+    },
+    "3692862c-6688-4afe-809e-c6677b318fea": {
+        "name": "onPrivacyExportRequest",
+        "path": "src\/class_method\/3692862c-6688-4afe-809e-c6677b318fea",
+        "settings": "src\/class_method\/3692862c-6688-4afe-809e-c6677b318fea\/item.json",
+        "guid": "3692862c-6688-4afe-809e-c6677b318fea"
+    },
+    "1e9e7ad9-ea31-43a2-a288-ffaa4bec5101": {
+        "name": "onPrivacyRemoveData",
+        "path": "src\/class_method\/1e9e7ad9-ea31-43a2-a288-ffaa4bec5101",
+        "settings": "src\/class_method\/1e9e7ad9-ea31-43a2-a288-ffaa4bec5101\/item.json",
+        "guid": "1e9e7ad9-ea31-43a2-a288-ffaa4bec5101"
+    }
+}

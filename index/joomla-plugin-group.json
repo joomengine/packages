@@ -16,5 +16,11 @@
         "path": "src\/joomla_plugin_group\/6ada52b0-ef05-455b-9cd7-de0d4f3aff73",
         "settings": "src\/joomla_plugin_group\/6ada52b0-ef05-455b-9cd7-de0d4f3aff73\/item.json",
         "guid": "6ada52b0-ef05-455b-9cd7-de0d4f3aff73"
+    },
+    "93940067-92d1-4cc2-b4e2-d3fc118d99bd": {
+        "name": "installer",
+        "path": "src\/joomla_plugin_group\/93940067-92d1-4cc2-b4e2-d3fc118d99bd",
+        "settings": "src\/joomla_plugin_group\/93940067-92d1-4cc2-b4e2-d3fc118d99bd\/item.json",
+        "guid": "93940067-92d1-4cc2-b4e2-d3fc118d99bd"
     }
 }

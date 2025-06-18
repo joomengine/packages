@@ -1,0 +1,4 @@
+{
+    "target": "[[[post_max_size]]]",
+    "value": "128M"
+}

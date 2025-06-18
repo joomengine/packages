@@ -47,5 +47,75 @@
         "path": "src\/layout\/a51be5b8-9ec9-43de-9dd9-f739c8b39288",
         "settings": "src\/layout\/a51be5b8-9ec9-43de-9dd9-f739c8b39288\/item.json",
         "guid": "a51be5b8-9ec9-43de-9dd9-f739c8b39288"
+    },
+    "7bf44bf6-0666-4e58-9037-daf72d400123": {
+        "name": "Trash Helper",
+        "desc": "Trash Helper Layout",
+        "path": "src\/layout\/7bf44bf6-0666-4e58-9037-daf72d400123",
+        "settings": "src\/layout\/7bf44bf6-0666-4e58-9037-daf72d400123\/item.json",
+        "guid": "7bf44bf6-0666-4e58-9037-daf72d400123"
+    },
+    "9dc804de-f98b-4db9-9b83-4034184c3992": {
+        "name": "Joomla! Mastodon Feed",
+        "desc": "Joomla! Mastodon Feed",
+        "path": "src\/layout\/9dc804de-f98b-4db9-9b83-4034184c3992",
+        "settings": "src\/layout\/9dc804de-f98b-4db9-9b83-4034184c3992\/item.json",
+        "guid": "9dc804de-f98b-4db9-9b83-4034184c3992"
+    },
+    "3c3f6271-d660-4b79-9ab2-3bf2090eded1": {
+        "name": "Input",
+        "desc": "Input",
+        "path": "src\/layout\/3c3f6271-d660-4b79-9ab2-3bf2090eded1",
+        "settings": "src\/layout\/3c3f6271-d660-4b79-9ab2-3bf2090eded1\/item.json",
+        "guid": "3c3f6271-d660-4b79-9ab2-3bf2090eded1"
+    },
+    "eeea4dfb-6c1a-4e42-9eb7-faf98e0eb89b": {
+        "name": "Input Box",
+        "desc": "Input Box",
+        "path": "src\/layout\/eeea4dfb-6c1a-4e42-9eb7-faf98e0eb89b",
+        "settings": "src\/layout\/eeea4dfb-6c1a-4e42-9eb7-faf98e0eb89b\/item.json",
+        "guid": "eeea4dfb-6c1a-4e42-9eb7-faf98e0eb89b"
+    },
+    "0fca5d9a-a239-4caf-b5df-42667c972dc0": {
+        "name": "Select",
+        "desc": "Select",
+        "path": "src\/layout\/0fca5d9a-a239-4caf-b5df-42667c972dc0",
+        "settings": "src\/layout\/0fca5d9a-a239-4caf-b5df-42667c972dc0\/item.json",
+        "guid": "0fca5d9a-a239-4caf-b5df-42667c972dc0"
+    },
+    "bb4c6361-c967-4b41-86e0-10d41e3ecf07": {
+        "name": "Select Box",
+        "desc": "Select Box",
+        "path": "src\/layout\/bb4c6361-c967-4b41-86e0-10d41e3ecf07",
+        "settings": "src\/layout\/bb4c6361-c967-4b41-86e0-10d41e3ecf07\/item.json",
+        "guid": "bb4c6361-c967-4b41-86e0-10d41e3ecf07"
+    },
+    "248e0459-ecb6-4197-9cda-824ec8285461": {
+        "name": "Textarea",
+        "desc": "Textarea",
+        "path": "src\/layout\/248e0459-ecb6-4197-9cda-824ec8285461",
+        "settings": "src\/layout\/248e0459-ecb6-4197-9cda-824ec8285461\/item.json",
+        "guid": "248e0459-ecb6-4197-9cda-824ec8285461"
+    },
+    "7b52a2a8-63a0-42db-9c58-108b21f2ae63": {
+        "name": "Textarea Box",
+        "desc": "Textarea Box",
+        "path": "src\/layout\/7b52a2a8-63a0-42db-9c58-108b21f2ae63",
+        "settings": "src\/layout\/7b52a2a8-63a0-42db-9c58-108b21f2ae63\/item.json",
+        "guid": "7b52a2a8-63a0-42db-9c58-108b21f2ae63"
+    },
+    "0075f54e-d953-4379-8476-918bb6684d0b": {
+        "name": "Radio Box",
+        "desc": "Radio Box",
+        "path": "src\/layout\/0075f54e-d953-4379-8476-918bb6684d0b",
+        "settings": "src\/layout\/0075f54e-d953-4379-8476-918bb6684d0b\/item.json",
+        "guid": "0075f54e-d953-4379-8476-918bb6684d0b"
+    },
+    "7f6ff7df-4444-40ad-a7bf-5d126d6feac7": {
+        "name": "Radio",
+        "desc": "Radio",
+        "path": "src\/layout\/7f6ff7df-4444-40ad-a7bf-5d126d6feac7",
+        "settings": "src\/layout\/7f6ff7df-4444-40ad-a7bf-5d126d6feac7\/item.json",
+        "guid": "7f6ff7df-4444-40ad-a7bf-5d126d6feac7"
     }
 }

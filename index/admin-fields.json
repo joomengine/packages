@@ -1,0 +1,86 @@
+{
+    "19a973ea-cdfa-4c79-bbbd-1b8a37286b27": {
+        "name": "19a973ea-cdfa-4c79-bbbd-1b8a37286b27",
+        "path": "src\/admin_view\/children\/19a973ea-cdfa-4c79-bbbd-1b8a37286b27",
+        "settings": "src\/admin_view\/children\/19a973ea-cdfa-4c79-bbbd-1b8a37286b27\/admin-fields.json",
+        "guid": "19a973ea-cdfa-4c79-bbbd-1b8a37286b27"
+    },
+    "224eb9c7-8b40-48cf-bf77-2afa291fd54a": {
+        "name": "224eb9c7-8b40-48cf-bf77-2afa291fd54a",
+        "path": "src\/admin_view\/children\/224eb9c7-8b40-48cf-bf77-2afa291fd54a",
+        "settings": "src\/admin_view\/children\/224eb9c7-8b40-48cf-bf77-2afa291fd54a\/admin-fields.json",
+        "guid": "224eb9c7-8b40-48cf-bf77-2afa291fd54a"
+    },
+    "2e451812-45af-4015-aa0c-f5912702c9af": {
+        "name": "2e451812-45af-4015-aa0c-f5912702c9af",
+        "path": "src\/admin_view\/children\/2e451812-45af-4015-aa0c-f5912702c9af",
+        "settings": "src\/admin_view\/children\/2e451812-45af-4015-aa0c-f5912702c9af\/admin-fields.json",
+        "guid": "2e451812-45af-4015-aa0c-f5912702c9af"
+    },
+    "3dbb581b-619a-4fb0-a6f6-e4a136ea31e2": {
+        "name": "3dbb581b-619a-4fb0-a6f6-e4a136ea31e2",
+        "path": "src\/admin_view\/children\/3dbb581b-619a-4fb0-a6f6-e4a136ea31e2",
+        "settings": "src\/admin_view\/children\/3dbb581b-619a-4fb0-a6f6-e4a136ea31e2\/admin-fields.json",
+        "guid": "3dbb581b-619a-4fb0-a6f6-e4a136ea31e2"
+    },
+    "595ba2c9-21fa-43a4-9af7-93c9cfb21b82": {
+        "name": "595ba2c9-21fa-43a4-9af7-93c9cfb21b82",
+        "path": "src\/admin_view\/children\/595ba2c9-21fa-43a4-9af7-93c9cfb21b82",
+        "settings": "src\/admin_view\/children\/595ba2c9-21fa-43a4-9af7-93c9cfb21b82\/admin-fields.json",
+        "guid": "595ba2c9-21fa-43a4-9af7-93c9cfb21b82"
+    },
+    "60b7b30d-9229-4ce2-b055-9efbb7ac4cea": {
+        "name": "60b7b30d-9229-4ce2-b055-9efbb7ac4cea",
+        "path": "src\/admin_view\/children\/60b7b30d-9229-4ce2-b055-9efbb7ac4cea",
+        "settings": "src\/admin_view\/children\/60b7b30d-9229-4ce2-b055-9efbb7ac4cea\/admin-fields.json",
+        "guid": "60b7b30d-9229-4ce2-b055-9efbb7ac4cea"
+    },
+    "65116558-be67-4931-95be-727fbfb16db7": {
+        "name": "65116558-be67-4931-95be-727fbfb16db7",
+        "path": "src\/admin_view\/children\/65116558-be67-4931-95be-727fbfb16db7",
+        "settings": "src\/admin_view\/children\/65116558-be67-4931-95be-727fbfb16db7\/admin-fields.json",
+        "guid": "65116558-be67-4931-95be-727fbfb16db7"
+    },
+    "6acc4069-1c33-4470-85a6-07bc9bb16d10": {
+        "name": "6acc4069-1c33-4470-85a6-07bc9bb16d10",
+        "path": "src\/admin_view\/children\/6acc4069-1c33-4470-85a6-07bc9bb16d10",
+        "settings": "src\/admin_view\/children\/6acc4069-1c33-4470-85a6-07bc9bb16d10\/admin-fields.json",
+        "guid": "6acc4069-1c33-4470-85a6-07bc9bb16d10"
+    },
+    "6c6345a1-e3e4-4840-8918-831034e95b19": {
+        "name": "6c6345a1-e3e4-4840-8918-831034e95b19",
+        "path": "src\/admin_view\/children\/6c6345a1-e3e4-4840-8918-831034e95b19",
+        "settings": "src\/admin_view\/children\/6c6345a1-e3e4-4840-8918-831034e95b19\/admin-fields.json",
+        "guid": "6c6345a1-e3e4-4840-8918-831034e95b19"
+    },
+    "75061367-79c2-4d5b-a75d-eca6d33507df": {
+        "name": "75061367-79c2-4d5b-a75d-eca6d33507df",
+        "path": "src\/admin_view\/children\/75061367-79c2-4d5b-a75d-eca6d33507df",
+        "settings": "src\/admin_view\/children\/75061367-79c2-4d5b-a75d-eca6d33507df\/admin-fields.json",
+        "guid": "75061367-79c2-4d5b-a75d-eca6d33507df"
+    },
+    "9eefa86b-6294-4512-8d62-979abf16c00d": {
+        "name": "9eefa86b-6294-4512-8d62-979abf16c00d",
+        "path": "src\/admin_view\/children\/9eefa86b-6294-4512-8d62-979abf16c00d",
+        "settings": "src\/admin_view\/children\/9eefa86b-6294-4512-8d62-979abf16c00d\/admin-fields.json",
+        "guid": "9eefa86b-6294-4512-8d62-979abf16c00d"
+    },
+    "a9f19a16-fadb-44ea-a9b6-41130aad05ec": {
+        "name": "a9f19a16-fadb-44ea-a9b6-41130aad05ec",
+        "path": "src\/admin_view\/children\/a9f19a16-fadb-44ea-a9b6-41130aad05ec",
+        "settings": "src\/admin_view\/children\/a9f19a16-fadb-44ea-a9b6-41130aad05ec\/admin-fields.json",
+        "guid": "a9f19a16-fadb-44ea-a9b6-41130aad05ec"
+    },
+    "ab2bbdfc-c0a0-4ffc-9556-67d5af8bec64": {
+        "name": "ab2bbdfc-c0a0-4ffc-9556-67d5af8bec64",
+        "path": "src\/admin_view\/children\/ab2bbdfc-c0a0-4ffc-9556-67d5af8bec64",
+        "settings": "src\/admin_view\/children\/ab2bbdfc-c0a0-4ffc-9556-67d5af8bec64\/admin-fields.json",
+        "guid": "ab2bbdfc-c0a0-4ffc-9556-67d5af8bec64"
+    },
+    "c1053952-8a84-4398-aef1-41726f7c0043": {
+        "name": "c1053952-8a84-4398-aef1-41726f7c0043",
+        "path": "src\/admin_view\/children\/c1053952-8a84-4398-aef1-41726f7c0043",
+        "settings": "src\/admin_view\/children\/c1053952-8a84-4398-aef1-41726f7c0043\/admin-fields.json",
+        "guid": "c1053952-8a84-4398-aef1-41726f7c0043"
+    }
+}

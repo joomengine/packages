@@ -1,0 +1,139 @@
+{
+    "system_name": "Files",
+    "name_single": "File",
+    "short_description": "Files",
+    "php_allowedit": "",
+    "php_postsavehook": "",
+    "php_before_save": "",
+    "php_getlistquery": "",
+    "php_getitems": "",
+    "name_list": "Files",
+    "icon": "images\/vdm\/icon\/file.png",
+    "php_after_publish": "",
+    "add_fadein": 1,
+    "description": "Files",
+    "icon_category": "",
+    "icon_add": "",
+    "php_after_cancel": "",
+    "mysql_table_charset": "utf8mb4",
+    "php_batchmove": "",
+    "type": 1,
+    "php_after_delete": "\t\tforeach ($filePaths as $filePath)\r\n\t\t{\r\n\t\t\tif (is_file($filePath) && is_writable($filePath))\r\n\t\t\t{\r\n\t\t\t\tJoomla___55e9e8f0_3c5e_483a_a063_7c7565b00ed7___Power::delete($filePath); \/\/ remove from file system\r\n\t\t\t}\r\n\t\t}",
+    "source": 0,
+    "php_getitem": "",
+    "addpermissions": {
+        "addpermissions0": {
+            "action": "view.edit",
+            "implementation": 3
+        },
+        "addpermissions1": {
+            "action": "view.edit.own",
+            "implementation": 3
+        },
+        "addpermissions2": {
+            "action": "view.edit.state",
+            "implementation": 3
+        },
+        "addpermissions3": {
+            "action": "view.edit.access",
+            "implementation": 3
+        },
+        "addpermissions4": {
+            "action": "view.edit.created_by",
+            "implementation": 3
+        },
+        "addpermissions5": {
+            "action": "view.edit.created",
+            "implementation": 3
+        },
+        "addpermissions6": {
+            "action": "view.create",
+            "implementation": 3
+        },
+        "addpermissions7": {
+            "action": "view.delete",
+            "implementation": 3
+        },
+        "addpermissions8": {
+            "action": "view.access",
+            "implementation": 3
+        }
+    },
+    "php_getitems_after_all": "",
+    "php_getform": "",
+    "addtabs": null,
+    "php_save": "",
+    "php_allowadd": "",
+    "php_before_cancel": "",
+    "addlinked_views": null,
+    "php_batchcopy": "",
+    "php_before_publish": "",
+    "alias_builder_type": 0,
+    "php_before_delete": "\t\t$filePaths = Super___9d76b8dc_3883_4755_b11c_131d19ca8a53___Power::_('Data.Items')->table('[[[view]]]')->values($pks, 'id', 'file_path') ?? [];",
+    "php_document": "",
+    "mysql_table_row_format": "DYNAMIC",
+    "alias_builder": null,
+    "sql": "",
+    "add_php_getitem": 0,
+    "add_category_submenu": 1,
+    "add_php_getitems": 0,
+    "add_php_getitems_after_all": 0,
+    "add_php_getlistquery": 0,
+    "add_css_view": 0,
+    "add_php_getform": 0,
+    "css_view": "",
+    "add_php_before_save": 0,
+    "add_css_views": 0,
+    "add_php_save": 0,
+    "css_views": "",
+    "add_php_postsavehook": 0,
+    "add_javascript_view_file": 0,
+    "add_php_allowadd": 0,
+    "javascript_view_file": "",
+    "add_php_allowedit": 0,
+    "add_javascript_view_footer": 0,
+    "add_php_before_cancel": 0,
+    "javascript_view_footer": "",
+    "add_php_after_cancel": 0,
+    "add_javascript_views_file": 0,
+    "add_php_batchcopy": 0,
+    "javascript_views_file": "",
+    "add_php_batchmove": 0,
+    "add_javascript_views_footer": 0,
+    "add_php_before_publish": 0,
+    "javascript_views_footer": "",
+    "add_php_after_publish": 0,
+    "add_custom_button": 0,
+    "add_php_before_delete": 1,
+    "custom_button": null,
+    "add_php_after_delete": 1,
+    "php_controller": "",
+    "add_php_document": 0,
+    "php_model": "",
+    "mysql_table_engine": "InnoDB",
+    "php_controller_list": "",
+    "mysql_table_collate": "utf8mb4_unicode_ci",
+    "php_model_list": "",
+    "add_sql": 0,
+    "add_php_ajax": 0,
+    "php_ajaxmethod": "",
+    "guid": "224eb9c7-8b40-48cf-bf77-2afa291fd54a",
+    "ajax_input": null,
+    "@dependencies": [
+        {
+            "key": "admin_view",
+            "value": "224eb9c7-8b40-48cf-bf77-2afa291fd54a",
+            "entity": "admin_fields",
+            "table": "#__componentbuilder_admin_fields",
+            "direction": "in"
+        },
+        {
+            "key": "18cbbd0e-06b8-5ca2-a832-a791040d95a5.png",
+            "pointer": "18cbbd0e-06b8-5ca2-a832-a791040d95a5--png",
+            "value": "images\/vdm\/icon\/file.png",
+            "entity": "file",
+            "table": "file_system",
+            "target": "images"
+        }
+    ]
+}

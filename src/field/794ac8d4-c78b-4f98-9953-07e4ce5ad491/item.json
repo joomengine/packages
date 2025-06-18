@@ -1,0 +1,35 @@
+{
+    "name": "Download Access",
+    "fieldtype": "913ed2ce-836c-48e8-97af-e482441f47df",
+    "datatype": "INT",
+    "indexes": "2",
+    "null_switch": "NULL",
+    "store": 0,
+    "on_get_model_field": "",
+    "on_save_model_field": "",
+    "initiator_on_get_model": "",
+    "xml": "<field\n\ttype=\"accesslevel\"\n\tname=\"download_access\"\n\tlabel=\"Download Access\"\n\tdescription=\"Select the access level that is allowed to download this file.\"\n\tclass=\"list_class\"\n\trequired=\"true\"\n\tmultiple=\"false\"\n\/>",
+    "datalenght": "11",
+    "javascript_view_footer": "",
+    "css_views": "",
+    "css_view": "",
+    "datadefault_other": "",
+    "datadefault": "",
+    "datalenght_other": "",
+    "javascript_views_footer": "",
+    "add_css_view": 0,
+    "add_css_views": 0,
+    "add_javascript_view_footer": 0,
+    "add_javascript_views_footer": 0,
+    "initiator_on_save_model": "",
+    "guid": "794ac8d4-c78b-4f98-9953-07e4ce5ad491",
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "913ed2ce-836c-48e8-97af-e482441f47df",
+            "entity": "fieldtype",
+            "table": "#__componentbuilder_fieldtype",
+            "direction": "out"
+        }
+    ]
+}

@@ -1,0 +1,81 @@
+{
+    "name": "Item Import Queue",
+    "main_source": 1,
+    "gettype": 4,
+    "php_calculation": "",
+    "php_router_parse": null,
+    "add_php_after_getitems": 1,
+    "add_php_router_parse": 0,
+    "view_selection": "a.import_status AS import_status\r\na.created AS created\r\na.guid AS guid",
+    "add_php_before_getitems": 0,
+    "add_php_before_getitem": 0,
+    "add_php_after_getitem": 1,
+    "db_table_main": null,
+    "php_custom_get": null,
+    "plugin_events": null,
+    "db_selection": null,
+    "view_table_main": "a9f19a16-fadb-44ea-a9b6-41130aad05ec",
+    "add_php_getlistquery": 0,
+    "join_db_table": null,
+    "select_all": 0,
+    "php_before_getitem": "",
+    "getcustom": "getQueue",
+    "php_after_getitem": "",
+    "pagination": 1,
+    "php_getlistquery": "",
+    "php_before_getitems": "",
+    "filter": {
+        "filter0": {
+            "filter_type": 2,
+            "state_key": "$this->user->id",
+            "operator": 1,
+            "table_key": "a.created_by"
+        }
+    },
+    "php_after_getitems": "\t\tif (!empty($items))\r\n\t\t{\r\n\t\t\t$model = Super___640b5352_fb09_425f_a26e_cd44eda03f15___Power::getModel('items_import_queue');\r\n\t\t\t$number = count($items);\r\n\t\t\tforeach ($items as $item)\r\n\t\t\t{\r\n\t\t\t\t$item->target = 'item_import';\r\n\t\t\t\t$item->import_status = Text::_($model->selectionTranslation($item->import_status, 'import_status'));\r\n\t\t\t\t$item->created = Super___993fe913_8e36_4800_a5f7_544aa728ee48___Power::fancyDate($item->created);\r\n\t\t\t\t$item->number = $number;\r\n\t\t\t\t$number--;\r\n\t\t\t}\r\n\t\t}",
+    "where": {
+        "where0": {
+            "table_key": "a.published",
+            "operator": 1,
+            "value_key": "1"
+        }
+    },
+    "order": {
+        "order0": {
+            "table_key": "a.id",
+            "direction": "DESC"
+        }
+    },
+    "addcalculation": 0,
+    "group": null,
+    "global": null,
+    "guid": "0ac7277b-8f9f-4119-b22b-26f8c22e988b",
+    "join_view_table": {
+        "join_view_table0": {
+            "view_table": "224eb9c7-8b40-48cf-bf77-2afa291fd54a",
+            "row_type": 1,
+            "as": "f",
+            "type": 1,
+            "on_field": "a.file",
+            "operator": 1,
+            "join_field": "f.guid",
+            "selection": "f.name AS file_name"
+        }
+    },
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "a9f19a16-fadb-44ea-a9b6-41130aad05ec",
+            "entity": "admin_view",
+            "table": "#__componentbuilder_admin_view",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "224eb9c7-8b40-48cf-bf77-2afa291fd54a",
+            "entity": "admin_view",
+            "table": "#__componentbuilder_admin_view",
+            "direction": "out"
+        }
+    ]
+}

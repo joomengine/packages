@@ -1,0 +1,171 @@
+{
+    "system_name": "Version Calendar",
+    "target": 1,
+    "description": "Version Calendar in SVG",
+    "add_php_method_uninstall": 0,
+    "add_php_postflight_update": 0,
+    "add_php_postflight_install": 0,
+    "add_php_preflight_uninstall": 0,
+    "addreadme": 1,
+    "default": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 <?php echo $helper->width(); ?> <?php echo $helper->height(); ?>\"\r\n\twidth=\"<?php echo $helper->width(); ?>\" height=\"<?php echo $helper->height(); ?>\">\r\n\t<style type=\"text\/css\">\r\n\t\ttext {\r\n\t\t\tfill: <?php echo $params->get('text_color', '#333'); ?>;\r\n\t\t\tfont-family: \"Source Sans Pro\", Helvetica, Arial, sans-serif;\r\n\t\t\tfont-size: <?php echo (2 \/ 3) * $params->get('header_height', 24); ?>px;\r\n\t\t}\r\n\t\tg.vcs-future rect,\r\n\t\t.vcs-branches rect.vcs-future {\r\n\t\t\tfill: <?php echo $params->get('future_color', '#5091cd'); ?>;\r\n\t\t}\r\n\t\tg.vcs-future text {\r\n\t\t\tfill: <?php echo $params->get('future_text_color', '#fff'); ?>;\r\n\t\t}\r\n\t\tg.vcs-eol rect,\r\n\t\t.vcs-branches rect.vcs-eol {\r\n\t\t\tfill: <?php echo $params->get('end_of_life_color', '#f33'); ?>;\r\n\t\t}\r\n\t\tg.vcs-eol text {\r\n\t\t\tfill: <?php echo $params->get('end_of_life_text_color', '#fff'); ?>;\r\n\t\t}\r\n\t\t<?php foreach ($branches as $version): ?>\r\n\t\t\t<?php foreach ($version->dates as $date): ?>\r\n\t\t\t\tg.<?php echo $date->state; ?> rect,\r\n\t\t\t\t.vcs-branches rect.<?php echo $date->state; ?> {\r\n\t\t\t\t\tfill: <?php echo $date->color; ?>;\r\n\t\t\t\t}\r\n\t\t\t<?php endforeach; ?>\r\n\t\t<?php endforeach; ?>\r\n\t\t.vcs-branch-labels text {\r\n\t\tdominant-baseline: central;\r\n\t\t\ttext-anchor: middle;\r\n\t\t}\r\n\t\t.vcs-today line {\r\n\t\t\tstroke: <?php echo $params->get('today_line_color', '#f33'); ?>;\r\n\t\t\tstroke-dasharray: 7, 7;\r\n\t\t\tstroke-width: 3px;\r\n\t\t}\r\n\t\t.vcs-today text {\r\n\t\t\tfill: <?php echo $params->get('today_text_color', '#f33'); ?>;\r\n\t\t\ttext-anchor: middle;\r\n\t\t}\r\n\t\t.vcs-years line {\r\n\t\t\tstroke: <?php echo $params->get('years_line_color', '#000'); ?>;\r\n\t\t}\r\n\t\t.vcs-years text {\r\n\t\t\tfill: <?php echo $params->get('years_text_color', '#000'); ?>;\r\n\t\t\ttext-anchor: middle;\r\n\t\t}\r\n\t<\/style>\r\n\t<!-- Branch labels -->\r\n\t<g class=\"vcs-branch-labels\">\r\n\t\t<?php foreach ($branches as $key => $branch): ?>\r\n\t\t\t<g class=\"<?php echo $helper->state($branch->dates); ?>\">\r\n\t\t\t\t<rect x=\"0\" y=\"<?php echo $branch->top; ?>\" width=\"<?php echo 0.5 * $params->get('margin_left', 80); ?>\"\r\n\t\t\t\t\theight=\"<?php echo $params->get('branch_height', 30); ?>\"\/>\r\n\t\t\t\t<text x=\"<?php echo 0.25 * $params->get('margin_left', 80); ?>\" y=\"<?php echo $branch->top + (0.5 * $params->get('branch_height', 30)); ?>\">\r\n\t\t\t\t\t<?php echo htmlspecialchars($branch->version); ?>\r\n\t\t\t\t<\/text>\r\n\t\t\t<\/g>\r\n\t\t<?php endforeach; ?>\r\n\t<\/g>\r\n\t<!-- Branch blocks -->\r\n\t<g class=\"vcs-branches\">\r\n\t\t<?php foreach ($branches as $key => $version): ?>\r\n\t\t\t<?php\r\n\t\t\t\t$y = $version->top;\r\n\t\t\t\t$height = $params->get('branch_height', 30);\r\n\t\t\t?>\r\n\t\t\t<?php foreach ($version->dates as $date): ?>\r\n\t\t\t\t<?php\r\n\t\t\t\t\t$x_start = $helper->coordinates(new DateTime($date->start));\r\n\t\t\t\t\t$x_end = $helper->coordinates(new DateTime($date->end));\r\n\t\t\t\t?>\r\n\t\t\t\t<g class=\"<?php echo $date->state; ?>\">\r\n\t\t\t\t\t<rect\r\n\t\t\t\t\t\tx=\"<?php echo $x_start; ?>\"\r\n\t\t\t\t\t\ty=\"<?php echo $y; ?>\"\r\n\t\t\t\t\t\twidth=\"<?php echo $x_end - $x_start; ?>\"\r\n\t\t\t\t\t\theight=\"<?php echo $height; ?>\">\r\n\t\t\t\t\t\t\t<title><?php echo htmlspecialchars($date->label); ?><\/title>\r\n\t\t\t\t\t<\/rect>\r\n\t\t\t\t<\/g>\r\n\t\t\t<?php endforeach; ?>\r\n\t\t<?php endforeach; ?>\r\n\t<\/g>\r\n\t<!-- Year lines -->\r\n\t<g class=\"vcs-years\">\r\n\t\t<?php foreach ($helper->years() as $date): ?>\r\n\t\t\t<line x1=\"<?php echo $helper->coordinates($date); ?>\" y1=\"<?php echo $params->get('header_height', 24); ?>\"\r\n\t\t\t\tx2=\"<?php echo $helper->coordinates($date); ?>\"\r\n\t\t\t\ty2=\"<?php echo $params->get('header_height', 24) + ($qty * $params->get('branch_height', 30)); ?>\"\/>\r\n\t\t\t<text x=\"<?php echo $helper->coordinates($date) ;?>\" y=\"<?php echo 0.8 * $params->get('header_height', 24); ?>\">\r\n\t\t\t\t<?php echo $date->format('j M Y'); ?>\r\n\t\t\t<\/text>\r\n\t\t<?php endforeach; ?>\r\n\t<\/g>\r\n\t<!-- Today -->\r\n\t<g class=\"vcs-today\">\r\n\t\t<?php\r\n\t\t\t$now = new DateTime;\r\n\t\t\t$x = $helper->coordinates($now);\r\n\t\t?>\r\n\t\t<line x1=\"<?php echo $x; ?>\" y1=\"<?php echo $params->get('header_height', 24); ?>\" x2=\"<?php echo $x; ?>\"\r\n\t\t\ty2=\"<?php echo $params->get('header_height', 24) + ($qty * $params->get('branch_height', 30)); ?>\"\/>\r\n\t\t<text x=\"<?php echo $x; ?>\"\r\n\t\t\ty=\"<?php echo $params->get('header_height', 24) + ($qty * $params->get('branch_height', 30)) + (0.8 * $params->get('footer_height', 24)); ?>\">\r\n\t\t\t<?php echo Joomla___ba6326ef_cb79_4348_80f4_ab086082e3c5___Power::_('Today') . ': ' . $now->format('j M Y'); ?>\r\n\t\t<\/text>\r\n\t<\/g>\r\n<\/svg>\r\n<?php if ($params->get('show_legend', 0) == 1): ?>\r\n<?php \r\n\/\/ get the legend values\r\n$legend = $helper->legend();\r\n?>\r\n<style type=\"text\/css\">\r\n\t\/* Box Shadow *\/\r\n\t.vcs-box-shadow-medium {\r\n\t\tbox-shadow: 0 10px 40px rgba(0, 0, 0, 0.15), 0 0.5rem 1.5rem rgba(0, 0, 0, 0.25);\r\n\t}\r\n\t\/* Card Styles *\/\r\n\t.vcs-card {\r\n\t\tborder-radius: 4px;\r\n\t\tmargin-top: 15px;\r\n\t}\r\n\t.vcs-card-legend {\r\n\t\tbackground-color: <?php echo $params->get('legend_background_color', '#494444'); ?>;\r\n\t\tcolor: <?php echo $params->get('legend_text_color', '#fbf3ef'); ?>;\r\n\t}\r\n\t.vcs-card-body {\r\n\t\tpadding: 4px;\r\n\t}\r\n\t\/* Grid Styles *\/\r\n\t.vcs-grid {\r\n\t\tdisplay: flex;\r\n\t\tflex-wrap: wrap;\r\n\t}\r\n\t.vcs-grid-match > div {\r\n\t\tpadding: 5px;\r\n\t\tmin-height: 1px;\r\n\t\tmargin: 10px;\r\n\t}\r\n\t\/* Flexbox Styles *\/\r\n\t.vcs-flex {\r\n\t\tdisplay: flex;\r\n\t\talign-items: center;\r\n\t\tjustify-content: space-between;\r\n\t}\r\n\t.vcs-flex-middle {\r\n\t\talign-items: center;\r\n\t}\r\n\t\/* Color Box Styles *\/\r\n\t.vcs-color-box {\r\n\t\twidth: 20px;\r\n\t\theight: 20px;\r\n\t\tdisplay: inline-block;\r\n\t\tmargin-right: 5px;\r\n\t}\r\n\t.vcs-future { background-color: <?php echo $params->get('future_color', '#000'); ?>; }\r\n\t.vcs-eol { background-color: <?php echo $params->get('end_of_life_color', '#f33'); ?>; }\r\n\t<?php foreach ($legend as $state): ?>\r\n\t\t.<?php echo $state->state; ?> { background-color: <?php echo $state->color; ?>; }\r\n\t<?php endforeach; ?>\r\n\t\/* Media Query for smaller screens *\/\r\n\t@media (max-width: 768px) {\r\n\t\t.vcs-grid {\r\n\t\t\tflex-direction: column;\r\n\t\t}\r\n\t\t.vcs-flex {\r\n\t\t\tdisplay: block;\r\n\t\t}\r\n\t\t.vcs-grid-match > div {\r\n\t\t\tmargin: 4px;\r\n\t\t\tpadding: 0;\r\n\t\t}\r\n\t}\r\n<\/style>\r\n<div class=\"vcs-box-shadow-medium\">\r\n\t<div class=\"vcs-card vcs-card-legend vcs-card-body\">\r\n\t\t<div class=\"vcs-grid-match vcs-grid\">\r\n\t\t\t<div class=\"vcs-flex vcs-flex-middle\">\r\n\t\t\t\t<span\r\n\t\t\t\t\tclass=\"vcs-color-box vcs-future hasTooltip\"\r\n\t\t\t\t\ttitle=\"<?php echo Joomla___ba6326ef_cb79_4348_80f4_ab086082e3c5___Power::_('Planned release schedule'); ?>\"\r\n\t\t\t\t><\/span><?php echo Joomla___ba6326ef_cb79_4348_80f4_ab086082e3c5___Power::_('Future Releases'); ?>\r\n\t\t\t<\/div>\r\n\t\t\t<?php foreach ($legend as $state): ?>\r\n\t\t\t\t<div class=\"vcs-flex vcs-flex-middle\">\r\n\t\t\t\t\t<span\r\n\t\t\t\t\t\tclass=\"vcs-color-box <?php echo $state->state; ?> hasTooltip\"\r\n\t\t\t\t\t\ttitle=\"<?php echo $state->description ?? ''; ?>\"\r\n\t\t\t\t\t><\/span><?php echo $state->label; ?>\r\n\t\t\t\t<\/div>\r\n\t\t\t<?php endforeach; ?>\r\n\t\t\t<div class=\"vcs-flex vcs-flex-middle\">\r\n\t\t\t\t<span\r\n\t\t\t\t\tclass=\"vcs-color-box vcs-eol hasTooltip\"\r\n\t\t\t\t\ttitle=\"<?php echo Joomla___ba6326ef_cb79_4348_80f4_ab086082e3c5___Power::_('Version End of Life schedule - expect no more support'); ?>\"\r\n\t\t\t\t><\/span><?php echo Joomla___ba6326ef_cb79_4348_80f4_ab086082e3c5___Power::_('Version at End of Life'); ?>\r\n\t\t\t<\/div>\r\n\t\t<\/div>\r\n\t<\/div>\r\n<\/div>\r\n<?php endif; ?>",
+    "snippet": "0",
+    "add_sql": 0,
+    "update_server_target": 1,
+    "add_sql_uninstall": 0,
+    "add_update_server": 0,
+    "libraries": null,
+    "module_version": "2.0.1",
+    "custom_get": null,
+    "php_preflight_update": "",
+    "php_preflight_uninstall": "",
+    "mod_code": "\/\/ Include the helper functions only once\r\n\\JLoader::register('Mod[[[Module]]]Helper', __DIR__ . '\/helper.php');\r\n\r\ntry\r\n{\r\n\t\/\/ Get the Helper class\r\n\t$helper = new Mod[[[Module]]]Helper($params);\r\n\r\n\t\/\/ set the branches\r\n\t$branches = $helper->branches();\r\n\r\n\t\/\/ set branch qty\r\n\t$qty = count($branches);\r\n\r\n\t\/\/ get the module class sfx (local)\r\n\t$moduleclass_sfx = htmlspecialchars($params->get('moduleclass_sfx'), ENT_COMPAT, 'UTF-8');\r\n\r\n\t\/\/ load the default Tmpl\r\n\trequire Joomla___f15d556d_33dd_4ee3_a0f7_0653e4a7a1e4___Power::getLayoutPath('mod_[[[module]]]', $params->get('layout', 'default'));\r\n} \r\ncatch (Exception $e) \r\n{\r\n\t\/\/ Output a warning message along with the exception message\r\n\techo \"Warning: \" . $e->getMessage();\r\n}",
+    "php_postflight_install": "",
+    "add_class_helper": 1,
+    "php_postflight_update": "",
+    "add_class_helper_header": 1,
+    "php_method_uninstall": "",
+    "class_helper_header": "use Joomla\\Registry\\Registry;",
+    "sql": "",
+    "class_helper_code": "\t\/**\r\n\t * The Module Params\r\n\t *\r\n\t * @var    Registry\r\n\t * @since  1.0\r\n\t *\/\r\n\tprotected $params;\r\n\r\n\t\/**\r\n\t * The Years\r\n\t *\r\n\t * @var    array\r\n\t * @since  1.0\r\n\t *\/\r\n\tprotected $years;\r\n\r\n\t\/**\r\n\t * The Branches\r\n\t *\r\n\t * @var    array\r\n\t * @since  1.0\r\n\t *\/\r\n\tprotected $branches;\r\n\r\n\t\/**\r\n\t * The Legend\r\n\t *\r\n\t * @var    array\r\n\t * @since  1.0\r\n\t *\/\r\n\tprotected $legend;\r\n\r\n\t\/**\r\n\t * The Width\r\n\t *\r\n\t * @var    int\r\n\t * @since  1.0\r\n\t *\/\r\n\tprotected $width;\r\n\r\n\t\/**\r\n\t * The Height\r\n\t *\r\n\t * @var    int\r\n\t * @since  1.0\r\n\t *\/\r\n\tprotected $height;\r\n\r\n\t\/**\r\n\t * Constructor\r\n\t *\r\n\t * @param Registry  $params  The module params\r\n\t *\r\n\t * @since 1.0.0\r\n\t *\/\r\n\tpublic function __construct(Registry $params)\r\n\t{\r\n\t\t$this->params = $params;\r\n\t}\r\n\r\n\t\/**\r\n\t * Get Years\r\n\t *\r\n\t * @return array\r\n\t * @since 1.0.0\r\n\t *\/\r\n\tpublic function years(): array\r\n\t{\r\n\t\tif (empty($this->years))\r\n\t\t{\r\n\t\t\t$this->years = iterator_to_array(\r\n\t\t\t\tnew \\DatePeriod(\r\n\t\t\t\t\t$this->min(),\r\n\t\t\t\t\tnew DateInterval('P1Y'),\r\n\t\t\t\t\t$this->max()\r\n\t\t\t\t)\r\n\t\t\t);\r\n\t\t}\r\n\r\n\t\treturn $this->years;\r\n\t}\r\n\r\n\t\/**\r\n\t * Get Width\r\n\t *\r\n\t * @return int\r\n\t * @since 1.0.0\r\n\t *\/\r\n\tpublic function width(): int\r\n\t{\r\n\t\tif (empty($this->width))\r\n\t\t{\r\n\t\t\t$years = $this->years();\r\n\r\n\t\t\t$this->width = $this->params->get('margin_left', 80) + \r\n\t\t\t\t$this->params->get('margin_right', 50) +\r\n\t\t\t\t((count($years) - 1) * $this->params->get('year_width', 120));\r\n\t\t}\r\n\r\n\t\treturn $this->width;\r\n\t}\r\n\r\n\t\/**\r\n\t * Get Height\r\n\t *\r\n\t * @return int\r\n\t * @since 1.0.0\r\n\t *\/\r\n\tpublic function height(): int\r\n\t{\r\n\t\tif (empty($this->height))\r\n\t\t{\r\n\t\t\t$branches = $this->branches();\r\n\r\n\t\t\t$this->height = $this->params->get('header_height',  24) +\r\n\t\t\t\t$this->params->get('footer_height', 24) +\r\n\t\t\t\t(count($branches) * $this->params->get('branch_height', 30));\r\n\t\t}\r\n\r\n\t\treturn $this->height;\r\n\t}\r\n\r\n\t\/**\r\n\t * Get Branches\r\n\t *\r\n\t * Fetches and processes the branches or versions from the parameters. \r\n\t * It sanitizes the branch data, calculates their positions, sorts them, and then returns.\r\n\t * If no valid branches or versions are found, it throws an exception.\r\n\t *\r\n\t * @return array\r\n\t *\r\n\t * @since 2.0.1\r\n\t * @throws Exception If no valid branches or versions are found.\r\n\t *\/\r\n\tpublic function branches(): array\r\n\t{\r\n\t\tif (empty($this->branches))\r\n\t\t{\r\n\t\t\t$branches = (array) $this->params->get('versions');\r\n\r\n\t\t\tif (empty($branches))\r\n\t\t\t{\r\n\t\t\t\tthrow new \\Exception(\"No versions found.\");\r\n\t\t\t}\r\n\t\t\t$this->sanitize($branches);\r\n\r\n\t\t\tif (empty($branches))\r\n\t\t\t{\r\n\t\t\t\tthrow new \\Exception(\"No versions found.\");\r\n\t\t\t}\r\n\r\n\t\t\t$this->setTop($branches);\r\n\t\t\t$this->sort($branches);\r\n\r\n\t\t\t$this->branches = $branches;\r\n\t\t}\r\n\r\n\t\treturn $this->branches;\r\n\t}\r\n\r\n\t\/**\r\n\t * Get Legend values (by color)\r\n\t *\r\n\t * @return array\r\n\t * @since 2.0.1\r\n\t *\/\r\n\tpublic function legend(): array\r\n\t{\r\n\t\tif (empty($this->legend))\r\n\t\t{\r\n\t\t\t$branches = $this->branches();\r\n\r\n\t\t\tforeach ($branches as $version)\r\n\t\t\t{\r\n\t\t\t\tforeach ($version->dates as $date)\r\n\t\t\t\t{\r\n\t\t\t\t\t$this->legend[$date->color] = $date;\r\n\t\t\t\t}\r\n\t\t\t}\r\n\t\t}\r\n\r\n\t\treturn $this->legend;\r\n\t}\r\n\r\n\t\/**\r\n\t * Current state of a branch\r\n\t *\r\n\t * @param array  $dates  The branch dates\r\n\t *\r\n\t * @return string|null\r\n\t * @since 2.0.1\r\n\t *\/\r\n\tpublic function state(array $dates): ?string\r\n\t{\r\n\t\t\/\/ Determine the current state.\r\n\t\t$now = new \\DateTime();\r\n\r\n\t\t\/\/ Check if today's date is before the earliest start date.\r\n\t\t$earliestDate = \\DateTime::createFromFormat('d-m-Y', $dates[0]->start);\r\n\t\tif ($now < $earliestDate)\r\n\t\t{\r\n\t\t\treturn 'vcs-future';\r\n\t\t}\r\n\r\n\t\t\/\/ Check if today's date is after the latest end date.\r\n\t\t$latestDate = \\DateTime::createFromFormat('d-m-Y', end($dates)->end);\r\n\t\tif ($now > $latestDate)\r\n\t\t{\r\n\t\t\treturn 'vcs-eol';\r\n\t\t}\r\n\r\n\t\t\/\/ Determine which state the current date falls under.\r\n\t\tforeach ($dates as $date)\r\n\t\t{\r\n\t\t\t$initial = \\DateTime::createFromFormat('d-m-Y', $date->start);\r\n\t\t\t$end = \\DateTime::createFromFormat('d-m-Y', $date->end);\r\n\r\n\t\t\tif ($now >= $initial && $now <= $end)\r\n\t\t\t{\r\n\t\t\t\treturn $date->state;\r\n\t\t\t}\r\n\t\t}\r\n\r\n\t\treturn null;\r\n\t}\r\n\r\n\t\/**\r\n\t * Minimum Number of Years\r\n\t *\r\n\t * @return ?\r\n\t * @since 1.0.0\r\n\t *\/\r\n\tpublic function min()\r\n\t{\r\n\t\t$now = new \\DateTime('January 1');\r\n\t\treturn $now->sub(new DateInterval('P' .\r\n\t\t\t$this->params->get('min_years', 3) . 'Y'));\r\n\t}\r\n\r\n\t\/**\r\n\t * Maximum Number of Years\r\n\t *\r\n\t * @return ?\r\n\t * @since 1.0.0\r\n\t *\/\r\n\tpublic function max()\r\n\t{\r\n\t\t$now = new \\DateTime('January 1');\r\n\t\treturn $now->add(new DateInterval('P' .\r\n\t\t\t$this->params->get('max_years', 3) . 'Y'));\r\n\t}\r\n\r\n\t\/**\r\n\t * The coordinates of this date\r\n\t *\r\n\t * @param DateTime $date The branch state date\r\n\t *\r\n\t * @return float\r\n\t * @since 1.0.0\r\n\t *\/\r\n\tpublic function coordinates(DateTime $date): float\r\n\t{\r\n\t\t$diff = $date->diff($this->min());\r\n\r\n\t\tif (!$diff->invert)\r\n\t\t{\r\n\t\t\treturn $this->params->get('margin_left', 80);\r\n\t\t}\r\n\r\n\t\treturn $this->params->get('margin_left', 80) +\r\n\t\t\t($diff->days \/\r\n\t\t\t\t(365.24 \/ $this->params->get('year_width', 120))\r\n\t\t\t);\r\n\t}\r\n\r\n\t\/**\r\n\t * Sort Branches state's by date\r\n\t *\r\n\t * @param array  $branches  The branches\r\n\t *\r\n\t * @return void\r\n\t * @since 2.0.1\r\n\t *\/\r\n\tprotected function sort(array &$branches): void\r\n\t{\r\n\t\tforeach ($branches as $key => &$branch)\r\n\t\t{\r\n\t\t\tusort($branch->dates, function($a, $b) {\r\n\t\t\t\t$startDateA = \\DateTime::createFromFormat('d-m-Y', $a->start);\r\n\t\t\t\t$startDateB = \\DateTime::createFromFormat('d-m-Y', $b->start);\r\n\r\n\t\t\t\tif ($startDateA == $startDateB)\r\n\t\t\t\t{\r\n\t\t\t\t\t$endDateA = \\DateTime::createFromFormat('d-m-Y', $a->end);\r\n\t\t\t\t\t$endDateB = \\DateTime::createFromFormat('d-m-Y', $b->end);\r\n\t\t\t\t\treturn $endDateA <=> $endDateB;\r\n\t\t\t\t}\r\n\r\n\t\t\t\treturn $startDateA <=> $startDateB;\r\n\t\t\t});\r\n\t\t}\r\n\t}\r\n\r\n\t\/**\r\n\t * Set Top\r\n\t *\r\n\t * Calculates the top position for each branch based on parameters for branch height and header height.\r\n\t *\r\n\t * @param array $branches Reference to the branches array.\r\n\t *\r\n\t * @return void\r\n\t * @since 2.0.1\r\n\t *\/\r\n\tprotected function setTop(array &$branches): void\r\n\t{\r\n\t\t$branch_height = $this->params->get('branch_height', 30);\r\n\t\t$header_height = $this->params->get('header_height', 24);\r\n\r\n\t\t$i = 0;\r\n\t\tforeach ($branches as $key => &$branch)\r\n\t\t{\r\n\t\t\t$branch->top = $header_height + ($branch_height * $i++);\r\n\t\t}\r\n\t}\r\n\r\n\t\/**\r\n\t * Sanitize\r\n\t *\r\n\t * Sanitizes the branches by checking the existence and type of 'dates' and 'date->state'. \r\n\t * Also modifies the state of each date entry within a branch.\r\n\t *\r\n\t * @param array $branches Reference to the branches array.\r\n\t *\r\n\t * @return void\r\n\t * @since 2.0.1\r\n\t *\/\r\n\tprotected function sanitize(array &$branches): void\r\n\t{\r\n\t\tforeach ($branches as $key => &$branch)\r\n\t\t{\r\n\t\t\tif (empty($branch->dates) || !is_object($branch->dates))\r\n\t\t\t{\r\n\t\t\t\tunset($branches[$key]);\r\n\t\t\t\tcontinue;\r\n\t\t\t}\r\n\r\n\t\t\t$branch->dates = (array) $branch->dates;\r\n\r\n\t\t\t$remove = false;\r\n\t\t\tforeach ($branch->dates as $k => &$date)\r\n\t\t\t{\r\n\t\t\t\tif (empty($date->state))\r\n\t\t\t\t{\r\n\t\t\t\t\t$remove = true;\r\n\t\t\t\t\tcontinue;\r\n\t\t\t\t}\r\n\t\t\t\t$date->state = $this->makeSafe($key . '-' . $date->state);\r\n\t\t\t}\r\n\r\n\t\t\tif ($remove)\r\n\t\t\t{\r\n\t\t\t\tunset($branches[$key]);\r\n\t\t\t}\r\n\t\t}\r\n\t}\r\n\r\n\t\/**\r\n\t * Get css safe class name\r\n\t *\r\n\t * @param string  $name  The string to make safe\r\n\t *\r\n\t * @return string\r\n\t * @since 2.0.1\r\n\t *\/\r\n\tprotected function makeSafe(string $name): string\r\n\t{\r\n\t\t\/\/ Ensure it doesn't start with a digit\r\n\t\tif (preg_match('\/^[0-9]\/', $name))\r\n\t\t{\r\n\t\t\t$name = 'vcs-' . $name;\r\n\t\t}\r\n\r\n\t\t\/\/ Replace any non-alphanumeric characters with hyphens\r\n\t\t$name = preg_replace('\/[^a-zA-Z0-9]+\/', '-', $name);\r\n\r\n\t\t\/\/ Convert to lowercase\r\n\t\t$name = strtolower($name);\r\n\r\n\t\treturn $name;\r\n\t}",
+    "sql_uninstall": "",
+    "fields": {
+        "fields0": {
+            "module": "1",
+            "file": "config",
+            "fields_name": "params",
+            "fieldset": "dimention",
+            "label": "Dimentions",
+            "fields_rules_paths": "2",
+            "addrulepath": [],
+            "addfieldpath": [],
+            "fields": {
+                "fields0": {
+                    "field": "3d3bf310-a38f-4e31-89c8-d5d986f4bb53",
+                    "custom_value": ""
+                },
+                "fields1": {
+                    "field": "f8ceaba3-04d3-406d-abb9-c8372100817c",
+                    "custom_value": ""
+                },
+                "fields2": {
+                    "field": "3e72e2ab-0731-46f1-83ac-8bffddcd5634",
+                    "custom_value": ""
+                },
+                "fields3": {
+                    "field": "12ecc6cc-9195-4633-8ecd-27ecc0643bd4",
+                    "custom_value": ""
+                },
+                "fields4": {
+                    "field": "a2f93b12-c3fd-4e00-9732-0c97a7f37489",
+                    "custom_value": ""
+                },
+                "fields5": {
+                    "field": "fb71c5cc-65d9-4389-8599-b94f4eecc97c",
+                    "custom_value": ""
+                }
+            }
+        },
+        "fields1": {
+            "module": "1",
+            "file": "config",
+            "fields_name": "params",
+            "fieldset": "style",
+            "label": "Styles",
+            "fields_rules_paths": "2",
+            "addrulepath": [],
+            "addfieldpath": [],
+            "fields": {
+                "fields0": {
+                    "field": "7414d14b-b802-4ac2-9090-218cdb32156c",
+                    "custom_value": ""
+                },
+                "fields1": {
+                    "field": "1805a9da-75bf-41d6-b120-4c021fd93d8d",
+                    "custom_value": ""
+                },
+                "fields2": {
+                    "field": "8f485452-b062-4ec9-9fa5-0182d04d8d7c",
+                    "custom_value": ""
+                },
+                "fields3": {
+                    "field": "8097f524-48e6-470a-aa42-e4383d3019fa",
+                    "custom_value": ""
+                },
+                "fields4": {
+                    "field": "f83befac-e15e-421c-83a0-c17e99492b79",
+                    "custom_value": ""
+                },
+                "fields5": {
+                    "field": "9e2dcfc2-ea21-4caf-88aa-f0706d5878e5",
+                    "custom_value": ""
+                },
+                "fields6": {
+                    "field": "0a6ee559-822b-4cd1-a049-d956ba2ff80b",
+                    "custom_value": ""
+                },
+                "fields7": {
+                    "field": "cb60a327-5ce5-4b48-a8e0-27321022bf40",
+                    "custom_value": ""
+                },
+                "fields8": {
+                    "field": "a2e37110-c69f-41b3-b05b-f5f51d0d9ab4",
+                    "custom_value": ""
+                },
+                "fields9": {
+                    "field": "dc416a4a-a19f-4ef5-a703-e2334df42efd",
+                    "custom_value": ""
+                },
+                "fields10": {
+                    "field": "8f1c9c1f-9d64-4f6c-9066-777665c7dcac",
+                    "custom_value": ""
+                },
+                "fields11": {
+                    "field": "11bf8b86-99ad-4003-82eb-c55c16d0a041",
+                    "custom_value": ""
+                }
+            }
+        },
+        "fields2": {
+            "module": "1",
+            "file": "config",
+            "fields_name": "params",
+            "fieldset": "versions",
+            "label": "Versions",
+            "fields_rules_paths": "2",
+            "addrulepath": [],
+            "addfieldpath": [],
+            "fields": {
+                "fields0": {
+                    "field": "9f5ddbec-3f1c-4af9-8d33-a158bcaaf453",
+                    "custom_value": ""
+                },
+                "fields1": {
+                    "field": "44a3a4aa-f601-4765-b656-2f0a01dd6fd9",
+                    "custom_value": ""
+                },
+                "fields2": {
+                    "field": "801520d9-b7b3-47c5-a2a9-2581199ead0b",
+                    "custom_value": ""
+                }
+            }
+        }
+    },
+    "readme": "# Version Calendar in SVG ([[[module.version]]])\r\n\r\n> The original source code was taken from the [PHP supported versions](https:\/\/github.com\/php\/web-php\/blob\/master\/images\/supported-versions.php).\r\n\r\n# Build Details\r\n\r\n+ *Company*: [Open Source Matters](http:\/\/www.joomla.org)\r\n+ *Author*: [Joomla! Project](mailto:admin@joomla.org)\r\n+ *Name*: [Version Calendar svg](http:\/\/www.joomla.org)\r\n+ *First Build*: 3rd September, 2022\r\n+ *Version*: [[[module.version]]]\r\n+ *Copyright*: (C) 2022 Open Source Matters, Inc.\r\n+ *License*: GNU General Public License version 2 or later; see LICENSE.txt",
+    "add_php_script_construct": 0,
+    "update_server_url": "",
+    "php_script_construct": "",
+    "add_php_preflight_install": 1,
+    "php_preflight_install": "\/\/ TODO",
+    "add_php_preflight_update": 0,
+    "guid": "2dcaa8af-0bb0-4fac-8584-4e4e418620cd",
+    "name": "Version_Calendar_svg",
+    "@dependencies": [
+        {
+            "key": "joomla_module",
+            "value": "2dcaa8af-0bb0-4fac-8584-4e4e418620cd",
+            "entity": "joomla_module_files_folders_urls",
+            "table": "#__componentbuilder_joomla_module_files_folders_urls",
+            "direction": "in"
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "name": "Pregnancy Frequency Excl (ANC)",
+    "fieldtype": "5abd2b73-643b-4273-841a-787991aad968",
+    "datatype": "INT",
+    "indexes": "0",
+    "null_switch": "NOT NULL",
+    "store": 0,
+    "on_get_model_field": "",
+    "on_save_model_field": "",
+    "initiator_on_get_model": "",
+    "xml": "<field\n\ttype=\"number\"\n\tname=\"pregnancies_excl\"\n\tlabel=\"Number of pregnancies excluding this one?\"\n\tclass=\"text_area\"\n\tmin=\"0\"\n\tmax=\"100\"\n\tstep=\"1\"\n\/>",
+    "datalenght": "7",
+    "javascript_view_footer": "",
+    "css_views": "",
+    "css_view": "",
+    "datadefault_other": "",
+    "datadefault": "",
+    "datalenght_other": "",
+    "javascript_views_footer": "",
+    "add_css_view": 0,
+    "add_css_views": 0,
+    "add_javascript_view_footer": 0,
+    "add_javascript_views_footer": 0,
+    "initiator_on_save_model": "",
+    "guid": "af0325d2-d1c8-4f49-86f5-20986522a47f",
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "5abd2b73-643b-4273-841a-787991aad968",
+            "entity": "fieldtype",
+            "table": "#__componentbuilder_fieldtype",
+            "direction": "out"
+        }
+    ]
+}

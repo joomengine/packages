@@ -1,0 +1,35 @@
+{
+    "name": "Foetal movements",
+    "fieldtype": "76fe1250-6fa7-49e5-a0ee-f06d8d4c9f99",
+    "datatype": "MEDIUMTEXT",
+    "indexes": "0",
+    "null_switch": "NOT NULL",
+    "store": 0,
+    "on_get_model_field": "",
+    "on_save_model_field": "",
+    "initiator_on_get_model": "",
+    "xml": "<field\n\ttype=\"textarea\"\n\tname=\"foetal_movements\"\n\tlabel=\"Foetal Movements\"\n\trows=\"11\"\n\tcols=\"10\"\n\tdescription=\"Add Foetal Movements Here\"\n\tclass=\"text_area span12\"\n\tfilter=\"HTML\"\n\thint=\"Add Foetal Movements Here\"\n\/>",
+    "datalenght": "",
+    "javascript_view_footer": "",
+    "css_views": "",
+    "css_view": "",
+    "datadefault_other": "",
+    "datadefault": "",
+    "datalenght_other": "",
+    "javascript_views_footer": "",
+    "add_css_view": 0,
+    "add_css_views": 0,
+    "add_javascript_view_footer": 0,
+    "add_javascript_views_footer": 0,
+    "initiator_on_save_model": "",
+    "guid": "7eb2a885-d132-4f51-8d24-1fd7b902b5e7",
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "76fe1250-6fa7-49e5-a0ee-f06d8d4c9f99",
+            "entity": "fieldtype",
+            "table": "#__componentbuilder_fieldtype",
+            "direction": "out"
+        }
+    ]
+}

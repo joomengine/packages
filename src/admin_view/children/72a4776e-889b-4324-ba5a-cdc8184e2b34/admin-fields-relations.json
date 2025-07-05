@@ -1,0 +1,182 @@
+{
+    "admin_view": "72a4776e-889b-4324-ba5a-cdc8184e2b34",
+    "addrelations": {
+        "addrelations0": {
+            "listfield": "f7310b88-688b-4e53-84df-b7ee1eb2c24e",
+            "column_name": "Default",
+            "joinfields": [
+                "3a94a1bb-344c-4877-809e-486d88470ea0"
+            ],
+            "area": "2",
+            "join_type": "1",
+            "set": "<br \/>"
+        },
+        "addrelations1": {
+            "listfield": "6d6ff884-54f2-45a8-bfe0-e9da9e6c4be4",
+            "column_name": "Default",
+            "joinfields": [
+                "08749e1d-f1b9-44f2-997e-fbb91c725947"
+            ],
+            "area": "2",
+            "join_type": "1",
+            "set": "<br \/>"
+        },
+        "addrelations2": {
+            "listfield": "6c59d588-144c-4292-9aa2-f16baeb7f468",
+            "column_name": "Default",
+            "joinfields": [
+                "20a76ed5-1d9c-46b1-82bc-0064d5d46884"
+            ],
+            "area": "2",
+            "join_type": "1",
+            "set": "<br \/>"
+        },
+        "addrelations3": {
+            "listfield": "1493202a-a394-4945-a292-c04c872964f7",
+            "column_name": "Default",
+            "joinfields": [
+                "fdedca9f-b367-4c2b-b02d-6ae7b93bc185"
+            ],
+            "area": "2",
+            "join_type": "1",
+            "set": "<br \/>"
+        },
+        "addrelations4": {
+            "listfield": "b03e9a03-50f4-4656-bb44-e277cf80f939",
+            "column_name": "Default",
+            "joinfields": [
+                "b7c4838e-9594-4d38-8a02-23abde27ece9"
+            ],
+            "area": "2",
+            "join_type": "1",
+            "set": "<br \/>"
+        },
+        "addrelations5": {
+            "listfield": "e3adcdaf-53ce-478c-80f9-b1b5359579c5",
+            "column_name": "Default",
+            "joinfields": [
+                "3047d561-de02-457a-aa01-0d5d01b3023d"
+            ],
+            "area": "2",
+            "join_type": "1",
+            "set": "<br \/>"
+        },
+        "addrelations6": {
+            "listfield": "130287c9-f8f9-4e1b-8d4e-bc588ed04daa",
+            "column_name": "Default",
+            "joinfields": [
+                "eb36f453-3815-4da5-9431-2c7685faa3df"
+            ],
+            "area": "2",
+            "join_type": "1",
+            "set": "<br \/>"
+        }
+    },
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "72a4776e-889b-4324-ba5a-cdc8184e2b34",
+            "entity": "admin_view",
+            "table": "#__componentbuilder_admin_view",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "f7310b88-688b-4e53-84df-b7ee1eb2c24e",
+            "entity": "field",
+            "table": "#__componentbuilder_field",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "6d6ff884-54f2-45a8-bfe0-e9da9e6c4be4",
+            "entity": "field",
+            "table": "#__componentbuilder_field",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "6c59d588-144c-4292-9aa2-f16baeb7f468",
+            "entity": "field",
+            "table": "#__componentbuilder_field",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "1493202a-a394-4945-a292-c04c872964f7",
+            "entity": "field",
+            "table": "#__componentbuilder_field",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "b03e9a03-50f4-4656-bb44-e277cf80f939",
+            "entity": "field",
+            "table": "#__componentbuilder_field",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "e3adcdaf-53ce-478c-80f9-b1b5359579c5",
+            "entity": "field",
+            "table": "#__componentbuilder_field",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "130287c9-f8f9-4e1b-8d4e-bc588ed04daa",
+            "entity": "field",
+            "table": "#__componentbuilder_field",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "3a94a1bb-344c-4877-809e-486d88470ea0",
+            "entity": "field",
+            "table": "#__componentbuilder_field",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "08749e1d-f1b9-44f2-997e-fbb91c725947",
+            "entity": "field",
+            "table": "#__componentbuilder_field",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "20a76ed5-1d9c-46b1-82bc-0064d5d46884",
+            "entity": "field",
+            "table": "#__componentbuilder_field",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "fdedca9f-b367-4c2b-b02d-6ae7b93bc185",
+            "entity": "field",
+            "table": "#__componentbuilder_field",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "b7c4838e-9594-4d38-8a02-23abde27ece9",
+            "entity": "field",
+            "table": "#__componentbuilder_field",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "3047d561-de02-457a-aa01-0d5d01b3023d",
+            "entity": "field",
+            "table": "#__componentbuilder_field",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "eb36f453-3815-4da5-9431-2c7685faa3df",
+            "entity": "field",
+            "table": "#__componentbuilder_field",
+            "direction": "out"
+        }
+    ]
+}

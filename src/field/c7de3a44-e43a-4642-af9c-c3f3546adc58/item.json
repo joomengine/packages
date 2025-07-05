@@ -1,0 +1,35 @@
+{
+    "name": "Complaint",
+    "fieldtype": "76fe1250-6fa7-49e5-a0ee-f06d8d4c9f99",
+    "datatype": "MEDIUMTEXT",
+    "indexes": "0",
+    "null_switch": "NOT NULL",
+    "store": 0,
+    "on_get_model_field": "",
+    "on_save_model_field": "",
+    "initiator_on_get_model": "",
+    "xml": "<field\n\ttype=\"textarea\"\n\tname=\"complaint\"\n\tlabel=\"Complaint\"\n\trows=\"5\"\n\tcols=\"20\"\n\tdescription=\"Add Complaint Here\"\n\tclass=\"text_area span12\"\n\tfilter=\"HTML\"\n\thint=\"Add Complaint Here\"\n\/>",
+    "datalenght": "",
+    "javascript_view_footer": "",
+    "css_views": "",
+    "css_view": "",
+    "datadefault_other": "",
+    "datadefault": "",
+    "datalenght_other": "",
+    "javascript_views_footer": "",
+    "add_css_view": 0,
+    "add_css_views": 0,
+    "add_javascript_view_footer": 0,
+    "add_javascript_views_footer": 0,
+    "initiator_on_save_model": "",
+    "guid": "c7de3a44-e43a-4642-af9c-c3f3546adc58",
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "76fe1250-6fa7-49e5-a0ee-f06d8d4c9f99",
+            "entity": "fieldtype",
+            "table": "#__componentbuilder_fieldtype",
+            "direction": "out"
+        }
+    ]
+}

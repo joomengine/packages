@@ -1,0 +1,132 @@
+{
+    "system_name": "Administration Part",
+    "name_single": "Administration Part",
+    "short_description": "Administration Part Admin View",
+    "php_allowedit": "",
+    "php_postsavehook": "",
+    "php_before_save": "[CUSTOMCODE=saveGUID]",
+    "php_getlistquery": "",
+    "php_getitems": "",
+    "name_list": "Administration Parts",
+    "icon": "",
+    "php_after_publish": "",
+    "add_fadein": 1,
+    "description": "Administration Part Admin View",
+    "icon_category": "",
+    "icon_add": "",
+    "php_after_cancel": "",
+    "mysql_table_charset": "utf8mb4",
+    "php_batchmove": "",
+    "type": 1,
+    "php_after_delete": "",
+    "source": 2,
+    "php_getitem": "",
+    "addpermissions": null,
+    "php_getitems_after_all": "",
+    "php_getform": "[CUSTOMCODE=setGUIDForm]",
+    "addtabs": {
+        "addtabs0": {
+            "name": "Details"
+        },
+        "addtabs1": {
+            "name": "Vaccine(s)"
+        }
+    },
+    "php_save": "",
+    "php_allowadd": "",
+    "php_before_cancel": "",
+    "addlinked_views": {
+        "addlinked_views0": {
+            "adminview": "ccc3cca7-2ef6-49ff-aba9-02588e80cd23",
+            "tab": "2",
+            "key": "administration_part",
+            "parentkey": "id",
+            "addnew": 2
+        }
+    },
+    "php_batchcopy": "",
+    "php_before_publish": "",
+    "alias_builder_type": 1,
+    "php_before_delete": "",
+    "php_document": "",
+    "mysql_table_row_format": "DYNAMIC",
+    "alias_builder": {
+        "0": ""
+    },
+    "sql": "--\r\n-- Dumping data for table `#__[[[component]]]_administration_part`\r\n--\r\n\r\nINSERT INTO `#__[[[component]]]_administration_part` (`id`, `alias`, `description`, `guid`, `name`, `params`, `published`, `created`, `modified`, `version`, `access`, `ordering`) VALUES\r\n(1, 'per-os', '', '9b626144-0445-4f30-b8ed-8413c79bf36d', 'Per Os', '', 1, '2022-05-27 09:55:29', '0000-00-00 00:00:00', 1, 1, 1),\r\n(2, 'imi', '', 'd110c0c9-3f64-4a03-937a-2d77dfe1ba21', 'IMI', '', 1, '2022-05-27 09:55:38', '0000-00-00 00:00:00', 1, 1, 2),\r\n(3, 'suppository-per-rectum', '', '2ac03c06-f7e0-49ad-b7d9-3ddc2313a3ce', 'Suppository\/Per Rectum', '', 1, '2022-05-27 09:55:51', '0000-00-00 00:00:00', 1, 1, 3),\r\n(4, 'iv', '', '59d26fde-91ed-4826-b037-2e37d9f241fa', 'IV', '', 1, '2022-05-27 09:55:55', '0000-00-00 00:00:00', 1, 1, 4);",
+    "add_php_getitem": 0,
+    "add_category_submenu": 1,
+    "add_php_getitems": 0,
+    "add_php_getitems_after_all": 0,
+    "add_php_getlistquery": 0,
+    "add_css_view": 0,
+    "add_php_getform": 1,
+    "css_view": "",
+    "add_php_before_save": 1,
+    "add_css_views": 0,
+    "add_php_save": 0,
+    "css_views": "",
+    "add_php_postsavehook": 0,
+    "add_javascript_view_file": 0,
+    "add_php_allowadd": 0,
+    "javascript_view_file": "",
+    "add_php_allowedit": 0,
+    "add_javascript_view_footer": 0,
+    "add_php_before_cancel": 0,
+    "javascript_view_footer": "",
+    "add_php_after_cancel": 0,
+    "add_javascript_views_file": 0,
+    "add_php_batchcopy": 0,
+    "javascript_views_file": "",
+    "add_php_batchmove": 0,
+    "add_javascript_views_footer": 0,
+    "add_php_before_publish": 0,
+    "javascript_views_footer": "",
+    "add_php_after_publish": 0,
+    "add_custom_button": 0,
+    "add_php_before_delete": 0,
+    "custom_button": null,
+    "add_php_after_delete": 0,
+    "php_controller": "",
+    "add_php_document": 0,
+    "php_model": "",
+    "mysql_table_engine": "InnoDB",
+    "php_controller_list": "",
+    "mysql_table_collate": "utf8mb4_unicode_ci",
+    "php_model_list": "",
+    "add_sql": 1,
+    "add_php_ajax": 0,
+    "php_ajaxmethod": "",
+    "guid": "95a834f5-59e8-4f1d-93a6-13479b2148f0",
+    "ajax_input": null,
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "ccc3cca7-2ef6-49ff-aba9-02588e80cd23",
+            "entity": "admin_view",
+            "table": "#__componentbuilder_admin_view",
+            "direction": "out"
+        },
+        {
+            "key": "admin_view",
+            "value": "95a834f5-59e8-4f1d-93a6-13479b2148f0",
+            "entity": "admin_fields",
+            "table": "#__componentbuilder_admin_fields",
+            "direction": "in"
+        },
+        {
+            "key": "function_name",
+            "value": "saveGUID",
+            "entity": "custom_code",
+            "table": "#__componentbuilder_custom_code",
+            "direction": "out"
+        },
+        {
+            "key": "function_name",
+            "value": "setGUIDForm",
+            "entity": "custom_code",
+            "table": "#__componentbuilder_custom_code",
+            "direction": "out"
+        }
+    ]
+}

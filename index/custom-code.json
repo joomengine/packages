@@ -96,5 +96,12 @@
         "path": "src\/custom_code\/setGUIDForm",
         "settings": "src\/custom_code\/setGUIDForm\/item.json",
         "guid": "setGUIDForm"
+    },
+    "gUID": {
+        "name": "helper::GUID",
+        "desc": "JCB (manual)",
+        "path": "src\/custom_code\/gUID",
+        "settings": "src\/custom_code\/gUID\/item.json",
+        "guid": "gUID"
     }
 }

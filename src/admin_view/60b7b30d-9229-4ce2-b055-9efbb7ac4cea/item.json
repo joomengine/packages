@@ -4,7 +4,7 @@
     "short_description": "User Entity Maps",
     "php_allowedit": "",
     "php_postsavehook": "",
-    "php_before_save": "[CUSTOMCODE=saveGUIDPower]",
+    "php_before_save": "[CUSTOMCODE=saveGUID]",
     "php_getlistquery": "",
     "php_getitems": "",
     "name_list": "User Entity Maps",
@@ -60,7 +60,7 @@
         }
     },
     "php_getitems_after_all": "",
-    "php_getform": "[CUSTOMCODE=setGUIDFormPower]",
+    "php_getform": "[CUSTOMCODE=setGUIDForm]",
     "addtabs": null,
     "php_save": "",
     "php_allowadd": "",
@@ -129,14 +129,14 @@
         },
         {
             "key": "function_name",
-            "value": "saveGUIDPower",
+            "value": "saveGUID",
             "entity": "custom_code",
             "table": "#__componentbuilder_custom_code",
             "direction": "out"
         },
         {
             "key": "function_name",
-            "value": "setGUIDFormPower",
+            "value": "setGUIDForm",
             "entity": "custom_code",
             "table": "#__componentbuilder_custom_code",
             "direction": "out"

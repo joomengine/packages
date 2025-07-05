@@ -1,0 +1,35 @@
+{
+    "name": "Family history (BC)",
+    "fieldtype": "a51dfc06-1b9b-4d0a-86ba-f705bcd40d4d",
+    "datatype": "VARCHAR",
+    "indexes": "0",
+    "null_switch": "NOT NULL",
+    "store": 0,
+    "on_get_model_field": "",
+    "on_save_model_field": "",
+    "initiator_on_get_model": "",
+    "xml": "<field\n\ttype=\"list\"\n\tname=\"bc_family_history\"\n\tlabel=\"Do you have a family history of breast cancer in the family, immediate family (mother \/ grandmother)?\"\n\tdescription=\"Do you have a family history of breast cancer in the family, immediate family (mother \/ grandmother)?\"\n\tclass=\"list_class\"\n\tmultiple=\"false\"\n\trequired=\"true\"\n\toption=\"0|Yes,1|No\"\n\tdefault=\"0\"\n\/>",
+    "datalenght": "255",
+    "javascript_view_footer": "",
+    "css_views": "",
+    "css_view": "",
+    "datadefault_other": "",
+    "datadefault": "",
+    "datalenght_other": "",
+    "javascript_views_footer": "",
+    "add_css_view": 0,
+    "add_css_views": 0,
+    "add_javascript_view_footer": 0,
+    "add_javascript_views_footer": 0,
+    "initiator_on_save_model": "",
+    "guid": "3fac0897-d610-4720-8262-a7741d61d4b5",
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "a51dfc06-1b9b-4d0a-86ba-f705bcd40d4d",
+            "entity": "fieldtype",
+            "table": "#__componentbuilder_fieldtype",
+            "direction": "out"
+        }
+    ]
+}

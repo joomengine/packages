@@ -1,0 +1,35 @@
+{
+    "name": "Non-Payment Reason",
+    "fieldtype": "a1cdb0a5-517c-425c-998a-333e92af3e32",
+    "datatype": "VARCHAR",
+    "indexes": "2",
+    "null_switch": "NULL",
+    "store": 0,
+    "on_get_model_field": "",
+    "on_save_model_field": "",
+    "initiator_on_get_model": "",
+    "xml": "<field\n\ttype=\"ModalSelect\"\n\tname=\"nonpay_reason\"\n\tlabel=\"Non-Payment Reason\"\n\tsql_title_table=\"#__###component###_nonpay_reason\"\n\tsql_title_column=\"name\"\n\tsql_title_key=\"guid\"\n\turlSelect=\"index.php?option=com_###component###&amp;view=nonpay_reasons&amp;layout=modal&amp;tmpl=component&amp;titleKey=guid\"\n\turlNew=\"index.php?option=com_###component###&amp;task=nonpay_reason.add&amp;layout=modal&amp;tmpl=component\"\n\turlEdit=\"index.php?option=com_###component###&amp;task=nonpay_reason.edit&amp;guid={id}&amp;layout=modal&amp;tmpl=component&amp;titleKey=guid\"\n\ttitleSelect=\"Select Non-Payment Reason\"\n\ttitleNew=\"New Non-Payment Reason\"\n\ttitleEdit=\"Edit No-pay Reason\"\n\ticonSelect=\"icon-copy\"\n\tselect=\"true\"\n\tnew=\"true\"\n\tedit=\"true\"\n\tclear=\"true\"\n\trequired=\"false\"\n\tclass=\"input-large\"\n\tdescription=\"The non-payment reason\"\n\thint=\"Select a Non-Payment Reason\"\n\/>",
+    "datalenght": "255",
+    "javascript_view_footer": "",
+    "css_views": "",
+    "css_view": "",
+    "datadefault_other": "",
+    "datadefault": "",
+    "datalenght_other": "",
+    "javascript_views_footer": "",
+    "add_css_view": 0,
+    "add_css_views": 0,
+    "add_javascript_view_footer": 0,
+    "add_javascript_views_footer": 0,
+    "initiator_on_save_model": "",
+    "guid": "e5058e68-7e35-499b-bc99-06715083cf34",
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "a1cdb0a5-517c-425c-998a-333e92af3e32",
+            "entity": "fieldtype",
+            "table": "#__componentbuilder_fieldtype",
+            "direction": "out"
+        }
+    ]
+}

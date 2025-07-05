@@ -1,0 +1,35 @@
+{
+    "name": "Exposure (TB)",
+    "fieldtype": "a51dfc06-1b9b-4d0a-86ba-f705bcd40d4d",
+    "datatype": "VARCHAR",
+    "indexes": "0",
+    "null_switch": "NOT NULL",
+    "store": 0,
+    "on_get_model_field": "",
+    "on_save_model_field": "",
+    "initiator_on_get_model": "",
+    "xml": "<field\n\ttype=\"list\"\n\tname=\"tb_exposed\"\n\tlabel=\"Have you recently been exposed to: a patient(s), colleague, close relative with suspected or confirmed active TB?\"\n\tdescription=\"Have you recently been exposed to: a patient(s), colleague, close relative with suspected or confirmed active TB?\"\n\tclass=\"list_class\"\n\tmultiple=\"false\"\n\trequired=\"false\"\n\toption=\"0|Yes,1|No,2|Uncertain\"\n\tdefault=\"0\"\n\/>",
+    "datalenght": "255",
+    "javascript_view_footer": "",
+    "css_views": "",
+    "css_view": "",
+    "datadefault_other": "",
+    "datadefault": "",
+    "datalenght_other": "",
+    "javascript_views_footer": "",
+    "add_css_view": 0,
+    "add_css_views": 0,
+    "add_javascript_view_footer": 0,
+    "add_javascript_views_footer": 0,
+    "initiator_on_save_model": "",
+    "guid": "4a450d2f-bd5e-427a-950c-5d822c51bea8",
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "a51dfc06-1b9b-4d0a-86ba-f705bcd40d4d",
+            "entity": "fieldtype",
+            "table": "#__componentbuilder_fieldtype",
+            "direction": "out"
+        }
+    ]
+}

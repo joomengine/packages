@@ -5,10 +5,10 @@
     "indexes": "0",
     "null_switch": "NULL",
     "store": 6,
-    "on_get_model_field": "[[[field]]] = Super___9d76b8dc_3883_4755_b11c_131d19ca8a53___Power::_('Data.UsersSubform')->table('user_entity_map')->get($item->guid ?? '' ,'entity', 'users', ['user_id','guid','name','username','email','entity_type']);",
+    "on_get_model_field": "[[[field]]] = Super___9d76b8dc_3883_4755_b11c_131d19ca8a53___Power::_('Data.UsersSubform')->table('user_entity_map')->get($item->guid ?? '' ,'entity', 'users', ['user_id','guid','username','email','entity_type']);",
     "on_save_model_field": "Super___9d76b8dc_3883_4755_b11c_131d19ca8a53___Power::_('Data.UsersSubform')->table('user_entity_map')->set([[[field]]] ?? [], 'guid', 'entity', $data['guid'] ?? '');",
     "initiator_on_get_model": "",
-    "xml": "<field\n\ttype=\"subform\"\n\tname=\"users\"\n\tlabel=\"Users\"\n\tmultiple=\"true\"\n\tbuttons=\"add,remove\"\n\tfields=\"a0d7c091-1781-45fb-a71f-1447bad69614,fb3115a1-e579-401a-9b53-9469cd4739e4,5d3d34dd-4876-4c6a-86ab-b4e162f22c08,b7edbefd-d8ee-4765-9a09-ab1922e70e68,10c1eccb-b3c3-4325-a056-45a72d116fd8,b9097198-705f-4a6b-bd10-676d55cd6517,27c39335-cd12-46a5-82e7-26d3c67b9bb6,8a64b899-6cb9-4ba3-bed1-559675f8d20b\"\n\tdescription=\"Add the User details here that should be able to access the system.\"\n\ticon=\"list\"\n\tmax=\"20\"\n\tmin=\"0\"\n\tfilter=\"STRING\"\n\/>",
+    "xml": "<field\n\ttype=\"subform\"\n\tname=\"users\"\n\tlabel=\"Users\"\n\tmultiple=\"true\"\n\tbuttons=\"add,remove\"\n\tfields=\"a0d7c091-1781-45fb-a71f-1447bad69614,fb3115a1-e579-401a-9b53-9469cd4739e4,b7edbefd-d8ee-4765-9a09-ab1922e70e68,10c1eccb-b3c3-4325-a056-45a72d116fd8,b9097198-705f-4a6b-bd10-676d55cd6517,27c39335-cd12-46a5-82e7-26d3c67b9bb6,8a64b899-6cb9-4ba3-bed1-559675f8d20b\"\n\tdescription=\"Add the User details here that should be able to access the system.\"\n\ticon=\"list\"\n\tmax=\"1\"\n\tmin=\"0\"\n\tfilter=\"STRING\"\n\/>",
     "datalenght": "",
     "javascript_view_footer": "",
     "css_views": "",
@@ -41,13 +41,6 @@
         {
             "key": "field",
             "value": "fb3115a1-e579-401a-9b53-9469cd4739e4",
-            "entity": "guid",
-            "table": "#__componentbuilder_field",
-            "direction": "out"
-        },
-        {
-            "key": "field",
-            "value": "5d3d34dd-4876-4c6a-86ab-b4e162f22c08",
             "entity": "guid",
             "table": "#__componentbuilder_field",
             "direction": "out"

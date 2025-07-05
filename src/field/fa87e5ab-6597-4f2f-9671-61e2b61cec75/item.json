@@ -1,0 +1,56 @@
+{
+    "name": "Dependents (members-subform)",
+    "fieldtype": "7139f2c8-a70a-46a6-bbe3-4eefe54ca515",
+    "datatype": "TEXT",
+    "indexes": "",
+    "null_switch": "NULL",
+    "store": 6,
+    "on_get_model_field": "[[[field]]] = Super___9d76b8dc_3883_4755_b11c_131d19ca8a53___Power::_('Data.Subform')->table('dependent')->get($item->guid ?? '' ,'patient', 'dependents', ['guid','dependent','dependent_type']);",
+    "on_save_model_field": "Super___9d76b8dc_3883_4755_b11c_131d19ca8a53___Power::_('Data.Subform')->table('dependent')->set([[[field]]] ?? [], 'guid', 'patient', $data['guid'] ?? '');",
+    "initiator_on_get_model": "",
+    "xml": "<field\n\ttype=\"subform\"\n\tname=\"dependents\"\n\tlabel=\"dependents\"\n\tlayout=\"joomla.form.field.subform.repeatable\"\n\tmultiple=\"true\"\n\tbuttons=\"add,remove\"\n\tfields=\"fb3115a1-e579-401a-9b53-9469cd4739e4,d9df7030-cf9a-4507-8951-473648b21113,35fd5765-4a87-4876-aaeb-7e8663c8482b\"\n\ticon=\"list\"\n\tmax=\"10\"\n\tmin=\"0\"\n\/>",
+    "datalenght": "",
+    "javascript_view_footer": "",
+    "css_views": "",
+    "css_view": "",
+    "datadefault_other": "",
+    "datadefault": "",
+    "datalenght_other": "",
+    "javascript_views_footer": "",
+    "add_css_view": 0,
+    "add_css_views": 0,
+    "add_javascript_view_footer": 0,
+    "add_javascript_views_footer": 0,
+    "initiator_on_save_model": "",
+    "guid": "fa87e5ab-6597-4f2f-9671-61e2b61cec75",
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "7139f2c8-a70a-46a6-bbe3-4eefe54ca515",
+            "entity": "fieldtype",
+            "table": "#__componentbuilder_fieldtype",
+            "direction": "out"
+        },
+        {
+            "key": "field",
+            "value": "fb3115a1-e579-401a-9b53-9469cd4739e4",
+            "entity": "guid",
+            "table": "#__componentbuilder_field",
+            "direction": "out"
+        },
+        {
+            "key": "field",
+            "value": "d9df7030-cf9a-4507-8951-473648b21113",
+            "entity": "guid",
+            "table": "#__componentbuilder_field",
+            "direction": "out"
+        },
+        {
+            "key": "field",
+            "value": "35fd5765-4a87-4876-aaeb-7e8663c8482b",
+            "entity": "guid",
+            "table": "#__componentbuilder_field",
+            "direction": "out"
+        }
+    ]
+}

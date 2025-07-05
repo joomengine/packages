@@ -1,0 +1,354 @@
+{
+    "admin_view": "72a4776e-889b-4324-ba5a-cdc8184e2b34",
+    "addfields": {
+        "0": {
+            "field": "f7310b88-688b-4e53-84df-b7ee1eb2c24e",
+            "list": "1",
+            "order_list": "2",
+            "filter": "",
+            "tab": "1",
+            "alignment": 1,
+            "order_edit": "1"
+        },
+        "1": {
+            "field": "3a94a1bb-344c-4877-809e-486d88470ea0",
+            "list": "",
+            "order_list": "0",
+            "filter": "",
+            "tab": "1",
+            "alignment": 1,
+            "order_edit": "2"
+        },
+        "2": {
+            "field": "1493202a-a394-4945-a292-c04c872964f7",
+            "list": "1",
+            "order_list": "3",
+            "filter": "",
+            "tab": "1",
+            "alignment": 1,
+            "order_edit": "3"
+        },
+        "3": {
+            "field": "fdedca9f-b367-4c2b-b02d-6ae7b93bc185",
+            "list": "",
+            "order_list": "0",
+            "filter": "",
+            "tab": "1",
+            "alignment": 1,
+            "order_edit": "4"
+        },
+        "4": {
+            "field": "6d6ff884-54f2-45a8-bfe0-e9da9e6c4be4",
+            "list": "1",
+            "order_list": "4",
+            "filter": "",
+            "tab": "1",
+            "alignment": 1,
+            "order_edit": "5"
+        },
+        "5": {
+            "field": "08749e1d-f1b9-44f2-997e-fbb91c725947",
+            "list": "",
+            "order_list": "0",
+            "filter": "",
+            "tab": "1",
+            "alignment": 1,
+            "order_edit": "6"
+        },
+        "6": {
+            "field": "e3adcdaf-53ce-478c-80f9-b1b5359579c5",
+            "list": "1",
+            "order_list": "5",
+            "filter": "",
+            "tab": "1",
+            "alignment": 1,
+            "order_edit": "7"
+        },
+        "7": {
+            "field": "3047d561-de02-457a-aa01-0d5d01b3023d",
+            "list": "",
+            "order_list": "0",
+            "filter": "",
+            "tab": "1",
+            "alignment": 1,
+            "order_edit": "8"
+        },
+        "8": {
+            "field": "b03e9a03-50f4-4656-bb44-e277cf80f939",
+            "list": "1",
+            "order_list": "6",
+            "filter": "",
+            "tab": "1",
+            "alignment": 2,
+            "order_edit": "1"
+        },
+        "9": {
+            "field": "b7c4838e-9594-4d38-8a02-23abde27ece9",
+            "list": "",
+            "order_list": "0",
+            "filter": "",
+            "tab": "1",
+            "alignment": 2,
+            "order_edit": "2"
+        },
+        "10": {
+            "field": "6c59d588-144c-4292-9aa2-f16baeb7f468",
+            "list": "1",
+            "order_list": "7",
+            "filter": "",
+            "tab": "1",
+            "alignment": 2,
+            "order_edit": "3"
+        },
+        "11": {
+            "field": "20a76ed5-1d9c-46b1-82bc-0064d5d46884",
+            "list": "",
+            "order_list": "0",
+            "filter": "",
+            "tab": "1",
+            "alignment": 2,
+            "order_edit": "4"
+        },
+        "12": {
+            "field": "130287c9-f8f9-4e1b-8d4e-bc588ed04daa",
+            "list": "1",
+            "order_list": "8",
+            "filter": "",
+            "tab": "1",
+            "alignment": 2,
+            "order_edit": "5"
+        },
+        "13": {
+            "field": "eb36f453-3815-4da5-9431-2c7685faa3df",
+            "list": "",
+            "order_list": "0",
+            "filter": "",
+            "tab": "1",
+            "alignment": 2,
+            "order_edit": "6"
+        },
+        "14": {
+            "field": "16a136b8-fd99-41ad-b606-628bb6a91b75",
+            "list": "1",
+            "order_list": "1",
+            "title": "1",
+            "sort": "1",
+            "search": "1",
+            "filter": "1",
+            "link": "1",
+            "tab": "1",
+            "alignment": 4,
+            "order_edit": "1"
+        },
+        "15": {
+            "field": "8feb6b6e-2db1-42fa-bdc8-4b98cfb5e68c",
+            "list": "1",
+            "order_list": "9",
+            "filter": "",
+            "tab": "2",
+            "alignment": 1,
+            "order_edit": "1"
+        },
+        "16": {
+            "field": "8c783f87-6ebc-4429-a531-90abaa0d0b15",
+            "list": "1",
+            "order_list": "10",
+            "filter": "",
+            "tab": "2",
+            "alignment": 2,
+            "order_edit": "1"
+        },
+        "17": {
+            "field": "2a877e46-59b9-4f97-9dec-8c84c16741f2",
+            "list": "2",
+            "order_list": "0",
+            "filter": "",
+            "tab": "3",
+            "alignment": 3,
+            "order_edit": "1"
+        },
+        "18": {
+            "field": "47a3db14-de87-4cc2-8724-17f437a77d93",
+            "list": "",
+            "order_list": "0",
+            "filter": "",
+            "tab": "3",
+            "alignment": 3,
+            "order_edit": "2"
+        },
+        "19": {
+            "field": "639e63b1-a63d-4d40-853f-42e7b28a5d35",
+            "list": "",
+            "order_list": "0",
+            "filter": "",
+            "tab": "3",
+            "alignment": 3,
+            "order_edit": "3"
+        },
+        "20": {
+            "field": "5aa57bbe-7b19-4db9-915c-561863458d2b",
+            "list": "",
+            "order_list": "0",
+            "filter": "",
+            "tab": "15",
+            "alignment": 1,
+            "order_edit": "0"
+        }
+    },
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "72a4776e-889b-4324-ba5a-cdc8184e2b34",
+            "entity": "admin_view",
+            "table": "#__componentbuilder_admin_view",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "f7310b88-688b-4e53-84df-b7ee1eb2c24e",
+            "entity": "field",
+            "table": "#__componentbuilder_field",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "3a94a1bb-344c-4877-809e-486d88470ea0",
+            "entity": "field",
+            "table": "#__componentbuilder_field",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "1493202a-a394-4945-a292-c04c872964f7",
+            "entity": "field",
+            "table": "#__componentbuilder_field",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "fdedca9f-b367-4c2b-b02d-6ae7b93bc185",
+            "entity": "field",
+            "table": "#__componentbuilder_field",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "6d6ff884-54f2-45a8-bfe0-e9da9e6c4be4",
+            "entity": "field",
+            "table": "#__componentbuilder_field",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "08749e1d-f1b9-44f2-997e-fbb91c725947",
+            "entity": "field",
+            "table": "#__componentbuilder_field",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "e3adcdaf-53ce-478c-80f9-b1b5359579c5",
+            "entity": "field",
+            "table": "#__componentbuilder_field",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "3047d561-de02-457a-aa01-0d5d01b3023d",
+            "entity": "field",
+            "table": "#__componentbuilder_field",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "b03e9a03-50f4-4656-bb44-e277cf80f939",
+            "entity": "field",
+            "table": "#__componentbuilder_field",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "b7c4838e-9594-4d38-8a02-23abde27ece9",
+            "entity": "field",
+            "table": "#__componentbuilder_field",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "6c59d588-144c-4292-9aa2-f16baeb7f468",
+            "entity": "field",
+            "table": "#__componentbuilder_field",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "20a76ed5-1d9c-46b1-82bc-0064d5d46884",
+            "entity": "field",
+            "table": "#__componentbuilder_field",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "130287c9-f8f9-4e1b-8d4e-bc588ed04daa",
+            "entity": "field",
+            "table": "#__componentbuilder_field",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "eb36f453-3815-4da5-9431-2c7685faa3df",
+            "entity": "field",
+            "table": "#__componentbuilder_field",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "16a136b8-fd99-41ad-b606-628bb6a91b75",
+            "entity": "field",
+            "table": "#__componentbuilder_field",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "8feb6b6e-2db1-42fa-bdc8-4b98cfb5e68c",
+            "entity": "field",
+            "table": "#__componentbuilder_field",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "8c783f87-6ebc-4429-a531-90abaa0d0b15",
+            "entity": "field",
+            "table": "#__componentbuilder_field",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "2a877e46-59b9-4f97-9dec-8c84c16741f2",
+            "entity": "field",
+            "table": "#__componentbuilder_field",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "47a3db14-de87-4cc2-8724-17f437a77d93",
+            "entity": "field",
+            "table": "#__componentbuilder_field",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "639e63b1-a63d-4d40-853f-42e7b28a5d35",
+            "entity": "field",
+            "table": "#__componentbuilder_field",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "5aa57bbe-7b19-4db9-915c-561863458d2b",
+            "entity": "field",
+            "table": "#__componentbuilder_field",
+            "direction": "out"
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "name": "Temperature(2)",
+    "fieldtype": "5abd2b73-643b-4273-841a-787991aad968",
+    "datatype": "FLOAT",
+    "indexes": "0",
+    "null_switch": "NOT NULL",
+    "store": 0,
+    "on_get_model_field": "",
+    "on_save_model_field": "",
+    "initiator_on_get_model": "",
+    "xml": "<field\n\ttype=\"number\"\n\tname=\"temp_two\"\n\tlabel=\"2nd Temp. Reading (*C):\"\n\tdescription=\"2nd temperature reading in degree celsius.\"\n\tclass=\"text_area\"\n\trequired=\"\"\n\tmin=\"0\"\n\tmax=\"150\"\n\tstep=\"0.1\"\n\/>",
+    "datalenght": "7",
+    "javascript_view_footer": "",
+    "css_views": "",
+    "css_view": "",
+    "datadefault_other": "",
+    "datadefault": "",
+    "datalenght_other": "",
+    "javascript_views_footer": "",
+    "add_css_view": 0,
+    "add_css_views": 0,
+    "add_javascript_view_footer": 0,
+    "add_javascript_views_footer": 0,
+    "initiator_on_save_model": "",
+    "guid": "e0453013-965a-41d8-94be-4d3d1934e1fd",
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "5abd2b73-643b-4273-841a-787991aad968",
+            "entity": "fieldtype",
+            "table": "#__componentbuilder_fieldtype",
+            "direction": "out"
+        }
+    ]
+}

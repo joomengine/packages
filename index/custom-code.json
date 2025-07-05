@@ -75,5 +75,26 @@
         "path": "src\/custom_code\/getItemImportFields",
         "settings": "src\/custom_code\/getItemImportFields\/item.json",
         "guid": "getItemImportFields"
+    },
+    "jsRouter": {
+        "name": "JRouter (JS)",
+        "desc": "JCB (manual)",
+        "path": "src\/custom_code\/jsRouter",
+        "settings": "src\/custom_code\/jsRouter\/item.json",
+        "guid": "jsRouter"
+    },
+    "saveGUID": {
+        "name": "save GUID",
+        "desc": "JCB (manual)",
+        "path": "src\/custom_code\/saveGUID",
+        "settings": "src\/custom_code\/saveGUID\/item.json",
+        "guid": "saveGUID"
+    },
+    "setGUIDForm": {
+        "name": "Set GUID in Form",
+        "desc": "JCB (manual)",
+        "path": "src\/custom_code\/setGUIDForm",
+        "settings": "src\/custom_code\/setGUIDForm\/item.json",
+        "guid": "setGUIDForm"
     }
 }

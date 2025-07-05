@@ -1,0 +1,56 @@
+{
+    "name": "Immunisation (Subform)",
+    "fieldtype": "7139f2c8-a70a-46a6-bbe3-4eefe54ca515",
+    "datatype": "TEXT",
+    "indexes": "0",
+    "null_switch": "NOT NULL",
+    "store": 0,
+    "on_get_model_field": "",
+    "on_save_model_field": "",
+    "initiator_on_get_model": "",
+    "xml": "<field\n\ttype=\"subform\"\n\tname=\"immunisation\"\n\tlabel=\"Immunisation\"\n\tlayout=\"joomla.form.field.subform.repeatable-table\"\n\tmultiple=\"true\"\n\tbuttons=\"add,remove,move\"\n\tfields=\"910b86fc-9593-4254-84b7-e1a68d61cd58,d7982259-6ad3-48c7-a998-4eab2d287795,dde8b322-fffa-4857-9540-fa95f5fe1028\"\n\ticon=\"list\"\n\tmax=\"50\"\n\/>",
+    "datalenght": "",
+    "javascript_view_footer": "",
+    "css_views": "",
+    "css_view": "",
+    "datadefault_other": "",
+    "datadefault": "",
+    "datalenght_other": "",
+    "javascript_views_footer": "",
+    "add_css_view": 0,
+    "add_css_views": 0,
+    "add_javascript_view_footer": 0,
+    "add_javascript_views_footer": 0,
+    "initiator_on_save_model": "",
+    "guid": "df02ed76-5aa9-45ee-a186-2b7bfe85b27f",
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "7139f2c8-a70a-46a6-bbe3-4eefe54ca515",
+            "entity": "fieldtype",
+            "table": "#__componentbuilder_fieldtype",
+            "direction": "out"
+        },
+        {
+            "key": "field",
+            "value": "910b86fc-9593-4254-84b7-e1a68d61cd58",
+            "entity": "guid",
+            "table": "#__componentbuilder_field",
+            "direction": "out"
+        },
+        {
+            "key": "field",
+            "value": "d7982259-6ad3-48c7-a998-4eab2d287795",
+            "entity": "guid",
+            "table": "#__componentbuilder_field",
+            "direction": "out"
+        },
+        {
+            "key": "field",
+            "value": "dde8b322-fffa-4857-9540-fa95f5fe1028",
+            "entity": "guid",
+            "table": "#__componentbuilder_field",
+            "direction": "out"
+        }
+    ]
+}

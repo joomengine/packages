@@ -1,0 +1,55 @@
+{
+    "admin_view": "72f86056-268d-4d75-b0a6-dcf6ba3e8ad9",
+    "addconditions": {
+        "addconditions0": {
+            "target_field": [
+                "e5058e68-7e35-499b-bc99-06715083cf34"
+            ],
+            "target_behavior": 1,
+            "target_relation": 0,
+            "match_field": "54a28486-1188-42b2-b041-2f06bfa9c00d",
+            "match_behavior": 1,
+            "match_options": "1|Receive Payment"
+        },
+        "addconditions1": {
+            "target_field": [
+                "e5058e68-7e35-499b-bc99-06715083cf34"
+            ],
+            "target_behavior": 1,
+            "target_relation": 0,
+            "match_field": "23bc22c7-4ea7-422d-aa1a-44510aee0780",
+            "match_behavior": 1,
+            "match_options": "1|0"
+        }
+    },
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "72f86056-268d-4d75-b0a6-dcf6ba3e8ad9",
+            "entity": "admin_view",
+            "table": "#__componentbuilder_admin_view",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "e5058e68-7e35-499b-bc99-06715083cf34",
+            "entity": "field",
+            "table": "#__componentbuilder_field",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "54a28486-1188-42b2-b041-2f06bfa9c00d",
+            "entity": "field",
+            "table": "#__componentbuilder_field",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "23bc22c7-4ea7-422d-aa1a-44510aee0780",
+            "entity": "field",
+            "table": "#__componentbuilder_field",
+            "direction": "out"
+        }
+    ]
+}

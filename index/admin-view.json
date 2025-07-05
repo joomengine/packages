@@ -96,5 +96,250 @@
         "settings": "src\/admin_view\/2e451812-45af-4015-aa0c-f5912702c9af\/item.json",
         "guid": "2e451812-45af-4015-aa0c-f5912702c9af",
         "desc": "Subregions"
+    },
+    "81100e6f-5535-41ca-94f6-cc2fcbf75e1e": {
+        "name": "General Medical Check Up",
+        "path": "src\/admin_view\/81100e6f-5535-41ca-94f6-cc2fcbf75e1e",
+        "settings": "src\/admin_view\/81100e6f-5535-41ca-94f6-cc2fcbf75e1e\/item.json",
+        "guid": "81100e6f-5535-41ca-94f6-cc2fcbf75e1e",
+        "desc": "General Medical Check Up"
+    },
+    "f67497fa-7c34-4574-84c9-e479dd37475f": {
+        "name": "Tuberculosis",
+        "path": "src\/admin_view\/f67497fa-7c34-4574-84c9-e479dd37475f",
+        "settings": "src\/admin_view\/f67497fa-7c34-4574-84c9-e479dd37475f\/item.json",
+        "guid": "f67497fa-7c34-4574-84c9-e479dd37475f",
+        "desc": "Tuberculosis"
+    },
+    "88b75034-c158-4651-9fd2-555a1a8249c4": {
+        "name": "Test",
+        "path": "src\/admin_view\/88b75034-c158-4651-9fd2-555a1a8249c4",
+        "settings": "src\/admin_view\/88b75034-c158-4651-9fd2-555a1a8249c4\/item.json",
+        "guid": "88b75034-c158-4651-9fd2-555a1a8249c4",
+        "desc": "Test Admin view"
+    },
+    "b28c4fc2-fae5-4866-9859-e64bad07ab6b": {
+        "name": "HIV Counseling and Testing",
+        "path": "src\/admin_view\/b28c4fc2-fae5-4866-9859-e64bad07ab6b",
+        "settings": "src\/admin_view\/b28c4fc2-fae5-4866-9859-e64bad07ab6b\/item.json",
+        "guid": "b28c4fc2-fae5-4866-9859-e64bad07ab6b",
+        "desc": "HIV Counseling and Testing"
+    },
+    "a4da86a9-e165-4a90-a73e-ca9956884c00": {
+        "name": "Antenatal Care",
+        "path": "src\/admin_view\/a4da86a9-e165-4a90-a73e-ca9956884c00",
+        "settings": "src\/admin_view\/a4da86a9-e165-4a90-a73e-ca9956884c00\/item.json",
+        "guid": "a4da86a9-e165-4a90-a73e-ca9956884c00",
+        "desc": "Antenatal Care Admin View"
+    },
+    "c53406eb-99f0-4491-ad57-b8e5d81f1613": {
+        "name": "Immunisation",
+        "path": "src\/admin_view\/c53406eb-99f0-4491-ad57-b8e5d81f1613",
+        "settings": "src\/admin_view\/c53406eb-99f0-4491-ad57-b8e5d81f1613\/item.json",
+        "guid": "c53406eb-99f0-4491-ad57-b8e5d81f1613",
+        "desc": "Immunisation Admin View"
+    },
+    "2bf85986-5ed4-4471-88fe-a5b2daa9114f": {
+        "name": "Family Planning",
+        "path": "src\/admin_view\/2bf85986-5ed4-4471-88fe-a5b2daa9114f",
+        "settings": "src\/admin_view\/2bf85986-5ed4-4471-88fe-a5b2daa9114f\/item.json",
+        "guid": "2bf85986-5ed4-4471-88fe-a5b2daa9114f",
+        "desc": "Family Planning Admin View"
+    },
+    "2cbd9486-089b-45b8-8f1a-8161e9f88a5c": {
+        "name": "VMMC",
+        "path": "src\/admin_view\/2cbd9486-089b-45b8-8f1a-8161e9f88a5c",
+        "settings": "src\/admin_view\/2cbd9486-089b-45b8-8f1a-8161e9f88a5c\/item.json",
+        "guid": "2cbd9486-089b-45b8-8f1a-8161e9f88a5c",
+        "desc": "VMMC Admin View"
+    },
+    "d9a2f539-f13d-4d39-ab36-b258162f39b7": {
+        "name": "Breast Cancer",
+        "path": "src\/admin_view\/d9a2f539-f13d-4d39-ab36-b258162f39b7",
+        "settings": "src\/admin_view\/d9a2f539-f13d-4d39-ab36-b258162f39b7\/item.json",
+        "guid": "d9a2f539-f13d-4d39-ab36-b258162f39b7",
+        "desc": "Breast Cancer Admin view"
+    },
+    "82ca091d-e00d-4378-a780-fafaf084d98a": {
+        "name": "Cervical Cancer",
+        "path": "src\/admin_view\/82ca091d-e00d-4378-a780-fafaf084d98a",
+        "settings": "src\/admin_view\/82ca091d-e00d-4378-a780-fafaf084d98a\/item.json",
+        "guid": "82ca091d-e00d-4378-a780-fafaf084d98a",
+        "desc": "Cervical Cancer Admin view"
+    },
+    "72a4776e-889b-4324-ba5a-cdc8184e2b34": {
+        "name": "Prostate and Testicular Cancer",
+        "path": "src\/admin_view\/72a4776e-889b-4324-ba5a-cdc8184e2b34",
+        "settings": "src\/admin_view\/72a4776e-889b-4324-ba5a-cdc8184e2b34\/item.json",
+        "guid": "72a4776e-889b-4324-ba5a-cdc8184e2b34",
+        "desc": "Prostate and Testicular Cancer Admin view"
+    },
+    "d412bc8c-4e9d-4cdf-b248-a64df06381ff": {
+        "name": "Medication",
+        "path": "src\/admin_view\/d412bc8c-4e9d-4cdf-b248-a64df06381ff",
+        "settings": "src\/admin_view\/d412bc8c-4e9d-4cdf-b248-a64df06381ff\/item.json",
+        "guid": "d412bc8c-4e9d-4cdf-b248-a64df06381ff",
+        "desc": "Medication Admin View"
+    },
+    "39f9de66-43ab-4d9a-9bda-7f1b8815807d": {
+        "name": "Planning Type",
+        "path": "src\/admin_view\/39f9de66-43ab-4d9a-9bda-7f1b8815807d",
+        "settings": "src\/admin_view\/39f9de66-43ab-4d9a-9bda-7f1b8815807d\/item.json",
+        "guid": "39f9de66-43ab-4d9a-9bda-7f1b8815807d",
+        "desc": "Planning Type Admin View"
+    },
+    "588139bf-7c03-48ed-bcb0-3832a14bd553": {
+        "name": "Diagnosis Type",
+        "path": "src\/admin_view\/588139bf-7c03-48ed-bcb0-3832a14bd553",
+        "settings": "src\/admin_view\/588139bf-7c03-48ed-bcb0-3832a14bd553\/item.json",
+        "guid": "588139bf-7c03-48ed-bcb0-3832a14bd553",
+        "desc": "Diagnosis Type Admin View"
+    },
+    "16b889b9-1bad-4642-be14-d8e216283c22": {
+        "name": "Immunisation Type",
+        "path": "src\/admin_view\/16b889b9-1bad-4642-be14-d8e216283c22",
+        "settings": "src\/admin_view\/16b889b9-1bad-4642-be14-d8e216283c22\/item.json",
+        "guid": "16b889b9-1bad-4642-be14-d8e216283c22",
+        "desc": "Immunisation Type Admin View"
+    },
+    "ccc3cca7-2ef6-49ff-aba9-02588e80cd23": {
+        "name": "Immunisation Vaccine Type",
+        "path": "src\/admin_view\/ccc3cca7-2ef6-49ff-aba9-02588e80cd23",
+        "settings": "src\/admin_view\/ccc3cca7-2ef6-49ff-aba9-02588e80cd23\/item.json",
+        "guid": "ccc3cca7-2ef6-49ff-aba9-02588e80cd23",
+        "desc": "Immunisation Vaccine Type Admin View"
+    },
+    "8181ea02-be0a-475e-99c6-c7d84817959c": {
+        "name": "Foetal Lie",
+        "path": "src\/admin_view\/8181ea02-be0a-475e-99c6-c7d84817959c",
+        "settings": "src\/admin_view\/8181ea02-be0a-475e-99c6-c7d84817959c\/item.json",
+        "guid": "8181ea02-be0a-475e-99c6-c7d84817959c",
+        "desc": "Foetal Lie Admin View"
+    },
+    "ee0dc737-9d72-4af2-a5a9-095d092d9cea": {
+        "name": "Foetal Presentation",
+        "path": "src\/admin_view\/ee0dc737-9d72-4af2-a5a9-095d092d9cea",
+        "settings": "src\/admin_view\/ee0dc737-9d72-4af2-a5a9-095d092d9cea\/item.json",
+        "guid": "ee0dc737-9d72-4af2-a5a9-095d092d9cea",
+        "desc": "Foetal Presentation Admin View"
+    },
+    "30a8a740-b413-43f2-aacf-3c16903d4e76": {
+        "name": "Foetal Engagement",
+        "path": "src\/admin_view\/30a8a740-b413-43f2-aacf-3c16903d4e76",
+        "settings": "src\/admin_view\/30a8a740-b413-43f2-aacf-3c16903d4e76\/item.json",
+        "guid": "30a8a740-b413-43f2-aacf-3c16903d4e76",
+        "desc": "Foetal Engagement Admin View"
+    },
+    "bc34bf73-580d-4c2b-9cb5-d705c52a1dc6": {
+        "name": "Counseling Type",
+        "path": "src\/admin_view\/bc34bf73-580d-4c2b-9cb5-d705c52a1dc6",
+        "settings": "src\/admin_view\/bc34bf73-580d-4c2b-9cb5-d705c52a1dc6\/item.json",
+        "guid": "bc34bf73-580d-4c2b-9cb5-d705c52a1dc6",
+        "desc": "Counseling Type Admin View"
+    },
+    "61fec258-5dd0-48ae-a9c1-8b2de0686a23": {
+        "name": "Testing Reason",
+        "path": "src\/admin_view\/61fec258-5dd0-48ae-a9c1-8b2de0686a23",
+        "settings": "src\/admin_view\/61fec258-5dd0-48ae-a9c1-8b2de0686a23\/item.json",
+        "guid": "61fec258-5dd0-48ae-a9c1-8b2de0686a23",
+        "desc": "Testing Reason Admin View"
+    },
+    "4689d234-151f-4122-8cd3-d7b92f17f5e1": {
+        "name": "Health Education Topic",
+        "path": "src\/admin_view\/4689d234-151f-4122-8cd3-d7b92f17f5e1",
+        "settings": "src\/admin_view\/4689d234-151f-4122-8cd3-d7b92f17f5e1\/item.json",
+        "guid": "4689d234-151f-4122-8cd3-d7b92f17f5e1",
+        "desc": "Health Education Topic Admin View"
+    },
+    "4206aef4-c8f9-4288-889d-ac9aee23e1dd": {
+        "name": "Health Education",
+        "path": "src\/admin_view\/4206aef4-c8f9-4288-889d-ac9aee23e1dd",
+        "settings": "src\/admin_view\/4206aef4-c8f9-4288-889d-ac9aee23e1dd\/item.json",
+        "guid": "4206aef4-c8f9-4288-889d-ac9aee23e1dd",
+        "desc": "Health Education Admin View"
+    },
+    "a970eed5-0f6c-4a46-ac51-0667dcb5e38e": {
+        "name": "Clinic",
+        "path": "src\/admin_view\/a970eed5-0f6c-4a46-ac51-0667dcb5e38e",
+        "settings": "src\/admin_view\/a970eed5-0f6c-4a46-ac51-0667dcb5e38e\/item.json",
+        "guid": "a970eed5-0f6c-4a46-ac51-0667dcb5e38e",
+        "desc": "Clinic Admin View"
+    },
+    "51d1b057-47b2-4a41-a2f5-7eafb4e46d7a": {
+        "name": "Site",
+        "path": "src\/admin_view\/51d1b057-47b2-4a41-a2f5-7eafb4e46d7a",
+        "settings": "src\/admin_view\/51d1b057-47b2-4a41-a2f5-7eafb4e46d7a\/item.json",
+        "guid": "51d1b057-47b2-4a41-a2f5-7eafb4e46d7a",
+        "desc": "Site Admin View"
+    },
+    "6b20b2c4-3888-4d6c-91d4-872ae6223f4d": {
+        "name": "Payment Type",
+        "path": "src\/admin_view\/6b20b2c4-3888-4d6c-91d4-872ae6223f4d",
+        "settings": "src\/admin_view\/6b20b2c4-3888-4d6c-91d4-872ae6223f4d\/item.json",
+        "guid": "6b20b2c4-3888-4d6c-91d4-872ae6223f4d",
+        "desc": "Payment Type Admin View"
+    },
+    "b2522e43-69df-4f70-b2c3-b15dcfeb7578": {
+        "name": "NonPay Reason",
+        "path": "src\/admin_view\/b2522e43-69df-4f70-b2c3-b15dcfeb7578",
+        "settings": "src\/admin_view\/b2522e43-69df-4f70-b2c3-b15dcfeb7578\/item.json",
+        "guid": "b2522e43-69df-4f70-b2c3-b15dcfeb7578",
+        "desc": "NonPay Reason Admin View"
+    },
+    "956bb320-40ea-4995-b046-cb647eec4aa9": {
+        "name": "Referral",
+        "path": "src\/admin_view\/956bb320-40ea-4995-b046-cb647eec4aa9",
+        "settings": "src\/admin_view\/956bb320-40ea-4995-b046-cb647eec4aa9\/item.json",
+        "guid": "956bb320-40ea-4995-b046-cb647eec4aa9",
+        "desc": "Referral Admin View"
+    },
+    "95a834f5-59e8-4f1d-93a6-13479b2148f0": {
+        "name": "Administration Part",
+        "path": "src\/admin_view\/95a834f5-59e8-4f1d-93a6-13479b2148f0",
+        "settings": "src\/admin_view\/95a834f5-59e8-4f1d-93a6-13479b2148f0\/item.json",
+        "guid": "95a834f5-59e8-4f1d-93a6-13479b2148f0",
+        "desc": "Administration Part Admin View"
+    },
+    "b549040e-9f87-472d-801e-ca9859e1a4c4": {
+        "name": "Units",
+        "path": "src\/admin_view\/b549040e-9f87-472d-801e-ca9859e1a4c4",
+        "settings": "src\/admin_view\/b549040e-9f87-472d-801e-ca9859e1a4c4\/item.json",
+        "guid": "b549040e-9f87-472d-801e-ca9859e1a4c4",
+        "desc": "Units Admin View"
+    },
+    "b93c838d-4dd0-4931-90e8-81138a2ae106": {
+        "name": "Strength",
+        "path": "src\/admin_view\/b93c838d-4dd0-4931-90e8-81138a2ae106",
+        "settings": "src\/admin_view\/b93c838d-4dd0-4931-90e8-81138a2ae106\/item.json",
+        "guid": "b93c838d-4dd0-4931-90e8-81138a2ae106",
+        "desc": "Strength Admin View"
+    },
+    "72f86056-268d-4d75-b0a6-dcf6ba3e8ad9": {
+        "name": "Payment",
+        "path": "src\/admin_view\/72f86056-268d-4d75-b0a6-dcf6ba3e8ad9",
+        "settings": "src\/admin_view\/72f86056-268d-4d75-b0a6-dcf6ba3e8ad9\/item.json",
+        "guid": "72f86056-268d-4d75-b0a6-dcf6ba3e8ad9",
+        "desc": "Payment Admin View"
+    },
+    "48c6102c-f2bb-4350-869e-d7afa9649e5c": {
+        "name": "Patients",
+        "path": "src\/admin_view\/48c6102c-f2bb-4350-869e-d7afa9649e5c",
+        "settings": "src\/admin_view\/48c6102c-f2bb-4350-869e-d7afa9649e5c\/item.json",
+        "guid": "48c6102c-f2bb-4350-869e-d7afa9649e5c",
+        "desc": "Patients of the Health Portal"
+    },
+    "b7b2aba5-8a94-443b-814b-aed5b0b7c550": {
+        "name": "Address",
+        "path": "src\/admin_view\/b7b2aba5-8a94-443b-814b-aed5b0b7c550",
+        "settings": "src\/admin_view\/b7b2aba5-8a94-443b-814b-aed5b0b7c550\/item.json",
+        "guid": "b7b2aba5-8a94-443b-814b-aed5b0b7c550",
+        "desc": "Addresses of Members"
+    },
+    "2ad66e35-e5fc-4927-a76d-edd00746543e": {
+        "name": "Dependent",
+        "path": "src\/admin_view\/2ad66e35-e5fc-4927-a76d-edd00746543e",
+        "settings": "src\/admin_view\/2ad66e35-e5fc-4927-a76d-edd00746543e\/item.json",
+        "guid": "2ad66e35-e5fc-4927-a76d-edd00746543e",
+        "desc": "Dependents of Members"
     }
 }

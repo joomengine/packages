@@ -59,6 +59,8 @@ You can:
  - **Modal** | [Details](src/layout/0eb94218-5798-4170-9ce5-5cf11607086d) | [Settings](src/layout/0eb94218-5798-4170-9ce5-5cf11607086d/item.json) | Modal
  - **Radio** | [Details](src/layout/7f6ff7df-4444-40ad-a7bf-5d126d6feac7) | [Settings](src/layout/7f6ff7df-4444-40ad-a7bf-5d126d6feac7/item.json) | Radio
  - **Radio Box** | [Details](src/layout/0075f54e-d953-4379-8476-918bb6684d0b) | [Settings](src/layout/0075f54e-d953-4379-8476-918bb6684d0b/item.json) | Radio Box
+ - **Recipes Card Body** | [Details](src/layout/d9797f3d-6d22-47a7-bba6-45be5bd3a4e3) | [Settings](src/layout/d9797f3d-6d22-47a7-bba6-45be5bd3a4e3/item.json) | Recipes Card Body
+ - **Recipes Modal** | [Details](src/layout/dbcc89a3-75eb-48f3-8982-69c0fa2b0a01) | [Settings](src/layout/dbcc89a3-75eb-48f3-8982-69c0fa2b0a01/item.json) | Recipes Modal
  - **Rows** | [Details](src/layout/72965abd-370c-4a16-a536-72cfd001e5dd) | [Settings](src/layout/72965abd-370c-4a16-a536-72cfd001e5dd/item.json) | Rows
  - **Select** | [Details](src/layout/0fca5d9a-a239-4caf-b5df-42667c972dc0) | [Settings](src/layout/0fca5d9a-a239-4caf-b5df-42667c972dc0/item.json) | Select
  - **Select Box** | [Details](src/layout/bb4c6361-c967-4b41-86e0-10d41e3ecf07) | [Settings](src/layout/bb4c6361-c967-4b41-86e0-10d41e3ecf07/item.json) | Select Box

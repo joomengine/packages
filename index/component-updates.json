@@ -22,5 +22,11 @@
         "path": "src\/joomla_component\/children\/eaabada6-9a90-4dc8-a3ca-22d275f4ec64",
         "settings": "src\/joomla_component\/children\/eaabada6-9a90-4dc8-a3ca-22d275f4ec64\/component-updates.json",
         "guid": "eaabada6-9a90-4dc8-a3ca-22d275f4ec64"
+    },
+    "d7e30702-ec49-45ac-8897-0389d61d6da0": {
+        "name": "d7e30702-ec49-45ac-8897-0389d61d6da0",
+        "path": "src\/joomla_component\/children\/d7e30702-ec49-45ac-8897-0389d61d6da0",
+        "settings": "src\/joomla_component\/children\/d7e30702-ec49-45ac-8897-0389d61d6da0\/component-updates.json",
+        "guid": "d7e30702-ec49-45ac-8897-0389d61d6da0"
     }
 }

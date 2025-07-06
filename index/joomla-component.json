@@ -26,5 +26,12 @@
         "settings": "src\/joomla_component\/eaabada6-9a90-4dc8-a3ca-22d275f4ec64\/item.json",
         "guid": "eaabada6-9a90-4dc8-a3ca-22d275f4ec64",
         "desc": "Portal for mobile health clinics"
+    },
+    "d7e30702-ec49-45ac-8897-0389d61d6da0": {
+        "name": "Recipe Manager (public)",
+        "path": "src\/joomla_component\/d7e30702-ec49-45ac-8897-0389d61d6da0",
+        "settings": "src\/joomla_component\/d7e30702-ec49-45ac-8897-0389d61d6da0\/item.json",
+        "guid": "d7e30702-ec49-45ac-8897-0389d61d6da0",
+        "desc": "Recipe Manager"
     }
 }

@@ -1,0 +1,22 @@
+{
+    "10d50f6e-3639-5dd6-826f-b919a27a73e5.png": {
+        "name": "images\/Recipe_Manager.png",
+        "path": "src\/file_folder\/10d50f6e-3639-5dd6-826f-b919a27a73e5.png",
+        "guid": "10d50f6e-3639-5dd6-826f-b919a27a73e5.png"
+    },
+    "bfbf7fb6-fdc9-5412-85fb-0421722b14b7.png": {
+        "name": "images\/ingredients.png",
+        "path": "src\/file_folder\/bfbf7fb6-fdc9-5412-85fb-0421722b14b7.png",
+        "guid": "bfbf7fb6-fdc9-5412-85fb-0421722b14b7.png"
+    },
+    "4a0f62d5-3f9d-5838-ae5c-55c275ca825f.png": {
+        "name": "images\/recipe.png",
+        "path": "src\/file_folder\/4a0f62d5-3f9d-5838-ae5c-55c275ca825f.png",
+        "guid": "4a0f62d5-3f9d-5838-ae5c-55c275ca825f.png"
+    },
+    "70a5e1bf-a99a-5b17-9f85-bdddf6144e13.png": {
+        "name": "images\/recipe_categories.png",
+        "path": "src\/file_folder\/70a5e1bf-a99a-5b17-9f85-bdddf6144e13.png",
+        "guid": "70a5e1bf-a99a-5b17-9f85-bdddf6144e13.png"
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "joomla_component": "d7e30702-ec49-45ac-8897-0389d61d6da0",
+    "version_update": null,
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "d7e30702-ec49-45ac-8897-0389d61d6da0",
+            "entity": "joomla_component",
+            "table": "#__componentbuilder_joomla_component",
+            "direction": "out"
+        }
+    ]
+}

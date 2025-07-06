@@ -72,6 +72,7 @@ This ensures maintainability while still allowing total customization per projec
  - **Immunisation Type** | [Details](src/admin_view/16b889b9-1bad-4642-be14-d8e216283c22) | [Settings](src/admin_view/16b889b9-1bad-4642-be14-d8e216283c22/item.json) | Immunisation Type Admin View
  - **Immunisation Vaccine Type** | [Details](src/admin_view/ccc3cca7-2ef6-49ff-aba9-02588e80cd23) | [Settings](src/admin_view/ccc3cca7-2ef6-49ff-aba9-02588e80cd23/item.json) | Immunisation Vaccine Type Admin View
  - **Importer Message Logs** | [Details](src/admin_view/ab2bbdfc-c0a0-4ffc-9556-67d5af8bec64) | [Settings](src/admin_view/ab2bbdfc-c0a0-4ffc-9556-67d5af8bec64/item.json) | Importer Message Logs
+ - **Ingredient** | [Details](src/admin_view/0cd962eb-6b6c-49c6-a49b-bc96fb310609) | [Settings](src/admin_view/0cd962eb-6b6c-49c6-a49b-bc96fb310609/item.json) | Ingredient
  - **Item Import** | [Details](src/admin_view/a9f19a16-fadb-44ea-a9b6-41130aad05ec) | [Settings](src/admin_view/a9f19a16-fadb-44ea-a9b6-41130aad05ec/item.json) | Item Import Queue
  - **Look** | [Details](src/admin_view/c1053952-8a84-4398-aef1-41726f7c0043) | [Settings](src/admin_view/c1053952-8a84-4398-aef1-41726f7c0043/item.json) | The demo view
  - **Medication** | [Details](src/admin_view/d412bc8c-4e9d-4cdf-b248-a64df06381ff) | [Settings](src/admin_view/d412bc8c-4e9d-4cdf-b248-a64df06381ff/item.json) | Medication Admin View
@@ -81,6 +82,7 @@ This ensures maintainability while still allowing total customization per projec
  - **Payment Type** | [Details](src/admin_view/6b20b2c4-3888-4d6c-91d4-872ae6223f4d) | [Settings](src/admin_view/6b20b2c4-3888-4d6c-91d4-872ae6223f4d/item.json) | Payment Type Admin View
  - **Planning Type** | [Details](src/admin_view/39f9de66-43ab-4d9a-9bda-7f1b8815807d) | [Settings](src/admin_view/39f9de66-43ab-4d9a-9bda-7f1b8815807d/item.json) | Planning Type Admin View
  - **Prostate and Testicular Cancer** | [Details](src/admin_view/72a4776e-889b-4324-ba5a-cdc8184e2b34) | [Settings](src/admin_view/72a4776e-889b-4324-ba5a-cdc8184e2b34/item.json) | Prostate and Testicular Cancer Admin view
+ - **Recipe** | [Details](src/admin_view/7f969e93-a96a-4a4f-8307-b6a9de06bda2) | [Settings](src/admin_view/7f969e93-a96a-4a4f-8307-b6a9de06bda2/item.json) | Recipe
  - **Referral** | [Details](src/admin_view/956bb320-40ea-4995-b046-cb647eec4aa9) | [Settings](src/admin_view/956bb320-40ea-4995-b046-cb647eec4aa9/item.json) | Referral Admin View
  - **Regions** | [Details](src/admin_view/9eefa86b-6294-4512-8d62-979abf16c00d) | [Settings](src/admin_view/9eefa86b-6294-4512-8d62-979abf16c00d/item.json) | Regions
  - **Site** | [Details](src/admin_view/51d1b057-47b2-4a41-a2f5-7eafb4e46d7a) | [Settings](src/admin_view/51d1b057-47b2-4a41-a2f5-7eafb4e46d7a/item.json) | Site Admin View

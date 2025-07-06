@@ -117,5 +117,19 @@
         "path": "src\/layout\/7f6ff7df-4444-40ad-a7bf-5d126d6feac7",
         "settings": "src\/layout\/7f6ff7df-4444-40ad-a7bf-5d126d6feac7\/item.json",
         "guid": "7f6ff7df-4444-40ad-a7bf-5d126d6feac7"
+    },
+    "d9797f3d-6d22-47a7-bba6-45be5bd3a4e3": {
+        "name": "Recipes Card Body",
+        "desc": "Recipes Card Body",
+        "path": "src\/layout\/d9797f3d-6d22-47a7-bba6-45be5bd3a4e3",
+        "settings": "src\/layout\/d9797f3d-6d22-47a7-bba6-45be5bd3a4e3\/item.json",
+        "guid": "d9797f3d-6d22-47a7-bba6-45be5bd3a4e3"
+    },
+    "dbcc89a3-75eb-48f3-8982-69c0fa2b0a01": {
+        "name": "Recipes Modal",
+        "desc": "Recipes Modal",
+        "path": "src\/layout\/dbcc89a3-75eb-48f3-8982-69c0fa2b0a01",
+        "settings": "src\/layout\/dbcc89a3-75eb-48f3-8982-69c0fa2b0a01\/item.json",
+        "guid": "dbcc89a3-75eb-48f3-8982-69c0fa2b0a01"
     }
 }

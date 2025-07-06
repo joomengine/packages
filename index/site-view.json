@@ -26,5 +26,12 @@
         "path": "src\/site_view\/2fec9afa-bf4f-4bd0-8054-715550443824",
         "settings": "src\/site_view\/2fec9afa-bf4f-4bd0-8054-715550443824\/item.json",
         "guid": "2fec9afa-bf4f-4bd0-8054-715550443824"
+    },
+    "9f485bcc-fd7a-4263-9fb2-0a6a5c4a055c": {
+        "name": "Recipes",
+        "desc": "Recipes",
+        "path": "src\/site_view\/9f485bcc-fd7a-4263-9fb2-0a6a5c4a055c",
+        "settings": "src\/site_view\/9f485bcc-fd7a-4263-9fb2-0a6a5c4a055c\/item.json",
+        "guid": "9f485bcc-fd7a-4263-9fb2-0a6a5c4a055c"
     }
 }

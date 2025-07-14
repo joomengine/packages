@@ -1,5 +1,5 @@
 ### JCB! Admin View
-# File Types (FileType:FileTypes)
+# File Types (demo-look) (FileType:FileTypes)
 
 > File Type
 

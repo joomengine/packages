@@ -1,5 +1,5 @@
 ### JCB! Field
-# Name
+# Name (Key - Required)
 
 > Field Type: Text
 
@@ -26,7 +26,7 @@
 - Data type: VARCHAR
 - Data length: 255
 - Data default: 
-- Null switch: NOT NULL
+- Null switch: NULL
 - Index: KEY
 - Modeling: Default
 

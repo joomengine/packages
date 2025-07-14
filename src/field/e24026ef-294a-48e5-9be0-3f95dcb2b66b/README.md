@@ -12,13 +12,13 @@
 	layout="joomla.form.field.list-fancy-select"
 	multiple="true"
 	required="true"
-	option="immunisation,antenatal_care,tuberculosis,checkup,test,hiv_test,breast_cancer,male_cancer,cervical_cancer,health_education,payment,patient"
+	option="look,importer"
 />
 ```
 
 ## Database:
 - Data type: VARCHAR
-- Data length: 1024
+- Data length: 64
 - Data default: 
 - Null switch: NULL
 - Index: KEY

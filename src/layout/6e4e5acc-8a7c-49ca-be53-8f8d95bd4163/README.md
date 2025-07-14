@@ -3,7 +3,7 @@
 
 ## Key:
 ```php
-echo LayoutHelper::render('ehealthportalfiledisplay', [?]);
+echo LayoutHelper::render('demolookfiledisplay', [?]);
 ```
 
 ## PHP:

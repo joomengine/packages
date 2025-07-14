@@ -11,10 +11,10 @@
 	label="Users"
 	multiple="true"
 	buttons="add,remove"
-	fields="a0d7c091-1781-45fb-a71f-1447bad69614,fb3115a1-e579-401a-9b53-9469cd4739e4,b7edbefd-d8ee-4765-9a09-ab1922e70e68,10c1eccb-b3c3-4325-a056-45a72d116fd8,b9097198-705f-4a6b-bd10-676d55cd6517,27c39335-cd12-46a5-82e7-26d3c67b9bb6,8a64b899-6cb9-4ba3-bed1-559675f8d20b"
+	fields="a0d7c091-1781-45fb-a71f-1447bad69614,fb3115a1-e579-401a-9b53-9469cd4739e4,5d3d34dd-4876-4c6a-86ab-b4e162f22c08,b7edbefd-d8ee-4765-9a09-ab1922e70e68,10c1eccb-b3c3-4325-a056-45a72d116fd8,b9097198-705f-4a6b-bd10-676d55cd6517,27c39335-cd12-46a5-82e7-26d3c67b9bb6,8a64b899-6cb9-4ba3-bed1-559675f8d20b"
 	description="Add the User details here that should be able to access the system."
 	icon="list"
-	max="1"
+	max="20"
 	min="0"
 	filter="STRING"
 />

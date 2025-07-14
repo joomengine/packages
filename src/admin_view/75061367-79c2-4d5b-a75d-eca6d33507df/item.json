@@ -61,7 +61,7 @@
     "php_document": "",
     "mysql_table_row_format": "DYNAMIC",
     "alias_builder": null,
-    "sql": "--\r\n-- Dumping data for table `#__[[[component]]]_timezone`\r\n--\r\n\r\nINSERT INTO `#__[[[component]]]_timezone` (`id`, `timezone_name`, `timezone_identifier`, `gmt_offset_name`, `guid`, `gmt_offset_sec`, `abbreviation`, `metakey`, `metadesc`, `metadata`, `ordering`, `published`, `modified`, `created`, `hits`, `version`, `params`, `country`) VALUES\r\n(1, 'South African Standard Time', 'Africa\/Johannesburg', 'UTC+02:00', 'deb7d938-a385-454d-b6c7-fa59d23f976b', 7200, 'SAST', '', '', '{\\\"robots\\\":\\\"\\\",\\\"author\\\":\\\"\\\",\\\"rights\\\":\\\"\\\"}', '', 1, '2025-03-27 13:49:11', '2025-03-26 14:58:54', '', 2, '', '2fca9e79-c8c9-457f-a2a2-93be79207ede'),\r\n(2, 'West Africa Summer Time', 'Africa\/Windhoek', 'UTC+02:00', '35bbc92f-5161-4d13-a20f-584c23116b12', 7200, 'WAST', '', '', '{\\\"robots\\\":\\\"\\\",\\\"author\\\":\\\"\\\",\\\"rights\\\":\\\"\\\"}', '', 1, '2025-03-27 13:49:02', '2025-03-26 15:33:38', '', 2, '', '62b50392-54e2-4490-ad94-8de07735a584');",
+    "sql": "--\r\n-- Dumping data for table `#__demo_timezone`\r\n--\r\n\r\nINSERT INTO `#__demo_timezone` (`id`, `timezone_name`, `timezone_identifier`, `gmt_offset_name`, `guid`, `gmt_offset_sec`, `abbreviation`, `metakey`, `metadesc`, `metadata`, `ordering`, `published`, `modified`, `created`, `hits`, `version`, `params`, `country`) VALUES\r\n(1, 'South African Standard Time', 'Africa\/Johannesburg', 'UTC+02:00', 'deb7d938-a385-454d-b6c7-fa59d23f976b', 7200, 'SAST', '', '', '{\\\"robots\\\":\\\"\\\",\\\"author\\\":\\\"\\\",\\\"rights\\\":\\\"\\\"}', '', 1, '2025-03-27 13:49:11', '2025-03-26 14:58:54', '', 2, '', '2fca9e79-c8c9-457f-a2a2-93be79207ede'),\r\n(2, 'West Africa Summer Time', 'Africa\/Windhoek', 'UTC+02:00', '35bbc92f-5161-4d13-a20f-584c23116b12', 7200, 'WAST', '', '', '{\\\"robots\\\":\\\"\\\",\\\"author\\\":\\\"\\\",\\\"rights\\\":\\\"\\\"}', '', 1, '2025-03-27 13:49:02', '2025-03-26 15:33:38', '', 2, '', '62b50392-54e2-4490-ad94-8de07735a584');",
     "add_php_getitem": 0,
     "add_category_submenu": 1,
     "add_php_getitems": 0,
@@ -113,6 +113,13 @@
             "value": "75061367-79c2-4d5b-a75d-eca6d33507df",
             "entity": "admin_fields",
             "table": "#__componentbuilder_admin_fields",
+            "direction": "in"
+        },
+        {
+            "key": "admin_view",
+            "value": "75061367-79c2-4d5b-a75d-eca6d33507df",
+            "entity": "admin_fields_conditions",
+            "table": "#__componentbuilder_admin_fields_conditions",
             "direction": "in"
         },
         {

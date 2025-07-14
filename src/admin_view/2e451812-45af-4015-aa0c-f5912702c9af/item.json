@@ -73,7 +73,7 @@
     "php_document": "",
     "mysql_table_row_format": "DYNAMIC",
     "alias_builder": null,
-    "sql": "--\r\n-- Dumping data for table `#__[[[component]]]_subregion`\r\n--\r\n\r\nINSERT INTO `#__[[[component]]]_subregion` (`id`, `name`, `region`, `wikidataid`, `metakey`, `metadesc`, `metadata`, `ordering`, `published`, `modified`, `created`, `hits`, `version`, `params`, `guid`) VALUES\r\n(1, 'Southern Africa', '2e48734b-9978-4fe1-ae90-b75e3de9053d', 'Q27394', '', '', '{\\\"robots\\\":\\\"\\\",\\\"author\\\":\\\"\\\",\\\"rights\\\":\\\"\\\"}', 1, 1, '2025-03-27 14:12:59', '2025-03-25 15:40:13', '', 25, '', 'c1cce930-52aa-48fc-b5d4-fd5c9729a735'),\r\n(2, 'Central Asia', 'fea85036-8822-4d96-b8c7-5bf45114c40a', 'Q27275', '', '', '', '', 1, '', '2025-03-28 09:47:53', '', 1, '', '2cccb078-a23b-45b2-bfa5-aef4efe95ec4');",
+    "sql": "--\r\n-- Dumping data for table `#__demo_subregion`\r\n--\r\n\r\nINSERT INTO `#__demo_subregion` (`id`, `name`, `region`, `wikidataid`, `metakey`, `metadesc`, `metadata`, `ordering`, `published`, `modified`, `created`, `hits`, `version`, `params`, `guid`) VALUES\r\n(1, 'Southern Africa', '2e48734b-9978-4fe1-ae90-b75e3de9053d', 'Q27394', '', '', '{\\\"robots\\\":\\\"\\\",\\\"author\\\":\\\"\\\",\\\"rights\\\":\\\"\\\"}', 1, 1, '2025-03-27 14:12:59', '2025-03-25 15:40:13', '', 25, '', 'c1cce930-52aa-48fc-b5d4-fd5c9729a735'),\r\n(2, 'Central Asia', 'fea85036-8822-4d96-b8c7-5bf45114c40a', 'Q27275', '', '', '', '', 1, '', '2025-03-28 09:47:53', '', 1, '', '2cccb078-a23b-45b2-bfa5-aef4efe95ec4');",
     "add_php_getitem": 0,
     "add_category_submenu": 1,
     "add_php_getitems": 0,

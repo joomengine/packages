@@ -61,6 +61,7 @@ This makes them ideal for distributed teams, client-specific forks, and open-sou
  - **Demo J4** | [Details](src/joomla_component/d7d3bc04-6272-470a-91d1-e091ecb10ab6) | [Settings](src/joomla_component/d7d3bc04-6272-470a-91d1-e091ecb10ab6/item.json) | Demo Component
  - **Demo J5** | [Details](src/joomla_component/efde995e-60aa-4b39-b644-44349dfb660d) | [Settings](src/joomla_component/efde995e-60aa-4b39-b644-44349dfb660d/item.json) | Demo Component
  - **HelloWorld (public)** | [Details](src/joomla_component/3745af8f-f96b-4e17-831e-eb4062cd4389) | [Settings](src/joomla_component/3745af8f-f96b-4e17-831e-eb4062cd4389/item.json) | Hello World
+ - **eHealth Portal** | [Details](src/joomla_component/eaabada6-9a90-4dc8-a3ca-22d275f4ec64) | [Settings](src/joomla_component/eaabada6-9a90-4dc8-a3ca-22d275f4ec64/item.json) | Portal for mobile health clinics
 
 ### All used in [Joomla Component Builder](https://www.joomlacomponentbuilder.com) - [Source](https://git.vdm.dev/joomla/Component-Builder) - [Mirror](https://github.com/vdm-io/Joomla-Component-Builder) - [Download](https://git.vdm.dev/joomla/pkg-component-builder/releases)
 

@@ -106,6 +106,7 @@ This design encourages collaborative and modular development across multiple JCB
  - **Set GUID in Form (power)** | [Details](src/custom_code/setGUIDFormPower) | [Settings](src/custom_code/setGUIDFormPower/item.json) | JCB (manual)
  - **Unlock the Power of Joomla! Development** | [Details](src/custom_code/unlockThePowerOfJoomlaDevelopment) | [Settings](src/custom_code/unlockThePowerOfJoomlaDevelopment/item.json) | JCB (manual)
  - **addUikitThreeToAdminViews** | [Details](src/custom_code/addUikitThreeToAdminViews) | [Settings](src/custom_code/addUikitThreeToAdminViews/item.json) | JCB (manual)
+ - **helper::GUID** | [Details](src/custom_code/gUID) | [Settings](src/custom_code/gUID/item.json) | JCB (manual)
  - **helper::fancyDate($date)** | [Details](src/custom_code/niceFancyDate) | [Settings](src/custom_code/niceFancyDate/item.json) | JCB (manual)
  - **helper::getItemImportFields** | [Details](src/custom_code/getItemImportFields) | [Settings](src/custom_code/getItemImportFields/item.json) | JCB (manual)
  - **php Configuration Check (call)** | [Details](src/custom_code/phpConfigurationCheckCall) | [Settings](src/custom_code/phpConfigurationCheckCall/item.json) | JCB (manual)

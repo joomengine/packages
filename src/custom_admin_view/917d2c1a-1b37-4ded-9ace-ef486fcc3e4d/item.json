@@ -1,0 +1,125 @@
+{
+    "system_name": "Importer Engine",
+    "name": "Importer",
+    "description": "Importer",
+    "main_get": "ebfab0ae-d368-4d2a-807b-c9d2d0809a60",
+    "add_php_jview_display": 0,
+    "css_document": "",
+    "css": "",
+    "js_document": "",
+    "javascript_file": "",
+    "codename": "importer",
+    "default": "<div class=\"main-card\">\r\n\t<?php echo Html::_('uitab.startTabSet', 'importerTab', ['active' => 'importer', 'recall' => true]); ?>\r\n\t\t<?php echo Html::_('uitab.addTab', 'importerTab', 'importer', Text::_('Importer', true)); ?>\r\n\t\t\t<div class=\"row\">\r\n\t\t\t\t<div class=\"col-md-12\">\r\n\t\t\t\t\t<?php echo $this->loadTemplate('importerarea'); \/\/ change this to the layout of your custom importer area ?>\r\n\t\t\t\t<\/div>\r\n\t\t\t<\/div>\r\n\t\t<?php echo Html::_('uitab.endTab'); ?>\r\n\t\t<?php echo Html::_('uitab.addTab', 'importerTab', 'history', Text::_('Queue', true)); ?>\r\n\t\t\t<div class=\"row\">\r\n\t\t\t\t<div class=\"col-md-12\">\r\n\t\t\t\t\t<?php echo $this->loadTemplate('importerqueue'); \/\/ change this to the layout of your custom importer queue ?>\r\n\t\t\t\t<\/div>\r\n\t\t\t<\/div>\r\n\t\t<?php echo Html::_('uitab.endTab'); ?>\r\n\t<?php echo Html::_('uitab.endTabSet'); ?>\r\n<\/div>",
+    "snippet": "0",
+    "icon": "",
+    "add_php_jview": 0,
+    "context": "importer",
+    "add_js_document": 0,
+    "custom_get": {
+        "0": "0ac7277b-8f9f-4119-b22b-26f8c22e988b"
+    },
+    "add_javascript_file": 0,
+    "php_ajaxmethod": "\t\/**\r\n\t * Load the display of the import linked this entity.\r\n\t *\r\n\t * @param string $entity  The entity guid\r\n\t * @param string $target  The target entity name\r\n\t *\r\n\t * @return array\r\n\t * @since 5.0.2\r\n\t *\/\r\n\tpublic function displayImportColumns(string $entity, string $target): array\r\n\t{\r\n\t\tif (Super___9c513baf_b279_43fd_ae29_a585c8cbc4f0___Power::valid($entity))\r\n\t\t{\r\n\t\t\t$display = null;\r\n\r\n\t\t\ttry\r\n\t\t\t{\r\n\t\t\t\t$target = base64_decode($target);\r\n\t\t\t\t$data = Super___884eca78_281f_4eab_b962_d97e355af16d___Power::_('File.Display')->get($entity, $target);\r\n\r\n\t\t\t\tif ($data !== null)\r\n\t\t\t\t{\r\n\t\t\t\t\t$displayData =  ['data' => $data, 'entity' => $entity, 'target' => $target];\r\n\t\t\t\t\t\/\/ change this to the layout of your custom importer columns display\r\n\t\t\t\t\t$display = Joomla___7ab82272_0b3d_4bb1_af35_e63a096cfe0b___Power::render('importercolumnsdisplay', $displayData);\r\n\t\t\t\t}\r\n\t\t\t\telse\r\n\t\t\t\t{\r\n\t\t\t\t\t\/\/ change this to the layout of your custom importer easy mapping\r\n\t\t\t\t\treturn ['data' => Joomla___7ab82272_0b3d_4bb1_af35_e63a096cfe0b___Power::render('importereasymapping', []), 'state' => 0];\r\n\t\t\t\t}\r\n\t\t\t}\r\n\t\t\tcatch (\\Exception $error)\r\n\t\t\t{\r\n\t\t\t\treturn ['error' => $error->getMessage()];\r\n\t\t\t}\r\n\r\n\t\t\tif (!empty($display))\r\n\t\t\t{\r\n\t\t\t\treturn ['data' => $display, 'state' => 1];\r\n\t\t\t}\r\n\t\t}\r\n\r\n\t\treturn ['error' => Text::_('The file display could not be loaded')];\r\n\t}\r\n\r\n\t\/**\r\n\t * Custom Method\r\n\t *\r\n\t * @param string $entity  The entity guid\r\n\t * @param string $target  The target entity name\r\n\t *\r\n\t * @return array  display of messages object on success.\r\n\t * @since 5.0.2\r\n\t *\/\r\n\tpublic function getMessages(string $entity, string $target): array\r\n\t{\r\n\t\tif (!Super___9c513baf_b279_43fd_ae29_a585c8cbc4f0___Power::valid($entity))\r\n\t\t{\r\n\t\t\treturn ['html' => '<h3>' . Text::_('No messages found at this time.') . '<\/h3>'];\r\n\t\t}\r\n\r\n\t\ttry\r\n\t\t{\r\n\t\t\t\/\/ Get a db connection.\r\n\t\t\t$db = $this->getDatabase();\r\n\r\n\t\t\t\/\/ Create a new query object.\r\n\t\t\t$query = $db->getQuery(true);\r\n\r\n\t\t\t\/\/ Get from #__###component###_importer_message_log as a\r\n\t\t\t$query->select($db->quoteName(\r\n\t\t\t\tarray('a.message','a.message_status'),\r\n\t\t\t\tarray('message','message_status')));\r\n\t\t\t$query->from($db->quoteName('#__###component###_importer_message_log', 'a'));\r\n\t\t\t\/\/ Get where a.published is 1\r\n\t\t\t$query->where('a.published = 1');\r\n\t\t\t\/\/ Get where a.entity_type is $entity_type\r\n\t\t\t$query->where('a.entity_type = ' . $db->quote($target));\r\n\t\t\t\/\/ Get where a.entity is $entity\r\n\t\t\t$query->where('a.entity = ' . $db->quote($entity));\r\n\r\n\t\t\t\/\/ Reset the query using our newly populated query object.\r\n\t\t\t$db->setQuery($query);\r\n\t\t\t\/\/ Load the results as an array of stdClass object.\r\n\t\t\t$items = $db->loadObjectList();\r\n\r\n\t\t\t\/\/ return items objects.\r\n\t\t\tif (!empty($items))\r\n\t\t\t{\r\n\t\t\t\t\/\/ change this to the layout of your custom importer message log\r\n\t\t\t\treturn ['html' => Joomla___7ab82272_0b3d_4bb1_af35_e63a096cfe0b___Power::render('importermessagelog', $items)];\r\n\t\t\t}\r\n\t\t}\r\n\t\tcatch (\\Exception $error)\r\n\t\t{\r\n\t\t\treturn ['error' => $error->getMessage()];\r\n\t\t}\r\n\r\n\t\treturn ['html' => '<h3>' . Text::_('No messages found at this time.') . '<\/h3>'];\r\n\t}",
+    "add_css_document": 0,
+    "add_php_document": 1,
+    "add_css": 0,
+    "add_php_view": 1,
+    "add_php_ajax": 1,
+    "libraries": null,
+    "ajax_input": {
+        "ajax_input0": {
+            "value_name": "entity",
+            "task_name": "displayImportColumns",
+            "input_default": "NULL",
+            "input_filter": "STRING",
+            "method_name": "displayImportColumns",
+            "user_check": "1"
+        },
+        "ajax_input1": {
+            "value_name": "target",
+            "task_name": "displayImportColumns",
+            "input_default": "NULL",
+            "input_filter": "BASE64",
+            "method_name": "displayImportColumns",
+            "user_check": "1"
+        },
+        "ajax_input2": {
+            "value_name": "entity",
+            "task_name": "getMessages",
+            "input_default": "NULL",
+            "input_filter": "STRING",
+            "method_name": "getMessages",
+            "user_check": "1"
+        },
+        "ajax_input3": {
+            "value_name": "target",
+            "task_name": "getMessages",
+            "input_default": "NULL",
+            "input_filter": "STRING",
+            "method_name": "getMessages",
+            "user_check": "1"
+        }
+    },
+    "dynamic_get": "",
+    "php_document": " \t\t\/\/ these comments are here so the layouts will be linked and loaded for the ajax (don't remove it)\r\n\r\n\t\t\/\/ change this to the layout of your custom importer columns display\r\n\t\t\/\/ LayoutHelper::render('importercolumnsdisplay', [?]);\r\n\r\n\t\t\/\/ change this to the layout of your custom importer easy mapping\r\n\t\t\/\/ LayoutHelper::render('importereasymapping', [?]); \r\n\r\n\t\t\/\/ change this to the layout of your custom importer message log\r\n\t\t\/\/ LayoutHelper::render('importermessagelog', []);\r\n\r\n\t\t\/\/ add the libs for subform (since not adding it via xml but ajax)\r\n\t\t$this->getDocument()\r\n\t\t\t->getWebAssetManager()\r\n\t\t\t->useScript('webcomponent.field-subform')\r\n\t\t\t->usePreset('choicesjs')\r\n\t\t\t->useScript('webcomponent.field-fancy-select');\r\n\t\t$this->getDocument()\r\n\t\t\t->getWebAssetManager()\r\n\t\t\t->addInlineStyle('.subform-table-sublayout-section .controls { margin-left: 0px }')\r\n\t\t\t->addInlineStyle('.subform-table-sublayout-section .table-responsive { overflow-x: visible }');",
+    "php_view": "$this->app->input->set('hidemainmenu', false);",
+    "add_custom_button": 1,
+    "php_jview_display": "",
+    "custom_button": {
+        "custom_button0": {
+            "icomoon": "download",
+            "name": "Example",
+            "method": "getImportExample",
+            "target": 1,
+            "type": "0"
+        }
+    },
+    "php_jview": "",
+    "php_controller": "\t\/**\r\n\t * get all the import example spreadsheet\r\n\t *\r\n\t * @return  true on success\r\n\t * @since  5.0.2\r\n\t *\/\r\n\tpublic function getImportExample()\r\n\t{\r\n\t\t\/\/ Check for request forgeries\r\n\t\tSession::checkToken() or exit(Text::_('JINVALID_TOKEN'));\r\n\t\t\/\/ check if user has the right\r\n\t\t$user = $this->app->getIdentity();\r\n\t\t\/\/ set page redirect\r\n\t\t$redirect_url = Route::_('index.php?option=com_###component###&view=importer', false);\r\n\t\t$message = Text::_('You do not have permission to download the import example!');\r\n\t\t\/\/ currently only those with permissions can get these images\r\n\t\tif($user->authorise('importer.example', 'com_###component###'))\r\n\t\t{\r\n\t\t\t$message = Text::_('<b>Example (empty) spreadsheet has been exported!<\/b>');\r\n\t\t\t$this->setRedirect($redirect_url, $message, 'message');\r\n\r\n\t\t\t$rows = [array_values(Joomla___aebfeb9f_f8a3_42be_a21d_5db56ae30c1c___Power::getItemImportFields(true))];\r\n\t\t\tSuper___ff8d5fdb_2d1f_4178_bd18_a43b8efd1068___Power::_('Spreadsheet.Exporter')->export(\r\n\t\t\t\t$rows,\r\n\t\t\t\t'Import-Example',\r\n\t\t\t\t'Import Example',\r\n\t\t\t\t'Items'\r\n\t\t\t);\r\n\r\n\t\t\treturn true;\r\n\t\t}\r\n\t\t$this->setRedirect($redirect_url, $message, 'error');\r\n\t\treturn false;\r\n\t}\r\n\r\n\t\/**\r\n\t * Save the Import Map\r\n\t *\r\n\t * @return  true on success\r\n\t * @since  5.0.2\r\n\t *\/\r\n\tpublic function saveImportMap(): bool\r\n\t{\r\n\t\t\/\/ Check for request forgeries\r\n\t\tSession::checkToken() or exit(Text::_('JINVALID_TOKEN'));\r\n\r\n\t\t\/\/ check if user has the right\r\n\t\t$user = $this->app->getIdentity();\r\n\r\n\t\t\/\/ set page redirect\r\n\t\t$redirect_url = Route::_('index.php?option=com_[[[component]]]&view=importer', false);\r\n\t\t$message = Text::_('You do not have permission to import!');\r\n\r\n\t\t\/\/ currently only those with permissions can get these images\r\n\t\tif($user->authorise('importer.access', 'com_[[[component]]]'))\r\n\t\t{\r\n\t\t\t$message = [];\r\n\t\t\t$error = false;\r\n\r\n\t\t\t\/\/ get Item posted import values\r\n\t\t\t$import = $this->input->post->get('vdm_import', array(), 'array');\r\n\r\n\t\t\t\/\/ file must be set [can add more validation as needed]\r\n\t\t\tif (empty($import['file']) || !Super___9c513baf_b279_43fd_ae29_a585c8cbc4f0___Power::valid($import['file']))\r\n\t\t\t{\r\n\t\t\t\t$message[] = Text::_('There has been a file linking error. Please try again.');\r\n\t\t\t\t$error = true;\r\n\t\t\t}\r\n\r\n\t\t\t\/\/ if we have missing values\r\n\t\t\tif ($error)\r\n\t\t\t{\r\n\t\t\t\t$this->setRedirect($redirect_url, implode('<br>', $message), 'error');\r\n\t\t\t\treturn false;\r\n\t\t\t}\r\n\r\n\t\t\t$import['id'] = 0;\r\n\t\t\t$import['guid'] = Super___47a63728_cd5d_4d53_99cf_2409bd1c744c___Power::get('[[[component]]]_importer_guid', Super___9c513baf_b279_43fd_ae29_a585c8cbc4f0___Power::get());\r\n\t\t\t$import['version'] = 1;\r\n\t\t\t$import['import_status'] = 1;\r\n\t\t\t$import['created_by'] = $user->id;\r\n\r\n\t\t\tif (Super___9d76b8dc_3883_4755_b11c_131d19ca8a53___Power::_('Data.Item')->table('item_import')->set((object)$import))\r\n\t\t\t{\r\n\t\t\t\t\/\/ release the file\r\n\t\t\t\tSuper___47a63728_cd5d_4d53_99cf_2409bd1c744c___Power::set('[[[component]]]_importer_guid', null);\r\n\r\n\t\t\t\t\/\/ set the success message :)\r\n\t\t\t\t$message = Text::_('<b>Your import has been successfully queued. You can monitor the import status by checking the queue tab.<\/b>');\r\n\t\t\t\t$this->setRedirect($redirect_url, $message, 'message');\r\n\r\n\t\t\t\treturn true;\r\n\t\t\t}\r\n\r\n\t\t\t$message = Text::_('Adding the import to the queue has failed!');\r\n\t\t}\r\n\r\n\t\t$this->setRedirect($redirect_url, $message, 'error');\r\n\t\treturn false;\r\n\t}",
+    "guid": "917d2c1a-1b37-4ded-9ace-ef486fcc3e4d",
+    "php_model": "",
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "ebfab0ae-d368-4d2a-807b-c9d2d0809a60",
+            "entity": "dynamic_get",
+            "table": "#__componentbuilder_dynamic_get",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "af837d58-301c-4673-b0bf-16c36b842c4a",
+            "entity": "template",
+            "table": "#__componentbuilder_template",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "dbf2580a-f6a5-4963-8103-85b996a5bed7",
+            "entity": "template",
+            "table": "#__componentbuilder_template",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "a51be5b8-9ec9-43de-9dd9-f739c8b39288",
+            "entity": "layout",
+            "table": "#__componentbuilder_layout",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "c4d0c28e-eb98-4c0d-a91e-34096e5606fe",
+            "entity": "layout",
+            "table": "#__componentbuilder_layout",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "0777dd83-d0dd-4fb1-8a31-13013dfc5dde",
+            "entity": "layout",
+            "table": "#__componentbuilder_layout",
+            "direction": "out"
+        }
+    ]
+}

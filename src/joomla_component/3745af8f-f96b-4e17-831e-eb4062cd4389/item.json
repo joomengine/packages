@@ -1,5 +1,5 @@
 {
-    "system_name": "HelloWorld (public)",
+    "system_name": "HelloWorld",
     "name_code": "HelloWorld",
     "short_description": "Hello World",
     "companyname": "VDM",
@@ -45,7 +45,7 @@
     "add_css_site": 0,
     "add_menu_prefix": "1",
     "dashboard_type": 1,
-    "menu_prefix": "&#187;",
+    "menu_prefix": "\u00bb",
     "dashboard": "",
     "add_php_preflight_install": 0,
     "add_php_preflight_update": 0,

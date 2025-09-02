@@ -1,0 +1,48 @@
+{
+    "joomla_component": "eaabada6-9a90-4dc8-a3ca-22d275f4ec64",
+    "addfoldersfullpath": {
+        "addfoldersfullpath0": {
+            "folderpath": "JPATH_LIBRARIES\/phpspreadsheet\/vendor\/",
+            "path": "\/libraries\/phpspreadsheet\/"
+        }
+    },
+    "addfilesfullpath": null,
+    "addfolders": null,
+    "addfiles": {
+        "addfiles0": {
+            "file": "DownloadControllerAdmin.php",
+            "path": "admin\/src\/Controller\/DownloadController.php",
+            "notnew": "1"
+        },
+        "addfiles1": {
+            "file": "DownloadControllerSite.php",
+            "path": "site\/src\/Controller\/DownloadController.php",
+            "notnew": "1"
+        }
+    },
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "eaabada6-9a90-4dc8-a3ca-22d275f4ec64",
+            "entity": "joomla_component",
+            "table": "#__componentbuilder_joomla_component",
+            "direction": "out"
+        },
+        {
+            "key": "797652ab-b353-5998-bae2-d251bb393e11.php",
+            "pointer": "797652ab-b353-5998-bae2-d251bb393e11--php",
+            "value": "DownloadControllerAdmin.php",
+            "entity": "file",
+            "table": "file_system",
+            "target": "custom"
+        },
+        {
+            "key": "06db9aec-7e63-5174-93cd-1de5117ea5d9.php",
+            "pointer": "06db9aec-7e63-5174-93cd-1de5117ea5d9--php",
+            "value": "DownloadControllerSite.php",
+            "entity": "file",
+            "table": "file_system",
+            "target": "custom"
+        }
+    ]
+}

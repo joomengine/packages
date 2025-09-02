@@ -1,0 +1,67 @@
+{
+    "f0040063-e696-5522-8512-d99519b02f23.jpg": {
+        "name": "images\/vdm\/demo500.jpg",
+        "path": "src\/file_folder\/f0040063-e696-5522-8512-d99519b02f23.jpg",
+        "guid": "f0040063-e696-5522-8512-d99519b02f23.jpg"
+    },
+    "82db26da-1e2c-53bc-850a-7b620dd8414d.jpg": {
+        "name": "images\/demo300.jpg",
+        "path": "src\/file_folder\/82db26da-1e2c-53bc-850a-7b620dd8414d.jpg",
+        "guid": "82db26da-1e2c-53bc-850a-7b620dd8414d.jpg"
+    },
+    "60e279ce-a879-514b-ac7c-5893fc23368b.png": {
+        "name": "images\/vdm\/icon\/look.png",
+        "path": "src\/file_folder\/60e279ce-a879-514b-ac7c-5893fc23368b.png",
+        "guid": "60e279ce-a879-514b-ac7c-5893fc23368b.png"
+    },
+    "4ba1d0b9-3b56-5f2a-8152-4f00db54fb72.png": {
+        "name": "images\/vdm\/icon\/look_add.png",
+        "path": "src\/file_folder\/4ba1d0b9-3b56-5f2a-8152-4f00db54fb72.png",
+        "guid": "4ba1d0b9-3b56-5f2a-8152-4f00db54fb72.png"
+    },
+    "c197a3f4-f903-59c3-96e3-dcaf17e5b60e.png": {
+        "name": "images\/Full-Bucket-icon.png",
+        "path": "src\/file_folder\/c197a3f4-f903-59c3-96e3-dcaf17e5b60e.png",
+        "guid": "c197a3f4-f903-59c3-96e3-dcaf17e5b60e.png"
+    },
+    "5f5d1982-2942-5a26-b485-9e1a6cf21423.png": {
+        "name": "images\/Full-Bucket-icon-plus.png",
+        "path": "src\/file_folder\/5f5d1982-2942-5a26-b485-9e1a6cf21423.png",
+        "guid": "5f5d1982-2942-5a26-b485-9e1a6cf21423.png"
+    },
+    "9b90df48-be03-59e0-afdd-9213c8c5fbd2.png": {
+        "name": "images\/vdm\/icon\/detail.png",
+        "path": "src\/file_folder\/9b90df48-be03-59e0-afdd-9213c8c5fbd2.png",
+        "guid": "9b90df48-be03-59e0-afdd-9213c8c5fbd2.png"
+    },
+    "18cbbd0e-06b8-5ca2-a832-a791040d95a5.png": {
+        "name": "images\/vdm\/icon\/file.png",
+        "path": "src\/file_folder\/18cbbd0e-06b8-5ca2-a832-a791040d95a5.png",
+        "guid": "18cbbd0e-06b8-5ca2-a832-a791040d95a5.png"
+    },
+    "a458c24e-366f-507e-a4b4-0550f12e8b0d.png": {
+        "name": "images\/vdm\/icon\/state.png",
+        "path": "src\/file_folder\/a458c24e-366f-507e-a4b4-0550f12e8b0d.png",
+        "guid": "a458c24e-366f-507e-a4b4-0550f12e8b0d.png"
+    },
+    "9bb478ed-3893-5c51-a67e-132879977f33.png": {
+        "name": "images\/vdm\/icon\/city.png",
+        "path": "src\/file_folder\/9bb478ed-3893-5c51-a67e-132879977f33.png",
+        "guid": "9bb478ed-3893-5c51-a67e-132879977f33.png"
+    },
+    "ed6e10c0-6c9b-5a46-9554-847efbee3702.png": {
+        "name": "images\/vdm\/icon\/country.png",
+        "path": "src\/file_folder\/ed6e10c0-6c9b-5a46-9554-847efbee3702.png",
+        "guid": "ed6e10c0-6c9b-5a46-9554-847efbee3702.png"
+    },
+    "1a33dfa6-b83a-5d4d-ba5c-30881123d476.png": {
+        "name": "images\/vdm\/icon\/region.png",
+        "path": "src\/file_folder\/1a33dfa6-b83a-5d4d-ba5c-30881123d476.png",
+        "guid": "1a33dfa6-b83a-5d4d-ba5c-30881123d476.png"
+    },
+    "75882168-11a4-5020-b269-6d68e605cc70.png": {
+        "name": "images\/vdm\/icon\/subregion.png",
+        "path": "src\/file_folder\/75882168-11a4-5020-b269-6d68e605cc70.png",
+        "guid": "75882168-11a4-5020-b269-6d68e605cc70.png"
+    }
+}

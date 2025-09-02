@@ -1,0 +1,14 @@
+{
+    "3f139f81-0697-4392-b065-6426adaa7ac6": {
+        "name": "system",
+        "path": "src\/joomla_plugin_group\/3f139f81-0697-4392-b065-6426adaa7ac6",
+        "settings": "src\/joomla_plugin_group\/3f139f81-0697-4392-b065-6426adaa7ac6\/item.json",
+        "guid": "3f139f81-0697-4392-b065-6426adaa7ac6"
+    },
+    "2d8677ea-cda3-48d3-828d-da656c52dbe1": {
+        "name": "privacy",
+        "path": "src\/joomla_plugin_group\/2d8677ea-cda3-48d3-828d-da656c52dbe1",
+        "settings": "src\/joomla_plugin_group\/2d8677ea-cda3-48d3-828d-da656c52dbe1\/item.json",
+        "guid": "2d8677ea-cda3-48d3-828d-da656c52dbe1"
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "joomla_component": "d7e30702-ec49-45ac-8897-0389d61d6da0",
+    "addplaceholders": {
+        "addplaceholders0": {
+            "target": "[[[upload_max_filesize]]]",
+            "value": "7M"
+        },
+        "addplaceholders1": {
+            "target": "[[[post_max_size]]]",
+            "value": "6M"
+        },
+        "addplaceholders2": {
+            "target": "[[[max_execution_time]]]",
+            "value": "10"
+        },
+        "addplaceholders3": {
+            "target": "[[[max_input_vars]]]",
+            "value": "1000"
+        },
+        "addplaceholders7": {
+            "target": "[[[max_input_time]]]",
+            "value": "10"
+        },
+        "addplaceholders6": {
+            "target": "[[[memory_limit]]]",
+            "value": "16M"
+        },
+        "addplaceholders5": {
+            "target": "[[[environment_wiki_url]]]",
+            "value": "#"
+        },
+        "addplaceholders4": {
+            "target": "[[[component_acronym]]]",
+            "value": "RM"
+        },
+        "addplaceholders8": {
+            "target": "[[[component_link_name]]]",
+            "value": "default text"
+        }
+    },
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "d7e30702-ec49-45ac-8897-0389d61d6da0",
+            "entity": "joomla_component",
+            "table": "#__componentbuilder_joomla_component",
+            "direction": "out"
+        }
+    ]
+}

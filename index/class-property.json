@@ -1,0 +1,20 @@
+{
+    "56cc0535-fd9e-4db9-93f7-9f0dc9ab2a58": {
+        "name": "app",
+        "path": "src\/class_property\/56cc0535-fd9e-4db9-93f7-9f0dc9ab2a58",
+        "settings": "src\/class_property\/56cc0535-fd9e-4db9-93f7-9f0dc9ab2a58\/item.json",
+        "guid": "56cc0535-fd9e-4db9-93f7-9f0dc9ab2a58"
+    },
+    "a89d86a3-08b0-49bb-a21c-24c04ee2a280": {
+        "name": "db",
+        "path": "src\/class_property\/a89d86a3-08b0-49bb-a21c-24c04ee2a280",
+        "settings": "src\/class_property\/a89d86a3-08b0-49bb-a21c-24c04ee2a280\/item.json",
+        "guid": "a89d86a3-08b0-49bb-a21c-24c04ee2a280"
+    },
+    "af756e64-0781-4f35-a6f3-2917ccd7ca4c": {
+        "name": "autoloadLanguage",
+        "path": "src\/class_property\/af756e64-0781-4f35-a6f3-2917ccd7ca4c",
+        "settings": "src\/class_property\/af756e64-0781-4f35-a6f3-2917ccd7ca4c\/item.json",
+        "guid": "af756e64-0781-4f35-a6f3-2917ccd7ca4c"
+    }
+}

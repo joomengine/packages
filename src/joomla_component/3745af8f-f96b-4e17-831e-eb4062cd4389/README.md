@@ -1,6 +1,6 @@
 ### JCB! Joomla Component
 # Hello World (v5.0.0)
-## HelloWorld (public) (HelloWorld)
+## HelloWorld (HelloWorld)
 
 > Hello World
 

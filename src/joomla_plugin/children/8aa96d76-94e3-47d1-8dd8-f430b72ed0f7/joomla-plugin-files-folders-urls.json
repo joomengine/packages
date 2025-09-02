@@ -1,0 +1,17 @@
+{
+    "joomla_plugin": "8aa96d76-94e3-47d1-8dd8-f430b72ed0f7",
+    "addfoldersfullpath": null,
+    "addfilesfullpath": null,
+    "addfolders": null,
+    "addfiles": null,
+    "addurls": null,
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "8aa96d76-94e3-47d1-8dd8-f430b72ed0f7",
+            "entity": "joomla_plugin",
+            "table": "#__componentbuilder_joomla_plugin",
+            "direction": "out"
+        }
+    ]
+}

@@ -57,6 +57,7 @@ This ensures consistent updates while preserving your customizations and logic.
 
  - **Greeting** | [Details](src/site_view/4b94ea55-9f6a-4d3e-be0a-869dbb4ac01b) | [Settings](src/site_view/4b94ea55-9f6a-4d3e-be0a-869dbb4ac01b/item.json) | Greeting
  - **Greetings** | [Details](src/site_view/2fec9afa-bf4f-4bd0-8054-715550443824) | [Settings](src/site_view/2fec9afa-bf4f-4bd0-8054-715550443824/item.json) | Greetings
+ - **Greetings** | [Details](src/site_view/0b5fb4b6-b2bf-4656-8dc9-d947e5f94759) | [Settings](src/site_view/0b5fb4b6-b2bf-4656-8dc9-d947e5f94759/item.json) | Greetings
  - **Looking** | [Details](src/site_view/851ed44e-5431-4951-876f-4b62a4c56ad2) | [Settings](src/site_view/851ed44e-5431-4951-876f-4b62a4c56ad2/item.json) | Looking at a look
  - **Looks** | [Details](src/site_view/b2dce59e-e3b8-4467-bcb5-8f2df4bdfeb7) | [Settings](src/site_view/b2dce59e-e3b8-4467-bcb5-8f2df4bdfeb7/item.json) | The List of all published looks
  - **Recipes** | [Details](src/site_view/9f485bcc-fd7a-4263-9fb2-0a6a5c4a055c) | [Settings](src/site_view/9f485bcc-fd7a-4263-9fb2-0a6a5c4a055c/item.json) | Recipes

@@ -1,0 +1,35 @@
+{
+    "name": "Look Groups",
+    "fieldtype": "e2f31181-fbb3-4c3a-859d-72b6b0cff308",
+    "datatype": "TEXT",
+    "indexes": "0",
+    "null_switch": "NULL",
+    "store": 0,
+    "on_get_model_field": "",
+    "on_save_model_field": "",
+    "initiator_on_get_model": "",
+    "xml": "<field\n\ttype=\"usergrouplist\"\n\tname=\"look_groups\"\n\tlabel=\"Look Groups\"\n\tdescription=\"Select a user group\"\n\tlayout=\"joomla.form.field.list-fancy-select\"\n\trequired=\"true\"\n\tchecksuperusergroup=\"1\"\n\tmultiple=\"true\"\n\/>",
+    "datalenght": "",
+    "javascript_view_footer": "",
+    "css_views": "",
+    "css_view": "",
+    "datadefault_other": "",
+    "datadefault": "",
+    "datalenght_other": "",
+    "javascript_views_footer": "",
+    "add_css_view": 0,
+    "add_css_views": 0,
+    "add_javascript_view_footer": 0,
+    "add_javascript_views_footer": 0,
+    "initiator_on_save_model": "",
+    "guid": "104f8410-a07e-4cf8-aad5-2b4db7c6864c",
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "e2f31181-fbb3-4c3a-859d-72b6b0cff308",
+            "entity": "fieldtype",
+            "table": "#__componentbuilder_fieldtype",
+            "direction": "out"
+        }
+    ]
+}

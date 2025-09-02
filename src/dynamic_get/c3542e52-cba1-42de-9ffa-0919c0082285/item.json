@@ -1,0 +1,61 @@
+{
+    "name": "ImportLogMessages",
+    "main_source": 1,
+    "gettype": 3,
+    "php_calculation": "",
+    "php_router_parse": null,
+    "add_php_after_getitems": 0,
+    "add_php_router_parse": 0,
+    "view_selection": "a.message AS message\r\na.message_status AS message_status",
+    "add_php_before_getitems": 0,
+    "add_php_before_getitem": 0,
+    "add_php_after_getitem": 0,
+    "db_table_main": null,
+    "php_custom_get": null,
+    "plugin_events": null,
+    "db_selection": null,
+    "view_table_main": "ab2bbdfc-c0a0-4ffc-9556-67d5af8bec64",
+    "add_php_getlistquery": 0,
+    "join_db_table": null,
+    "select_all": 0,
+    "php_before_getitem": "",
+    "getcustom": "getMessages",
+    "php_after_getitem": "",
+    "pagination": 1,
+    "php_getlistquery": "",
+    "php_before_getitems": "",
+    "filter": null,
+    "php_after_getitems": "",
+    "where": {
+        "where0": {
+            "table_key": "a.published",
+            "operator": 1,
+            "value_key": "1"
+        },
+        "where1": {
+            "table_key": "a.entity_type",
+            "operator": 1,
+            "value_key": "$entity_type"
+        },
+        "where2": {
+            "table_key": "a.entity",
+            "operator": 1,
+            "value_key": "$entity"
+        }
+    },
+    "order": null,
+    "addcalculation": 0,
+    "group": null,
+    "global": null,
+    "guid": "c3542e52-cba1-42de-9ffa-0919c0082285",
+    "join_view_table": null,
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "ab2bbdfc-c0a0-4ffc-9556-67d5af8bec64",
+            "entity": "admin_view",
+            "table": "#__componentbuilder_admin_view",
+            "direction": "out"
+        }
+    ]
+}

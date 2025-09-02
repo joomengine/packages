@@ -1,0 +1,16 @@
+{
+    "8aa96d76-94e3-47d1-8dd8-f430b72ed0f7": {
+        "name": "Global Privacy J5",
+        "desc": "The plugin to fully integrate [[[component]]] with the privacy suite of Joomla.",
+        "path": "src\/joomla_plugin\/8aa96d76-94e3-47d1-8dd8-f430b72ed0f7",
+        "settings": "src\/joomla_plugin\/8aa96d76-94e3-47d1-8dd8-f430b72ed0f7\/item.json",
+        "guid": "8aa96d76-94e3-47d1-8dd8-f430b72ed0f7"
+    },
+    "5df401b4-c9a6-42c8-b50d-87f67c8a15f3": {
+        "name": "Component Commands",
+        "desc": "Register [[[ComponentNamespace]]] Commands\r\n\r\n@since 4.0.0",
+        "path": "src\/joomla_plugin\/5df401b4-c9a6-42c8-b50d-87f67c8a15f3",
+        "settings": "src\/joomla_plugin\/5df401b4-c9a6-42c8-b50d-87f67c8a15f3\/item.json",
+        "guid": "5df401b4-c9a6-42c8-b50d-87f67c8a15f3"
+    }
+}

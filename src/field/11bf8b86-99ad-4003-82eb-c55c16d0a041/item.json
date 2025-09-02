@@ -1,0 +1,35 @@
+{
+    "name": "Legend Text Colour",
+    "fieldtype": "7f60f198-53e7-4fe9-813f-d1b6c553680e",
+    "datatype": "VARCHAR",
+    "indexes": "0",
+    "null_switch": "NOT NULL",
+    "store": 0,
+    "on_get_model_field": "",
+    "on_save_model_field": "",
+    "initiator_on_get_model": "",
+    "xml": "<field\n\ttype=\"color\"\n\tname=\"legend_text_color\"\n\tdefault=\"#fbf3ef\"\n\tlabel=\"Legend Text Colour\"\n\tshowon=\"show_legend:1\"\n\/>",
+    "datalenght": "10",
+    "javascript_view_footer": "",
+    "css_views": "",
+    "css_view": "",
+    "datadefault_other": "",
+    "datadefault": "",
+    "datalenght_other": "",
+    "javascript_views_footer": "",
+    "add_css_view": 0,
+    "add_css_views": 0,
+    "add_javascript_view_footer": 0,
+    "add_javascript_views_footer": 0,
+    "initiator_on_save_model": "",
+    "guid": "11bf8b86-99ad-4003-82eb-c55c16d0a041",
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "7f60f198-53e7-4fe9-813f-d1b6c553680e",
+            "entity": "fieldtype",
+            "table": "#__componentbuilder_fieldtype",
+            "direction": "out"
+        }
+    ]
+}

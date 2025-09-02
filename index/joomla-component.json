@@ -19,5 +19,12 @@
         "settings": "src\/joomla_component\/d7d3bc04-6272-470a-91d1-e091ecb10ab6\/item.json",
         "guid": "d7d3bc04-6272-470a-91d1-e091ecb10ab6",
         "desc": "Demo Component"
+    },
+    "eaabada6-9a90-4dc8-a3ca-22d275f4ec64": {
+        "name": "eHealth Portal",
+        "path": "src\/joomla_component\/eaabada6-9a90-4dc8-a3ca-22d275f4ec64",
+        "settings": "src\/joomla_component\/eaabada6-9a90-4dc8-a3ca-22d275f4ec64\/item.json",
+        "guid": "eaabada6-9a90-4dc8-a3ca-22d275f4ec64",
+        "desc": "Portal for mobile health clinics"
     }
 }

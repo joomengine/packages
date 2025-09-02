@@ -1,0 +1,35 @@
+{
+    "name": "Password",
+    "fieldtype": "0022598d-0ee1-44f2-aa94-c2eb47595f73",
+    "datatype": "VARCHAR",
+    "indexes": "2",
+    "null_switch": "NULL",
+    "store": 0,
+    "on_get_model_field": "",
+    "on_save_model_field": "",
+    "initiator_on_get_model": "",
+    "xml": "<field\n\ttype=\"password\"\n\tname=\"password\"\n\tlabel=\"Password\"\n\tsize=\"50\"\n\tdescription=\"Enter the password for the user.\"\n\tmessage=\"Error! Please add password here.\"\n\tclass=\"validate-password-strength\"\n\tvalidate=\"password\"\n\trules=\"true\"\n\tfilter=\"raw\"\n\tautocomplete=\"off\"\n\tstrengthmeter=\"true\"\n\tforce=\"on\"\n\/>",
+    "datalenght": "255",
+    "javascript_view_footer": "",
+    "css_views": "",
+    "css_view": "",
+    "datadefault_other": "",
+    "datadefault": "",
+    "datalenght_other": "",
+    "javascript_views_footer": "",
+    "add_css_view": 0,
+    "add_css_views": 0,
+    "add_javascript_view_footer": 0,
+    "add_javascript_views_footer": 0,
+    "initiator_on_save_model": "",
+    "guid": "b9097198-705f-4a6b-bd10-676d55cd6517",
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "0022598d-0ee1-44f2-aa94-c2eb47595f73",
+            "entity": "fieldtype",
+            "table": "#__componentbuilder_fieldtype",
+            "direction": "out"
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "name": "Footer Height",
+    "fieldtype": "5abd2b73-643b-4273-841a-787991aad968",
+    "datatype": "INT",
+    "indexes": "0",
+    "null_switch": "NOT NULL",
+    "store": 0,
+    "on_get_model_field": "",
+    "on_save_model_field": "",
+    "initiator_on_get_model": "",
+    "xml": "<field\n\ttype=\"number\"\n\tname=\"footer_height\"\n\tlabel=\"Footer Height\"\n\tdefault=\"24\"\n\tclass=\"text_area\"\n\trequired=\"true\"\n\tmin=\"10\"\n\tmax=\"80\"\n\tstep=\"1\"\n\tvalidate=\"number\"\n\/>",
+    "datalenght": "11",
+    "javascript_view_footer": "",
+    "css_views": "",
+    "css_view": "",
+    "datadefault_other": "",
+    "datadefault": "0",
+    "datalenght_other": "",
+    "javascript_views_footer": "",
+    "add_css_view": 0,
+    "add_css_views": 0,
+    "add_javascript_view_footer": 0,
+    "add_javascript_views_footer": 0,
+    "initiator_on_save_model": "",
+    "guid": "fb71c5cc-65d9-4389-8599-b94f4eecc97c",
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "5abd2b73-643b-4273-841a-787991aad968",
+            "entity": "fieldtype",
+            "table": "#__componentbuilder_fieldtype",
+            "direction": "out"
+        }
+    ]
+}

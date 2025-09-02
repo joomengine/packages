@@ -59,6 +59,7 @@ This ensures consistent updates while preserving your customizations and logic.
  - **Greetings** | [Details](src/site_view/2fec9afa-bf4f-4bd0-8054-715550443824) | [Settings](src/site_view/2fec9afa-bf4f-4bd0-8054-715550443824/item.json) | Greetings
  - **Looking** | [Details](src/site_view/851ed44e-5431-4951-876f-4b62a4c56ad2) | [Settings](src/site_view/851ed44e-5431-4951-876f-4b62a4c56ad2/item.json) | Looking at a look
  - **Looks** | [Details](src/site_view/b2dce59e-e3b8-4467-bcb5-8f2df4bdfeb7) | [Settings](src/site_view/b2dce59e-e3b8-4467-bcb5-8f2df4bdfeb7/item.json) | The List of all published looks
+ - **Recipes** | [Details](src/site_view/9f485bcc-fd7a-4263-9fb2-0a6a5c4a055c) | [Settings](src/site_view/9f485bcc-fd7a-4263-9fb2-0a6a5c4a055c/item.json) | Recipes
 
 ### All used in [Joomla Component Builder](https://www.joomlacomponentbuilder.com) - [Source](https://git.vdm.dev/joomla/Component-Builder) - [Mirror](https://github.com/vdm-io/Joomla-Component-Builder) - [Download](https://git.vdm.dev/joomla/pkg-component-builder/releases)
 

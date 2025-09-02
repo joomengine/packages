@@ -1,0 +1,164 @@
+{
+    "system_name": "Immunisation",
+    "name_single": "Immunisation",
+    "short_description": "Immunisation Admin View",
+    "php_allowedit": "",
+    "php_postsavehook": "",
+    "php_before_save": "[CUSTOMCODE=saveGUID]",
+    "php_getlistquery": "",
+    "php_getitems": "",
+    "name_list": "Immunisations",
+    "icon": "images\/icons\/virus_needel.png",
+    "php_after_publish": "",
+    "add_fadein": 1,
+    "description": "Immunisation Admin View",
+    "icon_category": "",
+    "icon_add": "images\/icons\/virus_needel_pluse.png",
+    "php_after_cancel": "",
+    "mysql_table_charset": "utf8mb4",
+    "php_batchmove": "",
+    "type": 1,
+    "php_after_delete": "",
+    "source": 0,
+    "php_getitem": "",
+    "addpermissions": null,
+    "php_getitems_after_all": "",
+    "php_getform": "[CUSTOMCODE=setGUIDForm]",
+    "addtabs": {
+        "addtabs0": {
+            "name": "Details"
+        },
+        "addtabs1": {
+            "name": "Referrals"
+        },
+        "addtabs2": {
+            "name": "Files"
+        }
+    },
+    "php_save": "",
+    "php_allowadd": "",
+    "php_before_cancel": "",
+    "addlinked_views": null,
+    "php_batchcopy": "",
+    "php_before_publish": "",
+    "alias_builder_type": 0,
+    "php_before_delete": "",
+    "php_document": "[CUSTOMCODE=vdmUploaderConfig+vdm-uikit-uploader,file_vdm_uploader,getFileTypeDetails,uploadFile,displayFiles,deleteFile]\r\n[CUSTOMCODE=addUikitThreeToAdminViews]",
+    "mysql_table_row_format": "DYNAMIC",
+    "alias_builder": null,
+    "sql": "",
+    "add_php_getitem": 0,
+    "add_category_submenu": 1,
+    "add_php_getitems": 0,
+    "add_php_getitems_after_all": 0,
+    "add_php_getlistquery": 0,
+    "add_css_view": 0,
+    "add_php_getform": 1,
+    "css_view": "",
+    "add_php_before_save": 1,
+    "add_css_views": 0,
+    "add_php_save": 0,
+    "css_views": "",
+    "add_php_postsavehook": 0,
+    "add_javascript_view_file": 1,
+    "add_php_allowadd": 0,
+    "javascript_view_file": "\/\/ set immunisation vaccine types that are on the page\r\nvar select_an_immunisation_vaccine_type = 'Select...';\r\nvar create_an_immunisation_vaccine_type = 'Create...';\r\nimmunisation_vaccine_types = {};\r\nvar immunisation_vaccine_type = 0;\r\njQuery(document).ready(function($)\r\n{\r\n\t\/\/ when it changes\r\n\t$('#adminForm').on('change', '#jform_administration_part',function (e) {\r\n\t\te.preventDefault();\r\n\t\tgetImmunisationVaccineType();\r\n\t});\r\n\t\/\/ set buckets\r\n\tjQuery(\"#jform_immunisation_vaccine_type option\").each(function()\r\n\t{\r\n\t\tvar key =  jQuery(this).val();\r\n\t\tvar text =  jQuery(this).text();\r\n\t\timmunisation_vaccine_types[key] = text;\r\n\t});\r\n\timmunisation_vaccine_type = jQuery('#jform_immunisation_vaccine_type').val();\r\n\t\/\/ run now\r\n\tgetImmunisationVaccineType();\r\n});\r\n\r\nfunction getImmunisationVaccineTypeServer(administration_part){\r\n\tvar getUrl = JRouter(\"index.php?option=com_[[[component]]]&task=ajax.getImmunisationVaccineType&raw=true&format=json\");\r\n\tif(token.length > 0 && administration_part > 0){\r\n\t\tvar request = 'token='+token+'&administration_part='+administration_part;\r\n\t}\r\n\treturn jQuery.ajax({\r\n\t\ttype: 'GET',\r\n\t\turl: getUrl,\r\n\t\tdataType: 'json',\r\n\t\tdata: request,\r\n\t\tjsonp: false\r\n\t});\r\n}\r\nfunction getImmunisationVaccineType(){\r\n\tjQuery(\"#loading\").show();\r\n\t\/\/ clear the selection\r\n\tjQuery('#jform_immunisation_vaccine_type').find('option').remove().end();\r\n\tjQuery('#jform_immunisation_vaccine_type').trigger('liszt:updated');\r\n\t\/\/ get administration part value if set\r\n\tvar administration_part = jQuery('#jform_administration_part').val();\r\n\tgetImmunisationVaccineTypeServer(administration_part).done(function(result) {\r\n\t\tsetImmunisationVaccineType(result);\r\n\t\tjQuery(\"#loading\").hide();\r\n\t\tif (typeof ImmunisationVaccineTypeButton !== 'undefined') {\r\n\t\t\t\/\/ ensure button is correct\r\n\t\t\tvar immunisation_vaccine_type = jQuery('#jform_immunisation_vaccine_type').val();\r\n\t\t\tImmunisationVaccineTypeButton(immunisation_vaccine_type);\r\n\t\t}\r\n\t});\r\n}\r\nfunction setImmunisationVaccineType(array){\r\n\tif (array) {\r\n\t\tjQuery('#jform_immunisation_vaccine_type').append('<option value=\"\">'+select_an_immunisation_vaccine_type+'<\/option>');\r\n\t\tjQuery.each( array, function( i, id ) {\r\n\t\t\tif (id in immunisation_vaccine_types) {\r\n\t\t\t\tjQuery('#jform_immunisation_vaccine_type').append('<option value=\"'+id+'\">'+immunisation_vaccine_types[id]+'<\/option>');\r\n\t\t\t}\r\n\t\t\tif (id == immunisation_vaccine_type) {\r\n\t\t\t\tjQuery('#jform_immunisation_vaccine_type').val(id);\r\n\t\t\t}\r\n\t\t});\r\n\t} else {\r\n\t\tjQuery('#jform_immunisation_vaccine_type').append('<option value=\"\">'+create_an_immunisation_vaccine_type+'<\/option>');\r\n\t}\r\n\tjQuery('#jform_immunisation_vaccine_type').trigger('liszt:updated');\r\n}",
+    "add_php_allowedit": 0,
+    "add_javascript_view_footer": 1,
+    "add_php_before_cancel": 0,
+    "javascript_view_footer": "[CUSTOMCODE=jsRouter]",
+    "add_php_after_cancel": 0,
+    "add_javascript_views_file": 0,
+    "add_php_batchcopy": 0,
+    "javascript_views_file": "",
+    "add_php_batchmove": 0,
+    "add_javascript_views_footer": 0,
+    "add_php_before_publish": 0,
+    "javascript_views_footer": "",
+    "add_php_after_publish": 0,
+    "add_custom_button": 0,
+    "add_php_before_delete": 0,
+    "custom_button": null,
+    "add_php_after_delete": 0,
+    "php_controller": "",
+    "add_php_document": 1,
+    "php_model": "",
+    "mysql_table_engine": "InnoDB",
+    "php_controller_list": "",
+    "mysql_table_collate": "utf8mb4_unicode_ci",
+    "php_model_list": "",
+    "add_sql": 0,
+    "add_php_ajax": 1,
+    "php_ajaxmethod": "\tpublic function getImmunisationVaccineType($administration_part)\r\n\t{\r\n\t\t\/\/ Get a db connection.\r\n\t\t$db = JFactory::getDbo();\r\n\t\t\/\/ Create a new query object.\r\n\t\t$query = $db->getQuery(true);\r\n\t\t$query->select($db->quoteName( array('a.id') ));\r\n\t\t$query->from($db->quoteName('#__[[[component]]]_immunisation_vaccine_type', 'a'));\r\n\t\t$query->where($db->quoteName('a.published') . ' = 1');\r\n\t\t\/\/ check for administration part and immunisation vaccine type\r\n\t\t$query->where($db->quoteName('a.administration_part') . ' = '. (int) $administration_part);\r\n\t\t$db->setQuery($query);\r\n\t\t$db->execute();\r\n\t\tif ($db->getNumRows())\r\n\t\t{\r\n\t\t\treturn $db->loadColumn();\r\n\t\t}\r\n\t\treturn false;\r\n\t}",
+    "guid": "c53406eb-99f0-4491-ad57-b8e5d81f1613",
+    "ajax_input": {
+        "ajax_input0": {
+            "value_name": "administration_part",
+            "task_name": "getImmunisationVaccineType",
+            "input_default": "NULL",
+            "input_filter": "INT",
+            "method_name": "getImmunisationVaccineType",
+            "user_check": "1"
+        }
+    },
+    "@dependencies": [
+        {
+            "key": "admin_view",
+            "value": "c53406eb-99f0-4491-ad57-b8e5d81f1613",
+            "entity": "admin_fields",
+            "table": "#__componentbuilder_admin_fields",
+            "direction": "in"
+        },
+        {
+            "key": "function_name",
+            "value": "saveGUID",
+            "entity": "custom_code",
+            "table": "#__componentbuilder_custom_code",
+            "direction": "out"
+        },
+        {
+            "key": "function_name",
+            "value": "setGUIDForm",
+            "entity": "custom_code",
+            "table": "#__componentbuilder_custom_code",
+            "direction": "out"
+        },
+        {
+            "key": "function_name",
+            "value": "vdmUploaderConfig",
+            "entity": "custom_code",
+            "table": "#__componentbuilder_custom_code",
+            "direction": "out"
+        },
+        {
+            "key": "function_name",
+            "value": "addUikitThreeToAdminViews",
+            "entity": "custom_code",
+            "table": "#__componentbuilder_custom_code",
+            "direction": "out"
+        },
+        {
+            "key": "function_name",
+            "value": "jsRouter",
+            "entity": "custom_code",
+            "table": "#__componentbuilder_custom_code",
+            "direction": "out"
+        },
+        {
+            "key": "602f4586-e809-5421-a145-6200a6c5dd10.png",
+            "pointer": "602f4586-e809-5421-a145-6200a6c5dd10--png",
+            "value": "images\/icons\/virus_needel.png",
+            "entity": "file",
+            "table": "file_system",
+            "target": "images"
+        },
+        {
+            "key": "e94cd324-84ed-5325-9d37-ba1e43991b05.png",
+            "pointer": "e94cd324-84ed-5325-9d37-ba1e43991b05--png",
+            "value": "images\/icons\/virus_needel_pluse.png",
+            "entity": "file",
+            "table": "file_system",
+            "target": "images"
+        }
+    ]
+}

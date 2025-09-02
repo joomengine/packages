@@ -65,6 +65,7 @@ Whether you're building for:
  - **Item Importer** | [Details](src/dynamic_get/ebfab0ae-d368-4d2a-807b-c9d2d0809a60) | [Settings](src/dynamic_get/ebfab0ae-d368-4d2a-807b-c9d2d0809a60/item.json)
  - **Looking** | [Details](src/dynamic_get/98e6ea56-0911-4d89-b1f4-8f0bb1e4aa5a) | [Settings](src/dynamic_get/98e6ea56-0911-4d89-b1f4-8f0bb1e4aa5a/item.json)
  - **Looks** | [Details](src/dynamic_get/32b3ae7d-8aa8-47f1-ab2e-30076ddaa029) | [Settings](src/dynamic_get/32b3ae7d-8aa8-47f1-ab2e-30076ddaa029/item.json)
+ - **getRecipes** | [Details](src/dynamic_get/3929bcde-8477-4b7f-a652-a7285ecbe6cb) | [Settings](src/dynamic_get/3929bcde-8477-4b7f-a652-a7285ecbe6cb/item.json)
 
 ### All used in [Joomla Component Builder](https://www.joomlacomponentbuilder.com) - [Source](https://git.vdm.dev/joomla/Component-Builder) - [Mirror](https://github.com/vdm-io/Joomla-Component-Builder) - [Download](https://git.vdm.dev/joomla/pkg-component-builder/releases)
 

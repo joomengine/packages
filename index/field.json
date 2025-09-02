@@ -1582,5 +1582,47 @@
         "path": "src\/field\/fa87e5ab-6597-4f2f-9671-61e2b61cec75",
         "settings": "src\/field\/fa87e5ab-6597-4f2f-9671-61e2b61cec75\/item.json",
         "guid": "fa87e5ab-6597-4f2f-9671-61e2b61cec75"
+    },
+    "0397261c-6035-4792-89b2-3842c0321a2f": {
+        "name": "Quantity",
+        "path": "src\/field\/0397261c-6035-4792-89b2-3842c0321a2f",
+        "settings": "src\/field\/0397261c-6035-4792-89b2-3842c0321a2f\/item.json",
+        "guid": "0397261c-6035-4792-89b2-3842c0321a2f"
+    },
+    "2455eb36-d907-4e7c-8e70-421fabd0ef9d": {
+        "name": "Instructions",
+        "path": "src\/field\/2455eb36-d907-4e7c-8e70-421fabd0ef9d",
+        "settings": "src\/field\/2455eb36-d907-4e7c-8e70-421fabd0ef9d\/item.json",
+        "guid": "2455eb36-d907-4e7c-8e70-421fabd0ef9d"
+    },
+    "7cbf273d-c9a4-4795-85d5-e4abb0710a60": {
+        "name": "Strength",
+        "path": "src\/field\/7cbf273d-c9a4-4795-85d5-e4abb0710a60",
+        "settings": "src\/field\/7cbf273d-c9a4-4795-85d5-e4abb0710a60\/item.json",
+        "guid": "7cbf273d-c9a4-4795-85d5-e4abb0710a60"
+    },
+    "8358addd-e048-4964-8bf9-7a34531d618e": {
+        "name": "Medication",
+        "path": "src\/field\/8358addd-e048-4964-8bf9-7a34531d618e",
+        "settings": "src\/field\/8358addd-e048-4964-8bf9-7a34531d618e\/item.json",
+        "guid": "8358addd-e048-4964-8bf9-7a34531d618e"
+    },
+    "910b86fc-9593-4254-84b7-e1a68d61cd58": {
+        "name": "Type (Immunisation)",
+        "path": "src\/field\/910b86fc-9593-4254-84b7-e1a68d61cd58",
+        "settings": "src\/field\/910b86fc-9593-4254-84b7-e1a68d61cd58\/item.json",
+        "guid": "910b86fc-9593-4254-84b7-e1a68d61cd58"
+    },
+    "9331d77c-d0a6-4f61-b113-88eb01268e90": {
+        "name": "Units",
+        "path": "src\/field\/9331d77c-d0a6-4f61-b113-88eb01268e90",
+        "settings": "src\/field\/9331d77c-d0a6-4f61-b113-88eb01268e90\/item.json",
+        "guid": "9331d77c-d0a6-4f61-b113-88eb01268e90"
+    },
+    "dde8b322-fffa-4857-9540-fa95f5fe1028": {
+        "name": "Immunisation Vaccine Type",
+        "path": "src\/field\/dde8b322-fffa-4857-9540-fa95f5fe1028",
+        "settings": "src\/field\/dde8b322-fffa-4857-9540-fa95f5fe1028\/item.json",
+        "guid": "dde8b322-fffa-4857-9540-fa95f5fe1028"
     }
 }

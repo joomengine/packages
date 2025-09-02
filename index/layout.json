@@ -47,5 +47,12 @@
         "path": "src\/layout\/a51be5b8-9ec9-43de-9dd9-f739c8b39288",
         "settings": "src\/layout\/a51be5b8-9ec9-43de-9dd9-f739c8b39288\/item.json",
         "guid": "a51be5b8-9ec9-43de-9dd9-f739c8b39288"
+    },
+    "c9d68d44-c737-4eea-a465-2928eaa12537": {
+        "name": "File Display Engine",
+        "desc": "File Display Engine",
+        "path": "src\/layout\/c9d68d44-c737-4eea-a465-2928eaa12537",
+        "settings": "src\/layout\/c9d68d44-c737-4eea-a465-2928eaa12537\/item.json",
+        "guid": "c9d68d44-c737-4eea-a465-2928eaa12537"
     }
 }

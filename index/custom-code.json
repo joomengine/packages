@@ -33,5 +33,47 @@
         "path": "src\/custom_code\/formControllerEdit",
         "settings": "src\/custom_code\/formControllerEdit\/item.json",
         "guid": "formControllerEdit"
+    },
+    "niceFancyDate": {
+        "name": "helper::fancyDate($date)",
+        "desc": "JCB (manual)",
+        "path": "src\/custom_code\/niceFancyDate",
+        "settings": "src\/custom_code\/niceFancyDate\/item.json",
+        "guid": "niceFancyDate"
+    },
+    "readMEcontributors": {
+        "name": "README - Contributors 2 JCB",
+        "desc": "JCB (manual)",
+        "path": "src\/custom_code\/readMEcontributors",
+        "settings": "src\/custom_code\/readMEcontributors\/item.json",
+        "guid": "readMEcontributors"
+    },
+    "phpConfigurationCheckCall": {
+        "name": "php Configuration Check (call)",
+        "desc": "JCB (manual)",
+        "path": "src\/custom_code\/phpConfigurationCheckCall",
+        "settings": "src\/custom_code\/phpConfigurationCheckCall\/item.json",
+        "guid": "phpConfigurationCheckCall"
+    },
+    "databaseSchemaCheckCall": {
+        "name": "Database Schema Check (call)",
+        "desc": "JCB (manual)",
+        "path": "src\/custom_code\/databaseSchemaCheckCall",
+        "settings": "src\/custom_code\/databaseSchemaCheckCall\/item.json",
+        "guid": "databaseSchemaCheckCall"
+    },
+    "unlockThePowerOfJoomlaDevelopment": {
+        "name": "Unlock the Power of Joomla! Development",
+        "desc": "JCB (manual)",
+        "path": "src\/custom_code\/unlockThePowerOfJoomlaDevelopment",
+        "settings": "src\/custom_code\/unlockThePowerOfJoomlaDevelopment\/item.json",
+        "guid": "unlockThePowerOfJoomlaDevelopment"
+    },
+    "getItemImportFields": {
+        "name": "helper::getItemImportFields",
+        "desc": "JCB (manual)",
+        "path": "src\/custom_code\/getItemImportFields",
+        "settings": "src\/custom_code\/getItemImportFields\/item.json",
+        "guid": "getItemImportFields"
     }
 }

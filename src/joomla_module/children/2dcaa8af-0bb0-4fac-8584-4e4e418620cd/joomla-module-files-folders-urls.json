@@ -1,0 +1,30 @@
+{
+    "joomla_module": "2dcaa8af-0bb0-4fac-8584-4e4e418620cd",
+    "addfoldersfullpath": null,
+    "addfilesfullpath": null,
+    "addfolders": null,
+    "addfiles": {
+        "addfiles0": {
+            "file": "LICENSE.txt",
+            "path": "\/"
+        }
+    },
+    "addurls": null,
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "2dcaa8af-0bb0-4fac-8584-4e4e418620cd",
+            "entity": "joomla_module",
+            "table": "#__componentbuilder_joomla_module",
+            "direction": "out"
+        },
+        {
+            "key": "e4a4fe26-c95e-5ca4-9924-a0ff98f3fc77.txt",
+            "pointer": "e4a4fe26-c95e-5ca4-9924-a0ff98f3fc77--txt",
+            "value": "LICENSE.txt",
+            "entity": "file",
+            "table": "file_system",
+            "target": "custom"
+        }
+    ]
+}

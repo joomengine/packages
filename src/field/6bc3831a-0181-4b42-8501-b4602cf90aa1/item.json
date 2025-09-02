@@ -1,0 +1,35 @@
+{
+    "name": "Change in size of breast (BC)",
+    "fieldtype": "76fe1250-6fa7-49e5-a0ee-f06d8d4c9f99",
+    "datatype": "MEDIUMTEXT",
+    "indexes": "0",
+    "null_switch": "NOT NULL",
+    "store": 0,
+    "on_get_model_field": "",
+    "on_save_model_field": "",
+    "initiator_on_get_model": "",
+    "xml": "<field\n\ttype=\"textarea\"\n\tname=\"txt_bc_breast_shape\"\n\tlabel=\"Comments:\"\n\trows=\"5\"\n\tcols=\"20\"\n\tdescription=\"A change in the size or shape of the breast\"\n\tclass=\"text_area span12\"\n\tfilter=\"HTML\"\n\thint=\"Add text here\"\n\/>",
+    "datalenght": "",
+    "javascript_view_footer": "",
+    "css_views": "",
+    "css_view": "",
+    "datadefault_other": "",
+    "datadefault": "",
+    "datalenght_other": "",
+    "javascript_views_footer": "",
+    "add_css_view": 0,
+    "add_css_views": 0,
+    "add_javascript_view_footer": 0,
+    "add_javascript_views_footer": 0,
+    "initiator_on_save_model": "",
+    "guid": "6bc3831a-0181-4b42-8501-b4602cf90aa1",
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "76fe1250-6fa7-49e5-a0ee-f06d8d4c9f99",
+            "entity": "fieldtype",
+            "table": "#__componentbuilder_fieldtype",
+            "direction": "out"
+        }
+    ]
+}

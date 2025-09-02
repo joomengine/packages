@@ -1654,5 +1654,17 @@
         "path": "src\/field\/fb14a5b4-e9a4-45c3-aa4d-bc7639e7760f",
         "settings": "src\/field\/fb14a5b4-e9a4-45c3-aa4d-bc7639e7760f\/item.json",
         "guid": "fb14a5b4-e9a4-45c3-aa4d-bc7639e7760f"
+    },
+    "90a8c1ec-c3fa-47ec-86cf-06d770fb74e3": {
+        "name": "Quantity",
+        "path": "src\/field\/90a8c1ec-c3fa-47ec-86cf-06d770fb74e3",
+        "settings": "src\/field\/90a8c1ec-c3fa-47ec-86cf-06d770fb74e3\/item.json",
+        "guid": "90a8c1ec-c3fa-47ec-86cf-06d770fb74e3"
+    },
+    "f539d9eb-a2fb-4f6f-9ecf-ab48cc82a994": {
+        "name": "Ingredients (Modal Select)",
+        "path": "src\/field\/f539d9eb-a2fb-4f6f-9ecf-ab48cc82a994",
+        "settings": "src\/field\/f539d9eb-a2fb-4f6f-9ecf-ab48cc82a994\/item.json",
+        "guid": "f539d9eb-a2fb-4f6f-9ecf-ab48cc82a994"
     }
 }

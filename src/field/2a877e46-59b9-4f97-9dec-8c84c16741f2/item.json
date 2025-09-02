@@ -1,0 +1,35 @@
+{
+    "name": "Entity File Type",
+    "fieldtype": "dd2e1f4b-f5db-45e8-85fa-efd27bae7b6a",
+    "datatype": "VARCHAR",
+    "indexes": "2",
+    "null_switch": "NULL",
+    "store": 0,
+    "on_get_model_field": "",
+    "on_save_model_field": "",
+    "initiator_on_get_model": "",
+    "xml": "<field\n\ttype=\"entityfiletypes\"\n\tname=\"file_type\"\n\tlabel=\"Select Upload Type\"\n\tclass=\"list_class\"\n\tlayout=\"joomla.form.field.list-fancy-select\"\n\tmultiple=\"false\"\n\trequired=\"false\"\n\textends=\"list\"\n\tbutton=\"false\"\n\ttable=\"#__###component###_file_type\"\n\tcomponent=\"com_###component###\"\n\tentity=\"###view###\"\n\tview=\"file_type\"\n\tviews=\"file_types\"\n\tvalue_field=\"name\"\n\tkey_field=\"guid\"\n\tprime_php=\"1\"\n\ttype_php_1=\"__.o0=base64=Oo.__Ly8gR2V0IHRoZSB1c2VyIG9iamVjdC4NCgkJJHVzZXIgPSBGYWN0b3J5OjpnZXRBcHBsaWNhdGlvbigpLT5nZXRJZGVudGl0eSgpOw0KCQkvLyBHZXQgdGhlIGRhdGFiYXNlIG9iamVjdC4NCgkJJGRiID0gRmFjdG9yeTo6Z2V0REJPKCk7DQoJCSRxdWVyeSA9ICRkYi0+Z2V0UXVlcnkodHJ1ZSk7DQoJCSRxdWVyeS0+c2VsZWN0KCRkYi0+cXVvdGVOYW1lKGFycmF5KCdhLiMjI0lEIyMjJywnYS4jIyNURVhUIyMjJywnYS50YXJnZXQnKSxhcnJheSgnIyMjSUQjIyMnLCcjIyNDT0RFX1RFWFQjIyMnLCd0YXJnZXQnKSkpOw0KCQkkcXVlcnktPmZyb20oJGRiLT5xdW90ZU5hbWUoJyMjI1RBQkxFIyMjJywgJ2EnKSk7DQoJCSRxdWVyeS0+d2hlcmUoJGRiLT5xdW90ZU5hbWUoJ2EucHVibGlzaGVkJykgLiAnID0gMScpOw0KCQkkcXVlcnktPm9yZGVyKCdhLiMjI1RFWFQjIyMgQVNDJyk7DQoJCS8vIEltcGxlbWVudCBWaWV3IExldmVsIEFjY2VzcyAoaWYgc2V0IGluIHRhYmxlKQ0KCQlpZiAoISR1c2VyLT5hdXRob3Jpc2UoJ2NvcmUub3B0aW9ucycsICdbW1tjb21fY29tcG9uZW50XV1dJykpDQoJCXsNCgkJCSRncm91cHMgPSBpbXBsb2RlKCcsJywgJHVzZXItPmdldEF1dGhvcmlzZWRWaWV3TGV2ZWxzKCkpOw0KCQkJJHF1ZXJ5LT53aGVyZSgnYS5hY2Nlc3MgSU4gKCcgLiAkZ3JvdXBzIC4gJyknKTsNCgkJfQ0KCQkkZGItPnNldFF1ZXJ5KChzdHJpbmcpJHF1ZXJ5KTsNCgkJJGl0ZW1zID0gJGRiLT5sb2FkT2JqZWN0TGlzdCgpOw0KCQkkZW50aXR5ID0gJHRoaXMtPmdldEF0dHJpYnV0ZSgnZW50aXR5Jyk7DQoJCSRvcHRpb25zID0gW107DQoJCWlmICgkaXRlbXMpDQoJCXsNCgkJCWlmICgkdGhpcy0+bXVsdGlwbGUgPT09IGZhbHNlKQ0KCQkJew0KCQkJCSRvcHRpb25zW10gPSBIdG1sOjpfKCdzZWxlY3Qub3B0aW9uJywgJycsIFRleHQ6Ol8oJ1NlbGVjdCBhbiBvcHRpb24nKSk7DQoJCQl9DQoJCQlmb3JlYWNoKCRpdGVtcyBhcyAkaXRlbSkNCgkJCXsNCgkJCQlpZiAoU3VwZXJfX180YjIyNWM1MV9kMjkzXzQ4ZTRfYjNmNl81MTM2Y2Y1YzNmMThfX19Qb3dlcjo6Y2hlY2soJGl0ZW0tPnRhcmdldCkpDQoJCQkJew0KCQkJCQkkaXRlbS0+dGFyZ2V0ID0ganNvbl9kZWNvZGUoJGl0ZW0tPnRhcmdldCwgdHJ1ZSk7DQoJCQkJfQ0KCQkJCWlmIChTdXBlcl9fXzBhNTljNjVjXzlkYWZfNGJjOV9iYWY0X2UwNjNmZjllNmE4YV9fX1Bvd2VyOjpjaGVjaygkaXRlbS0+dGFyZ2V0KSAmJiBpbl9hcnJheSgkZW50aXR5LCAkaXRlbS0+dGFyZ2V0KSkNCgkJCQl7DQoJCQkJCSRvcHRpb25zW10gPSBIdG1sOjpfKCdzZWxlY3Qub3B0aW9uJywgJGl0ZW0tPiMjI0lEIyMjLCAkaXRlbS0+IyMjQ09ERV9URVhUIyMjKTsNCgkJCQl9DQoJCQl9DQoJCX0NCgkJaWYgKGNvdW50KCRvcHRpb25zKSA8PSAxKQ0KCQl7DQoJCQlyZXR1cm4gW0h0bWw6Ol8oJ3NlbGVjdC5vcHRpb24nLCAnJywgVGV4dDo6c3ByaW50ZignTm8gZmlsZSB0eXBlcyBsaW5rZWQgdG8gdGhlICglcykgYXJlYS4nLCAkZW50aXR5KSldOw0KCQl9DQoJCXJldHVybiAkb3B0aW9uczs=\"\n\/>",
+    "datalenght": "Other",
+    "javascript_view_footer": "",
+    "css_views": "",
+    "css_view": "",
+    "datadefault_other": "",
+    "datadefault": "",
+    "datalenght_other": "36",
+    "javascript_views_footer": "",
+    "add_css_view": 0,
+    "add_css_views": 0,
+    "add_javascript_view_footer": 0,
+    "add_javascript_views_footer": 0,
+    "initiator_on_save_model": "",
+    "guid": "2a877e46-59b9-4f97-9dec-8c84c16741f2",
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "dd2e1f4b-f5db-45e8-85fa-efd27bae7b6a",
+            "entity": "fieldtype",
+            "table": "#__componentbuilder_fieldtype",
+            "direction": "out"
+        }
+    ]
+}

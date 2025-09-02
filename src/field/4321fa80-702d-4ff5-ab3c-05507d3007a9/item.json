@@ -1,0 +1,35 @@
+{
+    "name": "Type (of state)",
+    "fieldtype": "a51dfc06-1b9b-4d0a-86ba-f705bcd40d4d",
+    "datatype": "VARCHAR",
+    "indexes": "2",
+    "null_switch": "NULL",
+    "store": 0,
+    "on_get_model_field": null,
+    "on_save_model_field": null,
+    "initiator_on_get_model": "",
+    "xml": "<field\n\ttype=\"list\"\n\tname=\"type\"\n\tlabel=\"Type\"\n\tdescription=\"Select the Type\"\n\tmessage=\"Error! Please add the Type here.\"\n\tclass=\"list_class\"\n\tlayout=\"joomla.form.field.list-fancy-select\"\n\tmultiple=\"false\"\n\toption=\"department|Department,district|District,region|Region,province|Province,municipality|Municipality,geographical region|Geographical Region,popularate|Popularate,oblast|Oblast,city|City,land|Land,county|County,governorate|Governorate,administered area|Administered Area,federal capital territory|Federal Capital Territory,emirate|Emirate,special municipality|Special Municipality,state|State,metropolitan administration|Metropolitan Administration,parish|Parish,metropolitan city|Metropolitan City,special self-governing province|Special Self-Governing Province,special self-governing city|Special Self-Governing City,dependency|Dependency,territory|Territory,division|Division,island council|Island Council,special city|Special City,union territory|Union Territory,autonomous territorial unit|Autonomous Territorial Unit,overseas collectivity|Overseas Collectivity,metropolitan region|Metropolitan Region,metropolitan collectivity with special status|Metropolitan Collectivity with Special Status,overseas region|Overseas Region,autonomous region|Autonomous Region,administrative region|Administrative Region,capital district|Capital District,prefecture|Prefecture,canton|Canton,metropolitan department|Metropolitan Department,overseas territory|Overseas Territory,island|Island,autonomous community|Autonomous Community,autonomous city|Autonomous City,village|Village,sheadings|Sheadings,capital city|Capital City,district municipality|District Municipality\r\n\"\n\/>",
+    "datalenght": "255",
+    "javascript_view_footer": "",
+    "css_views": "",
+    "css_view": "",
+    "datadefault_other": "",
+    "datadefault": "",
+    "datalenght_other": "",
+    "javascript_views_footer": "",
+    "add_css_view": 0,
+    "add_css_views": 0,
+    "add_javascript_view_footer": 0,
+    "add_javascript_views_footer": 0,
+    "initiator_on_save_model": "",
+    "guid": "4321fa80-702d-4ff5-ab3c-05507d3007a9",
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "a51dfc06-1b9b-4d0a-86ba-f705bcd40d4d",
+            "entity": "fieldtype",
+            "table": "#__componentbuilder_fieldtype",
+            "direction": "out"
+        }
+    ]
+}

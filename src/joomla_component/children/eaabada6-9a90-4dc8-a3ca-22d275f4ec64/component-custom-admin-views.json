@@ -1,0 +1,13 @@
+{
+    "joomla_component": "eaabada6-9a90-4dc8-a3ca-22d275f4ec64",
+    "addcustom_admin_views": null,
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "eaabada6-9a90-4dc8-a3ca-22d275f4ec64",
+            "entity": "joomla_component",
+            "table": "#__componentbuilder_joomla_component",
+            "direction": "out"
+        }
+    ]
+}

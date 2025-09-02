@@ -1,0 +1,23 @@
+{
+    "efde995e-60aa-4b39-b644-44349dfb660d": {
+        "name": "Demo J5",
+        "path": "src\/joomla_component\/efde995e-60aa-4b39-b644-44349dfb660d",
+        "settings": "src\/joomla_component\/efde995e-60aa-4b39-b644-44349dfb660d\/item.json",
+        "guid": "efde995e-60aa-4b39-b644-44349dfb660d",
+        "desc": "Demo Component"
+    },
+    "3745af8f-f96b-4e17-831e-eb4062cd4389": {
+        "name": "HelloWorld (public)",
+        "path": "src\/joomla_component\/3745af8f-f96b-4e17-831e-eb4062cd4389",
+        "settings": "src\/joomla_component\/3745af8f-f96b-4e17-831e-eb4062cd4389\/item.json",
+        "guid": "3745af8f-f96b-4e17-831e-eb4062cd4389",
+        "desc": "Hello World"
+    },
+    "d7d3bc04-6272-470a-91d1-e091ecb10ab6": {
+        "name": "Demo J4",
+        "path": "src\/joomla_component\/d7d3bc04-6272-470a-91d1-e091ecb10ab6",
+        "settings": "src\/joomla_component\/d7d3bc04-6272-470a-91d1-e091ecb10ab6\/item.json",
+        "guid": "d7d3bc04-6272-470a-91d1-e091ecb10ab6",
+        "desc": "Demo Component"
+    }
+}

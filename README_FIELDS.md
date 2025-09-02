@@ -153,6 +153,8 @@ This preserves version control while allowing your own field improvements to liv
  - **User ID (Hidden)** | [Details](src/field/a0d7c091-1781-45fb-a71f-1447bad69614) | [Settings](src/field/a0d7c091-1781-45fb-a71f-1447bad69614/item.json)
  - **Username (required)** | [Details](src/field/b7edbefd-d8ee-4765-9a09-ab1922e70e68) | [Settings](src/field/b7edbefd-d8ee-4765-9a09-ab1922e70e68/item.json)
  - **Users** | [Details](src/field/c61285fd-2e35-4605-869f-66d2fbd70004) | [Settings](src/field/c61285fd-2e35-4605-869f-66d2fbd70004/item.json)
+ - **Version Dates** | [Details](src/field/7bb0cce1-9a1d-4f38-9f94-4585eaabcdcd) | [Settings](src/field/7bb0cce1-9a1d-4f38-9f94-4585eaabcdcd/item.json)
+ - **Version Name** | [Details](src/field/f3e44dab-059a-434e-98c5-9d9def389295) | [Settings](src/field/f3e44dab-059a-434e-98c5-9d9def389295/item.json)
  - **Versions** | [Details](src/field/801520d9-b7b3-47c5-a2a9-2581199ead0b) | [Settings](src/field/801520d9-b7b3-47c5-a2a9-2581199ead0b/item.json)
  - **Website (no required)** | [Details](src/field/6c3a6983-d1bf-4e5e-9e99-deea00b0cefd) | [Settings](src/field/6c3a6983-d1bf-4e5e-9e99-deea00b0cefd/item.json)
  - **WikiDataId** | [Details](src/field/af59b3ac-6a00-42c0-bbe2-edf90dec6081) | [Settings](src/field/af59b3ac-6a00-42c0-bbe2-edf90dec6081/item.json)

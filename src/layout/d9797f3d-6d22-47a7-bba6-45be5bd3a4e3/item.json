@@ -1,0 +1,12 @@
+{
+    "name": "Recipes Card Body",
+    "description": "Recipes Card Body",
+    "dynamic_get": "",
+    "snippet": "0",
+    "guid": "d9797f3d-6d22-47a7-bba6-45be5bd3a4e3",
+    "php_view": "$item = $displayData['item'] ?? null;",
+    "add_php_view": 1,
+    "layout": "<?php if ($item !== null): ?>\r\n<div class=\"card h-100 shadow-sm border-0\">\r\n\t<?php if (!empty($item->image)) : ?>\r\n\t\t<div class=\"ratio ratio-4x3\">\r\n\t\t\t<img src=\"<?php echo htmlspecialchars($item->image, ENT_QUOTES, 'UTF-8'); ?>\"\r\n\t\t\t\t\t alt=\"<?php echo htmlspecialchars($item->name, ENT_QUOTES, 'UTF-8'); ?>\"\r\n\t\t\t\t\t class=\"img-fluid w-100 h-100 object-fit-cover rounded-top\"\r\n\t\t\t\t\t style=\"object-fit: cover;\">\r\n\t\t<\/div>\r\n\t<?php endif; ?>\r\n\t<div class=\"card-body\">\r\n\t\t<h5 class=\"card-title mb-2\">\r\n\t\t\t<?php echo $item->name; ?>\r\n\t\t<\/h5>\r\n\t\t<p class=\"text-muted mb-1\">\r\n\t\t\t<strong>Time:<\/strong> <?php echo $item->preparing_time; ?>\r\n\t\t<\/p>\r\n\t\t<p class=\"card-text mb-3\">\r\n\t\t\t<?php echo strip_tags(Joomla___34690c75_1090_47eb_8c06_7228dc7eedd6___Power::_('string.truncate', $item->description, 100, true, false)); ?>\r\n\t\t<\/p>\r\n\t\t<button type=\"button\" class=\"btn btn-outline-primary btn-sm\"\r\n\t\t\t\t\t\tdata-bs-toggle=\"modal\"\r\n\t\t\t\t\t\tdata-bs-target=\"#recipeModal-<?php echo (int) $item->id; ?>\">\r\n\t\t\t<?php echo Text::_('Read More'); ?>\r\n\t\t<\/button>\r\n\t<\/div>\r\n<\/div>\r\n<?php endif; ?>\r\n",
+    "libraries": null,
+    "alias": "recipes-card-body"
+}

@@ -1,0 +1,7 @@
+{
+    "name": "CMSPlugin",
+    "extension_type": "plugins",
+    "guid": "ae2fafb4-e84b-4534-ba9c-6c9e1700b318",
+    "head": "use Joomla\\CMS\\Application\\CMSApplication;\r\nuse Joomla\\CMS\\Plugin\\CMSPlugin;\r\n",
+    "comment": "\/**\r\n * [[[Plugin_name]]] plugin.\r\n *\r\n * @package   [[[Plugin]]]\r\n * @since     [[[plugin.version]]]\r\n *\/"
+}

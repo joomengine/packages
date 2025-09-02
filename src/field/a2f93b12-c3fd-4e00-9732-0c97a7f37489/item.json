@@ -1,0 +1,35 @@
+{
+    "name": "Year Width",
+    "fieldtype": "5abd2b73-643b-4273-841a-787991aad968",
+    "datatype": "INT",
+    "indexes": "0",
+    "null_switch": "NOT NULL",
+    "store": 0,
+    "on_get_model_field": "",
+    "on_save_model_field": "",
+    "initiator_on_get_model": "",
+    "xml": "<field\n\ttype=\"number\"\n\tname=\"year_width\"\n\tlabel=\"Year Width\"\n\tdefault=\"120\"\n\tclass=\"text_area\"\n\trequired=\"true\"\n\tmin=\"50\"\n\tmax=\"300\"\n\tstep=\"5\"\n\tvalidate=\"number\"\n\/>",
+    "datalenght": "11",
+    "javascript_view_footer": "",
+    "css_views": "",
+    "css_view": "",
+    "datadefault_other": "",
+    "datadefault": "0",
+    "datalenght_other": "",
+    "javascript_views_footer": "",
+    "add_css_view": 0,
+    "add_css_views": 0,
+    "add_javascript_view_footer": 0,
+    "add_javascript_views_footer": 0,
+    "initiator_on_save_model": "",
+    "guid": "a2f93b12-c3fd-4e00-9732-0c97a7f37489",
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "5abd2b73-643b-4273-841a-787991aad968",
+            "entity": "fieldtype",
+            "table": "#__componentbuilder_fieldtype",
+            "direction": "out"
+        }
+    ]
+}

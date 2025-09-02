@@ -484,5 +484,131 @@
         "path": "src\/field\/104f8410-a07e-4cf8-aad5-2b4db7c6864c",
         "settings": "src\/field\/104f8410-a07e-4cf8-aad5-2b4db7c6864c\/item.json",
         "guid": "104f8410-a07e-4cf8-aad5-2b4db7c6864c"
+    },
+    "12ecc6cc-9195-4633-8ecd-27ecc0643bd4": {
+        "name": "Margin Left",
+        "path": "src\/field\/12ecc6cc-9195-4633-8ecd-27ecc0643bd4",
+        "settings": "src\/field\/12ecc6cc-9195-4633-8ecd-27ecc0643bd4\/item.json",
+        "guid": "12ecc6cc-9195-4633-8ecd-27ecc0643bd4"
+    },
+    "3e72e2ab-0731-46f1-83ac-8bffddcd5634": {
+        "name": "Margin Right",
+        "path": "src\/field\/3e72e2ab-0731-46f1-83ac-8bffddcd5634",
+        "settings": "src\/field\/3e72e2ab-0731-46f1-83ac-8bffddcd5634\/item.json",
+        "guid": "3e72e2ab-0731-46f1-83ac-8bffddcd5634"
+    },
+    "3d3bf310-a38f-4e31-89c8-d5d986f4bb53": {
+        "name": "Header Height",
+        "path": "src\/field\/3d3bf310-a38f-4e31-89c8-d5d986f4bb53",
+        "settings": "src\/field\/3d3bf310-a38f-4e31-89c8-d5d986f4bb53\/item.json",
+        "guid": "3d3bf310-a38f-4e31-89c8-d5d986f4bb53"
+    },
+    "a2f93b12-c3fd-4e00-9732-0c97a7f37489": {
+        "name": "Year Width",
+        "path": "src\/field\/a2f93b12-c3fd-4e00-9732-0c97a7f37489",
+        "settings": "src\/field\/a2f93b12-c3fd-4e00-9732-0c97a7f37489\/item.json",
+        "guid": "a2f93b12-c3fd-4e00-9732-0c97a7f37489"
+    },
+    "f8ceaba3-04d3-406d-abb9-c8372100817c": {
+        "name": "Branch Height",
+        "path": "src\/field\/f8ceaba3-04d3-406d-abb9-c8372100817c",
+        "settings": "src\/field\/f8ceaba3-04d3-406d-abb9-c8372100817c\/item.json",
+        "guid": "f8ceaba3-04d3-406d-abb9-c8372100817c"
+    },
+    "fb71c5cc-65d9-4389-8599-b94f4eecc97c": {
+        "name": "Footer Height",
+        "path": "src\/field\/fb71c5cc-65d9-4389-8599-b94f4eecc97c",
+        "settings": "src\/field\/fb71c5cc-65d9-4389-8599-b94f4eecc97c\/item.json",
+        "guid": "fb71c5cc-65d9-4389-8599-b94f4eecc97c"
+    },
+    "44a3a4aa-f601-4765-b656-2f0a01dd6fd9": {
+        "name": "Min Years",
+        "path": "src\/field\/44a3a4aa-f601-4765-b656-2f0a01dd6fd9",
+        "settings": "src\/field\/44a3a4aa-f601-4765-b656-2f0a01dd6fd9\/item.json",
+        "guid": "44a3a4aa-f601-4765-b656-2f0a01dd6fd9"
+    },
+    "9f5ddbec-3f1c-4af9-8d33-a158bcaaf453": {
+        "name": "Max Years",
+        "path": "src\/field\/9f5ddbec-3f1c-4af9-8d33-a158bcaaf453",
+        "settings": "src\/field\/9f5ddbec-3f1c-4af9-8d33-a158bcaaf453\/item.json",
+        "guid": "9f5ddbec-3f1c-4af9-8d33-a158bcaaf453"
+    },
+    "7414d14b-b802-4ac2-9090-218cdb32156c": {
+        "name": "Default Text Colour",
+        "path": "src\/field\/7414d14b-b802-4ac2-9090-218cdb32156c",
+        "settings": "src\/field\/7414d14b-b802-4ac2-9090-218cdb32156c\/item.json",
+        "guid": "7414d14b-b802-4ac2-9090-218cdb32156c"
+    },
+    "f83befac-e15e-421c-83a0-c17e99492b79": {
+        "name": "End of Life Background Colour",
+        "path": "src\/field\/f83befac-e15e-421c-83a0-c17e99492b79",
+        "settings": "src\/field\/f83befac-e15e-421c-83a0-c17e99492b79\/item.json",
+        "guid": "f83befac-e15e-421c-83a0-c17e99492b79"
+    },
+    "8097f524-48e6-470a-aa42-e4383d3019fa": {
+        "name": "End of Life Text Colour",
+        "path": "src\/field\/8097f524-48e6-470a-aa42-e4383d3019fa",
+        "settings": "src\/field\/8097f524-48e6-470a-aa42-e4383d3019fa\/item.json",
+        "guid": "8097f524-48e6-470a-aa42-e4383d3019fa"
+    },
+    "8f485452-b062-4ec9-9fa5-0182d04d8d7c": {
+        "name": "Future Background Colour",
+        "path": "src\/field\/8f485452-b062-4ec9-9fa5-0182d04d8d7c",
+        "settings": "src\/field\/8f485452-b062-4ec9-9fa5-0182d04d8d7c\/item.json",
+        "guid": "8f485452-b062-4ec9-9fa5-0182d04d8d7c"
+    },
+    "cb60a327-5ce5-4b48-a8e0-27321022bf40": {
+        "name": "Today Line Colour",
+        "path": "src\/field\/cb60a327-5ce5-4b48-a8e0-27321022bf40",
+        "settings": "src\/field\/cb60a327-5ce5-4b48-a8e0-27321022bf40\/item.json",
+        "guid": "cb60a327-5ce5-4b48-a8e0-27321022bf40"
+    },
+    "a2e37110-c69f-41b3-b05b-f5f51d0d9ab4": {
+        "name": "Today Text Colour",
+        "path": "src\/field\/a2e37110-c69f-41b3-b05b-f5f51d0d9ab4",
+        "settings": "src\/field\/a2e37110-c69f-41b3-b05b-f5f51d0d9ab4\/item.json",
+        "guid": "a2e37110-c69f-41b3-b05b-f5f51d0d9ab4"
+    },
+    "9e2dcfc2-ea21-4caf-88aa-f0706d5878e5": {
+        "name": "Years Line Colour",
+        "path": "src\/field\/9e2dcfc2-ea21-4caf-88aa-f0706d5878e5",
+        "settings": "src\/field\/9e2dcfc2-ea21-4caf-88aa-f0706d5878e5\/item.json",
+        "guid": "9e2dcfc2-ea21-4caf-88aa-f0706d5878e5"
+    },
+    "0a6ee559-822b-4cd1-a049-d956ba2ff80b": {
+        "name": "Years Text Colour",
+        "path": "src\/field\/0a6ee559-822b-4cd1-a049-d956ba2ff80b",
+        "settings": "src\/field\/0a6ee559-822b-4cd1-a049-d956ba2ff80b\/item.json",
+        "guid": "0a6ee559-822b-4cd1-a049-d956ba2ff80b"
+    },
+    "801520d9-b7b3-47c5-a2a9-2581199ead0b": {
+        "name": "Versions",
+        "path": "src\/field\/801520d9-b7b3-47c5-a2a9-2581199ead0b",
+        "settings": "src\/field\/801520d9-b7b3-47c5-a2a9-2581199ead0b\/item.json",
+        "guid": "801520d9-b7b3-47c5-a2a9-2581199ead0b"
+    },
+    "dc416a4a-a19f-4ef5-a703-e2334df42efd": {
+        "name": "Show Legend",
+        "path": "src\/field\/dc416a4a-a19f-4ef5-a703-e2334df42efd",
+        "settings": "src\/field\/dc416a4a-a19f-4ef5-a703-e2334df42efd\/item.json",
+        "guid": "dc416a4a-a19f-4ef5-a703-e2334df42efd"
+    },
+    "8f1c9c1f-9d64-4f6c-9066-777665c7dcac": {
+        "name": "Legend Background Colour",
+        "path": "src\/field\/8f1c9c1f-9d64-4f6c-9066-777665c7dcac",
+        "settings": "src\/field\/8f1c9c1f-9d64-4f6c-9066-777665c7dcac\/item.json",
+        "guid": "8f1c9c1f-9d64-4f6c-9066-777665c7dcac"
+    },
+    "11bf8b86-99ad-4003-82eb-c55c16d0a041": {
+        "name": "Legend Text Colour",
+        "path": "src\/field\/11bf8b86-99ad-4003-82eb-c55c16d0a041",
+        "settings": "src\/field\/11bf8b86-99ad-4003-82eb-c55c16d0a041\/item.json",
+        "guid": "11bf8b86-99ad-4003-82eb-c55c16d0a041"
+    },
+    "1805a9da-75bf-41d6-b120-4c021fd93d8d": {
+        "name": "Future Text Colour",
+        "path": "src\/field\/1805a9da-75bf-41d6-b120-4c021fd93d8d",
+        "settings": "src\/field\/1805a9da-75bf-41d6-b120-4c021fd93d8d\/item.json",
+        "guid": "1805a9da-75bf-41d6-b120-4c021fd93d8d"
     }
 }

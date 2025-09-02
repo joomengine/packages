@@ -1,0 +1,35 @@
+{
+    "name": "Messages",
+    "fieldtype": "76fe1250-6fa7-49e5-a0ee-f06d8d4c9f99",
+    "datatype": "TEXT",
+    "indexes": "",
+    "null_switch": "NULL",
+    "store": 0,
+    "on_get_model_field": null,
+    "on_save_model_field": null,
+    "initiator_on_get_model": "",
+    "xml": "<field\n\ttype=\"textarea\"\n\tname=\"message\"\n\tlabel=\"Messages\"\n\tdescription=\"message log\"\n\tclass=\"text_area\"\n\thint=\"Message logs will display here.\"\n\/>",
+    "datalenght": "",
+    "javascript_view_footer": "",
+    "css_views": "",
+    "css_view": "",
+    "datadefault_other": "",
+    "datadefault": "",
+    "datalenght_other": "",
+    "javascript_views_footer": "",
+    "add_css_view": 0,
+    "add_css_views": 0,
+    "add_javascript_view_footer": 0,
+    "add_javascript_views_footer": 0,
+    "initiator_on_save_model": "",
+    "guid": "c6e1e451-99b8-4e1b-aa19-c48c3513bf4f",
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "76fe1250-6fa7-49e5-a0ee-f06d8d4c9f99",
+            "entity": "fieldtype",
+            "table": "#__componentbuilder_fieldtype",
+            "direction": "out"
+        }
+    ]
+}

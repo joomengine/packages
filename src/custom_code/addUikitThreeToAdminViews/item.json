@@ -1,0 +1,15 @@
+{
+    "system_name": "addUikitThreeToAdminViews",
+    "path": "",
+    "target": 2,
+    "type": 0,
+    "comment_type": 1,
+    "joomla_version": 3,
+    "function_name": "addUikitThreeToAdminViews",
+    "code": "\t\tHtml::_('script', 'media\/com_[[[component]]]\/uikit-v3\/js\/uikit.min.js', ['version' => 'auto']);\r\n\t\tHtml::_('script', 'media\/com_[[[component]]]\/uikit-v3\/js\/uikit-icons.min.js', ['version' => 'auto']);\r\n\t\tHtml::_('script', 'https:\/\/cdn.jsdelivr.net\/gh\/vdm-io\/uikit@3.0.0\/dist\/js\/vdm.min.js', ['version' => 'auto']);\r\n\t\tHtml::_('stylesheet', 'media\/com_[[[component]]]\/uikit-v3\/css\/uikit.min.css', ['version' => 'auto']);",
+    "hashendtarget": "",
+    "to_line": "",
+    "from_line": "",
+    "hashtarget": "",
+    "component": "0"
+}

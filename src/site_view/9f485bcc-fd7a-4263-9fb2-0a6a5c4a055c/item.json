@@ -1,0 +1,61 @@
+{
+    "system_name": "Recipes",
+    "name": "Recipes",
+    "description": "Recipes",
+    "main_get": "3929bcde-8477-4b7f-a652-a7285ecbe6cb",
+    "add_php_jview_display": 0,
+    "add_php_document": 1,
+    "add_php_view": 0,
+    "js_document": "",
+    "codename": "recipes",
+    "javascript_file": "",
+    "context": "recipes",
+    "default": "<div class=\"container py-4\">\r\n\t<div class=\"row g-4\">\r\n\t\t<?php foreach ($this->items as $item): ?>\r\n\t\t\t<div class=\"col-md-4\">\r\n\t\t\t\t<?php echo Joomla___7ab82272_0b3d_4bb1_af35_e63a096cfe0b___Power::render('recipescardbody', ['item' => $item]); ?>\r\n\t\t\t\t<?php echo Joomla___7ab82272_0b3d_4bb1_af35_e63a096cfe0b___Power::render('recipesmodal', ['item' => $item]); ?>\r\n\t\t\t<\/div>\r\n\t\t<?php endforeach; ?>\r\n\t<\/div>\r\n<\/div>",
+    "snippet": "0",
+    "add_php_jview": 0,
+    "custom_get": null,
+    "css_document": "",
+    "add_javascript_file": 0,
+    "css": ".card-img-top img {\r\n  border-top-left-radius: 0.5rem;\r\n  border-top-right-radius: 0.5rem;\r\n  object-fit: cover;\r\n  height: 100%;\r\n  width: 100%;\r\n}",
+    "add_js_document": 0,
+    "php_ajaxmethod": "",
+    "add_css_document": 0,
+    "libraries": null,
+    "add_css": 1,
+    "dynamic_get": "3929bcde-8477-4b7f-a652-a7285ecbe6cb",
+    "add_php_ajax": 0,
+    "ajax_input": null,
+    "add_custom_button": 0,
+    "php_document": "\/\/ Ensure Bootstrap 5 is loaded\r\nHtml::_('bootstrap.framework');\r\n",
+    "button_position": 2,
+    "php_view": "",
+    "php_jview_display": "",
+    "custom_button": null,
+    "php_jview": "",
+    "php_controller": "",
+    "guid": "9f485bcc-fd7a-4263-9fb2-0a6a5c4a055c",
+    "php_model": "",
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "3929bcde-8477-4b7f-a652-a7285ecbe6cb",
+            "entity": "dynamic_get",
+            "table": "#__componentbuilder_dynamic_get",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "d9797f3d-6d22-47a7-bba6-45be5bd3a4e3",
+            "entity": "layout",
+            "table": "#__componentbuilder_layout",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "dbcc89a3-75eb-48f3-8982-69c0fa2b0a01",
+            "entity": "layout",
+            "table": "#__componentbuilder_layout",
+            "direction": "out"
+        }
+    ]
+}

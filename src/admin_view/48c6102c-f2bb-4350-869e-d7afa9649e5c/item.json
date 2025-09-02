@@ -1,0 +1,195 @@
+{
+    "system_name": "Patients",
+    "name_single": "Patient",
+    "short_description": "Patients of the Health Portal",
+    "php_allowedit": "",
+    "php_postsavehook": "",
+    "php_before_save": "[CUSTOMCODE=saveGUID]",
+    "php_getlistquery": "",
+    "php_getitems": "",
+    "name_list": "Patients",
+    "icon": "images\/user-icon.png#joomlaImage:\/\/local-images\/user-icon.png?width=128&height=128",
+    "php_after_publish": "",
+    "add_fadein": 1,
+    "description": "",
+    "icon_category": "",
+    "icon_add": "images\/user-icon-plus.png#joomlaImage:\/\/local-images\/user-icon-plus.png?width=128&height=128",
+    "php_after_cancel": "",
+    "mysql_table_charset": "utf8mb4",
+    "php_batchmove": "",
+    "type": 1,
+    "php_after_delete": "",
+    "source": 0,
+    "php_getitem": "",
+    "addpermissions": {
+        "addpermissions0": {
+            "action": "view.edit",
+            "implementation": 3
+        },
+        "addpermissions1": {
+            "action": "view.edit.own",
+            "implementation": 3
+        },
+        "addpermissions2": {
+            "action": "view.edit.state",
+            "implementation": 3
+        },
+        "addpermissions3": {
+            "action": "view.edit.access",
+            "implementation": 3
+        },
+        "addpermissions4": {
+            "action": "view.edit.created_by",
+            "implementation": 3
+        },
+        "addpermissions5": {
+            "action": "view.edit.created",
+            "implementation": 3
+        },
+        "addpermissions6": {
+            "action": "view.create",
+            "implementation": 3
+        },
+        "addpermissions7": {
+            "action": "view.delete",
+            "implementation": 3
+        },
+        "addpermissions8": {
+            "action": "view.access",
+            "implementation": 3
+        }
+    },
+    "php_getitems_after_all": "",
+    "php_getform": "[CUSTOMCODE=setGUIDForm]",
+    "addtabs": {
+        "addtabs0": {
+            "name": "Details"
+        },
+        "addtabs1": {
+            "name": "Medical Details"
+        },
+        "addtabs2": {
+            "name": "User"
+        },
+        "addtabs3": {
+            "name": "Media"
+        }
+    },
+    "php_save": "",
+    "php_allowadd": "",
+    "php_before_cancel": "",
+    "addlinked_views": null,
+    "php_batchcopy": "",
+    "php_before_publish": "",
+    "alias_builder_type": 0,
+    "php_before_delete": "",
+    "php_document": "[CUSTOMCODE=vdmUploaderConfig+vdm-uikit-uploader,file_vdm_uploader,getFileTypeDetails,uploadFile,displayFiles,deleteFile]\r\n[CUSTOMCODE=addUikitThreeToAdminViews]",
+    "mysql_table_row_format": "DYNAMIC",
+    "alias_builder": null,
+    "sql": "",
+    "add_php_getitem": 0,
+    "add_category_submenu": 1,
+    "add_php_getitems": 0,
+    "add_php_getitems_after_all": 0,
+    "add_php_getlistquery": 0,
+    "add_css_view": 0,
+    "add_php_getform": 1,
+    "css_view": "",
+    "add_php_before_save": 1,
+    "add_css_views": 0,
+    "add_php_save": 0,
+    "css_views": "",
+    "add_php_postsavehook": 0,
+    "add_javascript_view_file": 0,
+    "add_php_allowadd": 0,
+    "javascript_view_file": "",
+    "add_php_allowedit": 0,
+    "add_javascript_view_footer": 0,
+    "add_php_before_cancel": 0,
+    "javascript_view_footer": "",
+    "add_php_after_cancel": 0,
+    "add_javascript_views_file": 0,
+    "add_php_batchcopy": 0,
+    "javascript_views_file": "",
+    "add_php_batchmove": 0,
+    "add_javascript_views_footer": 0,
+    "add_php_before_publish": 0,
+    "javascript_views_footer": "",
+    "add_php_after_publish": 0,
+    "add_custom_button": 1,
+    "add_php_before_delete": 0,
+    "custom_button": null,
+    "add_php_after_delete": 0,
+    "php_controller": "[CUSTOMCODE=formControllerEdit]",
+    "add_php_document": 1,
+    "php_model": "",
+    "mysql_table_engine": "InnoDB",
+    "php_controller_list": "",
+    "mysql_table_collate": "utf8mb4_unicode_ci",
+    "php_model_list": "",
+    "add_sql": 0,
+    "add_php_ajax": 0,
+    "php_ajaxmethod": "",
+    "guid": "48c6102c-f2bb-4350-869e-d7afa9649e5c",
+    "ajax_input": null,
+    "@dependencies": [
+        {
+            "key": "admin_view",
+            "value": "48c6102c-f2bb-4350-869e-d7afa9649e5c",
+            "entity": "admin_fields",
+            "table": "#__componentbuilder_admin_fields",
+            "direction": "in"
+        },
+        {
+            "key": "function_name",
+            "value": "saveGUID",
+            "entity": "custom_code",
+            "table": "#__componentbuilder_custom_code",
+            "direction": "out"
+        },
+        {
+            "key": "function_name",
+            "value": "setGUIDForm",
+            "entity": "custom_code",
+            "table": "#__componentbuilder_custom_code",
+            "direction": "out"
+        },
+        {
+            "key": "function_name",
+            "value": "vdmUploaderConfig",
+            "entity": "custom_code",
+            "table": "#__componentbuilder_custom_code",
+            "direction": "out"
+        },
+        {
+            "key": "function_name",
+            "value": "addUikitThreeToAdminViews",
+            "entity": "custom_code",
+            "table": "#__componentbuilder_custom_code",
+            "direction": "out"
+        },
+        {
+            "key": "function_name",
+            "value": "formControllerEdit",
+            "entity": "custom_code",
+            "table": "#__componentbuilder_custom_code",
+            "direction": "out"
+        },
+        {
+            "key": "ed602cd2-ed87-5425-a2ce-33aeb2de5964.png",
+            "pointer": "ed602cd2-ed87-5425-a2ce-33aeb2de5964--png",
+            "value": "images\/user-icon.png",
+            "entity": "file",
+            "table": "file_system",
+            "target": "images"
+        },
+        {
+            "key": "43b9127c-09a7-5d4b-956e-8f62210b9cd0.png",
+            "pointer": "43b9127c-09a7-5d4b-956e-8f62210b9cd0--png",
+            "value": "images\/user-icon-plus.png",
+            "entity": "file",
+            "table": "file_system",
+            "target": "images"
+        }
+    ]
+}

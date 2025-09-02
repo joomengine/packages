@@ -1624,5 +1624,35 @@
         "path": "src\/field\/dde8b322-fffa-4857-9540-fa95f5fe1028",
         "settings": "src\/field\/dde8b322-fffa-4857-9540-fa95f5fe1028\/item.json",
         "guid": "dde8b322-fffa-4857-9540-fa95f5fe1028"
+    },
+    "0d6970af-b361-4f65-84f6-0eb0c5f09bad": {
+        "name": "Image",
+        "path": "src\/field\/0d6970af-b361-4f65-84f6-0eb0c5f09bad",
+        "settings": "src\/field\/0d6970af-b361-4f65-84f6-0eb0c5f09bad\/item.json",
+        "guid": "0d6970af-b361-4f65-84f6-0eb0c5f09bad"
+    },
+    "0d8bd80c-e926-474c-ba64-27a436e0f635": {
+        "name": "Unit",
+        "path": "src\/field\/0d8bd80c-e926-474c-ba64-27a436e0f635",
+        "settings": "src\/field\/0d8bd80c-e926-474c-ba64-27a436e0f635\/item.json",
+        "guid": "0d8bd80c-e926-474c-ba64-27a436e0f635"
+    },
+    "9c6f9195-132c-436b-ac6e-c138e4affd62": {
+        "name": "Preparing Time",
+        "path": "src\/field\/9c6f9195-132c-436b-ac6e-c138e4affd62",
+        "settings": "src\/field\/9c6f9195-132c-436b-ac6e-c138e4affd62\/item.json",
+        "guid": "9c6f9195-132c-436b-ac6e-c138e4affd62"
+    },
+    "68468acc-c5c9-47e1-8ef7-1ef24ecd0c1b": {
+        "name": "Recipe Category",
+        "path": "src\/field\/68468acc-c5c9-47e1-8ef7-1ef24ecd0c1b",
+        "settings": "src\/field\/68468acc-c5c9-47e1-8ef7-1ef24ecd0c1b\/item.json",
+        "guid": "68468acc-c5c9-47e1-8ef7-1ef24ecd0c1b"
+    },
+    "fb14a5b4-e9a4-45c3-aa4d-bc7639e7760f": {
+        "name": "Ingredients (Subform)",
+        "path": "src\/field\/fb14a5b4-e9a4-45c3-aa4d-bc7639e7760f",
+        "settings": "src\/field\/fb14a5b4-e9a4-45c3-aa4d-bc7639e7760f\/item.json",
+        "guid": "fb14a5b4-e9a4-45c3-aa4d-bc7639e7760f"
     }
 }

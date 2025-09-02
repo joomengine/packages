@@ -1,0 +1,70 @@
+{
+    "name": "Dispensing (Subform)",
+    "fieldtype": "7139f2c8-a70a-46a6-bbe3-4eefe54ca515",
+    "datatype": "TEXT",
+    "indexes": "0",
+    "null_switch": "NOT NULL",
+    "store": 0,
+    "on_get_model_field": "",
+    "on_save_model_field": "",
+    "initiator_on_get_model": "",
+    "xml": "<field\n\ttype=\"subform\"\n\tname=\"dispensing\"\n\tlabel=\"Dispensing\"\n\tlayout=\"joomla.form.field.subform.repeatable-table\"\n\tcomponent=\"\"\n\tclient=\"\"\n\tmultiple=\"true\"\n\tbuttons=\"add,remove,move\"\n\tfields=\"8358addd-e048-4964-8bf9-7a34531d618e,9331d77c-d0a6-4f61-b113-88eb01268e90,7cbf273d-c9a4-4795-85d5-e4abb0710a60,0397261c-6035-4792-89b2-3842c0321a2f,2455eb36-d907-4e7c-8e70-421fabd0ef9d\"\n\ticon=\"list\"\n\tmax=\"50\"\n\/>",
+    "datalenght": "",
+    "javascript_view_footer": "",
+    "css_views": "",
+    "css_view": "",
+    "datadefault_other": "",
+    "datadefault": "",
+    "datalenght_other": "",
+    "javascript_views_footer": "",
+    "add_css_view": 0,
+    "add_css_views": 0,
+    "add_javascript_view_footer": 0,
+    "add_javascript_views_footer": 0,
+    "initiator_on_save_model": "",
+    "guid": "2a0a8cb7-1a88-4646-82cc-3d2de631279a",
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "7139f2c8-a70a-46a6-bbe3-4eefe54ca515",
+            "entity": "fieldtype",
+            "table": "#__componentbuilder_fieldtype",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "8358addd-e048-4964-8bf9-7a34531d618e",
+            "entity": "field",
+            "table": "#__componentbuilder_field",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "9331d77c-d0a6-4f61-b113-88eb01268e90",
+            "entity": "field",
+            "table": "#__componentbuilder_field",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "7cbf273d-c9a4-4795-85d5-e4abb0710a60",
+            "entity": "field",
+            "table": "#__componentbuilder_field",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "0397261c-6035-4792-89b2-3842c0321a2f",
+            "entity": "field",
+            "table": "#__componentbuilder_field",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "2455eb36-d907-4e7c-8e70-421fabd0ef9d",
+            "entity": "field",
+            "table": "#__componentbuilder_field",
+            "direction": "out"
+        }
+    ]
+}

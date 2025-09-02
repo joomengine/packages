@@ -1,0 +1,12 @@
+{
+    "name": "Rows",
+    "description": "Rows",
+    "dynamic_get": "",
+    "snippet": "0",
+    "guid": "72965abd-370c-4a16-a536-72cfd001e5dd",
+    "php_view": "$headers = $displayData['headers'];\r\n$items = $displayData['items'];",
+    "add_php_view": 1,
+    "layout": "<?php if (is_array($items)): ?>\r\n\t<?php foreach ($items as $row => $values): ?>\r\n\t\t<tr>\r\n\t\t<?php foreach($values as $value): ?>\r\n\t\t\t<td class=\"\"><?php echo $value; ?><\/td>\r\n\t\t<?php endforeach; ?>\r\n\t\t<\/tr>\r\n\t<?php endforeach; ?>\r\n<?php elseif (is_numeric($items) && is_array($headers)): ?>\r\n\t<?php for( $row = 0; $row < $items; $row++): ?>\r\n\t\t<tr class=\"\">\r\n\t\t<?php foreach($headers as $header): ?>\r\n\t\t\t<td class=\"\">&nbsp;&nbsp;<\/td>\r\n\t\t<?php endforeach; ?>\r\n\t\t<\/tr>\r\n\t<?php endfor; ?>\r\n<?php elseif (is_numeric($items) && is_numeric($headers)): ?>\r\n\t<?php for( $row = 0; $row < $items; $row++): ?>\r\n\t\t<tr class=\"\">\r\n\t\t<?php for( $column = 0; $column < $headers; $column++): ?>\r\n\t\t\t<td class=\"\">&nbsp;&nbsp;<\/td>\r\n\t\t<?php endfor; ?>\r\n\t\t<\/tr>\r\n\t<?php endfor; ?>\r\n<?php endif; ?>",
+    "libraries": null,
+    "alias": "rows"
+}

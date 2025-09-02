@@ -1,0 +1,43 @@
+{
+    "joomla_component": "eaabada6-9a90-4dc8-a3ca-22d275f4ec64",
+    "version_update": {
+        "version_update0": {
+            "version": "4.0.0",
+            "mysql": "",
+            "url": "https:\/\/git.vdm.dev\/joomla\/eHealth-Portal\/archive\/master.zip",
+            "update_server_adv": "0",
+            "update_server_type": "component",
+            "update_element": "",
+            "update_state": "stable",
+            "update_target_version": "3.*",
+            "change_log": "",
+            "update_client": "site"
+        },
+        "version_update1": {
+            "version": "5.0.0",
+            "mysql": "ALTER TABLE `#__ehealthportal_checkup` CHANGE `referral` `referral` VARCHAR(36) NULL DEFAULT '';\n\nALTER TABLE `#__ehealthportal_immunisation` CHANGE `referral` `referral` VARCHAR(36) NULL DEFAULT '';\n\nALTER TABLE `#__ehealthportal_vmmc` CHANGE `referral` `referral` VARCHAR(36) NULL DEFAULT '';\n\nALTER TABLE `#__ehealthportal_male_cancer` CHANGE `referral` `referral` VARCHAR(36) NULL DEFAULT '';\n\nALTER TABLE `#__ehealthportal_tuberculosis` CHANGE `referral` `referral` VARCHAR(36) NULL DEFAULT '';\n\nALTER TABLE `#__ehealthportal_hiv_test` CHANGE `referral` `referral` VARCHAR(36) NULL DEFAULT '';\n\nALTER TABLE `#__ehealthportal_cervical_cancer` CHANGE `referral` `referral` VARCHAR(36) NULL DEFAULT '';\n\nALTER TABLE `#__ehealthportal_breast_cancer` CHANGE `referral` `referral` VARCHAR(36) NULL DEFAULT '';\n\nALTER TABLE `#__ehealthportal_test` CHANGE `referral` `referral` VARCHAR(36) NULL DEFAULT '';",
+            "url": "https:\/\/git.vdm.dev\/joomla\/eHealth-Portal\/archive\/master.zip",
+            "update_server_adv": "0",
+            "update_server_type": "package",
+            "update_element": "",
+            "update_state": "stable",
+            "update_target_version": "5\\.[012]",
+            "change_log": "",
+            "update_client": "site"
+        },
+        "version_update2": {
+            "version": "5.0.1",
+            "mysql": "",
+            "url": "http:\/\/domain.com\/demo.zip"
+        }
+    },
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "eaabada6-9a90-4dc8-a3ca-22d275f4ec64",
+            "entity": "joomla_component",
+            "table": "#__componentbuilder_joomla_component",
+            "direction": "out"
+        }
+    ]
+}

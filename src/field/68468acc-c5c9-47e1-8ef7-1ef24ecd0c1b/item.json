@@ -1,0 +1,35 @@
+{
+    "name": "Recipe Category",
+    "fieldtype": "f70346b3-2096-4f44-8b26-01ab87da7d1e",
+    "datatype": "VARCHAR",
+    "indexes": "2",
+    "null_switch": "NULL",
+    "store": 0,
+    "on_get_model_field": "",
+    "on_save_model_field": "",
+    "initiator_on_get_model": "",
+    "xml": "<field\n\ttype=\"category\"\n\tname=\"catid\"\n\tlabel=\"Select a category\"\n\textension=\"com_###component###\"\n\trequired=\"false\"\n\tdescription=\"select one of the following categories\"\n\tclass=\"inputbox\"\n\tpublished=\"1\"\n\tmultiple=\"false\"\n\/>",
+    "datalenght": "255",
+    "javascript_view_footer": "",
+    "css_views": "",
+    "css_view": "",
+    "datadefault_other": "",
+    "datadefault": "",
+    "datalenght_other": "",
+    "javascript_views_footer": "",
+    "add_css_view": 0,
+    "add_css_views": 0,
+    "add_javascript_view_footer": 0,
+    "add_javascript_views_footer": 0,
+    "initiator_on_save_model": "",
+    "guid": "68468acc-c5c9-47e1-8ef7-1ef24ecd0c1b",
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "f70346b3-2096-4f44-8b26-01ab87da7d1e",
+            "entity": "fieldtype",
+            "table": "#__componentbuilder_fieldtype",
+            "direction": "out"
+        }
+    ]
+}

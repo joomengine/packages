@@ -1,0 +1,14 @@
+{
+    "name": "privacy",
+    "class_extends": "204d6d55-d4c7-4162-bd2c-39d19302b406",
+    "guid": "2d8677ea-cda3-48d3-828d-da656c52dbe1",
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "204d6d55-d4c7-4162-bd2c-39d19302b406",
+            "entity": "class_extends",
+            "table": "#__componentbuilder_class_extends",
+            "direction": "out"
+        }
+    ]
+}

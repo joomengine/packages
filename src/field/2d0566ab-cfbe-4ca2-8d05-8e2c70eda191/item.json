@@ -1,0 +1,49 @@
+{
+    "name": "Map",
+    "fieldtype": "7139f2c8-a70a-46a6-bbe3-4eefe54ca515",
+    "datatype": "TEXT",
+    "indexes": "",
+    "null_switch": "NULL",
+    "store": 0,
+    "on_get_model_field": null,
+    "on_save_model_field": null,
+    "initiator_on_get_model": "",
+    "xml": "<field\n\ttype=\"subform\"\n\tname=\"maps\"\n\tlabel=\"Map\"\n\tmultiple=\"true\"\n\tbuttons=\"add,remove,move\"\n\tfields=\"6a17f5e4-d21e-47f1-9b92-493ab725d55f,7d613846-8f1e-43f4-8bb9-1fcdbb473fa5\"\n\ticon=\"list\"\n\tmax=\"100\"\n\tmin=\"1\"\n\/>",
+    "datalenght": "",
+    "javascript_view_footer": "",
+    "css_views": "",
+    "css_view": "",
+    "datadefault_other": "",
+    "datadefault": "",
+    "datalenght_other": "",
+    "javascript_views_footer": "",
+    "add_css_view": 0,
+    "add_css_views": 0,
+    "add_javascript_view_footer": 0,
+    "add_javascript_views_footer": 0,
+    "initiator_on_save_model": "",
+    "guid": "2d0566ab-cfbe-4ca2-8d05-8e2c70eda191",
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "7139f2c8-a70a-46a6-bbe3-4eefe54ca515",
+            "entity": "fieldtype",
+            "table": "#__componentbuilder_fieldtype",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "6a17f5e4-d21e-47f1-9b92-493ab725d55f",
+            "entity": "field",
+            "table": "#__componentbuilder_field",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "7d613846-8f1e-43f4-8bb9-1fcdbb473fa5",
+            "entity": "field",
+            "table": "#__componentbuilder_field",
+            "direction": "out"
+        }
+    ]
+}

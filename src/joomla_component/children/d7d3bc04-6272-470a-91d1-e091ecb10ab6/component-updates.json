@@ -1,0 +1,26 @@
+{
+    "joomla_component": "d7d3bc04-6272-470a-91d1-e091ecb10ab6",
+    "version_update": {
+        "version_update0": {
+            "version": "4.0.1",
+            "mysql": "",
+            "url": "https:\/\/git.vdm.dev\/joomla\/Demo-Component\/archive\/v4.0.1.zip",
+            "update_server_adv": "0",
+            "update_server_type": "component",
+            "update_element": "",
+            "update_state": "stable",
+            "update_target_version": "5\\.[012]",
+            "change_log": "",
+            "update_client": "site"
+        }
+    },
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "d7d3bc04-6272-470a-91d1-e091ecb10ab6",
+            "entity": "joomla_component",
+            "table": "#__componentbuilder_joomla_component",
+            "direction": "out"
+        }
+    ]
+}

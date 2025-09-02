@@ -1,0 +1,35 @@
+{
+    "name": "Target Field",
+    "fieldtype": "dd2e1f4b-f5db-45e8-85fa-efd27bae7b6a",
+    "datatype": "VARCHAR",
+    "indexes": "2",
+    "null_switch": "NULL",
+    "store": 0,
+    "on_get_model_field": null,
+    "on_save_model_field": null,
+    "initiator_on_get_model": "",
+    "xml": "<field\n\ttype=\"targetfields\"\n\tname=\"target\"\n\tlabel=\"System Target Fields\"\n\tdescription=\"The system target database fields.\"\n\tmessage=\"Input Required\"\n\tclass=\"list_class\"\n\tlayout=\"joomla.form.field.list-fancy-select\"\n\tmultiple=\"false\"\n\trequired=\"false\"\n\textends=\"list\"\n\tprime_php=\"1\"\n\ttype_php_1=\"__.o0=base64=Oo.__CQkkZmllbGRzID0gSm9vbWxhX19fYWViZmViOWZfZjhhM180MmJlX2EyMWRfNWRiNTZhZTMwYzFjX19fUG93ZXI6OmdldEl0ZW1JbXBvcnRGaWVsZHMoKTsNCgkJJG9wdGlvbnMgPSBbXTsNCg0KCQlpZiAoIWVtcHR5KCRmaWVsZHMpKQ0KCQl7DQoJCQkkb3B0aW9uc1tdID0gSHRtbDo6Xygnc2VsZWN0Lm9wdGlvbicsICcnLCBUZXh0OjpfKCdTZWxlY3QgdGhlIHRhcmdldCBmaWVsZCcpKTsNCgkJCWZvcmVhY2ggKCRmaWVsZHMgYXMgJGtleSA9PiAkdmFsdWUpDQoJCQl7DQoJCQkJJG9wdGlvbnNbXSA9IEh0bWw6Ol8oJ3NlbGVjdC5vcHRpb24nLCAka2V5LCAkdmFsdWUpOw0KCQkJfQ0KCQl9DQoJCWVsc2UNCgkJew0KCQkJJG9wdGlvbnNbXSA9IEh0bWw6Ol8oJ3NlbGVjdC5vcHRpb24nLCAnJywgVGV4dDo6XygnVGhlcmUgd2FzIGFuIGVycm9yIScpKTsNCgkJfQ0KDQoJCXJldHVybiAkb3B0aW9uczs=\"\n\/>",
+    "datalenght": "255",
+    "javascript_view_footer": "",
+    "css_views": "",
+    "css_view": "",
+    "datadefault_other": "",
+    "datadefault": "",
+    "datalenght_other": "",
+    "javascript_views_footer": "",
+    "add_css_view": 0,
+    "add_css_views": 0,
+    "add_javascript_view_footer": 0,
+    "add_javascript_views_footer": 0,
+    "initiator_on_save_model": "",
+    "guid": "7d613846-8f1e-43f4-8bb9-1fcdbb473fa5",
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "dd2e1f4b-f5db-45e8-85fa-efd27bae7b6a",
+            "entity": "fieldtype",
+            "table": "#__componentbuilder_fieldtype",
+            "direction": "out"
+        }
+    ]
+}

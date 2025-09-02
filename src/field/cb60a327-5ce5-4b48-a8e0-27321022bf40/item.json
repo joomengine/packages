@@ -1,0 +1,35 @@
+{
+    "name": "Today Line Colour",
+    "fieldtype": "7f60f198-53e7-4fe9-813f-d1b6c553680e",
+    "datatype": "VARCHAR",
+    "indexes": "0",
+    "null_switch": "NOT NULL",
+    "store": 0,
+    "on_get_model_field": "",
+    "on_save_model_field": "",
+    "initiator_on_get_model": "",
+    "xml": "<field\n\ttype=\"color\"\n\tname=\"today_line_color\"\n\tdefault=\"#f44321\"\n\tlabel=\"Today Line Colour\"\n\trequired=\"true\"\n\/>",
+    "datalenght": "10",
+    "javascript_view_footer": "",
+    "css_views": "",
+    "css_view": "",
+    "datadefault_other": "",
+    "datadefault": "",
+    "datalenght_other": "",
+    "javascript_views_footer": "",
+    "add_css_view": 0,
+    "add_css_views": 0,
+    "add_javascript_view_footer": 0,
+    "add_javascript_views_footer": 0,
+    "initiator_on_save_model": "",
+    "guid": "cb60a327-5ce5-4b48-a8e0-27321022bf40",
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "7f60f198-53e7-4fe9-813f-d1b6c553680e",
+            "entity": "fieldtype",
+            "table": "#__componentbuilder_fieldtype",
+            "direction": "out"
+        }
+    ]
+}

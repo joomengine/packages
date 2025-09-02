@@ -1,0 +1,77 @@
+{
+    "name": "Timezones (country)",
+    "fieldtype": "7139f2c8-a70a-46a6-bbe3-4eefe54ca515",
+    "datatype": "TEXT",
+    "indexes": "",
+    "null_switch": "NULL",
+    "store": 6,
+    "on_get_model_field": "[[[field]]] = Super___9d76b8dc_3883_4755_b11c_131d19ca8a53___Power::_('Data.Subform')->table('timezone')->get($item->guid ?? '' ,'country', 'timezones', ['guid','timezone_name','timezone_identifier','gmt_offset_name','gmt_offset_sec','abbreviation']);",
+    "on_save_model_field": "Super___9d76b8dc_3883_4755_b11c_131d19ca8a53___Power::_('Data.Subform')->table('timezone')->set([[[field]]] ?? [], 'guid', 'country', $data['guid'] ?? '');",
+    "initiator_on_get_model": "",
+    "xml": "<field\n\ttype=\"subform\"\n\tname=\"timezones\"\n\tlabel=\"Timezones\"\n\tlayout=\"joomla.form.field.subform.repeatable\"\n\tmultiple=\"true\"\n\tbuttons=\"add,remove\"\n\tfields=\"fb3115a1-e579-401a-9b53-9469cd4739e4,f921d762-f5f1-4811-b1f5-71840c003a4e,c20d4692-6e97-4441-83bd-561b73730407,480c9734-2820-4a61-afea-75b1db3fadc9,17788601-b3f8-439e-8ad7-11c7f8109e22,c35e18fa-cade-48b8-b067-6289cc7a0f60\"\n\tdescription=\"The ###view### timezones.\"\n\ticon=\"list\"\n\tmax=\"50\"\n\tmin=\"0\"\n\/>",
+    "datalenght": "",
+    "javascript_view_footer": "",
+    "css_views": "",
+    "css_view": "",
+    "datadefault_other": "",
+    "datadefault": "",
+    "datalenght_other": "",
+    "javascript_views_footer": "",
+    "add_css_view": 0,
+    "add_css_views": 0,
+    "add_javascript_view_footer": 0,
+    "add_javascript_views_footer": 0,
+    "initiator_on_save_model": "",
+    "guid": "c803e176-923f-43a8-a542-12e27619a5f2",
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "7139f2c8-a70a-46a6-bbe3-4eefe54ca515",
+            "entity": "fieldtype",
+            "table": "#__componentbuilder_fieldtype",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "fb3115a1-e579-401a-9b53-9469cd4739e4",
+            "entity": "field",
+            "table": "#__componentbuilder_field",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "f921d762-f5f1-4811-b1f5-71840c003a4e",
+            "entity": "field",
+            "table": "#__componentbuilder_field",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "c20d4692-6e97-4441-83bd-561b73730407",
+            "entity": "field",
+            "table": "#__componentbuilder_field",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "480c9734-2820-4a61-afea-75b1db3fadc9",
+            "entity": "field",
+            "table": "#__componentbuilder_field",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "17788601-b3f8-439e-8ad7-11c7f8109e22",
+            "entity": "field",
+            "table": "#__componentbuilder_field",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "c35e18fa-cade-48b8-b067-6289cc7a0f60",
+            "entity": "field",
+            "table": "#__componentbuilder_field",
+            "direction": "out"
+        }
+    ]
+}

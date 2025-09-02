@@ -1,0 +1,26 @@
+{
+    "joomla_component": "eaabada6-9a90-4dc8-a3ca-22d275f4ec64",
+    "addconfig": {
+        "addconfig0": {
+            "field": "104f8410-a07e-4cf8-aad5-2b4db7c6864c",
+            "custom_value": "",
+            "tabname": "Member Groups"
+        }
+    },
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "eaabada6-9a90-4dc8-a3ca-22d275f4ec64",
+            "entity": "joomla_component",
+            "table": "#__componentbuilder_joomla_component",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "104f8410-a07e-4cf8-aad5-2b4db7c6864c",
+            "entity": "field",
+            "table": "#__componentbuilder_field",
+            "direction": "out"
+        }
+    ]
+}

@@ -51,6 +51,7 @@ You can:
 
  - **File Display Engine** | [Details](src/layout/6e4e5acc-8a7c-49ca-be53-8f8d95bd4163) | [Settings](src/layout/6e4e5acc-8a7c-49ca-be53-8f8d95bd4163/item.json) | File Display Engine
  - **Modal** | [Details](src/layout/0eb94218-5798-4170-9ce5-5cf11607086d) | [Settings](src/layout/0eb94218-5798-4170-9ce5-5cf11607086d/item.json) | Modal
+ - **Rows** | [Details](src/layout/72965abd-370c-4a16-a536-72cfd001e5dd) | [Settings](src/layout/72965abd-370c-4a16-a536-72cfd001e5dd/item.json) | Rows
  - **Table** | [Details](src/layout/2fe723e3-879e-4c08-aaf3-0de098ed7f25) | [Settings](src/layout/2fe723e3-879e-4c08-aaf3-0de098ed7f25/item.json) | Table
 
 ### All used in [Joomla Component Builder](https://www.joomlacomponentbuilder.com) - [Source](https://git.vdm.dev/joomla/Component-Builder) - [Mirror](https://github.com/vdm-io/Joomla-Component-Builder) - [Download](https://git.vdm.dev/joomla/pkg-component-builder/releases)

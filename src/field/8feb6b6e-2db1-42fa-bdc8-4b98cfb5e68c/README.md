@@ -31,7 +31,7 @@
 
 ## Database:
 - Data type: VARCHAR
-- Data length: 255
+- Data length: 36
 - Data default: 
 - Null switch: NULL
 - Index: KEY

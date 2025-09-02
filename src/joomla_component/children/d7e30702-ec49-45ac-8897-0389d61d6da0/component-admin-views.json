@@ -14,7 +14,7 @@
             "add_api": "0",
             "filter": "2",
             "edit_create_site_view": "",
-            "order": "0"
+            "order": "1"
         },
         "addadmin_views1": {
             "adminview": "0cd962eb-6b6c-49c6-a49b-bc96fb310609",
@@ -29,7 +29,7 @@
             "add_api": "0",
             "filter": "2",
             "edit_create_site_view": "",
-            "order": "0"
+            "order": "2"
         }
     },
     "@dependencies": [

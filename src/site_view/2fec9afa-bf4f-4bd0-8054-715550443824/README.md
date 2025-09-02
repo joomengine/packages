@@ -3,11 +3,18 @@
 
 ## HTML:
 ```html
-<ul class="uk-list uk-list-striped">
-<?php foreach ($this->items as $item): ?>
-<li><?php echo Text::_('Greeting'); ?>: <a href="<?php echo Route::_(RouteHelper::getGreetRoute($item->slug)); ?>"><?php echo $item->greeting; ?></a> <a href="<?php echo $edit; ?>&id=<?php echo $item->id; ?>"><?php echo Text::_('Edit'); ?></a></li>
-<?php endforeach; ?>
-</ul>
+<?php if (!empty($this->items)): ?>
+	<ul class="uk-list uk-list-striped">
+		<?php foreach ($this->items as $item): ?>
+			<li><?php echo Text::_('Greeting'); ?>:
+				<a href="<?php echo Joomla___d4c76099_4c32_408a_8701_d0a724484dfd___Power::_(Joomla___92167f18_8543_40e8_92af_053ef4c210d1___Power::getGreetRoute($item->slug)); ?>"><?php echo $item->greeting; ?></a>
+				<a href="<?php echo $edit; ?>&id=<?php echo $item->id; ?>"><?php echo Text::_('Edit'); ?></a>
+			</li>
+		<?php endforeach; ?>
+	</ul>
+<?php else: ?>
+	<b><?php echo Text::_('No greetings found'); ?>.</b>
+<?php endif; ?>
 ```
 
 > Deliver dynamic, custom front-end experiences with this reusable Site View crafted for seamless data flow and design flexibility in JCB.

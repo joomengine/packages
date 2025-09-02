@@ -7,7 +7,6 @@
 **Table: Recipe**
 ```
 a.id AS id
-a.asset_id AS asset_id
 a.description AS description
 a.image AS image
 a.preparing_time AS preparing_time

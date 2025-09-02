@@ -1,0 +1,35 @@
+{
+    "name": "Column",
+    "fieldtype": "dd2e1f4b-f5db-45e8-85fa-efd27bae7b6a",
+    "datatype": "VARCHAR",
+    "indexes": "2",
+    "null_switch": "NULL",
+    "store": 0,
+    "on_get_model_field": null,
+    "on_save_model_field": null,
+    "initiator_on_get_model": "",
+    "xml": "<field\n\ttype=\"importcolumns\"\n\tname=\"column\"\n\tlabel=\"Column\"\n\tdescription=\"The spreadsheet columns.\"\n\tclass=\"list_class\"\n\tlayout=\"joomla.form.field.list-fancy-select\"\n\trequired=\"true\"\n\textends=\"list\"\n\tprime_php=\"1\"\n\ttype_php_1=\"__.o0=base64=Oo.__CQkkY29sdW1ucyA9IEpvb21sYV9fX2FlYmZlYjlmX2Y4YTNfNDJiZV9hMjFkXzVkYjU2YWUzMGMxY19fX1Bvd2VyOjpnZXRTcHJlYWRzaGVldEhlYWRlcnMoKTsNCgkJJHNwZWNpYWwgPSBmYWxzZTsNCgkJZm9yZWFjaCAoJGNvbHVtbnMgYXMgJGhlYWRlciA9PiAkY29sdW1uKQ0KCQl7DQoJCQlpZiAoJGhlYWRlciAhPT0gJGNvbHVtbikNCgkJCXsNCgkJCQkkc3BlY2lhbCA9IHRydWU7DQoJCQl9DQoNCgkJCS8vIGRvbid0IGFkZCB0aGUgZXh0cmEgY29sdW1ucyBpZiBzcGVjaWFsIGNhc2UNCgkJCWlmICgkc3BlY2lhbCAmJiAkaGVhZGVyID09PSAkY29sdW1uKQ0KCQkJew0KCQkJCWNvbnRpbnVlOw0KCQkJfQ0KDQoJCQkkb3B0aW9uc1tdID0gSHRtbDo6Xygnc2VsZWN0Lm9wdGlvbicsICRoZWFkZXIsICRjb2x1bW4pOw0KCQl9DQoNCgkJcmV0dXJuICRvcHRpb25zOw==\"\n\/>",
+    "datalenght": "255",
+    "javascript_view_footer": "",
+    "css_views": "",
+    "css_view": "",
+    "datadefault_other": "",
+    "datadefault": "",
+    "datalenght_other": "",
+    "javascript_views_footer": "",
+    "add_css_view": 0,
+    "add_css_views": 0,
+    "add_javascript_view_footer": 0,
+    "add_javascript_views_footer": 0,
+    "initiator_on_save_model": "",
+    "guid": "6a17f5e4-d21e-47f1-9b92-493ab725d55f",
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "dd2e1f4b-f5db-45e8-85fa-efd27bae7b6a",
+            "entity": "fieldtype",
+            "table": "#__componentbuilder_fieldtype",
+            "direction": "out"
+        }
+    ]
+}

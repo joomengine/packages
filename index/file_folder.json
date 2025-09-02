@@ -79,6 +79,161 @@
         "path": "src\/file_folder\/e4a4fe26-c95e-5ca4-9924-a0ff98f3fc77.txt",
         "guid": "e4a4fe26-c95e-5ca4-9924-a0ff98f3fc77.txt"
     },
+    "b1654fd1-e35d-5420-9f96-aee4f80a90a5.jpg": {
+        "name": "images\/vdm\/ehealth500.jpg",
+        "path": "src\/file_folder\/b1654fd1-e35d-5420-9f96-aee4f80a90a5.jpg",
+        "guid": "b1654fd1-e35d-5420-9f96-aee4f80a90a5.jpg"
+    },
+    "0f3dc1ce-369c-536e-94bb-f99ffd73336b.png": {
+        "name": "images\/icons\/People-Doctor-Male-icon.png",
+        "path": "src\/file_folder\/0f3dc1ce-369c-536e-94bb-f99ffd73336b.png",
+        "guid": "0f3dc1ce-369c-536e-94bb-f99ffd73336b.png"
+    },
+    "b8a0b44f-3080-5b0a-aef5-912484468d33.png": {
+        "name": "images\/icons\/People-Doctor-Male-icon-plus.png",
+        "path": "src\/file_folder\/b8a0b44f-3080-5b0a-aef5-912484468d33.png",
+        "guid": "b8a0b44f-3080-5b0a-aef5-912484468d33.png"
+    },
+    "65ebc443-7633-5966-8272-f5821714cb67.png": {
+        "name": "images\/icons\/colba.png",
+        "path": "src\/file_folder\/65ebc443-7633-5966-8272-f5821714cb67.png",
+        "guid": "65ebc443-7633-5966-8272-f5821714cb67.png"
+    },
+    "2f696626-ba58-5808-ae78-25cccfaca1b4.png": {
+        "name": "images\/icons\/colba-plus.png",
+        "path": "src\/file_folder\/2f696626-ba58-5808-ae78-25cccfaca1b4.png",
+        "guid": "2f696626-ba58-5808-ae78-25cccfaca1b4.png"
+    },
+    "a6f3b3b0-4746-50cc-8a16-44cf28f6f3f3.png": {
+        "name": "images\/icons\/microscope-icon.png",
+        "path": "src\/file_folder\/a6f3b3b0-4746-50cc-8a16-44cf28f6f3f3.png",
+        "guid": "a6f3b3b0-4746-50cc-8a16-44cf28f6f3f3.png"
+    },
+    "8a5f706e-361b-5522-9d56-76727a14271b.png": {
+        "name": "images\/icons\/microscope-icon-plus.png",
+        "path": "src\/file_folder\/8a5f706e-361b-5522-9d56-76727a14271b.png",
+        "guid": "8a5f706e-361b-5522-9d56-76727a14271b.png"
+    },
+    "fac15ea6-8b08-5d86-83e1-8c29da9af67a.png": {
+        "name": "images\/icons\/Virus.png",
+        "path": "src\/file_folder\/fac15ea6-8b08-5d86-83e1-8c29da9af67a.png",
+        "guid": "fac15ea6-8b08-5d86-83e1-8c29da9af67a.png"
+    },
+    "ef6defe6-7640-5d18-9ff0-2809a0f6af75.png": {
+        "name": "images\/icons\/Virus_pluse.png",
+        "path": "src\/file_folder\/ef6defe6-7640-5d18-9ff0-2809a0f6af75.png",
+        "guid": "ef6defe6-7640-5d18-9ff0-2809a0f6af75.png"
+    },
+    "77685401-0f29-5e03-b656-62235b52ffb1.png": {
+        "name": "images\/icons\/stethoscope-icon.png",
+        "path": "src\/file_folder\/77685401-0f29-5e03-b656-62235b52ffb1.png",
+        "guid": "77685401-0f29-5e03-b656-62235b52ffb1.png"
+    },
+    "241781ab-7a14-5cb5-9cc5-520992c0fac5.png": {
+        "name": "images\/icons\/stethoscope-icon-plus.png",
+        "path": "src\/file_folder\/241781ab-7a14-5cb5-9cc5-520992c0fac5.png",
+        "guid": "241781ab-7a14-5cb5-9cc5-520992c0fac5.png"
+    },
+    "602f4586-e809-5421-a145-6200a6c5dd10.png": {
+        "name": "images\/icons\/virus_needel.png",
+        "path": "src\/file_folder\/602f4586-e809-5421-a145-6200a6c5dd10.png",
+        "guid": "602f4586-e809-5421-a145-6200a6c5dd10.png"
+    },
+    "e94cd324-84ed-5325-9d37-ba1e43991b05.png": {
+        "name": "images\/icons\/virus_needel_pluse.png",
+        "path": "src\/file_folder\/e94cd324-84ed-5325-9d37-ba1e43991b05.png",
+        "guid": "e94cd324-84ed-5325-9d37-ba1e43991b05.png"
+    },
+    "eff72bf3-de9c-5526-861e-2759d76b410a.png": {
+        "name": "images\/icons\/support_groups.png",
+        "path": "src\/file_folder\/eff72bf3-de9c-5526-861e-2759d76b410a.png",
+        "guid": "eff72bf3-de9c-5526-861e-2759d76b410a.png"
+    },
+    "8fb9ea9d-d36e-52e2-92b6-4d92c947b20f.png": {
+        "name": "images\/icons\/support_groups_plus.png",
+        "path": "src\/file_folder\/8fb9ea9d-d36e-52e2-92b6-4d92c947b20f.png",
+        "guid": "8fb9ea9d-d36e-52e2-92b6-4d92c947b20f.png"
+    },
+    "dafa6b24-be64-50a5-b121-82f87ce0a020.png": {
+        "name": "images\/icons\/intervention.png",
+        "path": "src\/file_folder\/dafa6b24-be64-50a5-b121-82f87ce0a020.png",
+        "guid": "dafa6b24-be64-50a5-b121-82f87ce0a020.png"
+    },
+    "91ac14ac-f46f-5760-926d-938b9607b794.png": {
+        "name": "images\/icons\/intervention_pluse.png",
+        "path": "src\/file_folder\/91ac14ac-f46f-5760-926d-938b9607b794.png",
+        "guid": "91ac14ac-f46f-5760-926d-938b9607b794.png"
+    },
+    "7ddccbec-8aca-5f02-9954-1152971b0957.png": {
+        "name": "images\/icons\/Body-DNA-icon-category.png",
+        "path": "src\/file_folder\/7ddccbec-8aca-5f02-9954-1152971b0957.png",
+        "guid": "7ddccbec-8aca-5f02-9954-1152971b0957.png"
+    },
+    "8512515d-04a5-59c2-a245-dce2654b0593.png": {
+        "name": "images\/icons\/Body-DNA-icon-category-plus.png",
+        "path": "src\/file_folder\/8512515d-04a5-59c2-a245-dce2654b0593.png",
+        "guid": "8512515d-04a5-59c2-a245-dce2654b0593.png"
+    },
+    "cc5c3fcf-cc99-5f0c-b81e-b0a18e3b5f53.png": {
+        "name": "images\/icons\/applications-science.png",
+        "path": "src\/file_folder\/cc5c3fcf-cc99-5f0c-b81e-b0a18e3b5f53.png",
+        "guid": "cc5c3fcf-cc99-5f0c-b81e-b0a18e3b5f53.png"
+    },
+    "8e13f097-349b-5d85-84b2-94fd070069f7.png": {
+        "name": "images\/icons\/applications-science-plus.png",
+        "path": "src\/file_folder\/8e13f097-349b-5d85-84b2-94fd070069f7.png",
+        "guid": "8e13f097-349b-5d85-84b2-94fd070069f7.png"
+    },
+    "0ddfb9d5-8d35-58bc-bb8e-85507d0781a9.png": {
+        "name": "images\/icons\/Body-DNA-icon.png",
+        "path": "src\/file_folder\/0ddfb9d5-8d35-58bc-bb8e-85507d0781a9.png",
+        "guid": "0ddfb9d5-8d35-58bc-bb8e-85507d0781a9.png"
+    },
+    "7f20483d-d907-5cf7-a969-5b3c6d1d7ff7.png": {
+        "name": "images\/icons\/Body-DNA-icon-plus.png",
+        "path": "src\/file_folder\/7f20483d-d907-5cf7-a969-5b3c6d1d7ff7.png",
+        "guid": "7f20483d-d907-5cf7-a969-5b3c6d1d7ff7.png"
+    },
+    "9cd40984-b274-55d9-9946-1dbd74fe3223.png": {
+        "name": "images\/Books-2-icon.png",
+        "path": "src\/file_folder\/9cd40984-b274-55d9-9946-1dbd74fe3223.png",
+        "guid": "9cd40984-b274-55d9-9946-1dbd74fe3223.png"
+    },
+    "4c34a139-c48d-5f4a-87a5-e6a216cb536e.png": {
+        "name": "images\/Books-2-icon-plus.png",
+        "path": "src\/file_folder\/4c34a139-c48d-5f4a-87a5-e6a216cb536e.png",
+        "guid": "4c34a139-c48d-5f4a-87a5-e6a216cb536e.png"
+    },
+    "539c9aa5-2c68-5498-94b8-2616cccffd02.png": {
+        "name": "images\/icons\/PaperMoney.png",
+        "path": "src\/file_folder\/539c9aa5-2c68-5498-94b8-2616cccffd02.png",
+        "guid": "539c9aa5-2c68-5498-94b8-2616cccffd02.png"
+    },
+    "426fe50c-ce66-55ba-b790-4bfc8d4efbc9.png": {
+        "name": "images\/icons\/PaperMoney_pluse.png",
+        "path": "src\/file_folder\/426fe50c-ce66-55ba-b790-4bfc8d4efbc9.png",
+        "guid": "426fe50c-ce66-55ba-b790-4bfc8d4efbc9.png"
+    },
+    "6206d207-d1af-573e-a9fb-08e0973f06e1.png": {
+        "name": "images\/icons\/document-icon.png",
+        "path": "src\/file_folder\/6206d207-d1af-573e-a9fb-08e0973f06e1.png",
+        "guid": "6206d207-d1af-573e-a9fb-08e0973f06e1.png"
+    },
+    "2e31b38e-9220-5f0e-8d5c-0c0cecb6c44e.png": {
+        "name": "images\/icons\/document-icon-plus.png",
+        "path": "src\/file_folder\/2e31b38e-9220-5f0e-8d5c-0c0cecb6c44e.png",
+        "guid": "2e31b38e-9220-5f0e-8d5c-0c0cecb6c44e.png"
+    },
+    "ed602cd2-ed87-5425-a2ce-33aeb2de5964.png": {
+        "name": "images\/user-icon.png",
+        "path": "src\/file_folder\/ed602cd2-ed87-5425-a2ce-33aeb2de5964.png",
+        "guid": "ed602cd2-ed87-5425-a2ce-33aeb2de5964.png"
+    },
+    "43b9127c-09a7-5d4b-956e-8f62210b9cd0.png": {
+        "name": "images\/user-icon-plus.png",
+        "path": "src\/file_folder\/43b9127c-09a7-5d4b-956e-8f62210b9cd0.png",
+        "guid": "43b9127c-09a7-5d4b-956e-8f62210b9cd0.png"
+    },
     "10d50f6e-3639-5dd6-826f-b919a27a73e5.png": {
         "name": "images\/Recipe_Manager.png",
         "path": "src\/file_folder\/10d50f6e-3639-5dd6-826f-b919a27a73e5.png",

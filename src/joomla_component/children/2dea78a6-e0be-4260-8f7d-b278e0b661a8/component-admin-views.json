@@ -1,0 +1,38 @@
+{
+    "joomla_component": "2dea78a6-e0be-4260-8f7d-b278e0b661a8",
+    "addadmin_views": {
+        "addadmin_views0": {
+            "adminview": "65116558-be67-4931-95be-727fbfb16db7",
+            "icomoon": "joomla",
+            "mainmenu": "1",
+            "dashboard_add": "1",
+            "dashboard_list": "1",
+            "submenu": "1",
+            "checkin": "1",
+            "history": "1",
+            "joomla_fields": "1",
+            "metadata": "1",
+            "access": "1",
+            "port": "1",
+            "filter": "2",
+            "edit_create_site_view": "1",
+            "order": "1"
+        }
+    },
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "2dea78a6-e0be-4260-8f7d-b278e0b661a8",
+            "entity": "joomla_component",
+            "table": "#__componentbuilder_joomla_component",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "65116558-be67-4931-95be-727fbfb16db7",
+            "entity": "admin_view",
+            "table": "#__componentbuilder_admin_view",
+            "direction": "out"
+        }
+    ]
+}

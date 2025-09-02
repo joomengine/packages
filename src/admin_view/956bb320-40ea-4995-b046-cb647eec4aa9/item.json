@@ -68,11 +68,11 @@
     "add_php_before_publish": 0,
     "javascript_views_footer": "",
     "add_php_after_publish": 0,
-    "add_custom_button": 0,
+    "add_custom_button": 1,
     "add_php_before_delete": 0,
     "custom_button": null,
     "add_php_after_delete": 0,
-    "php_controller": "",
+    "php_controller": "[CUSTOMCODE=formControllerEdit]",
     "add_php_document": 0,
     "php_model": "",
     "mysql_table_engine": "InnoDB",
@@ -102,6 +102,13 @@
         {
             "key": "function_name",
             "value": "setGUIDForm",
+            "entity": "custom_code",
+            "table": "#__componentbuilder_custom_code",
+            "direction": "out"
+        },
+        {
+            "key": "function_name",
+            "value": "formControllerEdit",
             "entity": "custom_code",
             "table": "#__componentbuilder_custom_code",
             "direction": "out"

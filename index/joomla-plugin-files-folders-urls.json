@@ -4,11 +4,5 @@
         "path": "src\/joomla_plugin\/children\/8aa96d76-94e3-47d1-8dd8-f430b72ed0f7",
         "settings": "src\/joomla_plugin\/children\/8aa96d76-94e3-47d1-8dd8-f430b72ed0f7\/joomla-plugin-files-folders-urls.json",
         "guid": "8aa96d76-94e3-47d1-8dd8-f430b72ed0f7"
-    },
-    "518f7be7-140c-47d3-9fb2-b6717230e0fc": {
-        "name": "518f7be7-140c-47d3-9fb2-b6717230e0fc",
-        "path": "src\/joomla_plugin\/children\/518f7be7-140c-47d3-9fb2-b6717230e0fc",
-        "settings": "src\/joomla_plugin\/children\/518f7be7-140c-47d3-9fb2-b6717230e0fc\/joomla-plugin-files-folders-urls.json",
-        "guid": "518f7be7-140c-47d3-9fb2-b6717230e0fc"
     }
 }

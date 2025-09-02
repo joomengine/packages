@@ -32,16 +32,16 @@
             "direction": "out"
         },
         {
-            "key": "field",
+            "key": "guid",
             "value": "6a17f5e4-d21e-47f1-9b92-493ab725d55f",
-            "entity": "guid",
+            "entity": "field",
             "table": "#__componentbuilder_field",
             "direction": "out"
         },
         {
-            "key": "field",
+            "key": "guid",
             "value": "7d613846-8f1e-43f4-8bb9-1fcdbb473fa5",
-            "entity": "guid",
+            "entity": "field",
             "table": "#__componentbuilder_field",
             "direction": "out"
         }

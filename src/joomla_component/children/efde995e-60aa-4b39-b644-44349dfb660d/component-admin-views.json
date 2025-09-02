@@ -123,7 +123,7 @@
             "edit_create_site_view": "",
             "order": "8"
         },
-        "addadmin_views12": {
+        "addadmin_views8": {
             "adminview": "75061367-79c2-4d5b-a75d-eca6d33507df",
             "icomoon": "clock",
             "mainmenu": "1",
@@ -137,7 +137,7 @@
             "edit_create_site_view": "",
             "order": "9"
         },
-        "addadmin_views8": {
+        "addadmin_views9": {
             "adminview": "19a973ea-cdfa-4c79-bbbd-1b8a37286b27",
             "icomoon": "file-check",
             "mainmenu": "1",
@@ -151,7 +151,7 @@
             "edit_create_site_view": "",
             "order": "10"
         },
-        "addadmin_views9": {
+        "addadmin_views10": {
             "adminview": "60b7b30d-9229-4ce2-b055-9efbb7ac4cea",
             "icomoon": "users",
             "mainmenu": "1",
@@ -164,7 +164,7 @@
             "edit_create_site_view": "",
             "order": "11"
         },
-        "addadmin_views10": {
+        "addadmin_views11": {
             "adminview": "a9f19a16-fadb-44ea-a9b6-41130aad05ec",
             "icomoon": "upload",
             "mainmenu": "1",
@@ -177,7 +177,7 @@
             "edit_create_site_view": "",
             "order": "12"
         },
-        "addadmin_views11": {
+        "addadmin_views12": {
             "adminview": "ab2bbdfc-c0a0-4ffc-9556-67d5af8bec64",
             "icomoon": "envelope",
             "submenu": "1",

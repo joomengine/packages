@@ -33,5 +33,12 @@
         "path": "src\/site_view\/9f485bcc-fd7a-4263-9fb2-0a6a5c4a055c",
         "settings": "src\/site_view\/9f485bcc-fd7a-4263-9fb2-0a6a5c4a055c\/item.json",
         "guid": "9f485bcc-fd7a-4263-9fb2-0a6a5c4a055c"
+    },
+    "0b5fb4b6-b2bf-4656-8dc9-d947e5f94759": {
+        "name": "Greetings",
+        "desc": "Greetings",
+        "path": "src\/site_view\/0b5fb4b6-b2bf-4656-8dc9-d947e5f94759",
+        "settings": "src\/site_view\/0b5fb4b6-b2bf-4656-8dc9-d947e5f94759\/item.json",
+        "guid": "0b5fb4b6-b2bf-4656-8dc9-d947e5f94759"
     }
 }

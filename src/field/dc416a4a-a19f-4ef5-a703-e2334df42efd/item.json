@@ -1,0 +1,35 @@
+{
+    "name": "Show Legend",
+    "fieldtype": "b868ed59-4208-4206-8504-95a35a74a11c",
+    "datatype": "TINYINT",
+    "indexes": "0",
+    "null_switch": "NOT NULL",
+    "store": 0,
+    "on_get_model_field": "",
+    "on_save_model_field": "",
+    "initiator_on_get_model": "",
+    "xml": "<field\n\ttype=\"radio\"\n\tname=\"show_legend\"\n\tlabel=\"Show Legend\"\n\tdescription=\"Allow the legend to be shown below the calendar.\"\n\tclass=\"btn-group btn-group-yesno\"\n\toption=\"1|Yes,0|No\"\n\tdefault=\"1\"\n\/>",
+    "datalenght": "1",
+    "javascript_view_footer": "",
+    "css_views": "",
+    "css_view": "",
+    "datadefault_other": "",
+    "datadefault": "0",
+    "datalenght_other": "",
+    "javascript_views_footer": "",
+    "add_css_view": 0,
+    "add_css_views": 0,
+    "add_javascript_view_footer": 0,
+    "add_javascript_views_footer": 0,
+    "initiator_on_save_model": "",
+    "guid": "dc416a4a-a19f-4ef5-a703-e2334df42efd",
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "b868ed59-4208-4206-8504-95a35a74a11c",
+            "entity": "fieldtype",
+            "table": "#__componentbuilder_fieldtype",
+            "direction": "out"
+        }
+    ]
+}

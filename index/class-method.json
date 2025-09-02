@@ -16,17 +16,5 @@
         "path": "src\/class_method\/1e9e7ad9-ea31-43a2-a288-ffaa4bec5101",
         "settings": "src\/class_method\/1e9e7ad9-ea31-43a2-a288-ffaa4bec5101\/item.json",
         "guid": "1e9e7ad9-ea31-43a2-a288-ffaa4bec5101"
-    },
-    "e64853c8-beaa-482f-993c-920d73563210": {
-        "name": "onInstallerBeforePackageDownload",
-        "path": "src\/class_method\/e64853c8-beaa-482f-993c-920d73563210",
-        "settings": "src\/class_method\/e64853c8-beaa-482f-993c-920d73563210\/item.json",
-        "guid": "e64853c8-beaa-482f-993c-920d73563210"
-    },
-    "c4450b88-658c-4b19-a4a9-c82d14c12d98": {
-        "name": "onBeforeCompileHead",
-        "path": "src\/class_method\/c4450b88-658c-4b19-a4a9-c82d14c12d98",
-        "settings": "src\/class_method\/c4450b88-658c-4b19-a4a9-c82d14c12d98\/item.json",
-        "guid": "c4450b88-658c-4b19-a4a9-c82d14c12d98"
     }
 }

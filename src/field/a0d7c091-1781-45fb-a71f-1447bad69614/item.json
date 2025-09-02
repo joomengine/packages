@@ -1,0 +1,35 @@
+{
+    "name": "User ID (Hidden)",
+    "fieldtype": "82f1b5ca-bb9b-44d7-9a7a-9a03fb2a31dd",
+    "datatype": "INT",
+    "indexes": "2",
+    "null_switch": "NULL",
+    "store": 0,
+    "on_get_model_field": "",
+    "on_save_model_field": "",
+    "initiator_on_get_model": "",
+    "xml": "<field\n\ttype=\"hidden\"\n\tname=\"user_id\"\n\tdefault=\"0\"\n\/>",
+    "datalenght": "11",
+    "javascript_view_footer": "",
+    "css_views": "",
+    "css_view": "",
+    "datadefault_other": "",
+    "datadefault": "",
+    "datalenght_other": "",
+    "javascript_views_footer": "",
+    "add_css_view": 0,
+    "add_css_views": 0,
+    "add_javascript_view_footer": 0,
+    "add_javascript_views_footer": 0,
+    "initiator_on_save_model": "",
+    "guid": "a0d7c091-1781-45fb-a71f-1447bad69614",
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "82f1b5ca-bb9b-44d7-9a7a-9a03fb2a31dd",
+            "entity": "fieldtype",
+            "table": "#__componentbuilder_fieldtype",
+            "direction": "out"
+        }
+    ]
+}

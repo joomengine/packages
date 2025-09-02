@@ -16,17 +16,5 @@
         "path": "src\/joomla_plugin_group\/6ada52b0-ef05-455b-9cd7-de0d4f3aff73",
         "settings": "src\/joomla_plugin_group\/6ada52b0-ef05-455b-9cd7-de0d4f3aff73\/item.json",
         "guid": "6ada52b0-ef05-455b-9cd7-de0d4f3aff73"
-    },
-    "93940067-92d1-4cc2-b4e2-d3fc118d99bd": {
-        "name": "installer",
-        "path": "src\/joomla_plugin_group\/93940067-92d1-4cc2-b4e2-d3fc118d99bd",
-        "settings": "src\/joomla_plugin_group\/93940067-92d1-4cc2-b4e2-d3fc118d99bd\/item.json",
-        "guid": "93940067-92d1-4cc2-b4e2-d3fc118d99bd"
-    },
-    "22d28e9f-1dfd-45f1-ab44-0b84259c2e00": {
-        "name": "user",
-        "path": "src\/joomla_plugin_group\/22d28e9f-1dfd-45f1-ab44-0b84259c2e00",
-        "settings": "src\/joomla_plugin_group\/22d28e9f-1dfd-45f1-ab44-0b84259c2e00\/item.json",
-        "guid": "22d28e9f-1dfd-45f1-ab44-0b84259c2e00"
     }
 }

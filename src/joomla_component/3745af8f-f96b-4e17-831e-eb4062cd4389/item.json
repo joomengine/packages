@@ -1,5 +1,5 @@
 {
-    "system_name": "HelloWorld (public)",
+    "system_name": "HelloWorld",
     "name_code": "HelloWorld",
     "short_description": "Hello World",
     "companyname": "VDM",
@@ -45,7 +45,7 @@
     "add_css_site": 0,
     "add_menu_prefix": "1",
     "dashboard_type": 1,
-    "menu_prefix": "&#187;",
+    "menu_prefix": "\u00bb",
     "dashboard": "",
     "add_php_preflight_install": 0,
     "add_php_preflight_update": 0,
@@ -113,6 +113,13 @@
             "value": "3745af8f-f96b-4e17-831e-eb4062cd4389",
             "entity": "component_dashboard",
             "table": "#__componentbuilder_component_dashboard",
+            "direction": "in"
+        },
+        {
+            "key": "joomla_component",
+            "value": "3745af8f-f96b-4e17-831e-eb4062cd4389",
+            "entity": "component_modules",
+            "table": "#__componentbuilder_component_modules",
             "direction": "in"
         },
         {

@@ -7,26 +7,22 @@
 ```xml
 <field
 	type="category"
-	name="cid"
+	name="catid"
 	label="Select a category"
 	extension="com_###component###"
-	scope=""
-	required="true"
-	show_root=""
-	default=""
+	required="false"
 	description="select one of the following categories"
 	class="inputbox"
 	published="1"
 	multiple="false"
-	showon=""
 />
 ```
 
 ## Database:
-- Data type: INT
-- Data length: 11
+- Data type: VARCHAR
+- Data length: 255
 - Data default: 
-- Null switch: NOT NULL
+- Null switch: NULL
 - Index: KEY
 - Modeling: Default
 

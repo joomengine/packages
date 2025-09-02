@@ -50,24 +50,15 @@ You can:
 
 
  - **File Display Engine** | [Details](src/layout/6e4e5acc-8a7c-49ca-be53-8f8d95bd4163) | [Settings](src/layout/6e4e5acc-8a7c-49ca-be53-8f8d95bd4163/item.json) | File Display Engine
+ - **File Display Engine** | [Details](src/layout/c9d68d44-c737-4eea-a465-2928eaa12537) | [Settings](src/layout/c9d68d44-c737-4eea-a465-2928eaa12537/item.json) | File Display Engine
  - **Importer Columns Display** | [Details](src/layout/a51be5b8-9ec9-43de-9dd9-f739c8b39288) | [Settings](src/layout/a51be5b8-9ec9-43de-9dd9-f739c8b39288/item.json) | Importer Columns Display
  - **Importer Easy Mapping** | [Details](src/layout/c4d0c28e-eb98-4c0d-a91e-34096e5606fe) | [Settings](src/layout/c4d0c28e-eb98-4c0d-a91e-34096e5606fe/item.json) | Importer Easy Mapping
  - **Importer Messages Log** | [Details](src/layout/0777dd83-d0dd-4fb1-8a31-13013dfc5dde) | [Settings](src/layout/0777dd83-d0dd-4fb1-8a31-13013dfc5dde/item.json) | Importer Messages Log
- - **Input** | [Details](src/layout/3c3f6271-d660-4b79-9ab2-3bf2090eded1) | [Settings](src/layout/3c3f6271-d660-4b79-9ab2-3bf2090eded1/item.json) | Input
- - **Input Box** | [Details](src/layout/eeea4dfb-6c1a-4e42-9eb7-faf98e0eb89b) | [Settings](src/layout/eeea4dfb-6c1a-4e42-9eb7-faf98e0eb89b/item.json) | Input Box
- - **Joomla! Mastodon Feed** | [Details](src/layout/9dc804de-f98b-4db9-9b83-4034184c3992) | [Settings](src/layout/9dc804de-f98b-4db9-9b83-4034184c3992/item.json) | Joomla! Mastodon Feed
  - **Modal** | [Details](src/layout/0eb94218-5798-4170-9ce5-5cf11607086d) | [Settings](src/layout/0eb94218-5798-4170-9ce5-5cf11607086d/item.json) | Modal
- - **Radio** | [Details](src/layout/7f6ff7df-4444-40ad-a7bf-5d126d6feac7) | [Settings](src/layout/7f6ff7df-4444-40ad-a7bf-5d126d6feac7/item.json) | Radio
- - **Radio Box** | [Details](src/layout/0075f54e-d953-4379-8476-918bb6684d0b) | [Settings](src/layout/0075f54e-d953-4379-8476-918bb6684d0b/item.json) | Radio Box
  - **Recipes Card Body** | [Details](src/layout/d9797f3d-6d22-47a7-bba6-45be5bd3a4e3) | [Settings](src/layout/d9797f3d-6d22-47a7-bba6-45be5bd3a4e3/item.json) | Recipes Card Body
  - **Recipes Modal** | [Details](src/layout/dbcc89a3-75eb-48f3-8982-69c0fa2b0a01) | [Settings](src/layout/dbcc89a3-75eb-48f3-8982-69c0fa2b0a01/item.json) | Recipes Modal
  - **Rows** | [Details](src/layout/72965abd-370c-4a16-a536-72cfd001e5dd) | [Settings](src/layout/72965abd-370c-4a16-a536-72cfd001e5dd/item.json) | Rows
- - **Select** | [Details](src/layout/0fca5d9a-a239-4caf-b5df-42667c972dc0) | [Settings](src/layout/0fca5d9a-a239-4caf-b5df-42667c972dc0/item.json) | Select
- - **Select Box** | [Details](src/layout/bb4c6361-c967-4b41-86e0-10d41e3ecf07) | [Settings](src/layout/bb4c6361-c967-4b41-86e0-10d41e3ecf07/item.json) | Select Box
  - **Table** | [Details](src/layout/2fe723e3-879e-4c08-aaf3-0de098ed7f25) | [Settings](src/layout/2fe723e3-879e-4c08-aaf3-0de098ed7f25/item.json) | Table
- - **Textarea** | [Details](src/layout/248e0459-ecb6-4197-9cda-824ec8285461) | [Settings](src/layout/248e0459-ecb6-4197-9cda-824ec8285461/item.json) | Textarea
- - **Textarea Box** | [Details](src/layout/7b52a2a8-63a0-42db-9c58-108b21f2ae63) | [Settings](src/layout/7b52a2a8-63a0-42db-9c58-108b21f2ae63/item.json) | Textarea Box
- - **Trash Helper** | [Details](src/layout/7bf44bf6-0666-4e58-9037-daf72d400123) | [Settings](src/layout/7bf44bf6-0666-4e58-9037-daf72d400123/item.json) | Trash Helper Layout
 
 ### All used in [Joomla Component Builder](https://www.joomlacomponentbuilder.com) - [Source](https://git.vdm.dev/joomla/Component-Builder) - [Mirror](https://github.com/vdm-io/Joomla-Component-Builder) - [Download](https://git.vdm.dev/joomla/pkg-component-builder/releases)
 

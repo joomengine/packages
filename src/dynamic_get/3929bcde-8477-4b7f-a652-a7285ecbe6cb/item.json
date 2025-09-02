@@ -6,7 +6,7 @@
     "php_router_parse": "",
     "add_php_after_getitems": 0,
     "add_php_router_parse": 0,
-    "view_selection": "a.id AS id\r\na.asset_id AS asset_id\r\na.description AS description\r\na.image AS image\r\na.preparing_time AS preparing_time\r\na.name AS name\r\na.alias AS alias\r\na.catid AS catid\r\na.ingredients AS ingredients\r\na.published AS published\r\na.created_by AS created_by\r\na.modified_by AS modified_by\r\na.created AS created\r\na.modified AS modified\r\na.version AS version\r\na.hits AS hits\r\na.ordering AS ordering",
+    "view_selection": "a.id AS id\r\na.description AS description\r\na.image AS image\r\na.preparing_time AS preparing_time\r\na.name AS name\r\na.alias AS alias\r\na.catid AS catid\r\na.ingredients AS ingredients\r\na.published AS published\r\na.created_by AS created_by\r\na.modified_by AS modified_by\r\na.created AS created\r\na.modified AS modified\r\na.version AS version\r\na.hits AS hits\r\na.ordering AS ordering",
     "add_php_before_getitems": 0,
     "add_php_before_getitem": 0,
     "add_php_after_getitem": 0,

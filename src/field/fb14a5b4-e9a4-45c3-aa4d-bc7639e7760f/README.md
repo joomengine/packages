@@ -10,19 +10,12 @@
 	name="ingredients"
 	label="The Ingredients List"
 	layout="joomla.form.field.subform.repeatable-table"
-	component=""
-	client=""
 	multiple="true"
 	buttons="add,remove,move"
 	fields="f539d9eb-a2fb-4f6f-9ecf-ab48cc82a994,90a8c1ec-c3fa-47ec-86cf-06d770fb74e3"
-	formsource=""
-	description=""
-	default=""
 	icon="list"
 	max="50"
 	min="1"
-	filter=""
-	showon=""
 />
 ```
 
@@ -30,7 +23,7 @@
 - Data type: TEXT
 - Data length: 
 - Data default: 
-- Null switch: NOT NULL
+- Null switch: NULL
 - Index: NOT INDEX
 - Modeling: Default
 

@@ -1,0 +1,77 @@
+{
+    "name": "Version Dates",
+    "fieldtype": "7139f2c8-a70a-46a6-bbe3-4eefe54ca515",
+    "datatype": "TEXT",
+    "indexes": "0",
+    "null_switch": "NOT NULL",
+    "store": 0,
+    "on_get_model_field": "",
+    "on_save_model_field": "",
+    "initiator_on_get_model": "",
+    "xml": "<field\n\ttype=\"subform\"\n\tname=\"dates\"\n\tlabel=\"Dates\"\n\tlayout=\"joomla.form.field.subform.repeatable\"\n\tmultiple=\"true\"\n\tbuttons=\"add,remove,move\"\n\tfields=\"ef4b98c9-09b8-4dc9-9940-415c4e913ae1,8d89dcfa-21fe-43cf-98dc-93f05d1a39c8,450075e1-bb88-44ab-b14c-ac619e20fab8,3f854e95-d6e8-485a-946e-08df90597d72,7780516e-24ad-4556-804f-7644c45ef3b6,88d322b4-d400-4832-8203-8acad5ba790f\"\n\ticon=\"list\"\n\tmax=\"10\"\n\tmin=\"1\"\n\/>",
+    "datalenght": "",
+    "javascript_view_footer": "",
+    "css_views": "",
+    "css_view": ".subform-table-layout input {\r\n\tmax-width: 90%;\r\n}",
+    "datadefault_other": "",
+    "datadefault": "",
+    "datalenght_other": "",
+    "javascript_views_footer": "",
+    "add_css_view": 0,
+    "add_css_views": 0,
+    "add_javascript_view_footer": 0,
+    "add_javascript_views_footer": 0,
+    "initiator_on_save_model": "",
+    "guid": "7bb0cce1-9a1d-4f38-9f94-4585eaabcdcd",
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "7139f2c8-a70a-46a6-bbe3-4eefe54ca515",
+            "entity": "fieldtype",
+            "table": "#__componentbuilder_fieldtype",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "ef4b98c9-09b8-4dc9-9940-415c4e913ae1",
+            "entity": "field",
+            "table": "#__componentbuilder_field",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "8d89dcfa-21fe-43cf-98dc-93f05d1a39c8",
+            "entity": "field",
+            "table": "#__componentbuilder_field",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "450075e1-bb88-44ab-b14c-ac619e20fab8",
+            "entity": "field",
+            "table": "#__componentbuilder_field",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "3f854e95-d6e8-485a-946e-08df90597d72",
+            "entity": "field",
+            "table": "#__componentbuilder_field",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "7780516e-24ad-4556-804f-7644c45ef3b6",
+            "entity": "field",
+            "table": "#__componentbuilder_field",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "88d322b4-d400-4832-8203-8acad5ba790f",
+            "entity": "field",
+            "table": "#__componentbuilder_field",
+            "direction": "out"
+        }
+    ]
+}

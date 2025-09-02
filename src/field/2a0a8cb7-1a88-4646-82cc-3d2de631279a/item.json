@@ -32,37 +32,37 @@
             "direction": "out"
         },
         {
-            "key": "field",
+            "key": "guid",
             "value": "8358addd-e048-4964-8bf9-7a34531d618e",
-            "entity": "guid",
+            "entity": "field",
             "table": "#__componentbuilder_field",
             "direction": "out"
         },
         {
-            "key": "field",
+            "key": "guid",
             "value": "9331d77c-d0a6-4f61-b113-88eb01268e90",
-            "entity": "guid",
+            "entity": "field",
             "table": "#__componentbuilder_field",
             "direction": "out"
         },
         {
-            "key": "field",
+            "key": "guid",
             "value": "7cbf273d-c9a4-4795-85d5-e4abb0710a60",
-            "entity": "guid",
+            "entity": "field",
             "table": "#__componentbuilder_field",
             "direction": "out"
         },
         {
-            "key": "field",
+            "key": "guid",
             "value": "0397261c-6035-4792-89b2-3842c0321a2f",
-            "entity": "guid",
+            "entity": "field",
             "table": "#__componentbuilder_field",
             "direction": "out"
         },
         {
-            "key": "field",
+            "key": "guid",
             "value": "2455eb36-d907-4e7c-8e70-421fabd0ef9d",
-            "entity": "guid",
+            "entity": "field",
             "table": "#__componentbuilder_field",
             "direction": "out"
         }

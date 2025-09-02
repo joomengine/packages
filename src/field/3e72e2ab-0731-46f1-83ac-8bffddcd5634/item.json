@@ -1,0 +1,35 @@
+{
+    "name": "Margin Right",
+    "fieldtype": "5abd2b73-643b-4273-841a-787991aad968",
+    "datatype": "INT",
+    "indexes": "0",
+    "null_switch": "NOT NULL",
+    "store": 0,
+    "on_get_model_field": "",
+    "on_save_model_field": "",
+    "initiator_on_get_model": "",
+    "xml": "<field\n\ttype=\"number\"\n\tname=\"margin_right\"\n\tlabel=\"Margin Right\"\n\tdefault=\"50\"\n\tclass=\"text_area\"\n\trequired=\"true\"\n\tmin=\"20\"\n\tmax=\"100\"\n\tstep=\"5\"\n\tvalidate=\"number\"\n\/>",
+    "datalenght": "11",
+    "javascript_view_footer": "",
+    "css_views": "",
+    "css_view": "",
+    "datadefault_other": "",
+    "datadefault": "0",
+    "datalenght_other": "",
+    "javascript_views_footer": "",
+    "add_css_view": 0,
+    "add_css_views": 0,
+    "add_javascript_view_footer": 0,
+    "add_javascript_views_footer": 0,
+    "initiator_on_save_model": "",
+    "guid": "3e72e2ab-0731-46f1-83ac-8bffddcd5634",
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "5abd2b73-643b-4273-841a-787991aad968",
+            "entity": "fieldtype",
+            "table": "#__componentbuilder_fieldtype",
+            "direction": "out"
+        }
+    ]
+}

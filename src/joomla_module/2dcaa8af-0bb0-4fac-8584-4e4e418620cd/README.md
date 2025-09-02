@@ -1,6 +1,6 @@
 ### JCB! Joomla Module
-# Version Calendar (v2.0.1)
-## Version_Calendar_svg
+# Version Calendar (v5.0.0)
+## Version_calendar_svg
 
 Version Calendar in SVG
 
@@ -9,6 +9,18 @@ Version Calendar in SVG
 |-------------|----------------|
 | Target Area | ![Site](https://img.shields.io/badge/Site-blue?style=flat-square)  |
 | Add README  | ![yes](https://img.shields.io/badge/yes-success?style=flat-square)   |
+
+<details>
+<summary>Header Default Template</summary>
+
+```php
+// set the branches
+$branches = $helper->branches();
+// set branch qty
+$qty = count($branches);
+```
+
+</details>
 
 ## Default Template:
 ```html
@@ -84,8 +96,8 @@ Version Calendar in SVG
 			?>
 			<?php foreach ($version->dates as $date): ?>
 				<?php
-					$x_start = $helper->coordinates(new DateTime($date->start));
-					$x_end = $helper->coordinates(new DateTime($date->end));
+					$x_start = $helper->coordinates(new \DateTime($date->start));
+					$x_end = $helper->coordinates(new \DateTime($date->end));
 				?>
 				<g class="<?php echo $date->state; ?>">
 					<rect
@@ -113,7 +125,7 @@ Version Calendar in SVG
 	<!-- Today -->
 	<g class="vcs-today">
 		<?php
-			$now = new DateTime;
+			$now = new \DateTime;
 			$x = $helper->coordinates($now);
 		?>
 		<line x1="<?php echo $x; ?>" y1="<?php echo $params->get('header_height', 24); ?>" x2="<?php echo $x; ?>"
@@ -220,7 +232,9 @@ $legend = $helper->legend();
 <?php endif; ?>
 ```
 
-## Module Code:
+<details>
+<summary>Module Code (J3)</summary>
+
 ```php
 // Include the helper functions only once
 \JLoader::register('Mod[[[Module]]]Helper', __DIR__ . '/helper.php');
@@ -228,7 +242,7 @@ $legend = $helper->legend();
 try
 {
 	// Get the Helper class
-	$helper = new Mod[[[Module]]]Helper($params);
+	$helper = new Mod[[[Module]]]Helper(['params' => $params]);
 
 	// set the branches
 	$branches = $helper->branches();
@@ -248,6 +262,8 @@ catch (Exception $e)
 	echo "Warning: " . $e->getMessage();
 }
 ```
+
+</details>
 
 <details>
 <summary>README Template</summary>

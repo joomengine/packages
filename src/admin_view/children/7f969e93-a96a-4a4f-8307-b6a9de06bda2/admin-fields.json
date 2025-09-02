@@ -5,14 +5,16 @@
             "field": "749a9917-90c3-49c4-9e72-aa33b0683a87",
             "list": "",
             "order_list": "0",
+            "filter": "",
             "tab": "1",
             "alignment": 1,
             "order_edit": "1"
         },
         "1": {
             "field": "0d6970af-b361-4f65-84f6-0eb0c5f09bad",
-            "list": "",
-            "order_list": "0",
+            "list": "1",
+            "order_list": "3",
+            "filter": "",
             "tab": "1",
             "alignment": 2,
             "order_edit": "1"
@@ -21,6 +23,7 @@
             "field": "9c6f9195-132c-436b-ac6e-c138e4affd62",
             "list": "",
             "order_list": "0",
+            "filter": "",
             "tab": "1",
             "alignment": 2,
             "order_edit": "2"
@@ -32,6 +35,7 @@
             "title": "1",
             "sort": "1",
             "search": "1",
+            "filter": "",
             "link": "1",
             "tab": "1",
             "alignment": 4,
@@ -42,6 +46,7 @@
             "list": "",
             "order_list": "0",
             "alias": "1",
+            "filter": "",
             "tab": "1",
             "alignment": 4,
             "order_edit": "2"
@@ -60,6 +65,7 @@
             "field": "fb14a5b4-e9a4-45c3-aa4d-bc7639e7760f",
             "list": "",
             "order_list": "0",
+            "filter": "",
             "tab": "1",
             "alignment": 5,
             "order_edit": "1"

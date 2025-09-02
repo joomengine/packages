@@ -1,8 +1,6 @@
 ### JCB! Joomla Component
 # Recipe Manager (v5.0.0)
-## Recipe Manager (public) (Recipemanager)
-
-> Recipe Manager
+## Recipe Manager (Recipemanager)
 
 Recipe Manager allows you to collect, search, organize, and browse your recipes..
 

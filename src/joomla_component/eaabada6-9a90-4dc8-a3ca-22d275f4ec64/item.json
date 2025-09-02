@@ -28,7 +28,7 @@
     "php_preflight_install": "",
     "php_method_install": "",
     "php_postflight_install": "[CUSTOMCODE=databaseSchemaCheckCall]",
-    "component_version": "5.0.0",
+    "component_version": "5.0.1",
     "php_method_uninstall": "",
     "preferred_joomla_version": 5,
     "sql": "CREATE TABLE IF NOT EXISTS `#__[[[component]]]_user_map` (\r\n\t`guid` VARCHAR(36) NOT NULL DEFAULT '',\r\n\t`user` int(11) NOT NULL DEFAULT 0,\r\n\tPRIMARY KEY (`guid`)\r\n) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 DEFAULT COLLATE=utf8mb4_general_ci ROW_FORMAT=DYNAMIC;",

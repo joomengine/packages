@@ -28,10 +28,17 @@
         "desc": "Portal for mobile health clinics"
     },
     "d7e30702-ec49-45ac-8897-0389d61d6da0": {
-        "name": "Recipe Manager (public)",
+        "name": "Recipe Manager",
         "path": "src\/joomla_component\/d7e30702-ec49-45ac-8897-0389d61d6da0",
         "settings": "src\/joomla_component\/d7e30702-ec49-45ac-8897-0389d61d6da0\/item.json",
         "guid": "d7e30702-ec49-45ac-8897-0389d61d6da0",
         "desc": "Recipe Manager"
+    },
+    "2dea78a6-e0be-4260-8f7d-b278e0b661a8": {
+        "name": "Hello World J3",
+        "path": "src\/joomla_component\/2dea78a6-e0be-4260-8f7d-b278e0b661a8",
+        "settings": "src\/joomla_component\/2dea78a6-e0be-4260-8f7d-b278e0b661a8\/item.json",
+        "guid": "2dea78a6-e0be-4260-8f7d-b278e0b661a8",
+        "desc": "Hello World"
     }
 }

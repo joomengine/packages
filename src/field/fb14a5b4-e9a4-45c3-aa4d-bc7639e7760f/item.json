@@ -3,12 +3,12 @@
     "fieldtype": "7139f2c8-a70a-46a6-bbe3-4eefe54ca515",
     "datatype": "TEXT",
     "indexes": "0",
-    "null_switch": "NOT NULL",
+    "null_switch": "NULL",
     "store": 0,
     "on_get_model_field": "",
     "on_save_model_field": "",
     "initiator_on_get_model": "",
-    "xml": "<field\n\ttype=\"subform\"\n\tname=\"ingredients\"\n\tlabel=\"The Ingredients List\"\n\tlayout=\"joomla.form.field.subform.repeatable-table\"\n\tcomponent=\"\"\n\tclient=\"\"\n\tmultiple=\"true\"\n\tbuttons=\"add,remove,move\"\n\tfields=\"f539d9eb-a2fb-4f6f-9ecf-ab48cc82a994,90a8c1ec-c3fa-47ec-86cf-06d770fb74e3\"\n\tformsource=\"\"\n\tdescription=\"\"\n\tdefault=\"\"\n\ticon=\"list\"\n\tmax=\"50\"\n\tmin=\"1\"\n\tfilter=\"\"\n\tshowon=\"\"\n\/>",
+    "xml": "<field\n\ttype=\"subform\"\n\tname=\"ingredients\"\n\tlabel=\"The Ingredients List\"\n\tlayout=\"joomla.form.field.subform.repeatable-table\"\n\tmultiple=\"true\"\n\tbuttons=\"add,remove,move\"\n\tfields=\"f539d9eb-a2fb-4f6f-9ecf-ab48cc82a994,90a8c1ec-c3fa-47ec-86cf-06d770fb74e3\"\n\ticon=\"list\"\n\tmax=\"50\"\n\tmin=\"1\"\n\/>",
     "datalenght": "",
     "javascript_view_footer": "",
     "css_views": "",
@@ -32,16 +32,16 @@
             "direction": "out"
         },
         {
-            "key": "field",
+            "key": "guid",
             "value": "f539d9eb-a2fb-4f6f-9ecf-ab48cc82a994",
-            "entity": "guid",
+            "entity": "field",
             "table": "#__componentbuilder_field",
             "direction": "out"
         },
         {
-            "key": "field",
+            "key": "guid",
             "value": "90a8c1ec-c3fa-47ec-86cf-06d770fb74e3",
-            "entity": "guid",
+            "entity": "field",
             "table": "#__componentbuilder_field",
             "direction": "out"
         }

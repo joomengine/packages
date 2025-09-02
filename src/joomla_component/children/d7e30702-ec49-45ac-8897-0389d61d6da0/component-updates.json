@@ -1,6 +1,19 @@
 {
     "joomla_component": "d7e30702-ec49-45ac-8897-0389d61d6da0",
-    "version_update": null,
+    "version_update": {
+        "version_update0": {
+            "version": "5.0.0",
+            "mysql": "",
+            "url": "http:\/\/domain.com\/demo.zip",
+            "update_server_adv": "0",
+            "update_server_type": "component",
+            "update_element": "",
+            "update_state": "stable",
+            "update_target_version": "5\\.[012]",
+            "change_log": "",
+            "update_client": "site"
+        }
+    },
     "@dependencies": [
         {
             "key": "guid",

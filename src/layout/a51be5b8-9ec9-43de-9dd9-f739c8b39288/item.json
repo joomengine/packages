@@ -8,5 +8,14 @@
     "add_php_view": 1,
     "layout": "<?php echo LayoutHelper::render('filedisplay', $displayData); ?>\r\n<?php if ($map === null): ?>\r\n\t<?php echo Text::_('Spreadsheet seems to have no headers set! There was an error!'); ?>\r\n<?php else: ?>\r\n\t<div id=\"subform-display-area\">\r\n\r\n\t\t<?php echo $map->input; ?>\r\n\r\n\t\t<input type=\"hidden\" name=\"vdm_import[file]\" value=\"<?php echo $file->guid; ?>\">\r\n\r\n\t\t<joomla-toolbar-button id=\"toolbar-download-custom-button-saveimportmap\" task=\"importer.saveImportMap\">\r\n\t\t\t<div class=\"d-grid\">\r\n\t\t\t\t<button class=\"button-download custom-button-saveimportmap btn btn-primary\" type=\"button\">\r\n\t\t\t\t\t<span class=\"icon-download custom-button-saveimportmap\" aria-hidden=\"true\"><\/span>\r\n\t\t\t\t\t<?php echo Text::_('Import'); ?>\r\n\t\t\t\t<\/button>\r\n\t\t\t<\/div>\r\n\t\t<\/joomla-toolbar-button>\r\n\t<\/div>\r\n<?php endif;  ?>",
     "libraries": null,
-    "alias": "importercolumnsdisplay"
+    "alias": "importercolumnsdisplay",
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "c9d68d44-c737-4eea-a465-2928eaa12537",
+            "entity": "layout",
+            "table": "#__componentbuilder_layout",
+            "direction": "out"
+        }
+    ]
 }

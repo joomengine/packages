@@ -1,0 +1,20 @@
+{
+    "[[[component_acronym]]]": {
+        "name": "[[[component_acronym]]]",
+        "path": "src\/placeholder\/[[[component_acronym]]]",
+        "settings": "src\/placeholder\/[[[component_acronym]]]\/item.json",
+        "guid": "[[[component_acronym]]]"
+    },
+    "[[[component_link_name]]]": {
+        "name": "[[[component_link_name]]]",
+        "path": "src\/placeholder\/[[[component_link_name]]]",
+        "settings": "src\/placeholder\/[[[component_link_name]]]\/item.json",
+        "guid": "[[[component_link_name]]]"
+    },
+    "[[[get_component_link]]]": {
+        "name": "[[[get_component_link]]]",
+        "path": "src\/placeholder\/[[[get_component_link]]]",
+        "settings": "src\/placeholder\/[[[get_component_link]]]\/item.json",
+        "guid": "[[[get_component_link]]]"
+    }
+}

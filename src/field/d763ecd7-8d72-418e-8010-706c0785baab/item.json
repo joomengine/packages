@@ -1,0 +1,77 @@
+{
+    "name": "More Details",
+    "fieldtype": "7139f2c8-a70a-46a6-bbe3-4eefe54ca515",
+    "datatype": "TEXT",
+    "indexes": "0",
+    "null_switch": "NULL",
+    "store": 6,
+    "on_get_model_field": "[[[field]]] = Super___9d76b8dc_3883_4755_b11c_131d19ca8a53___Power::_('Data.Subform')->table('detail')->get($item->guid ?? '' ,'entity', 'more', ['guid','email','mobile_phone','dateofbirth','website','entity_type']);",
+    "on_save_model_field": "Super___9d76b8dc_3883_4755_b11c_131d19ca8a53___Power::_('Data.Subform')->table('detail')->set([[[field]]] ?? [], 'guid', 'entity', $data['guid'] ?? '');",
+    "initiator_on_get_model": "",
+    "xml": "<field\n\ttype=\"subform\"\n\tname=\"details\"\n\tlabel=\"More Details\"\n\tlayout=\"joomla.form.field.subform.repeatable-table\"\n\tmultiple=\"true\"\n\tbuttons=\"add,remove,move\"\n\tfields=\"fb3115a1-e579-401a-9b53-9469cd4739e4,976f7e2d-68e3-497e-b4d1-6326d5b95078,f40974bd-a946-4bc4-9be1-fedec2d09c24,c8cc2a22-f2e4-4dcc-9088-ed1d78416228,6c3a6983-d1bf-4e5e-9e99-deea00b0cefd,8a64b899-6cb9-4ba3-bed1-559675f8d20b\"\n\tdescription=\"Add some more details here.\"\n\ticon=\"list\"\n\tmax=\"10\"\n\tmin=\"0\"\n\tfilter=\"STRING\"\n\/>",
+    "datalenght": "",
+    "javascript_view_footer": "",
+    "css_views": "",
+    "css_view": "",
+    "datadefault_other": "",
+    "datadefault": "",
+    "datalenght_other": "",
+    "javascript_views_footer": "",
+    "add_css_view": 0,
+    "add_css_views": 0,
+    "add_javascript_view_footer": 0,
+    "add_javascript_views_footer": 0,
+    "initiator_on_save_model": "",
+    "guid": "d763ecd7-8d72-418e-8010-706c0785baab",
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "7139f2c8-a70a-46a6-bbe3-4eefe54ca515",
+            "entity": "fieldtype",
+            "table": "#__componentbuilder_fieldtype",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "fb3115a1-e579-401a-9b53-9469cd4739e4",
+            "entity": "field",
+            "table": "#__componentbuilder_field",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "976f7e2d-68e3-497e-b4d1-6326d5b95078",
+            "entity": "field",
+            "table": "#__componentbuilder_field",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "f40974bd-a946-4bc4-9be1-fedec2d09c24",
+            "entity": "field",
+            "table": "#__componentbuilder_field",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "c8cc2a22-f2e4-4dcc-9088-ed1d78416228",
+            "entity": "field",
+            "table": "#__componentbuilder_field",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "6c3a6983-d1bf-4e5e-9e99-deea00b0cefd",
+            "entity": "field",
+            "table": "#__componentbuilder_field",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "8a64b899-6cb9-4ba3-bed1-559675f8d20b",
+            "entity": "field",
+            "table": "#__componentbuilder_field",
+            "direction": "out"
+        }
+    ]
+}

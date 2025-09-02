@@ -1,5 +1,5 @@
 ### JCB! Field
-# Capital (citites-modal)
+# City/Town (citites-modal)
 
 > Field Type: ModalSelect
 
@@ -7,8 +7,8 @@
 ```xml
 <field
 	type="ModalSelect"
-	name="capital"
-	label="Capital"
+	name="city"
+	label="Residential City/Town"
 	sql_title_table="#__###component###_city"
 	sql_title_column="name"
 	sql_title_key="guid"

@@ -1,0 +1,35 @@
+{
+    "name": "User ID",
+    "fieldtype": "b0641980-5e78-42f6-972f-86aa607db23e",
+    "datatype": "INT",
+    "indexes": "2",
+    "null_switch": "NULL",
+    "store": 0,
+    "on_get_model_field": "",
+    "on_save_model_field": "",
+    "initiator_on_get_model": "",
+    "xml": "<field\n\ttype=\"user\"\n\tname=\"user_id\"\n\tlabel=\"User\"\n\trequired=\"true\"\n\/>",
+    "datalenght": "11",
+    "javascript_view_footer": "",
+    "css_views": "",
+    "css_view": "",
+    "datadefault_other": "",
+    "datadefault": "0",
+    "datalenght_other": "",
+    "javascript_views_footer": "",
+    "add_css_view": 0,
+    "add_css_views": 0,
+    "add_javascript_view_footer": 0,
+    "add_javascript_views_footer": 0,
+    "initiator_on_save_model": "",
+    "guid": "3dfab308-41de-4d11-9c94-4ba330a202ac",
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "b0641980-5e78-42f6-972f-86aa607db23e",
+            "entity": "fieldtype",
+            "table": "#__componentbuilder_fieldtype",
+            "direction": "out"
+        }
+    ]
+}

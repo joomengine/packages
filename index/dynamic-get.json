@@ -28,5 +28,11 @@
         "path": "src\/dynamic_get\/ebfab0ae-d368-4d2a-807b-c9d2d0809a60",
         "settings": "src\/dynamic_get\/ebfab0ae-d368-4d2a-807b-c9d2d0809a60\/item.json",
         "guid": "ebfab0ae-d368-4d2a-807b-c9d2d0809a60"
+    },
+    "0ac7277b-8f9f-4119-b22b-26f8c22e988b": {
+        "name": "Item Import Queue",
+        "path": "src\/dynamic_get\/0ac7277b-8f9f-4119-b22b-26f8c22e988b",
+        "settings": "src\/dynamic_get\/0ac7277b-8f9f-4119-b22b-26f8c22e988b\/item.json",
+        "guid": "0ac7277b-8f9f-4119-b22b-26f8c22e988b"
     }
 }

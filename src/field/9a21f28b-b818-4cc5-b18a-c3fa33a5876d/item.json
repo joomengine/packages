@@ -1,0 +1,98 @@
+{
+    "name": "State\/cities (multisubform)",
+    "fieldtype": "7139f2c8-a70a-46a6-bbe3-4eefe54ca515",
+    "datatype": "TEXT",
+    "indexes": "",
+    "null_switch": "NULL",
+    "store": 6,
+    "on_get_model_field": "$getMap =  [\r\n\t\t'_core' => [\r\n\t\t\t'table' =>'state',\r\n\t\t\t'linkValue' => $item->guid ?? '',\r\n\t\t\t'linkKey' => 'country',\r\n\t\t\t'field' => 'state',\r\n\t\t\t'get' => ['guid','name','type','latitude','longitude','iso2','fips_code','wikidataid']\r\n\t\t],\r\n\t\t'cities' => [\r\n\t\t\t'table' =>'city',\r\n\t\t\t'linkValue' => 'state:guid', \/\/ coretable:fieldname\r\n\t\t\t'linkKey' => 'state',\r\n\t\t\t'get' => ['guid','name','latitude','longitude','wikidataid']\r\n\t\t]\r\n\t];\r\n[[[field]]] = Super___9d76b8dc_3883_4755_b11c_131d19ca8a53___Power::_('Data.MultiSubform')->get($getMap);",
+    "on_save_model_field": "$setMap =  [\r\n\t'_core' => [\r\n\t\t'table' =>'state',\r\n\t\t'indexKey' => 'guid',\r\n\t\t'linkKey' => 'country',\r\n\t\t'linkValue' => $data['guid'] ?? ''\r\n\t],\r\n\t'cities' => [\r\n\t\t'table' =>'city',\r\n\t\t'indexKey' => 'guid',\r\n\t\t'linkKey' => 'state',\r\n\t\t'linkValue' => 'state:guid' \/\/ coretable:fieldname\r\n\t]\r\n];\r\nSuper___9d76b8dc_3883_4755_b11c_131d19ca8a53___Power::_('Data.MultiSubform')->set([[[field]]] ?? [],  $setMap);",
+    "initiator_on_get_model": "",
+    "xml": "<field\n\ttype=\"subform\"\n\tname=\"states\"\n\tlabel=\"States\"\n\tlayout=\"joomla.form.field.subform.repeatable\"\n\tmultiple=\"true\"\n\tbuttons=\"add,remove\"\n\tfields=\"fb3115a1-e579-401a-9b53-9469cd4739e4,5d3d34dd-4876-4c6a-86ab-b4e162f22c08,4321fa80-702d-4ff5-ab3c-05507d3007a9,f7d3d78e-2d35-4884-a997-d073f853d095,09c22738-6c6f-48ca-a24d-d439757e8619,2039d1c3-162c-401c-96fe-f127683ee3fe,fa0ead84-06c8-4f18-89ae-4cdf646fd961,af59b3ac-6a00-42c0-bbe2-edf90dec6081,6630c034-f87f-4c5c-ab72-e5ae0e4c0e5b\"\n\tdescription=\"Add the States and all their Cities\"\n\ticon=\"list\"\n\tmin=\"0\"\n\/>",
+    "datalenght": "",
+    "javascript_view_footer": "",
+    "css_views": "",
+    "css_view": "",
+    "datadefault_other": "",
+    "datadefault": "",
+    "datalenght_other": "",
+    "javascript_views_footer": "",
+    "add_css_view": 0,
+    "add_css_views": 0,
+    "add_javascript_view_footer": 0,
+    "add_javascript_views_footer": 0,
+    "initiator_on_save_model": "",
+    "guid": "9a21f28b-b818-4cc5-b18a-c3fa33a5876d",
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "7139f2c8-a70a-46a6-bbe3-4eefe54ca515",
+            "entity": "fieldtype",
+            "table": "#__componentbuilder_fieldtype",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "fb3115a1-e579-401a-9b53-9469cd4739e4",
+            "entity": "field",
+            "table": "#__componentbuilder_field",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "5d3d34dd-4876-4c6a-86ab-b4e162f22c08",
+            "entity": "field",
+            "table": "#__componentbuilder_field",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "4321fa80-702d-4ff5-ab3c-05507d3007a9",
+            "entity": "field",
+            "table": "#__componentbuilder_field",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "f7d3d78e-2d35-4884-a997-d073f853d095",
+            "entity": "field",
+            "table": "#__componentbuilder_field",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "09c22738-6c6f-48ca-a24d-d439757e8619",
+            "entity": "field",
+            "table": "#__componentbuilder_field",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "2039d1c3-162c-401c-96fe-f127683ee3fe",
+            "entity": "field",
+            "table": "#__componentbuilder_field",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "fa0ead84-06c8-4f18-89ae-4cdf646fd961",
+            "entity": "field",
+            "table": "#__componentbuilder_field",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "af59b3ac-6a00-42c0-bbe2-edf90dec6081",
+            "entity": "field",
+            "table": "#__componentbuilder_field",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "6630c034-f87f-4c5c-ab72-e5ae0e4c0e5b",
+            "entity": "field",
+            "table": "#__componentbuilder_field",
+            "direction": "out"
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "name": "File Type",
+    "fieldtype": "dd2e1f4b-f5db-45e8-85fa-efd27bae7b6a",
+    "datatype": "VARCHAR",
+    "indexes": "2",
+    "null_switch": "NULL",
+    "store": 0,
+    "on_get_model_field": "",
+    "on_save_model_field": "",
+    "initiator_on_get_model": "",
+    "xml": "<field\n\ttype=\"filetypes\"\n\tname=\"file_type\"\n\tlabel=\"File Types\"\n\tclass=\"list_class\"\n\tlayout=\"joomla.form.field.list-fancy-select\"\n\tmultiple=\"false\"\n\trequired=\"true\"\n\textends=\"list\"\n\tbutton=\"false\"\n\ttable=\"#__###component###_file_type\"\n\tcomponent=\"com_###component###\"\n\tview=\"file_type\"\n\tviews=\"file_types\"\n\tvalue_field=\"name\"\n\tkey_field=\"guid\"\n\tprime_php=\"1\"\n\ttype_php_1=\"__.o0=base64=Oo.__Ly8gR2V0IHRoZSBkYXRhYmFzZSBvYmplY3QuDQoJCSRkYiA9IEZhY3Rvcnk6OmdldERCTygpOw0KCQkkcXVlcnkgPSAkZGItPmdldFF1ZXJ5KHRydWUpOw0KCQkkcXVlcnktPnNlbGVjdCgkZGItPnF1b3RlTmFtZShhcnJheSgnYS4jIyNJRCMjIycsJ2EuIyMjVEVYVCMjIycsJ2EudGFyZ2V0JyksYXJyYXkoJyMjI0lEIyMjJywnIyMjQ09ERV9URVhUIyMjJywndGFyZ2V0JykpKTsNCgkJJHF1ZXJ5LT5mcm9tKCRkYi0+cXVvdGVOYW1lKCcjIyNUQUJMRSMjIycsICdhJykpOw0KCQkkcXVlcnktPndoZXJlKCRkYi0+cXVvdGVOYW1lKCdhLnB1Ymxpc2hlZCcpIC4gJyA+PSAxJyk7DQoJCSRxdWVyeS0+b3JkZXIoJ2EuIyMjVEVYVCMjIyBBU0MnKTsNCgkJJGRiLT5zZXRRdWVyeSgoc3RyaW5nKSRxdWVyeSk7DQoJCSRpdGVtcyA9ICRkYi0+bG9hZE9iamVjdExpc3QoKTsNCgkJJG9wdGlvbnMgPSBbXTsNCgkJaWYgKCRpdGVtcykNCgkJew0KCQkJaWYgKCR0aGlzLT5tdWx0aXBsZSA9PT0gZmFsc2UpDQoJCQl7DQoJCQkJJG9wdGlvbnNbXSA9IEh0bWw6Ol8oJ3NlbGVjdC5vcHRpb24nLCAnJywgVGV4dDo6XygnU2VsZWN0IGFuIG9wdGlvbicpKTsNCgkJCX0NCgkJCWZvcmVhY2goJGl0ZW1zIGFzICRpdGVtKQ0KCQkJew0KCQkJCSRvcHRpb25zW10gPSBIdG1sOjpfKCdzZWxlY3Qub3B0aW9uJywgJGl0ZW0tPiMjI0lEIyMjLCAkaXRlbS0+IyMjQ09ERV9URVhUIyMjKTsNCgkJCX0NCgkJfQ0KCQlyZXR1cm4gJG9wdGlvbnM7\"\n\/>",
+    "datalenght": "255",
+    "javascript_view_footer": "",
+    "css_views": "",
+    "css_view": "",
+    "datadefault_other": "",
+    "datadefault": "",
+    "datalenght_other": "",
+    "javascript_views_footer": "",
+    "add_css_view": 0,
+    "add_css_views": 0,
+    "add_javascript_view_footer": 0,
+    "add_javascript_views_footer": 0,
+    "initiator_on_save_model": "",
+    "guid": "c2f884f9-31a0-4bb9-8310-64b5d9132d32",
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "dd2e1f4b-f5db-45e8-85fa-efd27bae7b6a",
+            "entity": "fieldtype",
+            "table": "#__componentbuilder_fieldtype",
+            "direction": "out"
+        }
+    ]
+}

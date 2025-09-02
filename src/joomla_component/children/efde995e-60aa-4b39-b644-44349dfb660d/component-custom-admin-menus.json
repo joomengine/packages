@@ -1,0 +1,13 @@
+{
+    "joomla_component": "efde995e-60aa-4b39-b644-44349dfb660d",
+    "addcustommenus": null,
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "efde995e-60aa-4b39-b644-44349dfb660d",
+            "entity": "joomla_component",
+            "table": "#__componentbuilder_joomla_component",
+            "direction": "out"
+        }
+    ]
+}

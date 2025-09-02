@@ -40,5 +40,11 @@
         "path": "src\/dynamic_get\/c3542e52-cba1-42de-9ffa-0919c0082285",
         "settings": "src\/dynamic_get\/c3542e52-cba1-42de-9ffa-0919c0082285\/item.json",
         "guid": "c3542e52-cba1-42de-9ffa-0919c0082285"
+    },
+    "3929bcde-8477-4b7f-a652-a7285ecbe6cb": {
+        "name": "getRecipes",
+        "path": "src\/dynamic_get\/3929bcde-8477-4b7f-a652-a7285ecbe6cb",
+        "settings": "src\/dynamic_get\/3929bcde-8477-4b7f-a652-a7285ecbe6cb\/item.json",
+        "guid": "3929bcde-8477-4b7f-a652-a7285ecbe6cb"
     }
 }

@@ -1,0 +1,20 @@
+{
+    "admin_view": "65116558-be67-4931-95be-727fbfb16db7",
+    "tabs": {
+        "tabs0": {
+            "tab": "1",
+            "position": "2",
+            "name": "Testing",
+            "html": "<h1>Worked<\/h1>"
+        }
+    },
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "65116558-be67-4931-95be-727fbfb16db7",
+            "entity": "admin_view",
+            "table": "#__componentbuilder_admin_view",
+            "direction": "out"
+        }
+    ]
+}

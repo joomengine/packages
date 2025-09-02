@@ -622,5 +622,41 @@
         "path": "src\/field\/7bb0cce1-9a1d-4f38-9f94-4585eaabcdcd",
         "settings": "src\/field\/7bb0cce1-9a1d-4f38-9f94-4585eaabcdcd\/item.json",
         "guid": "7bb0cce1-9a1d-4f38-9f94-4585eaabcdcd"
+    },
+    "ef4b98c9-09b8-4dc9-9940-415c4e913ae1": {
+        "name": "State",
+        "path": "src\/field\/ef4b98c9-09b8-4dc9-9940-415c4e913ae1",
+        "settings": "src\/field\/ef4b98c9-09b8-4dc9-9940-415c4e913ae1\/item.json",
+        "guid": "ef4b98c9-09b8-4dc9-9940-415c4e913ae1"
+    },
+    "3f854e95-d6e8-485a-946e-08df90597d72": {
+        "name": "Background Color",
+        "path": "src\/field\/3f854e95-d6e8-485a-946e-08df90597d72",
+        "settings": "src\/field\/3f854e95-d6e8-485a-946e-08df90597d72\/item.json",
+        "guid": "3f854e95-d6e8-485a-946e-08df90597d72"
+    },
+    "8d89dcfa-21fe-43cf-98dc-93f05d1a39c8": {
+        "name": "Label",
+        "path": "src\/field\/8d89dcfa-21fe-43cf-98dc-93f05d1a39c8",
+        "settings": "src\/field\/8d89dcfa-21fe-43cf-98dc-93f05d1a39c8\/item.json",
+        "guid": "8d89dcfa-21fe-43cf-98dc-93f05d1a39c8"
+    },
+    "88d322b4-d400-4832-8203-8acad5ba790f": {
+        "name": "End Date",
+        "path": "src\/field\/88d322b4-d400-4832-8203-8acad5ba790f",
+        "settings": "src\/field\/88d322b4-d400-4832-8203-8acad5ba790f\/item.json",
+        "guid": "88d322b4-d400-4832-8203-8acad5ba790f"
+    },
+    "7780516e-24ad-4556-804f-7644c45ef3b6": {
+        "name": "Start Date",
+        "path": "src\/field\/7780516e-24ad-4556-804f-7644c45ef3b6",
+        "settings": "src\/field\/7780516e-24ad-4556-804f-7644c45ef3b6\/item.json",
+        "guid": "7780516e-24ad-4556-804f-7644c45ef3b6"
+    },
+    "450075e1-bb88-44ab-b14c-ac619e20fab8": {
+        "name": "Description",
+        "path": "src\/field\/450075e1-bb88-44ab-b14c-ac619e20fab8",
+        "settings": "src\/field\/450075e1-bb88-44ab-b14c-ac619e20fab8\/item.json",
+        "guid": "450075e1-bb88-44ab-b14c-ac619e20fab8"
     }
 }

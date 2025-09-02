@@ -1,0 +1,35 @@
+{
+    "name": "Symbol (currency)",
+    "fieldtype": "201327fe-3067-4316-a155-3fe2a52e05c0",
+    "datatype": "CHAR",
+    "indexes": "0",
+    "null_switch": "NULL",
+    "store": 0,
+    "on_get_model_field": "",
+    "on_save_model_field": "",
+    "initiator_on_get_model": "",
+    "xml": "<field\n\ttype=\"text\"\n\tname=\"symbol\"\n\tlabel=\"Symbol\"\n\tsize=\"40\"\n\tmaxlength=\"7\"\n\tdefault=\"\"\n\tdescription=\"A currency symbol is a graphic symbol used as a shorthand for a currency's name, especially in reference to amounts of money.\"\n\tclass=\"text_area\"\n\trequired=\"true\"\n\tfilter=\"STRING\"\n\tmessage=\"Error! Please add currency symbol here.\"\n\thint=\"N$\"\n\/>",
+    "datalenght": "11",
+    "javascript_view_footer": "",
+    "css_views": "",
+    "css_view": "",
+    "datadefault_other": "",
+    "datadefault": "",
+    "datalenght_other": "",
+    "javascript_views_footer": "",
+    "add_css_view": 0,
+    "add_css_views": 0,
+    "add_javascript_view_footer": 0,
+    "add_javascript_views_footer": 0,
+    "initiator_on_save_model": "",
+    "guid": "c9a4c765-a0f9-42da-8fa9-df41ab70c448",
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "201327fe-3067-4316-a155-3fe2a52e05c0",
+            "entity": "fieldtype",
+            "table": "#__componentbuilder_fieldtype",
+            "direction": "out"
+        }
+    ]
+}

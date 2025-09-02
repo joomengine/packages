@@ -1,0 +1,35 @@
+{
+    "name": "Start Date",
+    "fieldtype": "6cf5a33f-cb25-4a58-bfec-7e1511896402",
+    "datatype": "DATETIME",
+    "indexes": "0",
+    "null_switch": "NOT NULL",
+    "store": 0,
+    "on_get_model_field": "",
+    "on_save_model_field": "",
+    "initiator_on_get_model": "",
+    "xml": "<field\n\ttype=\"calendar\"\n\tname=\"start\"\n\tlabel=\"Start Date\"\n\tformat=\"%d-%m-%Y\"\n\tfilter=\"CMD\"\n\tmessage=\"Error! Please add date here.\"\n\tsize=\"40\"\n\trequired=\"true\"\n\/>",
+    "datalenght": "",
+    "javascript_view_footer": "",
+    "css_views": "",
+    "css_view": "",
+    "datadefault_other": "0000-00-00 00:00:00",
+    "datadefault": "Other",
+    "datalenght_other": "",
+    "javascript_views_footer": "",
+    "add_css_view": 0,
+    "add_css_views": 0,
+    "add_javascript_view_footer": 0,
+    "add_javascript_views_footer": 0,
+    "initiator_on_save_model": "",
+    "guid": "7780516e-24ad-4556-804f-7644c45ef3b6",
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "6cf5a33f-cb25-4a58-bfec-7e1511896402",
+            "entity": "fieldtype",
+            "table": "#__componentbuilder_fieldtype",
+            "direction": "out"
+        }
+    ]
+}

@@ -610,5 +610,17 @@
         "path": "src\/field\/1805a9da-75bf-41d6-b120-4c021fd93d8d",
         "settings": "src\/field\/1805a9da-75bf-41d6-b120-4c021fd93d8d\/item.json",
         "guid": "1805a9da-75bf-41d6-b120-4c021fd93d8d"
+    },
+    "f3e44dab-059a-434e-98c5-9d9def389295": {
+        "name": "Version Name",
+        "path": "src\/field\/f3e44dab-059a-434e-98c5-9d9def389295",
+        "settings": "src\/field\/f3e44dab-059a-434e-98c5-9d9def389295\/item.json",
+        "guid": "f3e44dab-059a-434e-98c5-9d9def389295"
+    },
+    "7bb0cce1-9a1d-4f38-9f94-4585eaabcdcd": {
+        "name": "Version Dates",
+        "path": "src\/field\/7bb0cce1-9a1d-4f38-9f94-4585eaabcdcd",
+        "settings": "src\/field\/7bb0cce1-9a1d-4f38-9f94-4585eaabcdcd\/item.json",
+        "guid": "7bb0cce1-9a1d-4f38-9f94-4585eaabcdcd"
     }
 }

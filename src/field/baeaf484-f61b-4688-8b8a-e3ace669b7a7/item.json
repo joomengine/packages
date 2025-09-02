@@ -1,0 +1,35 @@
+{
+    "name": "Capital (citites-modal)",
+    "fieldtype": "a1cdb0a5-517c-425c-998a-333e92af3e32",
+    "datatype": "VARCHAR",
+    "indexes": "2",
+    "null_switch": "NULL",
+    "store": 0,
+    "on_get_model_field": null,
+    "on_save_model_field": null,
+    "initiator_on_get_model": "",
+    "xml": "<field\n\ttype=\"ModalSelect\"\n\tname=\"capital\"\n\tlabel=\"Capital\"\n\tsql_title_table=\"#__###component###_city\"\n\tsql_title_column=\"name\"\n\tsql_title_key=\"guid\"\n\turlSelect=\"index.php?option=com_###component###&amp;view=cities&amp;layout=modal&amp;tmpl=component&amp;titleKey=guid\"\n\turlNew=\"index.php?option=com_###component###&amp;task=city.add&amp;layout=modal&amp;tmpl=component\"\n\turlEdit=\"index.php?option=com_###component###&amp;task=city.edit&amp;guid={id}&amp;layout=modal&amp;tmpl=component&amp;titleKey=guid\"\n\ttitleSelect=\"Select A Capital City\"\n\ttitleNew=\"New Capital City\"\n\ttitleEdit=\"Edit Capital City\"\n\ticonSelect=\"icon-copy\"\n\tselect=\"true\"\n\tnew=\"true\"\n\tedit=\"true\"\n\tclear=\"true\"\n\tclass=\"input-large\"\n\tdescription=\"Please select the Capital of this ###view###.\"\n\thint=\"Select a Capital\"\n\/>",
+    "datalenght": "255",
+    "javascript_view_footer": "",
+    "css_views": "",
+    "css_view": "",
+    "datadefault_other": "",
+    "datadefault": "",
+    "datalenght_other": "",
+    "javascript_views_footer": "",
+    "add_css_view": 0,
+    "add_css_views": 0,
+    "add_javascript_view_footer": 0,
+    "add_javascript_views_footer": 0,
+    "initiator_on_save_model": "",
+    "guid": "baeaf484-f61b-4688-8b8a-e3ace669b7a7",
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "a1cdb0a5-517c-425c-998a-333e92af3e32",
+            "entity": "fieldtype",
+            "table": "#__componentbuilder_fieldtype",
+            "direction": "out"
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "name": "Allowed Image Formats",
+    "fieldtype": "dd2e1f4b-f5db-45e8-85fa-efd27bae7b6a",
+    "datatype": "TEXT",
+    "indexes": "0",
+    "null_switch": "NULL",
+    "store": 0,
+    "on_get_model_field": "",
+    "on_save_model_field": "",
+    "initiator_on_get_model": "",
+    "xml": "<field\n\ttype=\"allowedimageformats\"\n\tname=\"image_formats\"\n\tlabel=\"Allowed Image Formats\"\n\tclass=\"list_class\"\n\tlayout=\"joomla.form.field.list-fancy-select\"\n\tmultiple=\"true\"\n\tshowon=\"type:1\"\n\textends=\"list\"\n\tprime_php=\"1\"\n\ttype_php_1=\"__.o0=base64=Oo.__W0NVU1RPTUNPREU9Z2V0RmlsZUV4dGVuc2lvbnNPcHRpb25zK2ltYWdlXQ==\"\n\/>",
+    "datalenght": "",
+    "javascript_view_footer": "",
+    "css_views": "",
+    "css_view": "",
+    "datadefault_other": "",
+    "datadefault": "",
+    "datalenght_other": "",
+    "javascript_views_footer": "",
+    "add_css_view": 0,
+    "add_css_views": 0,
+    "add_javascript_view_footer": 0,
+    "add_javascript_views_footer": 0,
+    "initiator_on_save_model": "",
+    "guid": "6b3c73d5-7640-43c0-a2e7-125a187f4513",
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "dd2e1f4b-f5db-45e8-85fa-efd27bae7b6a",
+            "entity": "fieldtype",
+            "table": "#__componentbuilder_fieldtype",
+            "direction": "out"
+        }
+    ]
+}

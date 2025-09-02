@@ -1,0 +1,35 @@
+{
+    "name": "Latitude (decimal)",
+    "fieldtype": "201327fe-3067-4316-a155-3fe2a52e05c0",
+    "datatype": "DECIMAL",
+    "indexes": "2",
+    "null_switch": "NULL",
+    "store": 0,
+    "on_get_model_field": null,
+    "on_save_model_field": null,
+    "initiator_on_get_model": "",
+    "xml": "<field\n\ttype=\"text\"\n\tname=\"latitude\"\n\tlabel=\"Latitude\"\n\tdescription=\"Enter the Latitude\"\n\tclass=\"text_area\"\n\tmessage=\"Error! Please add the latitude here.\"\n\thint=\"The Latitude Here\"\n\/>",
+    "datalenght": "Other",
+    "javascript_view_footer": "",
+    "css_views": "",
+    "css_view": "",
+    "datadefault_other": "",
+    "datadefault": "",
+    "datalenght_other": "10,8",
+    "javascript_views_footer": "",
+    "add_css_view": 0,
+    "add_css_views": 0,
+    "add_javascript_view_footer": 0,
+    "add_javascript_views_footer": 0,
+    "initiator_on_save_model": "",
+    "guid": "f7d3d78e-2d35-4884-a997-d073f853d095",
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "201327fe-3067-4316-a155-3fe2a52e05c0",
+            "entity": "fieldtype",
+            "table": "#__componentbuilder_fieldtype",
+            "direction": "out"
+        }
+    ]
+}

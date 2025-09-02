@@ -1,0 +1,15 @@
+{
+    "system_name": "save GUID",
+    "path": "",
+    "target": 2,
+    "type": 0,
+    "comment_type": 1,
+    "joomla_version": 3,
+    "function_name": "saveGUID",
+    "code": "\t\t\/\/ Set the GUID if empty or not valid\r\n\t\tif (empty($data['guid']) && $data['id'] > 0)\r\n\t\t{\r\n\t\t\t\/\/ get the existing one\r\n\t\t\t$data['guid'] = (string) [[[Component]]]Helper::getVar('[[[view]]]', $data['id'], 'id', 'guid');\r\n\t\t}\r\n\t\t\/\/ Set the GUID if empty or not valid\r\n\t\twhile (![[[Component]]]Helper::validGUID($data['guid'], \"[[[view]]]\", $data['id']))\r\n\t\t{\r\n\t\t\t\/\/ must always be set\r\n\t\t\t$data['guid'] = (string) [[[Component]]]Helper::GUID();\r\n\t\t}\r\n",
+    "hashendtarget": "0",
+    "to_line": "1652",
+    "from_line": "1646",
+    "hashtarget": "6__ebdedf217dd264bb88f9418ba0092c96",
+    "component": "0"
+}

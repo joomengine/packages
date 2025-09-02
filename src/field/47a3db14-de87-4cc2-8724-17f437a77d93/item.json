@@ -1,0 +1,35 @@
+{
+    "name": "Note VDM File Uploader",
+    "fieldtype": "f9ecacd0-8481-4157-8c71-d7aaefc2b7c3",
+    "datatype": "",
+    "indexes": "0",
+    "null_switch": "NOT NULL",
+    "store": 0,
+    "on_get_model_field": "",
+    "on_save_model_field": "",
+    "initiator_on_get_model": "",
+    "xml": "<field\n\ttype=\"note\"\n\tname=\"note_file_vdm_uploader\"\n\tdescription=\"<div id='file_vdm_uploader' class='vdm-uikit-uploader uk-placeholder uk-text-center'\r\n     data-type-id='jform_file_type'\r\n     data-progressbar-id='file_vdm_progressbar'\r\n     data-display-id='file_vdm_display'\r\n     data-success-id='file_vdm_success'\r\n     data-error-id='file_vdm_error'\r\n     data-allowed-format-id='file_vdm_allowed_format'\r\n     data-file-type-id='file_vdm_file_type'\r\n>\r\n    <span uk-icon='icon: cloud-upload'><\/span>\r\n    <span class='uk-text-middle'>Attach <span id='file_vdm_file_type'>file<\/span> by dropping them here or<\/span>\r\n    <div uk-form-custom>\r\n        <input type='file' multiple>\r\n        <span class='uk-link'>selecting one<\/span> <span id='file_vdm_allowed_format'><\/span>\r\n    <\/div>\r\n<\/div>\r\n\r\n<progress id='file_vdm_progressbar' class='uk-progress' value='0' max='100' hidden><\/progress>\"\n\tshowon=\"file_type!:\"\n\/>",
+    "datalenght": "",
+    "javascript_view_footer": "",
+    "css_views": "",
+    "css_view": "",
+    "datadefault_other": "",
+    "datadefault": "",
+    "datalenght_other": "",
+    "javascript_views_footer": "",
+    "add_css_view": 0,
+    "add_css_views": 0,
+    "add_javascript_view_footer": 0,
+    "add_javascript_views_footer": 0,
+    "initiator_on_save_model": "",
+    "guid": "47a3db14-de87-4cc2-8724-17f437a77d93",
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "f9ecacd0-8481-4157-8c71-d7aaefc2b7c3",
+            "entity": "fieldtype",
+            "table": "#__componentbuilder_fieldtype",
+            "direction": "out"
+        }
+    ]
+}

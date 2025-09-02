@@ -1,0 +1,35 @@
+{
+    "name": "Username (required)",
+    "fieldtype": "201327fe-3067-4316-a155-3fe2a52e05c0",
+    "datatype": "VARCHAR",
+    "indexes": "2",
+    "null_switch": "NULL",
+    "store": 0,
+    "on_get_model_field": "",
+    "on_save_model_field": "",
+    "initiator_on_get_model": "",
+    "xml": "<field\n\ttype=\"text\"\n\tname=\"username\"\n\tlabel=\"Username\"\n\tsize=\"60\"\n\tmaxlength=\"150\"\n\tdescription=\"Enter the username.\"\n\tclass=\"text_area\"\n\trequired=\"true\"\n\tfilter=\"STRING\"\n\tmessage=\"Error! Please add the username here.\"\n\/>",
+    "datalenght": "64",
+    "javascript_view_footer": "",
+    "css_views": "",
+    "css_view": "",
+    "datadefault_other": "",
+    "datadefault": "",
+    "datalenght_other": "",
+    "javascript_views_footer": "",
+    "add_css_view": 0,
+    "add_css_views": 0,
+    "add_javascript_view_footer": 0,
+    "add_javascript_views_footer": 0,
+    "initiator_on_save_model": "",
+    "guid": "b7edbefd-d8ee-4765-9a09-ab1922e70e68",
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "201327fe-3067-4316-a155-3fe2a52e05c0",
+            "entity": "fieldtype",
+            "table": "#__componentbuilder_fieldtype",
+            "direction": "out"
+        }
+    ]
+}

@@ -5,19 +5,19 @@
 
 ## Field XML:
 ```xml
-<field 
-	type="text" 
-	name="email" 
-	label="Email" 
-	size="10" 
-	maxlength="50" 
-	description="Enter Email" 
+<field
+	type="text"
+	name="email"
+	label="Email"
+	size="10"
+	maxlength="50"
+	description="Enter Email"
 	class="text_area"
-	filter="STRING" 
-	validate="email" 
 	required="true"
-	message="Error! Please add email address here." 
-	hint="demo@example.com" 
+	filter="STRING"
+	validate="email"
+	message="Error! Please add email address here."
+	hint="demo@example.com"
 />
 ```
 
@@ -25,8 +25,8 @@
 - Data type: VARCHAR
 - Data length: 255
 - Data default: 
-- Null switch: NOT NULL
-- Index: NOT INDEX
+- Null switch: NULL
+- Index: KEY
 - Modeling: Default
 
 > Define, capture, and control data effortlessly with this Field; the core building block of every JCB component.

@@ -3,7 +3,7 @@
     "fieldtype": "201327fe-3067-4316-a155-3fe2a52e05c0",
     "datatype": "VARCHAR",
     "indexes": "2",
-    "null_switch": "NOT NULL",
+    "null_switch": "NULL",
     "store": 0,
     "on_get_model_field": "",
     "on_save_model_field": "",

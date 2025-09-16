@@ -1,5 +1,5 @@
 {
-    "name": "Confirm Password2",
+    "name": "Confirm Password",
     "fieldtype": "0022598d-0ee1-44f2-aa94-c2eb47595f73",
     "datatype": "VARCHAR",
     "indexes": "2",

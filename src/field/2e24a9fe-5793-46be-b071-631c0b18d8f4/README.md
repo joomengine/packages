@@ -1,5 +1,5 @@
 ### JCB! Field
-# Entity Type
+# Entity Type (demo)
 
 > Field Type: List
 
@@ -12,7 +12,7 @@
 	description="The entity type the [[[view]]] belongs to."
 	message="Error! Please select some entity type here."
 	required="true"
-	option="|Select an option,member|Member"
+	option="|Select an option,look|Look,importer|Importer"
 />
 ```
 

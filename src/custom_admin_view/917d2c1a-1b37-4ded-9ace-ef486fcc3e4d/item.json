@@ -62,7 +62,7 @@
     },
     "dynamic_get": "",
     "php_document": " \t\t\/\/ these comments are here so the layouts will be linked and loaded for the ajax (don't remove it)\r\n\r\n\t\t\/\/ change this to the layout of your custom importer columns display\r\n\t\t\/\/ LayoutHelper::render('importercolumnsdisplay', [?]);\r\n\r\n\t\t\/\/ change this to the layout of your custom importer easy mapping\r\n\t\t\/\/ LayoutHelper::render('importereasymapping', [?]); \r\n\r\n\t\t\/\/ change this to the layout of your custom importer message log\r\n\t\t\/\/ LayoutHelper::render('importermessagelog', []);\r\n\r\n\t\t\/\/ add the libs for subform (since not adding it via xml but ajax)\r\n\t\t$this->getDocument()\r\n\t\t\t->getWebAssetManager()\r\n\t\t\t->useScript('webcomponent.field-subform')\r\n\t\t\t->usePreset('choicesjs')\r\n\t\t\t->useScript('webcomponent.field-fancy-select');\r\n\t\t$this->getDocument()\r\n\t\t\t->getWebAssetManager()\r\n\t\t\t->addInlineStyle('.subform-table-sublayout-section .controls { margin-left: 0px }')\r\n\t\t\t->addInlineStyle('.subform-table-sublayout-section .table-responsive { overflow-x: visible }');",
-    "php_view": "$this->app->input->set('hidemainmenu', false);",
+    "php_view": "$this->app->getInput()->set('hidemainmenu', false);",
     "add_custom_button": 1,
     "php_jview_display": "",
     "custom_button": {

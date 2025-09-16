@@ -96,6 +96,7 @@ This ensures maintainability while still allowing total customization per projec
  - **Units** | [Details](src/admin_view/b549040e-9f87-472d-801e-ca9859e1a4c4) | [Settings](src/admin_view/b549040e-9f87-472d-801e-ca9859e1a4c4/item.json) | Units Admin View
  - **User Entity Map** | [Details](src/admin_view/60b7b30d-9229-4ce2-b055-9efbb7ac4cea) | [Settings](src/admin_view/60b7b30d-9229-4ce2-b055-9efbb7ac4cea/item.json) | User Entity Maps
  - **VMMC** | [Details](src/admin_view/2cbd9486-089b-45b8-8f1a-8161e9f88a5c) | [Settings](src/admin_view/2cbd9486-089b-45b8-8f1a-8161e9f88a5c/item.json) | VMMC Admin View
+ - **eHealth User Entity Map** | [Details](src/admin_view/e9251e1e-80b7-43e7-84a0-6d890d05ed28) | [Settings](src/admin_view/e9251e1e-80b7-43e7-84a0-6d890d05ed28/item.json) | User Entity Maps
 
 ### All used in [Joomla Component Builder](https://www.joomlacomponentbuilder.com) - [Source](https://git.vdm.dev/joomla/Component-Builder) - [Mirror](https://github.com/vdm-io/Joomla-Component-Builder) - [Download](https://git.vdm.dev/joomla/pkg-component-builder/releases)
 

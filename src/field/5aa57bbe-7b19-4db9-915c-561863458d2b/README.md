@@ -24,7 +24,7 @@
 - Data type: VARCHAR
 - Data length: 36
 - Data default: 
-- Null switch: NOT NULL
+- Null switch: NULL
 - Index: KEY
 - Modeling: Default
 

@@ -540,7 +540,7 @@
             "order": "57"
         },
         "addadmin_views42": {
-            "adminview": "60b7b30d-9229-4ce2-b055-9efbb7ac4cea",
+            "adminview": "e9251e1e-80b7-43e7-84a0-6d890d05ed28",
             "icomoon": "joomla",
             "checkin": "1",
             "history": "1",
@@ -870,7 +870,7 @@
         },
         {
             "key": "guid",
-            "value": "60b7b30d-9229-4ce2-b055-9efbb7ac4cea",
+            "value": "e9251e1e-80b7-43e7-84a0-6d890d05ed28",
             "entity": "admin_view",
             "table": "#__componentbuilder_admin_view",
             "direction": "out"

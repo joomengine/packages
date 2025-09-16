@@ -304,5 +304,11 @@
         "path": "src\/admin_view\/children\/7f969e93-a96a-4a4f-8307-b6a9de06bda2",
         "settings": "src\/admin_view\/children\/7f969e93-a96a-4a4f-8307-b6a9de06bda2\/admin-fields.json",
         "guid": "7f969e93-a96a-4a4f-8307-b6a9de06bda2"
+    },
+    "e9251e1e-80b7-43e7-84a0-6d890d05ed28": {
+        "name": "e9251e1e-80b7-43e7-84a0-6d890d05ed28",
+        "path": "src\/admin_view\/children\/e9251e1e-80b7-43e7-84a0-6d890d05ed28",
+        "settings": "src\/admin_view\/children\/e9251e1e-80b7-43e7-84a0-6d890d05ed28\/admin-fields.json",
+        "guid": "e9251e1e-80b7-43e7-84a0-6d890d05ed28"
     }
 }

@@ -1,0 +1,35 @@
+{
+    "name": "Target (ehealth Files)",
+    "fieldtype": "a51dfc06-1b9b-4d0a-86ba-f705bcd40d4d",
+    "datatype": "VARCHAR",
+    "indexes": "2",
+    "null_switch": "NULL",
+    "store": 0,
+    "on_get_model_field": null,
+    "on_save_model_field": null,
+    "initiator_on_get_model": "",
+    "xml": "<field\n\ttype=\"list\"\n\tname=\"target\"\n\tlabel=\"Target\"\n\tlayout=\"joomla.form.field.list-fancy-select\"\n\tmultiple=\"true\"\n\trequired=\"true\"\n\toption=\"immunisation,antenatal_care,tuberculosis,checkup,test,hiv_test,breast_cancer,male_cancer,cervical_cancer,health_education,payment,patient\"\n\/>",
+    "datalenght": "1024",
+    "javascript_view_footer": "",
+    "css_views": "",
+    "css_view": "",
+    "datadefault_other": "",
+    "datadefault": "",
+    "datalenght_other": "",
+    "javascript_views_footer": "",
+    "add_css_view": 0,
+    "add_css_views": 0,
+    "add_javascript_view_footer": 0,
+    "add_javascript_views_footer": 0,
+    "initiator_on_save_model": "",
+    "guid": "79d8b21a-ebd2-4cfe-95e8-e77ef52935d4",
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "a51dfc06-1b9b-4d0a-86ba-f705bcd40d4d",
+            "entity": "fieldtype",
+            "table": "#__componentbuilder_fieldtype",
+            "direction": "out"
+        }
+    ]
+}

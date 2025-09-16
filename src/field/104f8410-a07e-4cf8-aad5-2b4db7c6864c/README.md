@@ -1,5 +1,5 @@
 ### JCB! Field
-# Member Groups
+# Look Groups
 
 > Field Type: Usergrouplist
 
@@ -7,11 +7,12 @@
 ```xml
 <field
 	type="usergrouplist"
-	name="member_groups"
-	label="Member Groups"
-	description="Select a Member Group"
-	required="true"
+	name="look_groups"
+	label="Look Groups"
+	description="Select a user group"
 	layout="joomla.form.field.list-fancy-select"
+	required="true"
+	checksuperusergroup="1"
 	multiple="true"
 />
 ```

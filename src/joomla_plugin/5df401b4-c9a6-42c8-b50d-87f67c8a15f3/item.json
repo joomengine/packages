@@ -25,9 +25,9 @@
     "sql": "",
     "php_script_construct": "",
     "sql_uninstall": "",
-    "add_php_preflight_install": 0,
+    "add_php_preflight_install": 1,
     "readme": "You can use all the normal markdown, including the place-holders.",
-    "php_preflight_install": "",
+    "php_preflight_install": "\t\t\t\/\/ check that [[[component]]] is installed\r\n\t\t\tif (!is_dir(JPATH_ADMINISTRATOR . '\/components\/com_[[[component]]]'))\r\n\t\t\t{\r\n\t\t\t\t$app->enqueueMessage('[[[component_acronym]]] must first be installed from <a href=\"[[[get_component_link]]]\" target=\"_blank\">[[[component_link_name]]]<\/a>.', 'error');\r\n\t\t\t\treturn false;\r\n\t\t\t}",
     "update_server_url": "",
     "add_php_preflight_update": 0,
     "php_preflight_update": "",
@@ -48,6 +48,27 @@
             "value": "3f139f81-0697-4392-b065-6426adaa7ac6",
             "entity": "joomla_plugin_group",
             "table": "#__componentbuilder_joomla_plugin_group",
+            "direction": "out"
+        },
+        {
+            "key": "target",
+            "value": "[[[component_acronym]]]",
+            "entity": "placeholder",
+            "table": "#__componentbuilder_placeholder",
+            "direction": "out"
+        },
+        {
+            "key": "target",
+            "value": "[[[get_component_link]]]",
+            "entity": "placeholder",
+            "table": "#__componentbuilder_placeholder",
+            "direction": "out"
+        },
+        {
+            "key": "target",
+            "value": "[[[component_link_name]]]",
+            "entity": "placeholder",
+            "table": "#__componentbuilder_placeholder",
             "direction": "out"
         }
     ]

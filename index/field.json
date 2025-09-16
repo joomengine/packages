@@ -1666,5 +1666,17 @@
         "path": "src\/field\/f539d9eb-a2fb-4f6f-9ecf-ab48cc82a994",
         "settings": "src\/field\/f539d9eb-a2fb-4f6f-9ecf-ab48cc82a994\/item.json",
         "guid": "f539d9eb-a2fb-4f6f-9ecf-ab48cc82a994"
+    },
+    "79d8b21a-ebd2-4cfe-95e8-e77ef52935d4": {
+        "name": "Target (ehealth Files)",
+        "path": "src\/field\/79d8b21a-ebd2-4cfe-95e8-e77ef52935d4",
+        "settings": "src\/field\/79d8b21a-ebd2-4cfe-95e8-e77ef52935d4\/item.json",
+        "guid": "79d8b21a-ebd2-4cfe-95e8-e77ef52935d4"
+    },
+    "f3114a23-bb19-47ba-a2d8-97193b11010e": {
+        "name": "City\/Town (address citites)",
+        "path": "src\/field\/f3114a23-bb19-47ba-a2d8-97193b11010e",
+        "settings": "src\/field\/f3114a23-bb19-47ba-a2d8-97193b11010e\/item.json",
+        "guid": "f3114a23-bb19-47ba-a2d8-97193b11010e"
     }
 }

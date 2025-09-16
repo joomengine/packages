@@ -355,5 +355,12 @@
         "settings": "src\/admin_view\/7f969e93-a96a-4a4f-8307-b6a9de06bda2\/item.json",
         "guid": "7f969e93-a96a-4a4f-8307-b6a9de06bda2",
         "desc": "Recipe"
+    },
+    "e9251e1e-80b7-43e7-84a0-6d890d05ed28": {
+        "name": "eHealth User Entity Map",
+        "path": "src\/admin_view\/e9251e1e-80b7-43e7-84a0-6d890d05ed28",
+        "settings": "src\/admin_view\/e9251e1e-80b7-43e7-84a0-6d890d05ed28\/item.json",
+        "guid": "e9251e1e-80b7-43e7-84a0-6d890d05ed28",
+        "desc": "User Entity Maps"
     }
 }

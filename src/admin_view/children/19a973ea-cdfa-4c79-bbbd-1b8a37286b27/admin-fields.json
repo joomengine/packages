@@ -93,7 +93,7 @@
             "order_edit": "1"
         },
         "9": {
-            "field": "e24026ef-294a-48e5-9be0-3f95dcb2b66b",
+            "field": "79d8b21a-ebd2-4cfe-95e8-e77ef52935d4",
             "list": "",
             "order_list": "0",
             "search": "1",
@@ -186,7 +186,7 @@
         },
         {
             "key": "guid",
-            "value": "e24026ef-294a-48e5-9be0-3f95dcb2b66b",
+            "value": "79d8b21a-ebd2-4cfe-95e8-e77ef52935d4",
             "entity": "field",
             "table": "#__componentbuilder_field",
             "direction": "out"

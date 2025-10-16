@@ -5,15 +5,21 @@
 
 ## Field XML:
 ```xml
-<field type="text" name="alias" label="Alias" filter="STRING" hint="Auto-generated from name"/>
+<field
+	type="text"
+	name="alias"
+	label="Alias"
+	filter="STRING"
+	hint="Auto-generated from name"
+/>
 ```
 
 ## Database:
 - Data type: CHAR
 - Data length: 64
 - Data default: 
-- Null switch: NOT NULL
-- Index: NOT INDEX
+- Null switch: NULL
+- Index: KEY
 - Modeling: Default
 
 > Define, capture, and control data effortlessly with this Field; the core building block of every JCB component.

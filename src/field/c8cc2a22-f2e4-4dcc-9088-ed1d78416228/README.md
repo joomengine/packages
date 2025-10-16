@@ -1,5 +1,5 @@
 ### JCB! Field
-# Date of Birth (required)
+# Date of Birth (not required)
 
 > Field Type: Calendar
 
@@ -9,14 +9,13 @@
 	type="calendar"
 	name="dateofbirth"
 	label="Date of Birth"
-	default="1970-01-01"
+	default="2025-01-01"
 	description="Your date of birth"
 	format="%Y-%m-%d"
 	filter="STRING"
-	required="true"
 	todaybutton="false"
-	minyear="-120"
-	maxyear="1"
+	minyear="-12"
+	maxyear="2"
 />
 ```
 

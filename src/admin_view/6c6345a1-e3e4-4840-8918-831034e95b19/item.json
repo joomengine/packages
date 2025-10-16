@@ -131,6 +131,13 @@
             "direction": "in"
         },
         {
+            "key": "admin_view",
+            "value": "6c6345a1-e3e4-4840-8918-831034e95b19",
+            "entity": "admin_fields_conditions",
+            "table": "#__componentbuilder_admin_fields_conditions",
+            "direction": "in"
+        },
+        {
             "key": "function_name",
             "value": "saveGUIDPower",
             "entity": "custom_code",

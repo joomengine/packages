@@ -8,12 +8,12 @@
     "php_getlistquery": "",
     "php_getitems": "",
     "name_list": "Files",
-    "icon": "images\/icons\/document-icon.png#joomlaImage:\/\/local-images\/icons\/document-icon.png?width=128&height=128",
+    "icon": "images\/vdm\/icon\/file.png",
     "php_after_publish": "",
     "add_fadein": 1,
     "description": "Files",
     "icon_category": "",
-    "icon_add": "images\/icons\/document-icon-plus.png#joomlaImage:\/\/local-images\/icons\/document-icon-plus.png?width=128&height=128",
+    "icon_add": "",
     "php_after_cancel": "",
     "mysql_table_charset": "utf8mb4",
     "php_batchmove": "",
@@ -128,17 +128,9 @@
             "direction": "in"
         },
         {
-            "key": "6206d207-d1af-573e-a9fb-08e0973f06e1.png",
-            "pointer": "6206d207-d1af-573e-a9fb-08e0973f06e1--png",
-            "value": "images\/icons\/document-icon.png",
-            "entity": "file",
-            "table": "file_system",
-            "target": "images"
-        },
-        {
-            "key": "2e31b38e-9220-5f0e-8d5c-0c0cecb6c44e.png",
-            "pointer": "2e31b38e-9220-5f0e-8d5c-0c0cecb6c44e--png",
-            "value": "images\/icons\/document-icon-plus.png",
+            "key": "18cbbd0e-06b8-5ca2-a832-a791040d95a5.png",
+            "pointer": "18cbbd0e-06b8-5ca2-a832-a791040d95a5--png",
+            "value": "images\/vdm\/icon\/file.png",
             "entity": "file",
             "table": "file_system",
             "target": "images"

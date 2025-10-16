@@ -265,6 +265,7 @@ This preserves version control while allowing your own field improvements to liv
  - **Pulse** | [Details](src/field/dc001910-7b9f-4e34-bf5a-92b237a2fce6) | [Settings](src/field/dc001910-7b9f-4e34-bf5a-92b237a2fce6/item.json)
  - **Quantity** | [Details](src/field/0397261c-6035-4792-89b2-3842c0321a2f) | [Settings](src/field/0397261c-6035-4792-89b2-3842c0321a2f/item.json)
  - **Quantity** | [Details](src/field/90a8c1ec-c3fa-47ec-86cf-06d770fb74e3) | [Settings](src/field/90a8c1ec-c3fa-47ec-86cf-06d770fb74e3/item.json)
+ - **Quantity Per Entity (file-uploader)** | [Details](src/field/a70ae0cf-134f-4f79-a1e5-3e12d2c364c7) | [Settings](src/field/a70ae0cf-134f-4f79-a1e5-3e12d2c364c7/item.json)
  - **Race (BC)** | [Details](src/field/685822a9-9dd2-48b1-b5df-c1534406767b) | [Settings](src/field/685822a9-9dd2-48b1-b5df-c1534406767b/item.json)
  - **Reason** | [Details](src/field/8c783f87-6ebc-4429-a531-90abaa0d0b15) | [Settings](src/field/8c783f87-6ebc-4429-a531-90abaa0d0b15/item.json)
  - **Reason (CC)** | [Details](src/field/0dbec582-0fda-411a-98cb-43ea24882707) | [Settings](src/field/0dbec582-0fda-411a-98cb-43ea24882707/item.json)

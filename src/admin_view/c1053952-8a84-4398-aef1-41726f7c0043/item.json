@@ -81,7 +81,9 @@
     "php_before_delete": "",
     "php_document": "[CUSTOMCODE=vdmUploaderConfig+vdm-uikit-uploader,file_vdm_uploader,getFileTypeDetails,uploadFile,displayFiles,deleteFile]\r\n[CUSTOMCODE=addUikitThreeToAdminViews]",
     "mysql_table_row_format": "DYNAMIC",
-    "alias_builder": null,
+    "alias_builder": {
+        "0": ""
+    },
     "sql": "",
     "add_php_getitem": 0,
     "add_category_submenu": 1,

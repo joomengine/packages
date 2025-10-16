@@ -71,6 +71,17 @@
             "order_edit": "4"
         },
         "7": {
+            "field": "a70ae0cf-134f-4f79-a1e5-3e12d2c364c7",
+            "list": "1",
+            "order_list": "5",
+            "sort": "1",
+            "search": "1",
+            "filter": "",
+            "tab": "1",
+            "alignment": 2,
+            "order_edit": "5"
+        },
+        "8": {
             "field": "6f327030-dcdf-4d80-b3d9-293d4bbe39f7",
             "list": "",
             "order_list": "0",
@@ -79,7 +90,7 @@
             "alignment": 3,
             "order_edit": "5"
         },
-        "8": {
+        "9": {
             "field": "5d3d34dd-4876-4c6a-86ab-b4e162f22c08",
             "list": "1",
             "order_list": "1",
@@ -92,8 +103,8 @@
             "alignment": 4,
             "order_edit": "1"
         },
-        "9": {
-            "field": "79d8b21a-ebd2-4cfe-95e8-e77ef52935d4",
+        "10": {
+            "field": "e24026ef-294a-48e5-9be0-3f95dcb2b66b",
             "list": "",
             "order_list": "0",
             "search": "1",
@@ -102,7 +113,7 @@
             "alignment": 4,
             "order_edit": "2"
         },
-        "10": {
+        "11": {
             "field": "5aa57bbe-7b19-4db9-915c-561863458d2b",
             "list": "",
             "order_list": "0",
@@ -172,6 +183,13 @@
         },
         {
             "key": "guid",
+            "value": "a70ae0cf-134f-4f79-a1e5-3e12d2c364c7",
+            "entity": "field",
+            "table": "#__componentbuilder_field",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
             "value": "6f327030-dcdf-4d80-b3d9-293d4bbe39f7",
             "entity": "field",
             "table": "#__componentbuilder_field",
@@ -186,7 +204,7 @@
         },
         {
             "key": "guid",
-            "value": "79d8b21a-ebd2-4cfe-95e8-e77ef52935d4",
+            "value": "e24026ef-294a-48e5-9be0-3f95dcb2b66b",
             "entity": "field",
             "table": "#__componentbuilder_field",
             "direction": "out"

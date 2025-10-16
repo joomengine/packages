@@ -1678,5 +1678,11 @@
         "path": "src\/field\/f3114a23-bb19-47ba-a2d8-97193b11010e",
         "settings": "src\/field\/f3114a23-bb19-47ba-a2d8-97193b11010e\/item.json",
         "guid": "f3114a23-bb19-47ba-a2d8-97193b11010e"
+    },
+    "a70ae0cf-134f-4f79-a1e5-3e12d2c364c7": {
+        "name": "Quantity Per Entity (file-uploader)",
+        "path": "src\/field\/a70ae0cf-134f-4f79-a1e5-3e12d2c364c7",
+        "settings": "src\/field\/a70ae0cf-134f-4f79-a1e5-3e12d2c364c7\/item.json",
+        "guid": "a70ae0cf-134f-4f79-a1e5-3e12d2c364c7"
     }
 }

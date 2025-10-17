@@ -1,25 +1,38 @@
 ### JCB! Field
-# Address Type (address)
+# Type (address)
 
-> Field Type: List
+> Field Type: ModalSelect
 
 ## Field XML:
 ```xml
 <field
-	type="list"
-	name="address_type"
-	label="Address Type"
-	description="The Type of address."
-	class="list_class"
-	layout="joomla.form.field.list-fancy-select"
-	multiple="false"
-	option="home|Home,work|Work,temporary|Temporary,shelter|Shelter,institution|Institution,other|Other"
+	type="ModalSelect"
+	name="type"
+	label="Type"
+	sql_title_table="#__###component###_address_type"
+	sql_title_column="name"
+	sql_title_key="guid"
+	urlSelect="index.php?option=com_###component###&amp;view=address_types&amp;layout=modal&amp;tmpl=component&amp;titleKey=guid"
+	urlNew="index.php?option=com_###component###&amp;task=address_type.add&amp;layout=modal&amp;tmpl=component"
+	urlEdit="index.php?option=com_###component###&amp;task=address_type.edit&amp;guid={id}&amp;layout=modal&amp;tmpl=component&amp;titleKey=guid"
+	titleSelect="Select a Type"
+	titleNew="New Type"
+	titleEdit="Edit Type"
+	iconSelect="icon-copy"
+	select="true"
+	new="true"
+	edit="true"
+	clear="true"
+	required="true"
+	class="input-large"
+	description="Specifies the purpose of the address, such as billing, shipping, or registered location."
+	hint="Select a Type"
 />
 ```
 
 ## Database:
 - Data type: VARCHAR
-- Data length: 255
+- Data length: 36
 - Data default: 
 - Null switch: NULL
 - Index: KEY

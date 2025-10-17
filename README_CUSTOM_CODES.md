@@ -98,6 +98,7 @@ This design encourages collaborative and modular development across multiple JCB
 ### Index of Custom Codes
 
 
+ - **CascadingSelectManager JS** | [Details](src/custom_code/cascadingSelectManagerJS) | [Settings](src/custom_code/cascadingSelectManagerJS/item.json) | JCB (manual)
  - **Database Schema Check (call)** | [Details](src/custom_code/databaseSchemaCheckCall) | [Settings](src/custom_code/databaseSchemaCheckCall/item.json) | JCB (manual)
  - **FormController Edit Method** | [Details](src/custom_code/formControllerEdit) | [Settings](src/custom_code/formControllerEdit/item.json) | JCB (manual)
  - **JRouter (JS)** | [Details](src/custom_code/jsRouter) | [Settings](src/custom_code/jsRouter/item.json) | JCB (manual)

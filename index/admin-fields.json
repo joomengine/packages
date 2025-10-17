@@ -310,5 +310,17 @@
         "path": "src\/admin_view\/children\/e9251e1e-80b7-43e7-84a0-6d890d05ed28",
         "settings": "src\/admin_view\/children\/e9251e1e-80b7-43e7-84a0-6d890d05ed28\/admin-fields.json",
         "guid": "e9251e1e-80b7-43e7-84a0-6d890d05ed28"
+    },
+    "5992077e-15a5-4ea9-b882-e6e0e1b723ae": {
+        "name": "5992077e-15a5-4ea9-b882-e6e0e1b723ae",
+        "path": "src\/admin_view\/children\/5992077e-15a5-4ea9-b882-e6e0e1b723ae",
+        "settings": "src\/admin_view\/children\/5992077e-15a5-4ea9-b882-e6e0e1b723ae\/admin-fields.json",
+        "guid": "5992077e-15a5-4ea9-b882-e6e0e1b723ae"
+    },
+    "93a34bf3-aa25-4a14-8496-ae7d0340e0b9": {
+        "name": "93a34bf3-aa25-4a14-8496-ae7d0340e0b9",
+        "path": "src\/admin_view\/children\/93a34bf3-aa25-4a14-8496-ae7d0340e0b9",
+        "settings": "src\/admin_view\/children\/93a34bf3-aa25-4a14-8496-ae7d0340e0b9\/admin-fields.json",
+        "guid": "93a34bf3-aa25-4a14-8496-ae7d0340e0b9"
     }
 }

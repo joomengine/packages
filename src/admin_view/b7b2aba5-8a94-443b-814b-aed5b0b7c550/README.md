@@ -1,7 +1,7 @@
 ### JCB! Admin View
-# Address (Address:Addresses)
+# Address (demo-look) (Address:Addresses)
 
-> Addresses of Members
+> Addresses of Looks
 
 > Manage single-record forms with this reusable Admin View designed for smooth data handling, customization, and full integration in JCB.
 

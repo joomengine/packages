@@ -1,14 +1,14 @@
 {
-    "system_name": "Address",
+    "system_name": "Address (demo-look)",
     "name_single": "Address",
-    "short_description": "Addresses of Members",
+    "short_description": "Addresses of Looks",
     "php_allowedit": "",
     "php_postsavehook": "",
-    "php_before_save": "[CUSTOMCODE=saveGUID]",
+    "php_before_save": "[CUSTOMCODE=saveGUIDPower]",
     "php_getlistquery": "",
     "php_getitems": "",
     "name_list": "Addresses",
-    "icon": "",
+    "icon": "images\/vdm\/icon\/address.png#joomlaImage:\/\/local-images\/vdm\/icon\/address.png?width=128&height=128",
     "php_after_publish": "",
     "add_fadein": 1,
     "description": "",
@@ -19,7 +19,7 @@
     "php_batchmove": "",
     "type": 1,
     "php_after_delete": "",
-    "source": 0,
+    "source": 1,
     "php_getitem": "",
     "addpermissions": {
         "addpermissions0": {
@@ -60,7 +60,7 @@
         }
     },
     "php_getitems_after_all": "",
-    "php_getform": "[CUSTOMCODE=setGUIDForm]",
+    "php_getform": "[CUSTOMCODE=setGUIDFormPower]",
     "addtabs": null,
     "php_save": "",
     "php_allowadd": "",
@@ -70,7 +70,7 @@
     "php_before_publish": "",
     "alias_builder_type": 0,
     "php_before_delete": "",
-    "php_document": "[CUSTOMCODE=vdmUploaderConfig+vdm-uikit-uploader,file_vdm_uploader,getFileTypeDetails,uploadFile,displayFiles,deleteFile]\r\n[CUSTOMCODE=addUikitThreeToAdminViews]",
+    "php_document": "",
     "mysql_table_row_format": "DYNAMIC",
     "alias_builder": null,
     "sql": "",
@@ -103,12 +103,12 @@
     "add_php_before_publish": 0,
     "javascript_views_footer": "",
     "add_php_after_publish": 0,
-    "add_custom_button": 0,
+    "add_custom_button": 1,
     "add_php_before_delete": 0,
     "custom_button": null,
     "add_php_after_delete": 0,
-    "php_controller": "",
-    "add_php_document": 1,
+    "php_controller": "[CUSTOMCODE=formControllerEdit]",
+    "add_php_document": 0,
     "php_model": "",
     "mysql_table_engine": "InnoDB",
     "php_controller_list": "",
@@ -129,31 +129,32 @@
         },
         {
             "key": "function_name",
-            "value": "saveGUID",
+            "value": "saveGUIDPower",
             "entity": "custom_code",
             "table": "#__componentbuilder_custom_code",
             "direction": "out"
         },
         {
             "key": "function_name",
-            "value": "setGUIDForm",
+            "value": "setGUIDFormPower",
             "entity": "custom_code",
             "table": "#__componentbuilder_custom_code",
             "direction": "out"
         },
         {
             "key": "function_name",
-            "value": "vdmUploaderConfig",
+            "value": "formControllerEdit",
             "entity": "custom_code",
             "table": "#__componentbuilder_custom_code",
             "direction": "out"
         },
         {
-            "key": "function_name",
-            "value": "addUikitThreeToAdminViews",
-            "entity": "custom_code",
-            "table": "#__componentbuilder_custom_code",
-            "direction": "out"
+            "key": "e44f2333-5fc3-546c-927b-471d8840bd85.png",
+            "pointer": "e44f2333-5fc3-546c-927b-471d8840bd85--png",
+            "value": "images\/vdm\/icon\/address.png",
+            "entity": "file",
+            "table": "file_system",
+            "target": "images"
         }
     ]
 }

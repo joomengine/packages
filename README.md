@@ -60,6 +60,7 @@ This makes them ideal for distributed teams, client-specific forks, and open-sou
 
  - **Demo J4** | [Details](src/joomla_component/d7d3bc04-6272-470a-91d1-e091ecb10ab6) | [Settings](src/joomla_component/d7d3bc04-6272-470a-91d1-e091ecb10ab6/item.json) | Demo Component
  - **Demo J5** | [Details](src/joomla_component/efde995e-60aa-4b39-b644-44349dfb660d) | [Settings](src/joomla_component/efde995e-60aa-4b39-b644-44349dfb660d/item.json) | Demo Component
+ - **Demo J6** | [Details](src/joomla_component/1c20aec5-bf1a-44e7-9deb-d1c920ca591d) | [Settings](src/joomla_component/1c20aec5-bf1a-44e7-9deb-d1c920ca591d/item.json) | Demo Component
  - **Hello World J3** | [Details](src/joomla_component/2dea78a6-e0be-4260-8f7d-b278e0b661a8) | [Settings](src/joomla_component/2dea78a6-e0be-4260-8f7d-b278e0b661a8/item.json) | Hello World
  - **HelloWorld (public)** | [Details](src/joomla_component/3745af8f-f96b-4e17-831e-eb4062cd4389) | [Settings](src/joomla_component/3745af8f-f96b-4e17-831e-eb4062cd4389/item.json) | Hello World
  - **Recipe Manager** | [Details](src/joomla_component/d7e30702-ec49-45ac-8897-0389d61d6da0) | [Settings](src/joomla_component/d7e30702-ec49-45ac-8897-0389d61d6da0/item.json) | Recipe Manager

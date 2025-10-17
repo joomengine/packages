@@ -1,0 +1,26 @@
+{
+    "joomla_component": "1c20aec5-bf1a-44e7-9deb-d1c920ca591d",
+    "addconfig": {
+        "addconfig0": {
+            "field": "104f8410-a07e-4cf8-aad5-2b4db7c6864c",
+            "custom_value": "",
+            "tabname": "Group Selection"
+        }
+    },
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "1c20aec5-bf1a-44e7-9deb-d1c920ca591d",
+            "entity": "joomla_component",
+            "table": "#__componentbuilder_joomla_component",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "104f8410-a07e-4cf8-aad5-2b4db7c6864c",
+            "entity": "field",
+            "table": "#__componentbuilder_field",
+            "direction": "out"
+        }
+    ]
+}

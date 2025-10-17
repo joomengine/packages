@@ -253,5 +253,10 @@
         "name": "images\/recipe_categories.png",
         "path": "src\/file_folder\/70a5e1bf-a99a-5b17-9f85-bdddf6144e13.png",
         "guid": "70a5e1bf-a99a-5b17-9f85-bdddf6144e13.png"
+    },
+    "e44f2333-5fc3-546c-927b-471d8840bd85.png": {
+        "name": "images\/vdm\/icon\/address.png",
+        "path": "src\/file_folder\/e44f2333-5fc3-546c-927b-471d8840bd85.png",
+        "guid": "e44f2333-5fc3-546c-927b-471d8840bd85.png"
     }
 }

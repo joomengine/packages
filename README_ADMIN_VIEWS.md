@@ -46,6 +46,7 @@ This ensures maintainability while still allowing total customization per projec
 
 
  - **Address** | [Details](src/admin_view/b7b2aba5-8a94-443b-814b-aed5b0b7c550) | [Settings](src/admin_view/b7b2aba5-8a94-443b-814b-aed5b0b7c550/item.json) | Addresses of Members
+ - **Address Types** | [Details](src/admin_view/5992077e-15a5-4ea9-b882-e6e0e1b723ae) | [Settings](src/admin_view/5992077e-15a5-4ea9-b882-e6e0e1b723ae/item.json) | Types of Addresses
  - **Administration Part** | [Details](src/admin_view/95a834f5-59e8-4f1d-93a6-13479b2148f0) | [Settings](src/admin_view/95a834f5-59e8-4f1d-93a6-13479b2148f0/item.json) | Administration Part Admin View
  - **Antenatal Care** | [Details](src/admin_view/a4da86a9-e165-4a90-a73e-ca9956884c00) | [Settings](src/admin_view/a4da86a9-e165-4a90-a73e-ca9956884c00/item.json) | Antenatal Care Admin View
  - **Breast Cancer** | [Details](src/admin_view/d9a2f539-f13d-4d39-ab36-b258162f39b7) | [Settings](src/admin_view/d9a2f539-f13d-4d39-ab36-b258162f39b7/item.json) | Breast Cancer Admin view
@@ -75,6 +76,7 @@ This ensures maintainability while still allowing total customization per projec
  - **Ingredient** | [Details](src/admin_view/0cd962eb-6b6c-49c6-a49b-bc96fb310609) | [Settings](src/admin_view/0cd962eb-6b6c-49c6-a49b-bc96fb310609/item.json) | Ingredient
  - **Item Import** | [Details](src/admin_view/a9f19a16-fadb-44ea-a9b6-41130aad05ec) | [Settings](src/admin_view/a9f19a16-fadb-44ea-a9b6-41130aad05ec/item.json) | Item Import Queue
  - **Look** | [Details](src/admin_view/c1053952-8a84-4398-aef1-41726f7c0043) | [Settings](src/admin_view/c1053952-8a84-4398-aef1-41726f7c0043/item.json) | The demo view
+ - **Look (demo-J6)** | [Details](src/admin_view/93a34bf3-aa25-4a14-8496-ae7d0340e0b9) | [Settings](src/admin_view/93a34bf3-aa25-4a14-8496-ae7d0340e0b9/item.json) | The main demo view
  - **Medication** | [Details](src/admin_view/d412bc8c-4e9d-4cdf-b248-a64df06381ff) | [Settings](src/admin_view/d412bc8c-4e9d-4cdf-b248-a64df06381ff/item.json) | Medication Admin View
  - **NonPay Reason** | [Details](src/admin_view/b2522e43-69df-4f70-b2c3-b15dcfeb7578) | [Settings](src/admin_view/b2522e43-69df-4f70-b2c3-b15dcfeb7578/item.json) | NonPay Reason Admin View
  - **Patients** | [Details](src/admin_view/48c6102c-f2bb-4350-869e-d7afa9649e5c) | [Settings](src/admin_view/48c6102c-f2bb-4350-869e-d7afa9649e5c/item.json) | Patients of the Health Portal

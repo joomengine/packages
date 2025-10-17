@@ -40,5 +40,12 @@
         "settings": "src\/joomla_component\/2dea78a6-e0be-4260-8f7d-b278e0b661a8\/item.json",
         "guid": "2dea78a6-e0be-4260-8f7d-b278e0b661a8",
         "desc": "Hello World"
+    },
+    "1c20aec5-bf1a-44e7-9deb-d1c920ca591d": {
+        "name": "Demo J6",
+        "path": "src\/joomla_component\/1c20aec5-bf1a-44e7-9deb-d1c920ca591d",
+        "settings": "src\/joomla_component\/1c20aec5-bf1a-44e7-9deb-d1c920ca591d\/item.json",
+        "guid": "1c20aec5-bf1a-44e7-9deb-d1c920ca591d",
+        "desc": "Demo Component"
     }
 }

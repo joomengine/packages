@@ -1,0 +1,152 @@
+{
+    "system_name": "Address Types",
+    "name_single": "Address Type",
+    "short_description": "Types of Addresses",
+    "php_allowedit": "",
+    "php_postsavehook": "",
+    "php_before_save": "[CUSTOMCODE=saveGUIDPower]",
+    "php_getlistquery": "",
+    "php_getitems": "",
+    "name_list": "Address Types",
+    "icon": "",
+    "php_after_publish": "",
+    "add_fadein": 1,
+    "description": "",
+    "icon_category": "",
+    "icon_add": "",
+    "php_after_cancel": "",
+    "mysql_table_charset": "utf8mb4",
+    "php_batchmove": "",
+    "type": 1,
+    "php_after_delete": "",
+    "source": 2,
+    "php_getitem": "",
+    "addpermissions": {
+        "addpermissions0": {
+            "action": "view.edit",
+            "implementation": 3
+        },
+        "addpermissions1": {
+            "action": "view.edit.own",
+            "implementation": 3
+        },
+        "addpermissions2": {
+            "action": "view.edit.state",
+            "implementation": 3
+        },
+        "addpermissions3": {
+            "action": "view.edit.access",
+            "implementation": 3
+        },
+        "addpermissions4": {
+            "action": "view.edit.created_by",
+            "implementation": 3
+        },
+        "addpermissions5": {
+            "action": "view.edit.created",
+            "implementation": 3
+        },
+        "addpermissions6": {
+            "action": "view.create",
+            "implementation": 3
+        },
+        "addpermissions7": {
+            "action": "view.delete",
+            "implementation": 3
+        },
+        "addpermissions8": {
+            "action": "view.access",
+            "implementation": 3
+        }
+    },
+    "php_getitems_after_all": "",
+    "php_getform": "[CUSTOMCODE=setGUIDFormPower]",
+    "addtabs": null,
+    "php_save": "",
+    "php_allowadd": "",
+    "php_before_cancel": "",
+    "addlinked_views": null,
+    "php_batchcopy": "",
+    "php_before_publish": "",
+    "alias_builder_type": 0,
+    "php_before_delete": "",
+    "php_document": "",
+    "mysql_table_row_format": "DYNAMIC",
+    "alias_builder": null,
+    "sql": "--\r\n-- Dumping data for table `#__[[[component]]]_address_type`\r\n--\r\n\r\nINSERT INTO `#__[[[component]]]_address_type` (`id`, `description`, `guid`, `name`, `params`, `published`, `created`, `modified`, `ordering`) VALUES\r\n(1, 'Primary on-site location where business operations or client services are physically conducted.', 'f1dadef2-f712-4e3f-b25e-5a7d05e784a3', 'Physical Address', '', 1, '2025-10-08 09:03:56', '2025-10-08 10:50:39', 1),\r\n(2, 'Main corporate or administrative headquarters used for official correspondence, registration, and central management.', 'e2f7c3c6-79c8-49a4-9e64-048b4d9020d7', 'Head Office', '', 1, '2025-03-28 09:00:00', '2025-03-28 09:00:00', 2),\r\n(3, 'Secondary office or regional branch supporting localized business operations and client engagement.', 'a1d4b9a9-b23d-4b4a-9133-5042c2b6df21', 'Branch Office', '', 1, '2025-03-28 09:00:00', '2025-03-28 09:00:00', 3),\r\n(4, 'Registered home or residential location of an individual service provider operating independently or remotely.', '5bb3d9e1-9e78-4b67-b1f1-c6c4e7d5174c', 'Residential Address', '', 1, '2025-03-28 09:00:00', '2025-10-10 13:50:58', 4),\r\n(5, 'Temporary project-based or client-site location used for on-site work, installations, or service delivery.', '2f3b5f6c-2bc9-4eb6-bda2-b915f11ac208', 'Project Site', '', 1, '2025-03-28 09:00:00', '2025-10-10 13:50:55', 5),\r\n(6, 'Dedicated facility used for inventory storage, logistics, and supply chain management operations.', 'f871c3e7-9a63-45e4-ae7c-89c76f3c01e4', 'Warehouse & Storage', '', 1, '2025-03-28 09:00:00', '2025-10-10 14:08:23', 6);\r\n\r\n",
+    "add_php_getitem": 0,
+    "add_category_submenu": 1,
+    "add_php_getitems": 0,
+    "add_php_getitems_after_all": 0,
+    "add_php_getlistquery": 0,
+    "add_css_view": 0,
+    "add_php_getform": 1,
+    "css_view": "",
+    "add_php_before_save": 1,
+    "add_css_views": 0,
+    "add_php_save": 0,
+    "css_views": "",
+    "add_php_postsavehook": 0,
+    "add_javascript_view_file": 0,
+    "add_php_allowadd": 0,
+    "javascript_view_file": "",
+    "add_php_allowedit": 0,
+    "add_javascript_view_footer": 0,
+    "add_php_before_cancel": 0,
+    "javascript_view_footer": "",
+    "add_php_after_cancel": 0,
+    "add_javascript_views_file": 0,
+    "add_php_batchcopy": 0,
+    "javascript_views_file": "",
+    "add_php_batchmove": 0,
+    "add_javascript_views_footer": 0,
+    "add_php_before_publish": 0,
+    "javascript_views_footer": "",
+    "add_php_after_publish": 0,
+    "add_custom_button": 1,
+    "add_php_before_delete": 0,
+    "custom_button": null,
+    "add_php_after_delete": 0,
+    "php_controller": "[CUSTOMCODE=formControllerEdit]",
+    "add_php_document": 0,
+    "php_model": "",
+    "mysql_table_engine": "InnoDB",
+    "php_controller_list": "",
+    "mysql_table_collate": "utf8mb4_unicode_ci",
+    "php_model_list": "",
+    "add_sql": 1,
+    "add_php_ajax": 0,
+    "php_ajaxmethod": "",
+    "guid": "5992077e-15a5-4ea9-b882-e6e0e1b723ae",
+    "ajax_input": null,
+    "@dependencies": [
+        {
+            "key": "admin_view",
+            "value": "5992077e-15a5-4ea9-b882-e6e0e1b723ae",
+            "entity": "admin_fields",
+            "table": "#__componentbuilder_admin_fields",
+            "direction": "in"
+        },
+        {
+            "key": "function_name",
+            "value": "saveGUIDPower",
+            "entity": "custom_code",
+            "table": "#__componentbuilder_custom_code",
+            "direction": "out"
+        },
+        {
+            "key": "function_name",
+            "value": "setGUIDFormPower",
+            "entity": "custom_code",
+            "table": "#__componentbuilder_custom_code",
+            "direction": "out"
+        },
+        {
+            "key": "function_name",
+            "value": "formControllerEdit",
+            "entity": "custom_code",
+            "table": "#__componentbuilder_custom_code",
+            "direction": "out"
+        }
+    ]
+}

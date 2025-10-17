@@ -5,7 +5,11 @@
             "field": "e5a082f3-54ab-4ab6-8691-afd195346d77",
             "list": "1",
             "order_list": "1",
+            "title": "1",
+            "sort": "1",
+            "search": "1",
             "filter": "",
+            "link": "1",
             "tab": "1",
             "alignment": 1,
             "order_edit": "1",
@@ -32,7 +36,7 @@
             "order_list": "2",
             "sort": "1",
             "search": "1",
-            "filter": "",
+            "filter": "1",
             "tab": "1",
             "alignment": 1,
             "order_edit": "3",
@@ -46,7 +50,7 @@
             "order_list": "3",
             "sort": "1",
             "search": "1",
-            "filter": "",
+            "filter": "1",
             "link": "1",
             "tab": "1",
             "alignment": 2,
@@ -56,12 +60,12 @@
             ]
         },
         "4": {
-            "field": "f3114a23-bb19-47ba-a2d8-97193b11010e",
+            "field": "1e666136-800a-486d-a8e8-13a054b7acde",
             "list": "1",
             "order_list": "4",
             "sort": "1",
             "search": "1",
-            "filter": "",
+            "filter": "1",
             "link": "1",
             "tab": "1",
             "alignment": 2,
@@ -71,10 +75,13 @@
             ]
         },
         "5": {
-            "field": "e769beb6-f761-4885-8d35-eb2f0be55ee6",
+            "field": "c069c4a5-f693-4e18-aee4-11292bf7fec8",
             "list": "1",
             "order_list": "5",
-            "filter": "",
+            "sort": "1",
+            "search": "1",
+            "filter": "1",
+            "link": "1",
             "tab": "1",
             "alignment": 2,
             "order_edit": "3",
@@ -83,12 +90,23 @@
             ]
         },
         "6": {
-            "field": "16a136b8-fd99-41ad-b606-628bb6a91b75",
+            "field": "e769beb6-f761-4885-8d35-eb2f0be55ee6",
+            "list": "",
+            "order_list": "0",
+            "filter": "",
+            "tab": "1",
+            "alignment": 2,
+            "order_edit": "4",
+            "permission": [
+                "1"
+            ]
+        },
+        "7": {
+            "field": "aaa5761f-3270-43ce-a95b-db1a22f8c88d",
             "list": "1",
             "order_list": "6",
-            "sort": "1",
-            "search": "1",
             "filter": "",
+            "link": "1",
             "tab": "1",
             "alignment": 4,
             "order_edit": "1",
@@ -96,14 +114,11 @@
                 "1"
             ]
         },
-        "7": {
+        "8": {
             "field": "5aa57bbe-7b19-4db9-915c-561863458d2b",
             "list": "",
             "order_list": "0",
-            "sort": "1",
-            "search": "1",
             "filter": "",
-            "link": "1",
             "tab": "15",
             "alignment": 1,
             "order_edit": "0",
@@ -150,7 +165,14 @@
         },
         {
             "key": "guid",
-            "value": "f3114a23-bb19-47ba-a2d8-97193b11010e",
+            "value": "1e666136-800a-486d-a8e8-13a054b7acde",
+            "entity": "field",
+            "table": "#__componentbuilder_field",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "c069c4a5-f693-4e18-aee4-11292bf7fec8",
             "entity": "field",
             "table": "#__componentbuilder_field",
             "direction": "out"
@@ -164,7 +186,7 @@
         },
         {
             "key": "guid",
-            "value": "16a136b8-fd99-41ad-b606-628bb6a91b75",
+            "value": "aaa5761f-3270-43ce-a95b-db1a22f8c88d",
             "entity": "field",
             "table": "#__componentbuilder_field",
             "direction": "out"

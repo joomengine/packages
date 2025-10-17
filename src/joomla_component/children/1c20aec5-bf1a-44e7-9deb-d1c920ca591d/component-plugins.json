@@ -1,0 +1,36 @@
+{
+    "joomla_component": "1c20aec5-bf1a-44e7-9deb-d1c920ca591d",
+    "addjoomla_plugins": {
+        "addjoomla_plugins0": {
+            "plugin": "8aa96d76-94e3-47d1-8dd8-f430b72ed0f7",
+            "target": "1"
+        },
+        "addjoomla_plugins1": {
+            "plugin": "5df401b4-c9a6-42c8-b50d-87f67c8a15f3",
+            "target": "1"
+        }
+    },
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "1c20aec5-bf1a-44e7-9deb-d1c920ca591d",
+            "entity": "joomla_component",
+            "table": "#__componentbuilder_joomla_component",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "8aa96d76-94e3-47d1-8dd8-f430b72ed0f7",
+            "entity": "joomla_plugin",
+            "table": "#__componentbuilder_joomla_plugin",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "5df401b4-c9a6-42c8-b50d-87f67c8a15f3",
+            "entity": "joomla_plugin",
+            "table": "#__componentbuilder_joomla_plugin",
+            "direction": "out"
+        }
+    ]
+}

@@ -362,5 +362,19 @@
         "settings": "src\/admin_view\/e9251e1e-80b7-43e7-84a0-6d890d05ed28\/item.json",
         "guid": "e9251e1e-80b7-43e7-84a0-6d890d05ed28",
         "desc": "User Entity Maps"
+    },
+    "5992077e-15a5-4ea9-b882-e6e0e1b723ae": {
+        "name": "Address Types",
+        "path": "src\/admin_view\/5992077e-15a5-4ea9-b882-e6e0e1b723ae",
+        "settings": "src\/admin_view\/5992077e-15a5-4ea9-b882-e6e0e1b723ae\/item.json",
+        "guid": "5992077e-15a5-4ea9-b882-e6e0e1b723ae",
+        "desc": "Types of Addresses"
+    },
+    "93a34bf3-aa25-4a14-8496-ae7d0340e0b9": {
+        "name": "Look (demo-J6)",
+        "path": "src\/admin_view\/93a34bf3-aa25-4a14-8496-ae7d0340e0b9",
+        "settings": "src\/admin_view\/93a34bf3-aa25-4a14-8496-ae7d0340e0b9\/item.json",
+        "guid": "93a34bf3-aa25-4a14-8496-ae7d0340e0b9",
+        "desc": "The main demo view"
     }
 }

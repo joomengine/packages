@@ -103,5 +103,12 @@
         "path": "src\/custom_code\/gUID",
         "settings": "src\/custom_code\/gUID\/item.json",
         "guid": "gUID"
+    },
+    "cascadingSelectManagerJS": {
+        "name": "CascadingSelectManager JS",
+        "desc": "JCB (manual)",
+        "path": "src\/custom_code\/cascadingSelectManagerJS",
+        "settings": "src\/custom_code\/cascadingSelectManagerJS\/item.json",
+        "guid": "cascadingSelectManagerJS"
     }
 }

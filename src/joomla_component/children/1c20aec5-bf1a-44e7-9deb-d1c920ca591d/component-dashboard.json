@@ -1,0 +1,14 @@
+{
+    "joomla_component": "1c20aec5-bf1a-44e7-9deb-d1c920ca591d",
+    "dashboard_tab": null,
+    "php_dashboard_methods": "",
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "1c20aec5-bf1a-44e7-9deb-d1c920ca591d",
+            "entity": "joomla_component",
+            "table": "#__componentbuilder_joomla_component",
+            "direction": "out"
+        }
+    ]
+}

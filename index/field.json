@@ -1696,5 +1696,29 @@
         "path": "src\/field\/aaa5761f-3270-43ce-a95b-db1a22f8c88d",
         "settings": "src\/field\/aaa5761f-3270-43ce-a95b-db1a22f8c88d\/item.json",
         "guid": "aaa5761f-3270-43ce-a95b-db1a22f8c88d"
+    },
+    "874b0de4-46fb-4f4a-aa8a-d95c2e275a09": {
+        "name": "Type (custom)",
+        "path": "src\/field\/874b0de4-46fb-4f4a-aa8a-d95c2e275a09",
+        "settings": "src\/field\/874b0de4-46fb-4f4a-aa8a-d95c2e275a09\/item.json",
+        "guid": "874b0de4-46fb-4f4a-aa8a-d95c2e275a09"
+    },
+    "1c8bc5a9-06ab-429f-99d7-0b48e6b2b118": {
+        "name": "Country (custom)",
+        "path": "src\/field\/1c8bc5a9-06ab-429f-99d7-0b48e6b2b118",
+        "settings": "src\/field\/1c8bc5a9-06ab-429f-99d7-0b48e6b2b118\/item.json",
+        "guid": "1c8bc5a9-06ab-429f-99d7-0b48e6b2b118"
+    },
+    "e80df9fc-5f50-468d-888c-e19cd96c3db1": {
+        "name": "State (dynamic list)",
+        "path": "src\/field\/e80df9fc-5f50-468d-888c-e19cd96c3db1",
+        "settings": "src\/field\/e80df9fc-5f50-468d-888c-e19cd96c3db1\/item.json",
+        "guid": "e80df9fc-5f50-468d-888c-e19cd96c3db1"
+    },
+    "d95dc35a-7467-4010-8d35-f3dab696a808": {
+        "name": "City (dynamic list)",
+        "path": "src\/field\/d95dc35a-7467-4010-8d35-f3dab696a808",
+        "settings": "src\/field\/d95dc35a-7467-4010-8d35-f3dab696a808\/item.json",
+        "guid": "d95dc35a-7467-4010-8d35-f3dab696a808"
     }
 }

@@ -1,0 +1,13 @@
+{
+    "admin_view": "93a34bf3-aa25-4a14-8496-ae7d0340e0b9",
+    "addconditions": null,
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "93a34bf3-aa25-4a14-8496-ae7d0340e0b9",
+            "entity": "admin_view",
+            "table": "#__componentbuilder_admin_view",
+            "direction": "out"
+        }
+    ]
+}

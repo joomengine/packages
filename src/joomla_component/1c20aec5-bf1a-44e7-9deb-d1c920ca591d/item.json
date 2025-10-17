@@ -1,0 +1,222 @@
+{
+    "system_name": "Demo J6",
+    "name_code": "Demo",
+    "short_description": "Demo Component",
+    "companyname": "Vast Development Method",
+    "buildcompsql": null,
+    "jcb_powers_path": "libraries\/jcb_demo",
+    "add_update_server": 1,
+    "add_sql": 0,
+    "add_php_postflight_install": 1,
+    "mvc_versiondate": 0,
+    "remove_line_breaks": 1,
+    "add_placeholders": 0,
+    "debug_linenr": 0,
+    "add_php_preflight_install": 1,
+    "description": "This is just a simple demonstration showcasing the most basic functionality of the [Joomla!](http:\/\/www.joomla.org) Component Builder (JCB). While this example covers the fundamentals, JCB offers a wide range of powerful features and customization options for building advanced Joomla! extensions with ease.",
+    "add_php_method_uninstall": 0,
+    "author": "Llewellyn van der Merwe",
+    "assets_table_fix": 3,
+    "email": "joomla@vdm.io",
+    "website": "https:\/\/www.vdm.io\/",
+    "add_git_folder_path": "",
+    "license": "GNU\/GPL Version 2 or later - http:\/\/www.gnu.org\/licenses\/gpl-2.0.html",
+    "add_css_admin": 0,
+    "dashboard_type": 1,
+    "bom": "default.txt",
+    "component_version": "6.0.1",
+    "add_css_site": 0,
+    "image": "images\/vdm\/demo500.jpg",
+    "dashboard": "",
+    "copyright": "Copyright (C) 2015. All Rights Reserved",
+    "add_php_preflight_update": 1,
+    "preferred_joomla_version": 6,
+    "add_php_postflight_update": 1,
+    "add_powers": 1,
+    "add_php_method_install": 0,
+    "add_sql_uninstall": 0,
+    "readme": "# ###Component_name### (###VERSION###)\r\n\r\n###DESCRIPTION###\r\n\r\n# Build Details\r\n\r\n+ *Company*: [###COMPANYNAME###](###AUTHORWEBSITE###)\r\n+ *Author*: [###AUTHOR###](mailto:###AUTHOREMAIL###)\r\n+ *Name*: [###Component_name###](###AUTHORWEBSITE###)\r\n+ *First Build*: ###CREATIONDATE###\r\n+ *Last Build*: ###BUILDDATE###\r\n+ *Version*: ###VERSION###\r\n+ *Copyright*: ###COPYRIGHT###\r\n+ *License*: ###LICENSE###\r\n\r\n## Build Time\r\n\r\n**###totalHours### Hours** or **###totalDays### Eight Hour Days** (actual time the author saved -\r\ndue to [Automated Component Builder](http:\/\/vdm.bz\/component-builder))\r\n\r\n> (if creating a folder and file took **5 seconds** and writing one line of code took **10 seconds**,\r\n> never making one mistake or taking any coffee break.)\r\n\r\n+ *Line count*: **###LINE_COUNT###**\r\n+ *File count*: **###FILE_COUNT###**\r\n+ *Folder count*: **###FOLDER_COUNT###**\r\n\r\n**###actualHoursSpent### Hours** or **###actualDaysSpent### Eight Hour Days** (the actual time the author spent)\r\n\r\n> (with the following break down:\r\n> **debugging @###debuggingHours###hours** = codingtime \/ 4;\r\n> **planning @###planningHours###hours** = codingtime \/ 7;\r\n> **mapping @###mappingHours###hours** = codingtime \/ 10;\r\n> **office @###officeHours###hours** = codingtime \/ 6;)\r\n\r\n**###actualTotalHours### Hours** or **###actualTotalDays### Eight Hour Days**\r\n(a total of the realistic time frame for this project)\r\n\r\n> (if creating a folder and file took **5 seconds** and writing one line of code took **10 seconds**,\r\n> with the normal everyday realities at the office, that includes the component planning, mapping & debugging.)\r\n\r\nProject duration: **###projectWeekTime### weeks** or **###projectMonthTime### months**\r\n\r\n> This **component** was build with a Joomla [Automated Component Builder](http:\/\/vdm.bz\/component-builder).\r\n> Developed by [Llewellyn van der Merwe](mailto:joomla@vdm.io)\r\n\r\n[CUSTOMCODE=readMEcontributors]",
+    "update_server_target": 2,
+    "git_folder_path": "",
+    "changelog_server_url": "",
+    "add_namespace_prefix": "1",
+    "namespace_prefix": "Demo",
+    "javascript": "",
+    "css_admin": "",
+    "add_menu_prefix": "1",
+    "css_site": "",
+    "menu_prefix": "\u00bb",
+    "php_preflight_install": "[CUSTOMCODE=phpConfigurationCheckCall]",
+    "toignore": ".git",
+    "php_preflight_update": "[CUSTOMCODE=phpConfigurationCheckCall]",
+    "php_postflight_install": "[CUSTOMCODE=databaseSchemaCheckCall]\r\n[CUSTOMCODE=unlockThePowerOfJoomlaDevelopment+Demo]",
+    "php_postflight_update": "[CUSTOMCODE=databaseSchemaCheckCall]",
+    "addcontributors": null,
+    "php_method_uninstall": "",
+    "emptycontributors": 0,
+    "php_method_install": "",
+    "number": 4,
+    "sql": "",
+    "sql_uninstall": "",
+    "addreadme": 1,
+    "update_server_url": "https:\/\/raw.githubusercontent.com\/Llewellynvdm\/Joomla-Demo-Component\/master\/demo_updateserver.xml",
+    "creatuserhelper": 0,
+    "adduikit": 3,
+    "add_backup_folder_path": "",
+    "addfootable": 0,
+    "backup_folder_path": "",
+    "add_email_helper": 0,
+    "add_php_helper_both": 1,
+    "add_jcb_powers_path": "1",
+    "php_helper_both": "[CUSTOMCODE=getItemImportFields+\r\n\t\t\/\/ HERE WE SELECT THE TARGET TABLES FOR OUR ITEM IMPORT\r\n\t\t$parent &#61; 'look';\r\n\t\t$tables &#61; &#91;\r\n\t\t\t'look' &#61;> true&#44;\r\n\t\t\t'detail' &#61;> false\r\n\t\t&#93;;\r\n,$field_name &#61;&#61;&#61; 'entity_type' || $field_name &#61;&#61;&#61; 'entity' ||\r\n\t\t\t\t\t]\r\n[CUSTOMCODE=niceFancyDate]",
+    "add_changelog_server": 0,
+    "add_php_helper_admin": 0,
+    "changelog_server_target": 0,
+    "php_helper_admin": "",
+    "add_admin_event": 0,
+    "changelog_server": 0,
+    "php_admin_event": "",
+    "add_php_helper_site": 0,
+    "php_helper_site": "",
+    "add_site_event": 0,
+    "buildcomp": 0,
+    "php_site_event": "",
+    "guid": "1c20aec5-bf1a-44e7-9deb-d1c920ca591d",
+    "add_javascript": 0,
+    "name": "Demo",
+    "metakey": "",
+    "metadesc": "",
+    "metadata": {
+        "robots": "",
+        "rights": ""
+    },
+    "@dependencies": [
+        {
+            "key": "joomla_component",
+            "value": "1c20aec5-bf1a-44e7-9deb-d1c920ca591d",
+            "entity": "component_admin_views",
+            "table": "#__componentbuilder_component_admin_views",
+            "direction": "in"
+        },
+        {
+            "key": "joomla_component",
+            "value": "1c20aec5-bf1a-44e7-9deb-d1c920ca591d",
+            "entity": "component_site_views",
+            "table": "#__componentbuilder_component_site_views",
+            "direction": "in"
+        },
+        {
+            "key": "joomla_component",
+            "value": "1c20aec5-bf1a-44e7-9deb-d1c920ca591d",
+            "entity": "component_custom_admin_views",
+            "table": "#__componentbuilder_component_custom_admin_views",
+            "direction": "in"
+        },
+        {
+            "key": "joomla_component",
+            "value": "1c20aec5-bf1a-44e7-9deb-d1c920ca591d",
+            "entity": "component_updates",
+            "table": "#__componentbuilder_component_updates",
+            "direction": "in"
+        },
+        {
+            "key": "joomla_component",
+            "value": "1c20aec5-bf1a-44e7-9deb-d1c920ca591d",
+            "entity": "component_custom_admin_menus",
+            "table": "#__componentbuilder_component_custom_admin_menus",
+            "direction": "in"
+        },
+        {
+            "key": "joomla_component",
+            "value": "1c20aec5-bf1a-44e7-9deb-d1c920ca591d",
+            "entity": "component_config",
+            "table": "#__componentbuilder_component_config",
+            "direction": "in"
+        },
+        {
+            "key": "joomla_component",
+            "value": "1c20aec5-bf1a-44e7-9deb-d1c920ca591d",
+            "entity": "component_dashboard",
+            "table": "#__componentbuilder_component_dashboard",
+            "direction": "in"
+        },
+        {
+            "key": "joomla_component",
+            "value": "1c20aec5-bf1a-44e7-9deb-d1c920ca591d",
+            "entity": "component_files_folders",
+            "table": "#__componentbuilder_component_files_folders",
+            "direction": "in"
+        },
+        {
+            "key": "joomla_component",
+            "value": "1c20aec5-bf1a-44e7-9deb-d1c920ca591d",
+            "entity": "component_placeholders",
+            "table": "#__componentbuilder_component_placeholders",
+            "direction": "in"
+        },
+        {
+            "key": "joomla_component",
+            "value": "1c20aec5-bf1a-44e7-9deb-d1c920ca591d",
+            "entity": "component_plugins",
+            "table": "#__componentbuilder_component_plugins",
+            "direction": "in"
+        },
+        {
+            "key": "joomla_component",
+            "value": "1c20aec5-bf1a-44e7-9deb-d1c920ca591d",
+            "entity": "component_modules",
+            "table": "#__componentbuilder_component_modules",
+            "direction": "in"
+        },
+        {
+            "key": "function_name",
+            "value": "readMEcontributors",
+            "entity": "custom_code",
+            "table": "#__componentbuilder_custom_code",
+            "direction": "out"
+        },
+        {
+            "key": "function_name",
+            "value": "phpConfigurationCheckCall",
+            "entity": "custom_code",
+            "table": "#__componentbuilder_custom_code",
+            "direction": "out"
+        },
+        {
+            "key": "function_name",
+            "value": "databaseSchemaCheckCall",
+            "entity": "custom_code",
+            "table": "#__componentbuilder_custom_code",
+            "direction": "out"
+        },
+        {
+            "key": "function_name",
+            "value": "unlockThePowerOfJoomlaDevelopment",
+            "entity": "custom_code",
+            "table": "#__componentbuilder_custom_code",
+            "direction": "out"
+        },
+        {
+            "key": "function_name",
+            "value": "getItemImportFields",
+            "entity": "custom_code",
+            "table": "#__componentbuilder_custom_code",
+            "direction": "out"
+        },
+        {
+            "key": "function_name",
+            "value": "niceFancyDate",
+            "entity": "custom_code",
+            "table": "#__componentbuilder_custom_code",
+            "direction": "out"
+        },
+        {
+            "key": "f0040063-e696-5522-8512-d99519b02f23.jpg",
+            "pointer": "f0040063-e696-5522-8512-d99519b02f23--jpg",
+            "value": "images\/vdm\/demo500.jpg",
+            "entity": "file",
+            "table": "file_system",
+            "target": "images"
+        }
+    ]
+}

@@ -1,5 +1,5 @@
 ### JCB! Admin View
-# Dependent (Dependent:Dependents)
+# Dependent (eHealth) (Dependent:Dependents)
 
 > Dependents of Members
 

@@ -1,5 +1,5 @@
 ### JCB! Admin View
-# Immunisation Type (ImmunisationType:ImmunisationTypes)
+# Immunisation Type (eHealth) (ImmunisationType:ImmunisationTypes)
 
 > Immunisation Type Admin View
 

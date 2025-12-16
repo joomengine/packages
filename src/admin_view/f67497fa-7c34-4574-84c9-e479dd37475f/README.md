@@ -1,5 +1,7 @@
 ### JCB! Admin View
-# Tuberculosis (Tuberculosis:Tuberculoses)
+# Tuberculosis (eHealth) (Tuberculosis:Tuberculoses)
+
+> Tuberculosis
 
 > Manage single-record forms with this reusable Admin View designed for smooth data handling, customization, and full integration in JCB.
 

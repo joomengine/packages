@@ -1,5 +1,5 @@
 ### JCB! Admin View
-# Payment Type (PaymentType:PaymentTypes)
+# Payment Type (eHealth) (PaymentType:PaymentTypes)
 
 > Payment Type Admin View
 

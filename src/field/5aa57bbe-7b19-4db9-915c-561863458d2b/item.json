@@ -3,7 +3,7 @@
     "fieldtype": "201327fe-3067-4316-a155-3fe2a52e05c0",
     "datatype": "VARCHAR",
     "indexes": "2",
-    "null_switch": "NULL",
+    "null_switch": "NOT NULL",
     "store": 0,
     "on_get_model_field": "",
     "on_save_model_field": "",
@@ -29,6 +29,13 @@
             "value": "201327fe-3067-4316-a155-3fe2a52e05c0",
             "entity": "fieldtype",
             "table": "#__componentbuilder_fieldtype",
+            "direction": "out"
+        },
+        {
+            "key": "name",
+            "value": "guid",
+            "entity": "validation_rule",
+            "table": "#__componentbuilder_validation_rule",
             "direction": "out"
         }
     ]

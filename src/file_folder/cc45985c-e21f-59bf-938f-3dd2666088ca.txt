@@ -1,0 +1,10 @@
+/**
+ * @package    ###Component_name###
+ *
+ * @created    ###CREATIONDATE###
+ * @author     ###AUTHOR### <###AUTHORWEBSITE###>
+ * @copyright  ###COPYRIGHT###
+ * @license    ###LICENSE###
+ *
+ * ###SHORT_DESCRIPTION###
+ */

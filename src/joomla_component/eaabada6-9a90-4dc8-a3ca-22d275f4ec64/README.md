@@ -1,5 +1,5 @@
 ### JCB! Joomla Component
-# eHealth Portal (v5.0.1)
+# eHealth Portal (v5.0.0)
 ## eHealth Portal (Ehealthportal)
 
 > Portal for mobile health clinics

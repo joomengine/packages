@@ -1,5 +1,5 @@
 ### JCB! Admin View
-# Prostate and Testicular Cancer (MaleCancer:MaleCancers)
+# Prostate and Testicular Cancer (eHealth) (MaleCancer:MaleCancers)
 
 > Prostate and Testicular Cancer Admin view
 

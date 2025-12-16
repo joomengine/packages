@@ -1,5 +1,5 @@
 ### JCB! Admin View
-# Referral (Referral:Referrals)
+# Referral (eHealth) (Referral:Referrals)
 
 > Referral Admin View
 

@@ -1,5 +1,5 @@
 {
-    "name": "Line Two (address)",
+    "name": "Address Line Two (address)",
     "fieldtype": "201327fe-3067-4316-a155-3fe2a52e05c0",
     "datatype": "VARCHAR",
     "indexes": "2",
@@ -8,7 +8,7 @@
     "on_get_model_field": null,
     "on_save_model_field": null,
     "initiator_on_get_model": "",
-    "xml": "<field\n\ttype=\"text\"\n\tname=\"line_two\"\n\tlabel=\"Line Two\"\n\tdescription=\"Apartment, Unit, Block\"\n\tclass=\"text_area\"\n\trequired=\"false\"\n\tfilter=\"STRING\"\n\thint=\"Line Two\"\n\/>",
+    "xml": "<field\n\ttype=\"text\"\n\tname=\"address_line_two\"\n\tlabel=\"Address Line Two\"\n\tdescription=\"Apartment, Unit, Block\"\n\tclass=\"text_area\"\n\trequired=\"false\"\n\tfilter=\"STRING\"\n\thint=\"Address Line Two\"\n\/>",
     "datalenght": "255",
     "javascript_view_footer": "",
     "css_views": "",

@@ -1,5 +1,5 @@
 ### JCB! Admin View
-# Planning Type (PlanningType:PlanningTypes)
+# Planning Type (eHealth) (PlanningType:PlanningTypes)
 
 > Planning Type Admin View
 

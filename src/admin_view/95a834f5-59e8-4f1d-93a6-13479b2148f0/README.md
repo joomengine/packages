@@ -1,5 +1,5 @@
 ### JCB! Admin View
-# Administration Part (AdministrationPart:AdministrationParts)
+# Administration Part (eHealth) (AdministrationPart:AdministrationParts)
 
 > Administration Part Admin View
 

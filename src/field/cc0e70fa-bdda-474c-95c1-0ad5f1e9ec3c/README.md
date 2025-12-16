@@ -1,5 +1,5 @@
 ### JCB! Field
-# Line Two (address)
+# Address Line Two (address)
 
 > Field Type: Text
 
@@ -7,13 +7,13 @@
 ```xml
 <field
 	type="text"
-	name="line_two"
-	label="Line Two"
+	name="address_line_two"
+	label="Address Line Two"
 	description="Apartment, Unit, Block"
 	class="text_area"
 	required="false"
 	filter="STRING"
-	hint="Line Two"
+	hint="Address Line Two"
 />
 ```
 

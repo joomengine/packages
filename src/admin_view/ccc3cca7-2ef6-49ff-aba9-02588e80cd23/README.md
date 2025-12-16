@@ -1,5 +1,5 @@
 ### JCB! Admin View
-# Immunisation Vaccine Type (ImmunisationVaccineType:ImmunisationVaccineTypes)
+# Immunisation Vaccine Type (eHealth) (ImmunisationVaccineType:ImmunisationVaccineTypes)
 
 > Immunisation Vaccine Type Admin View
 

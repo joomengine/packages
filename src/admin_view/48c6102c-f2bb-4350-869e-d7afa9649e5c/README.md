@@ -1,5 +1,5 @@
 ### JCB! Admin View
-# Patients (Patient:Patients)
+# Patients (eHealth) (Patient:Patients)
 
 > Patients of the Health Portal
 

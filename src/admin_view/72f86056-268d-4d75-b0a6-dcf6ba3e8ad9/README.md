@@ -1,5 +1,5 @@
 ### JCB! Admin View
-# Payment (Payment:Payments)
+# Payment (eHealth) (Payment:Payments)
 
 > Payment Admin View
 

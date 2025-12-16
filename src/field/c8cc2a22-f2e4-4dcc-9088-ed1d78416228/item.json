@@ -1,5 +1,5 @@
 {
-    "name": "Date of Birth (not required)",
+    "name": "Date of Birth (required)",
     "fieldtype": "6cf5a33f-cb25-4a58-bfec-7e1511896402",
     "datatype": "DATE",
     "indexes": "0",
@@ -8,7 +8,7 @@
     "on_get_model_field": "",
     "on_save_model_field": "",
     "initiator_on_get_model": "",
-    "xml": "<field\n\ttype=\"calendar\"\n\tname=\"dateofbirth\"\n\tlabel=\"Date of Birth\"\n\tdefault=\"2025-01-01\"\n\tdescription=\"Your date of birth\"\n\tformat=\"%Y-%m-%d\"\n\tfilter=\"STRING\"\n\ttodaybutton=\"false\"\n\tminyear=\"-12\"\n\tmaxyear=\"2\"\n\/>",
+    "xml": "<field\n\ttype=\"calendar\"\n\tname=\"dateofbirth\"\n\tlabel=\"Date of Birth\"\n\tdefault=\"1970-01-01\"\n\tdescription=\"Your date of birth\"\n\tformat=\"%Y-%m-%d\"\n\tfilter=\"STRING\"\n\trequired=\"true\"\n\ttodaybutton=\"false\"\n\tminyear=\"-120\"\n\tmaxyear=\"1\"\n\/>",
     "datalenght": "",
     "javascript_view_footer": "",
     "css_views": "",

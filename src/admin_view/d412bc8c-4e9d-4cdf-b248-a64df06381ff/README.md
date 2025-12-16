@@ -1,5 +1,5 @@
 ### JCB! Admin View
-# Medication (Medication:Medications)
+# Medication (eHealth) (Medication:Medications)
 
 > Medication Admin View
 

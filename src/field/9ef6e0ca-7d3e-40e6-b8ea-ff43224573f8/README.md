@@ -1,5 +1,5 @@
 ### JCB! Field
-# Addresses (look-subform)
+# Addresses (members-subform)
 
 > Field Type: Subform
 
@@ -12,10 +12,10 @@
 	layout="joomla.form.field.subform.repeatable"
 	multiple="true"
 	buttons="add,remove"
-	fields="fb3115a1-e579-401a-9b53-9469cd4739e4,874b0de4-46fb-4f4a-aa8a-d95c2e275a09,e5a082f3-54ab-4ab6-8691-afd195346d77,cc0e70fa-bdda-474c-95c1-0ad5f1e9ec3c,1c8bc5a9-06ab-429f-99d7-0b48e6b2b118,e80df9fc-5f50-468d-888c-e19cd96c3db1,d95dc35a-7467-4010-8d35-f3dab696a808,e769beb6-f761-4885-8d35-eb2f0be55ee6"
+	fields="fb3115a1-e579-401a-9b53-9469cd4739e4,19369aa2-33cf-4be4-8faf-7bd74e542971,e5a082f3-54ab-4ab6-8691-afd195346d77,cc0e70fa-bdda-474c-95c1-0ad5f1e9ec3c,f3114a23-bb19-47ba-a2d8-97193b11010e,8d1b9d7e-77c1-43d9-bc97-0dd021bfe779,e769beb6-f761-4885-8d35-eb2f0be55ee6"
 	icon="list"
-	max="10"
-	min="0"
+	max="5"
+	min="1"
 />
 ```
 

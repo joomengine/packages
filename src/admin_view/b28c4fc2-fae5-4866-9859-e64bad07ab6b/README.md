@@ -1,5 +1,7 @@
 ### JCB! Admin View
-# HIV Counseling and Testing (HIVTest:HIVTests)
+# HIV Counseling and Testing (eHealth) (HIVTest:HIVTests)
+
+> HIV Counseling and Testing
 
 HIV Counseling and Testing Admin View
 

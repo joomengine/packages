@@ -1,5 +1,5 @@
 ### JCB! Field
-# Postal (address)
+# Postal Address (address)
 
 > Field Type: Text
 
@@ -7,8 +7,8 @@
 ```xml
 <field
 	type="text"
-	name="postal"
-	label="Postal"
+	name="postal_address"
+	label="Postal Address"
 	description="Enter Post Office Number here."
 	class="text_area"
 	required="false"

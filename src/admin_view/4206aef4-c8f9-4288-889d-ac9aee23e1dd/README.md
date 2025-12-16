@@ -1,5 +1,5 @@
 ### JCB! Admin View
-# Health Education (HealthEducation:HealthEducations)
+# Health Education (eHealth) (HealthEducation:HealthEducations)
 
 > Health Education Admin View
 

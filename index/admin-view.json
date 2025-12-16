@@ -376,5 +376,68 @@
         "settings": "src\/admin_view\/93a34bf3-aa25-4a14-8496-ae7d0340e0b9\/item.json",
         "guid": "93a34bf3-aa25-4a14-8496-ae7d0340e0b9",
         "desc": "The main demo view"
+    },
+    "7fdcbc56-76af-43c3-9955-3f291c5adfdb": {
+        "name": "Files (eHealth)",
+        "path": "src\/admin_view\/7fdcbc56-76af-43c3-9955-3f291c5adfdb",
+        "settings": "src\/admin_view\/7fdcbc56-76af-43c3-9955-3f291c5adfdb\/item.json",
+        "guid": "7fdcbc56-76af-43c3-9955-3f291c5adfdb",
+        "desc": "Files"
+    },
+    "aef94ff0-6877-4b72-83ef-f50644b639d8": {
+        "name": "File Types (eHealth)",
+        "path": "src\/admin_view\/aef94ff0-6877-4b72-83ef-f50644b639d8",
+        "settings": "src\/admin_view\/aef94ff0-6877-4b72-83ef-f50644b639d8\/item.json",
+        "guid": "aef94ff0-6877-4b72-83ef-f50644b639d8",
+        "desc": "File Type"
+    },
+    "5349e968-76e0-42db-b7a3-b99019c8d32d": {
+        "name": "Addresses (eHealth)",
+        "path": "src\/admin_view\/5349e968-76e0-42db-b7a3-b99019c8d32d",
+        "settings": "src\/admin_view\/5349e968-76e0-42db-b7a3-b99019c8d32d\/item.json",
+        "guid": "5349e968-76e0-42db-b7a3-b99019c8d32d",
+        "desc": "Addresses of Members"
+    },
+    "e4fc2180-5a15-46f7-bb40-921f494b8d3a": {
+        "name": "Country (eHealth)",
+        "path": "src\/admin_view\/e4fc2180-5a15-46f7-bb40-921f494b8d3a",
+        "settings": "src\/admin_view\/e4fc2180-5a15-46f7-bb40-921f494b8d3a\/item.json",
+        "guid": "e4fc2180-5a15-46f7-bb40-921f494b8d3a",
+        "desc": "A list of countries."
+    },
+    "b878bb81-45df-495f-b84e-3abee0a694db": {
+        "name": "Cities (eHealth)",
+        "path": "src\/admin_view\/b878bb81-45df-495f-b84e-3abee0a694db",
+        "settings": "src\/admin_view\/b878bb81-45df-495f-b84e-3abee0a694db\/item.json",
+        "guid": "b878bb81-45df-495f-b84e-3abee0a694db",
+        "desc": "Cities"
+    },
+    "6a512b3e-a9e6-494a-ba7a-6b718cdf5007": {
+        "name": "Regions (eHealth)",
+        "path": "src\/admin_view\/6a512b3e-a9e6-494a-ba7a-6b718cdf5007",
+        "settings": "src\/admin_view\/6a512b3e-a9e6-494a-ba7a-6b718cdf5007\/item.json",
+        "guid": "6a512b3e-a9e6-494a-ba7a-6b718cdf5007",
+        "desc": "Regions"
+    },
+    "33cfd25b-6e35-41de-bfc2-902921291b0c": {
+        "name": "States (eHealth)",
+        "path": "src\/admin_view\/33cfd25b-6e35-41de-bfc2-902921291b0c",
+        "settings": "src\/admin_view\/33cfd25b-6e35-41de-bfc2-902921291b0c\/item.json",
+        "guid": "33cfd25b-6e35-41de-bfc2-902921291b0c",
+        "desc": "States"
+    },
+    "30898a86-be83-4d2e-8392-756c64ee8f04": {
+        "name": "Sub-Regions (eHealth)",
+        "path": "src\/admin_view\/30898a86-be83-4d2e-8392-756c64ee8f04",
+        "settings": "src\/admin_view\/30898a86-be83-4d2e-8392-756c64ee8f04\/item.json",
+        "guid": "30898a86-be83-4d2e-8392-756c64ee8f04",
+        "desc": "Subregions"
+    },
+    "b2b10dc7-0848-4d29-97d3-e886ee8141dc": {
+        "name": "Timezone (eHealth)",
+        "path": "src\/admin_view\/b2b10dc7-0848-4d29-97d3-e886ee8141dc",
+        "settings": "src\/admin_view\/b2b10dc7-0848-4d29-97d3-e886ee8141dc\/item.json",
+        "guid": "b2b10dc7-0848-4d29-97d3-e886ee8141dc",
+        "desc": "Timezones."
     }
 }

@@ -1,5 +1,5 @@
 ### JCB! Admin View
-# Strength (Strength:Strengths)
+# Strength (eHealth) (Strength:Strengths)
 
 > Strength Admin View
 

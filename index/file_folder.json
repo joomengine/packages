@@ -268,5 +268,10 @@
         "name": "images\/icons\/sign_up_icon.png",
         "path": "src\/file_folder\/6dc201e7-e8a5-5297-b28e-ba5642d53b6e.png",
         "guid": "6dc201e7-e8a5-5297-b28e-ba5642d53b6e.png"
+    },
+    "041b37f1-14b8-5a17-a0e9-b0d72dc200bd.zip": {
+        "name": "vendor",
+        "path": "src\/file_folder\/041b37f1-14b8-5a17-a0e9-b0d72dc200bd.zip",
+        "guid": "041b37f1-14b8-5a17-a0e9-b0d72dc200bd.zip"
     }
 }

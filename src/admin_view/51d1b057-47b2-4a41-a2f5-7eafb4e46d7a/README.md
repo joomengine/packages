@@ -1,5 +1,5 @@
 ### JCB! Admin View
-# Site (Site:Sites)
+# Site (eHealth) (Site:Sites)
 
 > Site Admin View
 

@@ -47,20 +47,25 @@ This ensures maintainability while still allowing total customization per projec
 
  - **Address** | [Details](src/admin_view/b7b2aba5-8a94-443b-814b-aed5b0b7c550) | [Settings](src/admin_view/b7b2aba5-8a94-443b-814b-aed5b0b7c550/item.json) | Addresses of Members
  - **Address Types** | [Details](src/admin_view/5992077e-15a5-4ea9-b882-e6e0e1b723ae) | [Settings](src/admin_view/5992077e-15a5-4ea9-b882-e6e0e1b723ae/item.json) | Types of Addresses
+ - **Addresses (eHealth)** | [Details](src/admin_view/5349e968-76e0-42db-b7a3-b99019c8d32d) | [Settings](src/admin_view/5349e968-76e0-42db-b7a3-b99019c8d32d/item.json) | Addresses of Members
  - **Administration Part** | [Details](src/admin_view/95a834f5-59e8-4f1d-93a6-13479b2148f0) | [Settings](src/admin_view/95a834f5-59e8-4f1d-93a6-13479b2148f0/item.json) | Administration Part Admin View
  - **Antenatal Care** | [Details](src/admin_view/a4da86a9-e165-4a90-a73e-ca9956884c00) | [Settings](src/admin_view/a4da86a9-e165-4a90-a73e-ca9956884c00/item.json) | Antenatal Care Admin View
  - **Breast Cancer** | [Details](src/admin_view/d9a2f539-f13d-4d39-ab36-b258162f39b7) | [Settings](src/admin_view/d9a2f539-f13d-4d39-ab36-b258162f39b7/item.json) | Breast Cancer Admin view
  - **Cervical Cancer** | [Details](src/admin_view/82ca091d-e00d-4378-a780-fafaf084d98a) | [Settings](src/admin_view/82ca091d-e00d-4378-a780-fafaf084d98a/item.json) | Cervical Cancer Admin view
  - **Cities** | [Details](src/admin_view/3dbb581b-619a-4fb0-a6f6-e4a136ea31e2) | [Settings](src/admin_view/3dbb581b-619a-4fb0-a6f6-e4a136ea31e2/item.json) | Cities
+ - **Cities (eHealth)** | [Details](src/admin_view/b878bb81-45df-495f-b84e-3abee0a694db) | [Settings](src/admin_view/b878bb81-45df-495f-b84e-3abee0a694db/item.json) | Cities
  - **Clinic** | [Details](src/admin_view/a970eed5-0f6c-4a46-ac51-0667dcb5e38e) | [Settings](src/admin_view/a970eed5-0f6c-4a46-ac51-0667dcb5e38e/item.json) | Clinic Admin View
  - **Counseling Type** | [Details](src/admin_view/bc34bf73-580d-4c2b-9cb5-d705c52a1dc6) | [Settings](src/admin_view/bc34bf73-580d-4c2b-9cb5-d705c52a1dc6/item.json) | Counseling Type Admin View
  - **Country** | [Details](src/admin_view/6acc4069-1c33-4470-85a6-07bc9bb16d10) | [Settings](src/admin_view/6acc4069-1c33-4470-85a6-07bc9bb16d10/item.json) | A list of countries.
+ - **Country (eHealth)** | [Details](src/admin_view/e4fc2180-5a15-46f7-bb40-921f494b8d3a) | [Settings](src/admin_view/e4fc2180-5a15-46f7-bb40-921f494b8d3a/item.json) | A list of countries.
  - **Dependent** | [Details](src/admin_view/2ad66e35-e5fc-4927-a76d-edd00746543e) | [Settings](src/admin_view/2ad66e35-e5fc-4927-a76d-edd00746543e/item.json) | Dependents of Members
  - **Details (look)** | [Details](src/admin_view/595ba2c9-21fa-43a4-9af7-93c9cfb21b82) | [Settings](src/admin_view/595ba2c9-21fa-43a4-9af7-93c9cfb21b82/item.json) | Add More Details
  - **Diagnosis Type** | [Details](src/admin_view/588139bf-7c03-48ed-bcb0-3832a14bd553) | [Settings](src/admin_view/588139bf-7c03-48ed-bcb0-3832a14bd553/item.json) | Diagnosis Type Admin View
  - **Family Planning** | [Details](src/admin_view/2bf85986-5ed4-4471-88fe-a5b2daa9114f) | [Settings](src/admin_view/2bf85986-5ed4-4471-88fe-a5b2daa9114f/item.json) | Family Planning Admin View
  - **File Types (demo-look)** | [Details](src/admin_view/19a973ea-cdfa-4c79-bbbd-1b8a37286b27) | [Settings](src/admin_view/19a973ea-cdfa-4c79-bbbd-1b8a37286b27/item.json) | File Type
+ - **File Types (eHealth)** | [Details](src/admin_view/aef94ff0-6877-4b72-83ef-f50644b639d8) | [Settings](src/admin_view/aef94ff0-6877-4b72-83ef-f50644b639d8/item.json) | File Type
  - **Files** | [Details](src/admin_view/224eb9c7-8b40-48cf-bf77-2afa291fd54a) | [Settings](src/admin_view/224eb9c7-8b40-48cf-bf77-2afa291fd54a/item.json) | Files
+ - **Files (eHealth)** | [Details](src/admin_view/7fdcbc56-76af-43c3-9955-3f291c5adfdb) | [Settings](src/admin_view/7fdcbc56-76af-43c3-9955-3f291c5adfdb/item.json) | Files
  - **Foetal Engagement** | [Details](src/admin_view/30a8a740-b413-43f2-aacf-3c16903d4e76) | [Settings](src/admin_view/30a8a740-b413-43f2-aacf-3c16903d4e76/item.json) | Foetal Engagement Admin View
  - **Foetal Lie** | [Details](src/admin_view/8181ea02-be0a-475e-99c6-c7d84817959c) | [Settings](src/admin_view/8181ea02-be0a-475e-99c6-c7d84817959c/item.json) | Foetal Lie Admin View
  - **Foetal Presentation** | [Details](src/admin_view/ee0dc737-9d72-4af2-a5a9-095d092d9cea) | [Settings](src/admin_view/ee0dc737-9d72-4af2-a5a9-095d092d9cea/item.json) | Foetal Presentation Admin View
@@ -87,13 +92,17 @@ This ensures maintainability while still allowing total customization per projec
  - **Recipe** | [Details](src/admin_view/7f969e93-a96a-4a4f-8307-b6a9de06bda2) | [Settings](src/admin_view/7f969e93-a96a-4a4f-8307-b6a9de06bda2/item.json) | Recipe
  - **Referral** | [Details](src/admin_view/956bb320-40ea-4995-b046-cb647eec4aa9) | [Settings](src/admin_view/956bb320-40ea-4995-b046-cb647eec4aa9/item.json) | Referral Admin View
  - **Regions** | [Details](src/admin_view/9eefa86b-6294-4512-8d62-979abf16c00d) | [Settings](src/admin_view/9eefa86b-6294-4512-8d62-979abf16c00d/item.json) | Regions
+ - **Regions (eHealth)** | [Details](src/admin_view/6a512b3e-a9e6-494a-ba7a-6b718cdf5007) | [Settings](src/admin_view/6a512b3e-a9e6-494a-ba7a-6b718cdf5007/item.json) | Regions
  - **Site** | [Details](src/admin_view/51d1b057-47b2-4a41-a2f5-7eafb4e46d7a) | [Settings](src/admin_view/51d1b057-47b2-4a41-a2f5-7eafb4e46d7a/item.json) | Site Admin View
  - **States** | [Details](src/admin_view/6c6345a1-e3e4-4840-8918-831034e95b19) | [Settings](src/admin_view/6c6345a1-e3e4-4840-8918-831034e95b19/item.json) | States
+ - **States (eHealth)** | [Details](src/admin_view/33cfd25b-6e35-41de-bfc2-902921291b0c) | [Settings](src/admin_view/33cfd25b-6e35-41de-bfc2-902921291b0c/item.json) | States
  - **Strength** | [Details](src/admin_view/b93c838d-4dd0-4931-90e8-81138a2ae106) | [Settings](src/admin_view/b93c838d-4dd0-4931-90e8-81138a2ae106/item.json) | Strength Admin View
  - **Sub-Regions** | [Details](src/admin_view/2e451812-45af-4015-aa0c-f5912702c9af) | [Settings](src/admin_view/2e451812-45af-4015-aa0c-f5912702c9af/item.json) | Subregions
+ - **Sub-Regions (eHealth)** | [Details](src/admin_view/30898a86-be83-4d2e-8392-756c64ee8f04) | [Settings](src/admin_view/30898a86-be83-4d2e-8392-756c64ee8f04/item.json) | Subregions
  - **Test** | [Details](src/admin_view/88b75034-c158-4651-9fd2-555a1a8249c4) | [Settings](src/admin_view/88b75034-c158-4651-9fd2-555a1a8249c4/item.json) | Test Admin view
  - **Testing Reason** | [Details](src/admin_view/61fec258-5dd0-48ae-a9c1-8b2de0686a23) | [Settings](src/admin_view/61fec258-5dd0-48ae-a9c1-8b2de0686a23/item.json) | Testing Reason Admin View
  - **Timezone** | [Details](src/admin_view/75061367-79c2-4d5b-a75d-eca6d33507df) | [Settings](src/admin_view/75061367-79c2-4d5b-a75d-eca6d33507df/item.json) | Timezones.
+ - **Timezone (eHealth)** | [Details](src/admin_view/b2b10dc7-0848-4d29-97d3-e886ee8141dc) | [Settings](src/admin_view/b2b10dc7-0848-4d29-97d3-e886ee8141dc/item.json) | Timezones.
  - **Tuberculosis** | [Details](src/admin_view/f67497fa-7c34-4574-84c9-e479dd37475f) | [Settings](src/admin_view/f67497fa-7c34-4574-84c9-e479dd37475f/item.json) | Tuberculosis
  - **Units** | [Details](src/admin_view/b549040e-9f87-472d-801e-ca9859e1a4c4) | [Settings](src/admin_view/b549040e-9f87-472d-801e-ca9859e1a4c4/item.json) | Units Admin View
  - **User Entity Map** | [Details](src/admin_view/60b7b30d-9229-4ce2-b055-9efbb7ac4cea) | [Settings](src/admin_view/60b7b30d-9229-4ce2-b055-9efbb7ac4cea/item.json) | User Entity Maps

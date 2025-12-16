@@ -30,6 +30,13 @@
             "entity": "fieldtype",
             "table": "#__componentbuilder_fieldtype",
             "direction": "out"
+        },
+        {
+            "key": "name",
+            "value": "password",
+            "entity": "validation_rule",
+            "table": "#__componentbuilder_validation_rule",
+            "direction": "out"
         }
     ]
 }

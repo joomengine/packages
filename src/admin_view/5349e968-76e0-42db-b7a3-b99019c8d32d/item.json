@@ -1,0 +1,171 @@
+{
+    "system_name": "Addresses (eHealth)",
+    "name_single": "Address",
+    "short_description": "Addresses of Members",
+    "php_postsavehook": "",
+    "php_before_save": "[CUSTOMCODE=saveGUID]",
+    "php_getlistquery": "",
+    "php_getitems": "",
+    "ajax_input": null,
+    "source": 0,
+    "icon": "images\/icons\/sign_up_icon.png#joomlaImage:\/\/local-images\/icons\/sign_up_icon.png?width=128&height=128",
+    "php_batchmove": "",
+    "add_fadein": 1,
+    "description": "",
+    "icon_category": "",
+    "icon_add": "",
+    "php_allowedit": "",
+    "php_after_delete": "",
+    "php_after_cancel": "",
+    "type": 1,
+    "php_after_publish": "",
+    "mysql_table_charset": "utf8mb4",
+    "name_list": "Addresses",
+    "addpermissions": {
+        "addpermissions0": {
+            "action": "view.edit",
+            "implementation": 3
+        },
+        "addpermissions1": {
+            "action": "view.edit.own",
+            "implementation": 3
+        },
+        "addpermissions2": {
+            "action": "view.edit.state",
+            "implementation": 3
+        },
+        "addpermissions3": {
+            "action": "view.edit.access",
+            "implementation": 3
+        },
+        "addpermissions4": {
+            "action": "view.edit.created_by",
+            "implementation": 3
+        },
+        "addpermissions5": {
+            "action": "view.edit.created",
+            "implementation": 3
+        },
+        "addpermissions6": {
+            "action": "view.create",
+            "implementation": 3
+        },
+        "addpermissions7": {
+            "action": "view.delete",
+            "implementation": 3
+        },
+        "addpermissions8": {
+            "action": "view.access",
+            "implementation": 3
+        }
+    },
+    "php_getitem": "",
+    "php_getitems_after_all": "",
+    "addtabs": null,
+    "php_getform": "[CUSTOMCODE=setGUIDForm]",
+    "php_save": "",
+    "php_allowadd": "",
+    "addlinked_views": null,
+    "php_before_cancel": "",
+    "php_batchcopy": "",
+    "alias_builder_type": 0,
+    "php_before_publish": "",
+    "php_before_delete": "",
+    "php_document": "[CUSTOMCODE=vdmUploaderConfig+vdm-uikit-uploader,file_vdm_uploader,getFileTypeDetails,uploadFile,displayFiles,deleteFile]\r\n[CUSTOMCODE=addUikitThreeToAdminViews]",
+    "alias_builder": null,
+    "mysql_table_row_format": "DYNAMIC",
+    "sql": "",
+    "add_category_submenu": 1,
+    "php_ajaxmethod": "",
+    "add_php_getitem": 0,
+    "add_php_getitems": 0,
+    "add_css_view": 0,
+    "add_php_getitems_after_all": 0,
+    "css_view": "",
+    "add_php_getlistquery": 0,
+    "add_css_views": 0,
+    "add_php_getform": 1,
+    "css_views": "",
+    "add_php_before_save": 1,
+    "add_javascript_view_file": 0,
+    "add_php_save": 0,
+    "javascript_view_file": "",
+    "add_php_postsavehook": 0,
+    "add_javascript_view_footer": 0,
+    "add_php_allowadd": 0,
+    "javascript_view_footer": "",
+    "add_php_allowedit": 0,
+    "add_javascript_views_file": 0,
+    "add_php_before_cancel": 0,
+    "javascript_views_file": "",
+    "add_php_after_cancel": 0,
+    "add_javascript_views_footer": 0,
+    "add_php_batchcopy": 0,
+    "javascript_views_footer": "",
+    "add_php_batchmove": 0,
+    "add_custom_button": 0,
+    "add_php_before_publish": 0,
+    "custom_button": null,
+    "add_php_after_publish": 0,
+    "php_controller": "",
+    "add_php_before_delete": 0,
+    "php_model": "",
+    "add_php_after_delete": 0,
+    "php_controller_list": "",
+    "add_php_document": 1,
+    "php_model_list": "",
+    "mysql_table_engine": "InnoDB",
+    "add_view_toolbar": 0,
+    "mysql_table_collate": "utf8mb4_unicode_ci",
+    "view_toolbar": "",
+    "add_sql": 0,
+    "add_views_toolbar": 0,
+    "views_toolbar": "",
+    "guid": "5349e968-76e0-42db-b7a3-b99019c8d32d",
+    "add_php_ajax": 0,
+    "@dependencies": [
+        {
+            "key": "admin_view",
+            "value": "5349e968-76e0-42db-b7a3-b99019c8d32d",
+            "entity": "admin_fields",
+            "table": "#__componentbuilder_admin_fields",
+            "direction": "in"
+        },
+        {
+            "key": "function_name",
+            "value": "saveGUID",
+            "entity": "custom_code",
+            "table": "#__componentbuilder_custom_code",
+            "direction": "out"
+        },
+        {
+            "key": "function_name",
+            "value": "setGUIDForm",
+            "entity": "custom_code",
+            "table": "#__componentbuilder_custom_code",
+            "direction": "out"
+        },
+        {
+            "key": "function_name",
+            "value": "vdmUploaderConfig",
+            "entity": "custom_code",
+            "table": "#__componentbuilder_custom_code",
+            "direction": "out"
+        },
+        {
+            "key": "function_name",
+            "value": "addUikitThreeToAdminViews",
+            "entity": "custom_code",
+            "table": "#__componentbuilder_custom_code",
+            "direction": "out"
+        },
+        {
+            "key": "6dc201e7-e8a5-5297-b28e-ba5642d53b6e.png",
+            "pointer": "6dc201e7-e8a5-5297-b28e-ba5642d53b6e--png",
+            "value": "images\/icons\/sign_up_icon.png",
+            "entity": "file",
+            "table": "file_system",
+            "target": "images"
+        }
+    ]
+}

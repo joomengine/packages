@@ -1,5 +1,5 @@
 ### JCB! Admin View
-# Counseling Type (CounselingType:CounselingTypes)
+# Counseling Type (eHealth) (CounselingType:CounselingTypes)
 
 > Counseling Type Admin View
 

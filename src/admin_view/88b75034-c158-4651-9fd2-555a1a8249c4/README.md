@@ -1,5 +1,5 @@
 ### JCB! Admin View
-# Test (Test:Tests)
+# Test (eHealth) (Test:Tests)
 
 > Test Admin view
 

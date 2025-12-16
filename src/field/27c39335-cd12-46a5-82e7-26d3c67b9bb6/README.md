@@ -1,5 +1,5 @@
 ### JCB! Field
-# Confirm Password2
+# Confirm Password
 
 > Field Type: Password
 

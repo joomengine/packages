@@ -5,16 +5,16 @@
 
 ## Field XML:
 ```xml
-<field
-	type="textarea"
-	name="description"
-	label="Description"
-	rows="11"
-	cols="10"
-	description="Add Description Here"
-	class="text_area span12"
-	filter="HTML"
-	hint="Add Description Here"
+<field 
+	type="textarea" 
+	name="description" 
+	label="Description" 
+	rows="11" 
+	cols="10" 
+	description="Add Description Here" 
+	class="text_area span12" 
+	filter="HTML" 
+	hint="Add Description Here" 
 />
 ```
 
@@ -22,7 +22,7 @@
 - Data type: TEXT
 - Data length: 
 - Data default: 
-- Null switch: NULL
+- Null switch: NOT NULL
 - Index: NOT INDEX
 - Modeling: Default
 

@@ -1,5 +1,5 @@
 ### JCB! Admin View
-# Diagnosis Type (DiagnosisType:DiagnosisTypes)
+# Diagnosis Type (eHealth) (DiagnosisType:DiagnosisTypes)
 
 > Diagnosis Type Admin View
 

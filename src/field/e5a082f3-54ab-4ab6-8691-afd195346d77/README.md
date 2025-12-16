@@ -1,5 +1,5 @@
 ### JCB! Field
-# Line One (address)
+# Address Line One (address)
 
 > Field Type: Text
 
@@ -7,14 +7,14 @@
 ```xml
 <field
 	type="text"
-	name="line_one"
-	label="Line One"
+	name="address_line_one"
+	label="Address Line One"
 	description="Street name, house number, or PO Box"
 	class="text_area"
 	required="true"
 	filter="STRING"
 	message="Error! Please add Street name, house number, or PO Box here."
-	hint="Line One"
+	hint="Address Line One"
 />
 ```
 

@@ -8,7 +8,7 @@
     "on_get_model_field": "",
     "on_save_model_field": "",
     "initiator_on_get_model": "",
-    "xml": "<field\n\ttype=\"text\"\n\tname=\"width\"\n\tlabel=\"Width (in pixels)\"\n\tsize=\"10\"\n\tmaxlength=\"50\"\n\tdescription=\"Enter some description\"\n\tclass=\"text_area\"\n\tfilter=\"INT\"\n\thint=\"Only Numbers\"\n\tautocomplete=\"on\"\n\tonchange=\"this.value = this.value.replace(\/\\D\/g, '');\"\n\/>",
+    "xml": "<field\n\ttype=\"text\"\n\tname=\"width\"\n\tlabel=\"Height (in pixels)\"\n\tsize=\"10\"\n\tmaxlength=\"50\"\n\tdescription=\"Enter some description\"\n\tclass=\"text_area\"\n\tfilter=\"INT\"\n\thint=\"Only Numbers\"\n\tautocomplete=\"on\"\n\tonchange=\"this.value = this.value.replace(\/\\D\/g, '');\"\n\/>",
     "datalenght": "255",
     "javascript_view_footer": "",
     "css_views": "",

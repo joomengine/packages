@@ -1,0 +1,8 @@
+{
+    "guid": {
+        "name": "guid",
+        "path": "src\/validation_rule\/guid",
+        "settings": "src\/validation_rule\/guid\/item.json",
+        "guid": "guid"
+    }
+}

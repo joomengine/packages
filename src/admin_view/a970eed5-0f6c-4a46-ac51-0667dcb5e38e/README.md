@@ -1,5 +1,5 @@
 ### JCB! Admin View
-# Clinic (Clinic:Clinics)
+# Clinic (eHealth) (Clinic:Clinics)
 
 > Clinic Admin View
 

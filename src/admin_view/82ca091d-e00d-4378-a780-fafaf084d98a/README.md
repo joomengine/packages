@@ -1,5 +1,5 @@
 ### JCB! Admin View
-# Cervical Cancer (CervicalCancer:CervicalCancers)
+# Cervical Cancer (eHealth) (CervicalCancer:CervicalCancers)
 
 > Cervical Cancer Admin view
 

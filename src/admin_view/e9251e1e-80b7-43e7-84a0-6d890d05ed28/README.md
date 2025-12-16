@@ -1,5 +1,5 @@
 ### JCB! Admin View
-# eHealth User Entity Map (UserEntityMap:UserEntityMaps)
+# User Entity Map (eHealth) (UserEntityMap:UserEntityMaps)
 
 > User Entity Maps
 

@@ -8,7 +8,7 @@
 <field
 	type="text"
 	name="width"
-	label="Width (in pixels)"
+	label="Height (in pixels)"
 	size="10"
 	maxlength="50"
 	description="Enter some description"

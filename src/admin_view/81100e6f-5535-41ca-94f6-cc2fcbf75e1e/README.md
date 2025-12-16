@@ -1,5 +1,7 @@
 ### JCB! Admin View
-# General Medical Check Up (Checkup:Checkups)
+# General Medical Check Up (eHealth) (Checkup:Checkups)
+
+> General Medical Check Up
 
 > Manage single-record forms with this reusable Admin View designed for smooth data handling, customization, and full integration in JCB.
 

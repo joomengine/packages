@@ -1,0 +1,20 @@
+{
+    "name": "Uikit v3",
+    "target": 1,
+    "how": 1,
+    "type": 1,
+    "description": "",
+    "libraries": null,
+    "php_setdocument": "",
+    "addconditions": null,
+    "guid": "5eeee148-cebd-4a92-bc0e-56efea3cffdc",
+    "@dependencies": [
+        {
+            "key": "library",
+            "value": "5eeee148-cebd-4a92-bc0e-56efea3cffdc",
+            "entity": "library_files_folders_urls",
+            "table": "#__componentbuilder_library_files_folders_urls",
+            "direction": "in"
+        }
+    ]
+}

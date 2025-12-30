@@ -10,6 +10,7 @@
 	name="file_formats"
 	label="Allowed File Formats"
 	class="list_class"
+	layout="joomla.form.field.list-fancy-select"
 	multiple="true"
 	showon="type:4"
 	extends="list"

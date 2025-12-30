@@ -2,9 +2,9 @@
     "joomla_component": "1c20aec5-bf1a-44e7-9deb-d1c920ca591d",
     "version_update": {
         "version_update0": {
-            "version": "5.0.1",
+            "version": "6.0.1",
             "mysql": "",
-            "url": "https:\/\/git.vdm.dev\/joomla\/Demo-Component\/archive\/v5.0.1.zip",
+            "url": "https:\/\/git.vdm.dev\/joomla\/Demo-Component\/archive\/v6.0.1.zip",
             "update_server_adv": "0",
             "update_server_type": "component",
             "update_element": "",

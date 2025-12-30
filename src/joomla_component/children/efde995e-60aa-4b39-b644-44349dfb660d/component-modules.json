@@ -2,7 +2,7 @@
     "joomla_component": "efde995e-60aa-4b39-b644-44349dfb660d",
     "addjoomla_modules": {
         "addjoomla_modules0": {
-            "module": "2dcaa8af-0bb0-4fac-8584-4e4e418620cd",
+            "module": "0",
             "target": "0"
         }
     },
@@ -12,13 +12,6 @@
             "value": "efde995e-60aa-4b39-b644-44349dfb660d",
             "entity": "joomla_component",
             "table": "#__componentbuilder_joomla_component",
-            "direction": "out"
-        },
-        {
-            "key": "guid",
-            "value": "2dcaa8af-0bb0-4fac-8584-4e4e418620cd",
-            "entity": "joomla_module",
-            "table": "#__componentbuilder_joomla_module",
             "direction": "out"
         }
     ]

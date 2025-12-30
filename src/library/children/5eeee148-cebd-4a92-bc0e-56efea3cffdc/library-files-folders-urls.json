@@ -1,0 +1,34 @@
+{
+    "library": "5eeee148-cebd-4a92-bc0e-56efea3cffdc",
+    "addfoldersfullpath": null,
+    "addfilesfullpath": null,
+    "addfolders": null,
+    "addfiles": null,
+    "addurls": {
+        "addurls0": {
+            "url": "https:\/\/cdn.jsdelivr.net\/npm\/uikit@3.21.11\/dist\/css\/uikit.min.css",
+            "type": 2
+        },
+        "addurls1": {
+            "url": "https:\/\/cdn.jsdelivr.net\/npm\/uikit@3.21.11\/dist\/js\/uikit.min.js",
+            "type": 2
+        },
+        "addurls2": {
+            "url": "https:\/\/cdn.jsdelivr.net\/npm\/uikit@3.21.11\/dist\/js\/uikit-icons.min.js",
+            "type": 2
+        },
+        "addurls3": {
+            "url": "https:\/\/cdn.jsdelivr.net\/gh\/vdm-io\/uikit@2.0.5\/dist\/js\/Uploader.min.js",
+            "type": 2
+        }
+    },
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "5eeee148-cebd-4a92-bc0e-56efea3cffdc",
+            "entity": "library",
+            "table": "#__componentbuilder_library",
+            "direction": "out"
+        }
+    ]
+}

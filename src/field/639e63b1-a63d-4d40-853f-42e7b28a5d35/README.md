@@ -8,10 +8,10 @@
 <field
 	type="note"
 	name="note_file_vdm_display"
-	description="<br>
-<div id='file_vdm_success' hidden></div>
+	description="<div id='file_vdm_success' hidden></div>
 <div id='file_vdm_error' hidden></div>
 <div id='file_vdm_display' hidden></div>"
+	class="uk-clearfix uk-width-1-1 uk-margin"
 />
 ```
 

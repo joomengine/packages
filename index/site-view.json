@@ -40,5 +40,19 @@
         "path": "src\/site_view\/0b5fb4b6-b2bf-4656-8dc9-d947e5f94759",
         "settings": "src\/site_view\/0b5fb4b6-b2bf-4656-8dc9-d947e5f94759\/item.json",
         "guid": "0b5fb4b6-b2bf-4656-8dc9-d947e5f94759"
+    },
+    "b302faa4-7476-4b1f-bcce-0b9b3f2a8be1": {
+        "name": "Looking",
+        "desc": "Looking at a look",
+        "path": "src\/site_view\/b302faa4-7476-4b1f-bcce-0b9b3f2a8be1",
+        "settings": "src\/site_view\/b302faa4-7476-4b1f-bcce-0b9b3f2a8be1\/item.json",
+        "guid": "b302faa4-7476-4b1f-bcce-0b9b3f2a8be1"
+    },
+    "6a2d74e5-5bc6-497e-a075-70f084174eec": {
+        "name": "Looks",
+        "desc": "The List of all published looks",
+        "path": "src\/site_view\/6a2d74e5-5bc6-497e-a075-70f084174eec",
+        "settings": "src\/site_view\/6a2d74e5-5bc6-497e-a075-70f084174eec\/item.json",
+        "guid": "6a2d74e5-5bc6-497e-a075-70f084174eec"
     }
 }

@@ -1,0 +1,14 @@
+{
+    "4c3e3dce-0845-46cb-9e4a-494f75dc7dd8": {
+        "name": "4c3e3dce-0845-46cb-9e4a-494f75dc7dd8",
+        "path": "src\/library\/children\/4c3e3dce-0845-46cb-9e4a-494f75dc7dd8",
+        "settings": "src\/library\/children\/4c3e3dce-0845-46cb-9e4a-494f75dc7dd8\/library-files-folders-urls.json",
+        "guid": "4c3e3dce-0845-46cb-9e4a-494f75dc7dd8"
+    },
+    "5eeee148-cebd-4a92-bc0e-56efea3cffdc": {
+        "name": "5eeee148-cebd-4a92-bc0e-56efea3cffdc",
+        "path": "src\/library\/children\/5eeee148-cebd-4a92-bc0e-56efea3cffdc",
+        "settings": "src\/library\/children\/5eeee148-cebd-4a92-bc0e-56efea3cffdc\/library-files-folders-urls.json",
+        "guid": "5eeee148-cebd-4a92-bc0e-56efea3cffdc"
+    }
+}

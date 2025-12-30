@@ -217,6 +217,14 @@
             "entity": "file",
             "table": "file_system",
             "target": "images"
+        },
+        {
+            "key": "422f4f9a-ef9b-51c9-924b-84994fede0e4.txt",
+            "pointer": "422f4f9a-ef9b-51c9-924b-84994fede0e4--txt",
+            "value": "default.txt",
+            "entity": "file",
+            "table": "file_system",
+            "target": "compiler"
         }
     ]
 }

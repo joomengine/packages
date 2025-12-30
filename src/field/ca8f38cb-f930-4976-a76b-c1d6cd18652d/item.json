@@ -8,7 +8,7 @@
     "on_get_model_field": "",
     "on_save_model_field": "",
     "initiator_on_get_model": "",
-    "xml": "<field\n\ttype=\"allowedfileformats\"\n\tname=\"file_formats\"\n\tlabel=\"Allowed File Formats\"\n\tclass=\"list_class\"\n\tmultiple=\"true\"\n\tshowon=\"type:4\"\n\textends=\"list\"\n\ttype_php_1=\"__.o0=base64=Oo.__W0NVU1RPTUNPREU9Z2V0RmlsZUV4dGVuc2lvbnNPcHRpb25zK2ZpbGVd\"\n\/>",
+    "xml": "<field\n\ttype=\"allowedfileformats\"\n\tname=\"file_formats\"\n\tlabel=\"Allowed File Formats\"\n\tclass=\"list_class\"\n\tlayout=\"joomla.form.field.list-fancy-select\"\n\tmultiple=\"true\"\n\tshowon=\"type:4\"\n\textends=\"list\"\n\ttype_php_1=\"__.o0=base64=Oo.__W0NVU1RPTUNPREU9Z2V0RmlsZUV4dGVuc2lvbnNPcHRpb25zK2ZpbGVd\"\n\/>",
     "datalenght": "",
     "javascript_view_footer": "",
     "css_views": "",

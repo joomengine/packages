@@ -64,7 +64,9 @@ Whether you're building for:
  - **Item Import Queue** | [Details](src/dynamic_get/0ac7277b-8f9f-4119-b22b-26f8c22e988b) | [Settings](src/dynamic_get/0ac7277b-8f9f-4119-b22b-26f8c22e988b/item.json)
  - **Item Importer** | [Details](src/dynamic_get/ebfab0ae-d368-4d2a-807b-c9d2d0809a60) | [Settings](src/dynamic_get/ebfab0ae-d368-4d2a-807b-c9d2d0809a60/item.json)
  - **Looking** | [Details](src/dynamic_get/98e6ea56-0911-4d89-b1f4-8f0bb1e4aa5a) | [Settings](src/dynamic_get/98e6ea56-0911-4d89-b1f4-8f0bb1e4aa5a/item.json)
+ - **Looking (demo-J6)** | [Details](src/dynamic_get/9e74033f-f49e-486f-9879-779fa3bd2417) | [Settings](src/dynamic_get/9e74033f-f49e-486f-9879-779fa3bd2417/item.json)
  - **Looks** | [Details](src/dynamic_get/32b3ae7d-8aa8-47f1-ab2e-30076ddaa029) | [Settings](src/dynamic_get/32b3ae7d-8aa8-47f1-ab2e-30076ddaa029/item.json)
+ - **Looks (demo-J6)** | [Details](src/dynamic_get/bf0c72e1-f608-4d15-be16-572453fd0076) | [Settings](src/dynamic_get/bf0c72e1-f608-4d15-be16-572453fd0076/item.json)
  - **getRecipes** | [Details](src/dynamic_get/3929bcde-8477-4b7f-a652-a7285ecbe6cb) | [Settings](src/dynamic_get/3929bcde-8477-4b7f-a652-a7285ecbe6cb/item.json)
 
 ### All used in [Joomla Component Builder](https://www.joomlacomponentbuilder.com) - [Source](https://git.vdm.dev/joomla/Component-Builder) - [Mirror](https://github.com/vdm-io/Joomla-Component-Builder) - [Download](https://git.vdm.dev/joomla/pkg-component-builder/releases)

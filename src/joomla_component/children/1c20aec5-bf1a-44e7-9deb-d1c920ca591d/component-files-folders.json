@@ -43,6 +43,14 @@
             "entity": "file",
             "table": "file_system",
             "target": "custom"
+        },
+        {
+            "key": "041b37f1-14b8-5a17-a0e9-b0d72dc200bd.zip",
+            "pointer": "041b37f1-14b8-5a17-a0e9-b0d72dc200bd--zip",
+            "value": "vendor",
+            "entity": "folder",
+            "table": "file_system",
+            "target": "full"
         }
     ]
 }

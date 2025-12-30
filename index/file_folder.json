@@ -273,5 +273,10 @@
         "name": "vendor",
         "path": "src\/file_folder\/041b37f1-14b8-5a17-a0e9-b0d72dc200bd.zip",
         "guid": "041b37f1-14b8-5a17-a0e9-b0d72dc200bd.zip"
+    },
+    "422f4f9a-ef9b-51c9-924b-84994fede0e4.txt": {
+        "name": "default.txt",
+        "path": "src\/file_folder\/422f4f9a-ef9b-51c9-924b-84994fede0e4.txt",
+        "guid": "422f4f9a-ef9b-51c9-924b-84994fede0e4.txt"
     }
 }

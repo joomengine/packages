@@ -1,10 +1,10 @@
 ### JCB! Joomla Plugin
-# Component Commands (v1.0.0)
+# Component:item:import Commands (v2.0.0)
 ## [[[ComponentNamespace]]]Commands
 
 Register [[[ComponentNamespace]]] Commands
 
-@since 4.0.0
+@since 5.1.4
 
 ### Plugin Settings
 | Setting                 | Value         |
@@ -16,11 +16,14 @@ Register [[[ComponentNamespace]]] Commands
 ```php
 ###POWER_AUTOLOADER###
 
-use Joomla\Application\ApplicationEvents;
+use Joomla\CMS\Factory;
 use Joomla\CMS\Plugin\CMSPlugin;
 use Joomla\Event\SubscriberInterface;
-use Joomla\CMS\Factory;
+use Joomla\Application\ApplicationEvents;
+use Joomla\CMS\Console\Application as ConsoleApplication;
 use Joomla\CMS\Console\Loader\WritableLoaderInterface;
+use Joomla\Event\Event;
+use Joomla\DI\Container;
 ```
 
 ## Properties & Methods:
@@ -35,33 +38,83 @@ use Joomla\CMS\Console\Loader\WritableLoaderInterface;
 	{
 		// Return an array of event names and corresponding callback methods
 		return [
-			ApplicationEvents::BEFORE_EXECUTE => 'onBeforeExecute',
+			ApplicationEvents::BEFORE_EXECUTE => 'registerCommands',
 		];
 	}
 
 	/**
-	 * Registers the CLI command.
+	 * Registers CLI commands with the application container.
 	 *
-	 * @return void
-	 * @since 4.0.0
+	 * This method is called just before the console application executes,
+	 * giving us access to the container for command registration.
+	 *
+	 * @param   Event  $event  The application event
+	 *
+	 * @return  void
+	 * @since   5.1.4
 	 */
-	public function onBeforeExecute(): void
+	public function registerCommands(Event $event): void
 	{
-		// Register the command in the DI container
+		// Get the DI container from the application
+		$container = $this->getContainer($event);
+
+		if ($container === null)
+		{
+			return;
+		}
+
+		// Register your commands here
+		$this->registerPluginCommands($container);
+	}
+
+	/**
+	 * Gets the DI container from the console application.
+	 *
+	 * @param   Event  $event  The application event
+	 *
+	 * @return  Container|null  The DI container or null if not available
+	 * @since   5.1.4
+	 */
+	protected function getContainer(Event $event): ?Container
+	{
+		// Get the application from the event
+		$app = $event->getApplication() ?? null;
+
+		// Ensure we're running in a console context
+		if ($app instanceof ConsoleApplication && method_exists($app, 'getContainer'))
+		{
+			return $app->getContainer();
+		}
+
+		return Factory::getContainer() ?? null;
+	}
+
+	/**
+	 * Registers the plugin's CLI commands.
+	 *
+	 * Override or modify this method to register your specific commands.
+	 *
+	 * @param   ContainerInterface		   $container  The DI container
+	 *
+	 * @return  void
+	 * @since   5.1.4
+	 */
+	protected function registerPluginCommands(Container $container): void
+	{
 		$serviceId = '[[[component]]].importcommand';
 
-		Factory::getContainer()->share(
+		// Register command service
+		$container->share(
 			$serviceId,
-			function (\Psr\Container\ContainerInterface $container) {
+			static function (Container $container) {
 				return new Super___647316a5_eb42_4bec_82dd_ca0dc2861ad3___Power();
 			},
 			true
 		);
 
-		// Add the command to the Joomla CLI loader
-		Factory::getContainer()
+		$container
 			->get(WritableLoaderInterface::class)
-			->add('[[[component]]]:Item:import', $serviceId);
+			->add('[[[component]]]:item:import', $serviceId);
 	}
 ```
 

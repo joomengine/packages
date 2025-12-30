@@ -1,0 +1,56 @@
+{
+    "name": "Looks (demo-J6)",
+    "main_source": 1,
+    "gettype": 2,
+    "php_calculation": "",
+    "php_router_parse": null,
+    "add_php_after_getitems": 1,
+    "add_php_router_parse": 0,
+    "view_selection": "a.*",
+    "add_php_before_getitems": 0,
+    "add_php_before_getitem": 0,
+    "add_php_after_getitem": 0,
+    "db_table_main": null,
+    "php_custom_get": null,
+    "plugin_events": null,
+    "db_selection": null,
+    "view_table_main": "93a34bf3-aa25-4a14-8496-ae7d0340e0b9",
+    "add_php_getlistquery": 0,
+    "join_db_table": null,
+    "select_all": 1,
+    "php_before_getitem": "",
+    "getcustom": "",
+    "php_after_getitem": "",
+    "pagination": 1,
+    "php_getlistquery": "",
+    "php_before_getitems": "",
+    "filter": null,
+    "php_after_getitems": "\t\t\/\/ do a quick build of all edit links links\r\n\t\tif (isset($items) && $items)\r\n\t\t{\r\n\t\t\tforeach ($items as $nr => &$item)\r\n\t\t\t{\r\n\t\t\t\t$canDo = [[[Component]]]Helper::getActions('look',$item,'looks');\r\n\t\t\t\tif ($canDo->get('look.edit'))\r\n\t\t\t\t{\r\n\t\t\t\t\t$item->editLink = '<br \/><br \/><a class=\"uk-button uk-button-primary uk-width-1-1\" href=\"';\r\n\t\t\t\t\t$item->editLink .= Joomla___d4c76099_4c32_408a_8701_d0a724484dfd___Power::_('index.php?option=com_[[[component]]]&view=look&task=look.edit&id=' . $item->id);\r\n\t\t\t\t\t$item->editLink .= '\"><i class=\"uk-icon-pencil\"><\/i><span class=\"uk-hidden-small\">';\r\n\t\t\t\t\t$item->editLink .= Text::_('Edit Look');\r\n\t\t\t\t\t$item->editLink .= '<\/span><\/a>';\r\n\t\t\t\t}\r\n\t\t\t\telse\r\n\t\t\t\t{\r\n\t\t\t\t\t$item->editLink = '';\r\n\t\t\t\t}\r\n\t\t\t}\r\n\t\t}",
+    "where": {
+        "where0": {
+            "table_key": "a.published",
+            "operator": 1,
+            "value_key": "1"
+        }
+    },
+    "order": {
+        "order0": {
+            "table_key": "a.name",
+            "direction": "ASC"
+        }
+    },
+    "addcalculation": 0,
+    "group": null,
+    "global": null,
+    "guid": "bf0c72e1-f608-4d15-be16-572453fd0076",
+    "join_view_table": null,
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "93a34bf3-aa25-4a14-8496-ae7d0340e0b9",
+            "entity": "admin_view",
+            "table": "#__componentbuilder_admin_view",
+            "direction": "out"
+        }
+    ]
+}

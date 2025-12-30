@@ -1,5 +1,5 @@
 {
-    "name": "Entity Type",
+    "name": "Entity Type (demo)",
     "fieldtype": "a51dfc06-1b9b-4d0a-86ba-f705bcd40d4d",
     "datatype": "VARCHAR",
     "indexes": "2",
@@ -8,7 +8,7 @@
     "on_get_model_field": "",
     "on_save_model_field": "",
     "initiator_on_get_model": "",
-    "xml": "<field\n\ttype=\"list\"\n\tname=\"entity_type\"\n\tlabel=\"Entity Type\"\n\tdescription=\"The entity type the [[[view]]] belongs to.\"\n\tmessage=\"Error! Please select some entity type here.\"\n\trequired=\"true\"\n\toption=\"|Select an option,member|Member\"\n\/>",
+    "xml": "<field\n\ttype=\"list\"\n\tname=\"entity_type\"\n\tlabel=\"Entity Type\"\n\tdescription=\"The entity type the [[[view]]] belongs to.\"\n\tmessage=\"Error! Please select some entity type here.\"\n\trequired=\"true\"\n\toption=\"|Select an option,look|Look,importer|Importer\"\n\/>",
     "datalenght": "255",
     "javascript_view_footer": "",
     "css_views": "",

@@ -2,7 +2,7 @@
     "joomla_component": "1c20aec5-bf1a-44e7-9deb-d1c920ca591d",
     "addsite_views": {
         "addsite_views0": {
-            "siteview": "b2dce59e-e3b8-4467-bcb5-8f2df4bdfeb7",
+            "siteview": "6a2d74e5-5bc6-497e-a075-70f084174eec",
             "menu": "1",
             "metadata": "1",
             "default_view": "1",
@@ -10,7 +10,7 @@
             "public_access": "1"
         },
         "addsite_views1": {
-            "siteview": "851ed44e-5431-4951-876f-4b62a4c56ad2",
+            "siteview": "b302faa4-7476-4b1f-bcce-0b9b3f2a8be1",
             "metadata": "1",
             "access": "1",
             "public_access": "1"
@@ -26,14 +26,14 @@
         },
         {
             "key": "guid",
-            "value": "b2dce59e-e3b8-4467-bcb5-8f2df4bdfeb7",
+            "value": "6a2d74e5-5bc6-497e-a075-70f084174eec",
             "entity": "site_view",
             "table": "#__componentbuilder_site_view",
             "direction": "out"
         },
         {
             "key": "guid",
-            "value": "851ed44e-5431-4951-876f-4b62a4c56ad2",
+            "value": "b302faa4-7476-4b1f-bcce-0b9b3f2a8be1",
             "entity": "site_view",
             "table": "#__componentbuilder_site_view",
             "direction": "out"

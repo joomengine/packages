@@ -3,54 +3,138 @@
 
 ## Key:
 ```php
-echo LayoutHelper::render('ehealthportalfiledisplay', [?]);
+echo LayoutHelper::render('demolookfiledisplay', [?]);
 ```
 
 ## PHP:
 ```php
-$images = [];
+// Initialize
+$data   = $displayData['data'] ?? [];
+$removeDelete = $displayData['remove_delete'] ?? false;
+
+// Group images by base key (icon__, thumb__, main__)
+$bucket = [];
+$files =  [];
+foreach ($data as $file)
+{
+	$key  = str_replace(['icon__', 'thumb__', 'main__'], '', $file->name);
+	$type = str_starts_with($file->name, 'icon__')
+		? 'icon'
+		: (str_starts_with($file->name, 'thumb__')
+			? 'thumb'
+			: (str_starts_with($file->name, 'main__') ? 'main' : null));
+
+	if ($type !== null) { $bucket[$key][$type] = $file; } else { $files[] = $file; }
+}
+
+// Extract grouped images for display
+$images = !empty($bucket) ? array_values($bucket) : [];
 ```
 
 ## HTML:
 ```html
-<?php if (!empty($displayData) && !empty($displayData['data'])): ?>
-	<ul class="uk-list uk-list-divider">
-		<?php foreach ($displayData['data'] as $file): ?>
-		<?php if ($file->task == 'image'): ?>
-		<?php $images[] =  $file; ?>
-		<?php else: ?>
-		<li>
-		<?php if (isset($displayData['remove_delete'])) : ?>
-			<a class="uk-button uk-button-default uk-width-1-1" href="<?php echo $file->link; ?>" download>(<?php echo $file->type_name; ?>) <?php echo $file->name; ?></a>
-		<?php else: ?>
-			<div id="<?php echo $file->guid; ?>" class="uk-button-group uk-width-1-1 uk-margin-small-bottom">
-				<a class="uk-button uk-button-default uk-width-3-4" href="<?php echo $file->link; ?>" download>(<?php echo $file->type_name; ?>) <?php echo $file->name; ?></a>
-				<button type="button" class="uk-button uk-button-danger uk-width-1-4" uk-icon="trash" onclick="VDMDeleteFile('file_vdm_uploader', '<?php echo $file->guid; ?>');"></button>
-			</div>
-		<?php endif; ?>
-		</li>
-		<?php endif; ?>
-		<?php endforeach; ?>
-	</ul>
-	<?php if ($images !== []): ?>
-		<ul class="uk-list uk-list-divider">
-			<?php foreach ($images as $file): ?>
-			<li>
-			<div class="uk-height-medium uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light" data-src="<?php echo $file->link; ?>" uk-img>
-			<h1><?php echo $file->type_name; ?></h1>
-			</div>
-			<?php if (isset($displayData['remove_delete'])) : ?>
-				<a class="uk-button uk-button-default uk-width-1-1" href="<?php echo $file->link; ?>" download>(<?php echo $file->type_name; ?>) <?php echo $file->name; ?></a>
-			<?php else: ?>
-				<div id="<?php echo $file->guid; ?>" class="uk-button-group uk-width-1-1 uk-margin-small-bottom">
-					<a class="uk-button uk-button-default uk-width-3-4" href="<?php echo $file->link; ?>" download>(<?php echo $file->type_name; ?>) <?php echo $file->name; ?></a>
-					<button type="button" class="uk-button uk-button-danger uk-width-1-4" uk-icon="trash" onclick="VDMDeleteFile('file_vdm_uploader', '<?php echo $file->guid; ?>');"></button>
-				</div>
-			<?php endif; ?>
-			</li>
-			<?php endforeach; ?>
-		</ul>
+<?php if (!empty($data)) : ?>
+<?php if (!empty($files)) : ?>
+<ul class="uk-list uk-list-divider">
+<?php foreach ($files as $file) : ?>
+	<li>
+	<?php if ($removeDelete) : ?>
+	<a class="uk-button uk-button-default uk-width-1-1" href="<?php echo $file->link; ?>" download>
+		(<?php echo $file->type_name; ?>)
+		<?php echo $file->name; ?>
+	</a>
+	<?php else : ?>
+	<div id="<?php echo $file->guid; ?>"
+		 class="uk-button-group uk-width-1-1 uk-margin-small-bottom">
+		<a class="uk-button uk-button-default uk-width-3-4"
+		   href="<?php echo $file->link; ?>" download>
+			(<?php echo $file->type_name; ?>)
+			<?php echo $file->name; ?>
+		</a>
+		<button type="button"
+				class="uk-button uk-button-danger uk-width-1-4"
+				uk-icon="trash"
+				onclick="VDMDeleteFile('file_vdm_uploader', '<?php echo $file->guid; ?>');">
+		</button>
+	</div>
 	<?php endif; ?>
+	</li>
+<?php endforeach; ?>
+</ul>
+<?php endif; ?>
+<?php if (!empty($images)) : ?>
+<div class="uk-margin">
+	<div class="uk-slider-container-offset" uk-slider>
+		<div class="uk-position-relative uk-visible-toggle">
+			<div class="uk-slider-items uk-child-width-1-4@s" uk-grid uk-lightbox="animation: slide">
+			<?php foreach ($images as $fileSet) : ?>
+			<?php
+				$name       = $fileSet['main']->name ?? 'unknown';
+				$mainGuid   = $fileSet['main']->guid ?? null;
+				$thumbGuid  = $fileSet['thumb']->guid ?? null;
+				$iconGuid   = $fileSet['icon']->guid ?? null;
+				$mainLink   = $fileSet['main']->link ?? null;
+				$thumbLink  = $fileSet['thumb']->link ?? null;
+				$iconLink   = $fileSet['icon']->link ?? null;
+				$mediaLink  = $mainLink ?? $thumbLink ?? $iconLink;
+				$deleteList = array_filter([$mainGuid, $thumbGuid, $iconGuid]);
+				$buttonSize = count($deleteList);
+			?>
+			<div id="<?php echo $mainGuid ?? uniqid('img_'); ?>">
+				<div class="uk-card uk-card-body uk-box-shadow-small uk-box-shadow-hover-large">
+					<div class="uk-card-media-top">
+						<a class="uk-inline"
+						   href="<?php echo $mainLink ?? $mediaLink; ?>"
+						   data-caption="<?php echo $name; ?>">
+							<img src="<?php echo $mediaLink; ?>"
+								 width="600"
+								 height="600"
+								 alt="<?php echo $name; ?>">
+						</a>
+					</div>
+
+					<div class="uk-card-body uk-padding-remove">
+						<div class="uk-margin">
+							<div class="uk-button-group uk-width-1-1">
+							<?php if ($mainLink) : ?>
+								<a class="uk-button uk-button-primary uk-button-small uk-width-1-<?php echo $buttonSize; ?>"
+								   href="<?php echo $mainLink; ?>" download>
+									<?php echo Text::_('Large'); ?>
+								</a>
+							<?php endif; ?>
+
+							<?php if ($thumbLink) : ?>
+								<a class="uk-button uk-button-primary uk-button-small uk-width-1-<?php echo $buttonSize; ?>"
+								   href="<?php echo $thumbLink; ?>" download>
+									<?php echo Text::_('Thumb'); ?>
+								</a>
+							<?php endif; ?>
+
+							<?php if ($iconLink) : ?>
+								<a class="uk-button uk-button-primary uk-button-small uk-width-1-<?php echo $buttonSize; ?>"
+								   href="<?php echo $iconLink; ?>" download>
+									<?php echo Text::_('Icon'); ?>
+								</a>
+							<?php endif; ?>
+							</div>
+						</div>
+					</div>
+
+					<div class="uk-card-footer">
+						<button class="uk-button uk-button-danger uk-width-1-1"
+							type="button" uk-icon="trash"
+							onclick="VDMDeleteFiles('file_vdm_uploader', <?php echo $this->escape(json_encode($deleteList)); ?>);">
+						</button>
+					</div>
+				</div>
+			</div>
+			<?php endforeach; ?>
+			</div>
+		</div>
+		<ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
+	</div>
+</div>
+<?php endif; ?>
 <?php endif; ?>
 ```
 

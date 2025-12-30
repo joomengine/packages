@@ -9,9 +9,9 @@
 ### Code
 ```php
 ## Contributors
-This project exists thanks to all the people who contribute to the [Joomla Component Builder Project](https://github.com/vdm-io/Joomla-Component-Builder).
+This project exists thanks to all the people who contribute to the [Joomla Component Builder Project](https://github.com/joomengine/Joomla-Component-Builder).
 
-[![Contributors](https://opencollective.com/Joomla-Component-Builder/contributors.svg?width=890&button=false)](https://github.com/vdm-io/Joomla-Component-Builder/graphs/contributors)
+[![Contributors](https://opencollective.com/Joomla-Component-Builder/contributors.svg?width=890&button=false)](https://github.com/joomengine/Joomla-Component-Builder/graphs/contributors)
 
 ### Backers
 Thank you to all our backers! 🙏 [[Become a backer](https://opencollective.com/Joomla-Component-Builder#backer)]

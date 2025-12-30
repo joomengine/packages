@@ -16,5 +16,11 @@
         "path": "src\/joomla_plugin_group\/6ada52b0-ef05-455b-9cd7-de0d4f3aff73",
         "settings": "src\/joomla_plugin_group\/6ada52b0-ef05-455b-9cd7-de0d4f3aff73\/item.json",
         "guid": "6ada52b0-ef05-455b-9cd7-de0d4f3aff73"
+    },
+    "63638841-11b1-45ef-b42b-475d0f1635c1": {
+        "name": "console",
+        "path": "src\/joomla_plugin_group\/63638841-11b1-45ef-b42b-475d0f1635c1",
+        "settings": "src\/joomla_plugin_group\/63638841-11b1-45ef-b42b-475d0f1635c1\/item.json",
+        "guid": "63638841-11b1-45ef-b42b-475d0f1635c1"
     }
 }

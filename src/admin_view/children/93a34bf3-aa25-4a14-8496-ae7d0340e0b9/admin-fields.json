@@ -46,7 +46,7 @@
             "order_edit": "2"
         },
         "4": {
-            "field": "9ef6e0ca-7d3e-40e6-b8ea-ff43224573f8",
+            "field": "71e5f1b0-7c81-4fbb-8a05-e3949212f2ed",
             "list": "2",
             "order_list": "0",
             "filter": "",
@@ -139,7 +139,7 @@
         },
         {
             "key": "guid",
-            "value": "9ef6e0ca-7d3e-40e6-b8ea-ff43224573f8",
+            "value": "71e5f1b0-7c81-4fbb-8a05-e3949212f2ed",
             "entity": "field",
             "table": "#__componentbuilder_field",
             "direction": "out"

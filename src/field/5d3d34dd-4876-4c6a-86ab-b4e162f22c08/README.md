@@ -1,5 +1,5 @@
 ### JCB! Field
-# Name (required)
+# Name (Key - Required)
 
 > Field Type: Text
 
@@ -13,6 +13,8 @@
 	maxlength="150"
 	description="Enter Name Here"
 	class="text_area"
+	readonly="false"
+	disabled="false"
 	required="true"
 	filter="STRING"
 	message="Error! Please add name here."
@@ -24,7 +26,7 @@
 - Data type: VARCHAR
 - Data length: 255
 - Data default: 
-- Null switch: NOT NULL
+- Null switch: NULL
 - Index: KEY
 - Modeling: Default
 

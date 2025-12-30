@@ -10,7 +10,7 @@ $this->loadTemplate('importerarea', [?]);
 ```php
 if (!empty($this->item->file_type))
 {
-$target = base64_encode('[[[sview]]]');
+		$target = base64_encode('[[[sview]]]');
 [CUSTOMCODE=vdmUploaderConfig+vdm-uikit-uploader,file_vdm_uploader,getFileTypeDetails,uploadFile,displayImportColumns,deleteFile]
 [CUSTOMCODE=addUikitThreeToAdminViews]
 }

@@ -1,0 +1,20 @@
+{
+    "name": "DataTable",
+    "target": 1,
+    "how": 1,
+    "type": 1,
+    "description": "",
+    "libraries": null,
+    "php_setdocument": "",
+    "addconditions": null,
+    "guid": "4c3e3dce-0845-46cb-9e4a-494f75dc7dd8",
+    "@dependencies": [
+        {
+            "key": "library",
+            "value": "4c3e3dce-0845-46cb-9e4a-494f75dc7dd8",
+            "entity": "library_files_folders_urls",
+            "table": "#__componentbuilder_library_files_folders_urls",
+            "direction": "in"
+        }
+    ]
+}

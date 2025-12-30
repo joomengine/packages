@@ -46,5 +46,17 @@
         "path": "src\/dynamic_get\/3929bcde-8477-4b7f-a652-a7285ecbe6cb",
         "settings": "src\/dynamic_get\/3929bcde-8477-4b7f-a652-a7285ecbe6cb\/item.json",
         "guid": "3929bcde-8477-4b7f-a652-a7285ecbe6cb"
+    },
+    "9e74033f-f49e-486f-9879-779fa3bd2417": {
+        "name": "Looking (demo-J6)",
+        "path": "src\/dynamic_get\/9e74033f-f49e-486f-9879-779fa3bd2417",
+        "settings": "src\/dynamic_get\/9e74033f-f49e-486f-9879-779fa3bd2417\/item.json",
+        "guid": "9e74033f-f49e-486f-9879-779fa3bd2417"
+    },
+    "bf0c72e1-f608-4d15-be16-572453fd0076": {
+        "name": "Looks (demo-J6)",
+        "path": "src\/dynamic_get\/bf0c72e1-f608-4d15-be16-572453fd0076",
+        "settings": "src\/dynamic_get\/bf0c72e1-f608-4d15-be16-572453fd0076\/item.json",
+        "guid": "bf0c72e1-f608-4d15-be16-572453fd0076"
     }
 }

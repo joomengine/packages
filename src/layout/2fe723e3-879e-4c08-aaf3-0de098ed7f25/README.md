@@ -47,10 +47,14 @@ elseif (is_numeric($items))
 {
 	$items_number = (int) $items;
 }
+
+$default_items_number = is_numeric($default_items_number) ? (float) $default_items_number : 0;
+$items_number = is_numeric($items_number) ? (float) $items_number : 0;
 $add_items = 0;
+
 if ($default_items_number > $items_number)
 {
-	$add_items = round($default_items_number - $items_number);
+	$add_items = (int) round($default_items_number - $items_number);
 }
 ```
 

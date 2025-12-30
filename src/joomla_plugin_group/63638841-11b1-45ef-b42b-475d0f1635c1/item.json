@@ -1,0 +1,14 @@
+{
+    "name": "console",
+    "class_extends": "ae2fafb4-e84b-4534-ba9c-6c9e1700b318",
+    "guid": "63638841-11b1-45ef-b42b-475d0f1635c1",
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "ae2fafb4-e84b-4534-ba9c-6c9e1700b318",
+            "entity": "class_extends",
+            "table": "#__componentbuilder_class_extends",
+            "direction": "out"
+        }
+    ]
+}

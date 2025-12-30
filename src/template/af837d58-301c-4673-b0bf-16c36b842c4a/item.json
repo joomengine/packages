@@ -1,9 +1,9 @@
 {
     "name": "Importer Area",
     "description": "Importer Area",
-    "dynamic_get": "ebfab0ae-d368-4d2a-807b-c9d2d0809a60",
+    "dynamic_get": "",
     "guid": "af837d58-301c-4673-b0bf-16c36b842c4a",
-    "php_view": "if (!empty($this->item->file_type))\r\n{\r\n$target = base64_encode('[[[sview]]]');\r\n[CUSTOMCODE=vdmUploaderConfig+vdm-uikit-uploader,file_vdm_uploader,getFileTypeDetails,uploadFile,displayImportColumns,deleteFile]\r\n[CUSTOMCODE=addUikitThreeToAdminViews]\r\n}",
+    "php_view": "if (!empty($this->item->file_type))\r\n{\r\n\t\t$target = base64_encode('[[[sview]]]');\r\n[CUSTOMCODE=vdmUploaderConfig+vdm-uikit-uploader,file_vdm_uploader,getFileTypeDetails,uploadFile,displayImportColumns,deleteFile]\r\n[CUSTOMCODE=addUikitThreeToAdminViews]\r\n}",
     "add_php_view": 1,
     "template": "<?php if (empty($this->item->file_type)): ?>\r\n<div class=\"alert alert-warning\" role=\"alert\">\r\n\t<?php echo Text::_('The import file type has not been configured. Please contact your system administrator for assistance.'); ?>\r\n<\/div>\r\n<?php else: ?>\r\n<select id=\"file_type\" name=\"file_type\" style=\"display: none;\">\r\n\t<option value=\"<?php echo $this->item->file_type; ?>\" selected><?php echo Text::_('Import Type'); ?><\/option>\r\n<\/select>\r\n<div id='file_vdm_uploader' class='vdm-uikit-uploader uk-placeholder uk-text-center'\r\n\tdata-type-id='file_type'\r\n\tdata-progressbar-id='file_vdm_progressbar'\r\n\tdata-display-id='file_vdm_display'\r\n\tdata-success-id='file_vdm_success'\r\n\tdata-error-id='file_vdm_error'\r\n\tdata-allowed-format-id='file_vdm_allowed_format'\r\n\tdata-file-type-id='file_vdm_file_type'\r\n>\r\n    <span uk-icon='icon: cloud-upload'><\/span>\r\n    <span class='uk-text-middle'><?php echo Text::_('Attach'); ?> <span id='file_vdm_file_type'>file<\/span> <?php echo Text::_('by dropping them here or'); ?><\/span>\r\n    <div uk-form-custom>\r\n\t   <input type='file'>\r\n\t   <span class='uk-link'><?php echo Text::_('selecting one'); ?><\/span> <span id='file_vdm_allowed_format'><\/span>\r\n    <\/div>\r\n<\/div>\r\n<progress id='file_vdm_progressbar' class='uk-progress' value='0' max='100' hidden><\/progress>\r\n<br>\r\n<div id='file_vdm_success' hidden><\/div>\r\n<div id='file_vdm_error' hidden><\/div>\r\n<div id='file_vdm_display' hidden><\/div>\r\n<script type=\"text\/javascript\">\r\ndocument.addEventListener('vdm.uikit.display.beforeFilesDisplay', function(event) {\r\n    let state = event.detail?.result?.state ?? 0;\r\n    if (state === 1 && window.VDM?.uikit?.config?.target_class) {\r\n        let targetClass = window.VDM.uikit.config.target_class;\r\n        let elements = document.getElementsByClassName(targetClass);\r\n\r\n        for (let i = 0; i < elements.length; i++) {\r\n            elements[i].style.display = 'none';\r\n        }\r\n    }\r\n});\r\ndocument.addEventListener('vdm.uikit.uploader.complete', function(event) {\r\n    let response = event.detail?.xhr?.responseText ?? null;\r\n    if (response) {\r\n        try {\r\n            \/\/ Parse the response JSON\r\n            response = JSON.parse(response);\r\n            \/\/ Check for the 'error' property in the response\r\n            if (response.error) {\r\n                \/\/ Show a Uikit notification for the error\r\n                window.UIkit.notification({\r\n                    message: response.error,  \/\/ Display the error message\r\n                    status: 'danger',          \/\/ Set the notification type to 'error'\r\n                    pos: 'top-center',         \/\/ Position of the notification\r\n                    timeout: 7000              \/\/ Display time in milliseconds\r\n                });\r\n            }\r\n        } catch (e) {\r\n            console.error('Error parsing JSON response:', e);\r\n        }\r\n    }\r\n});\r\ndocument.addEventListener('vdm.uikit.delete.beforeFileRemoveFromUI', function(event) {\r\n    if (window.VDM?.uikit?.config?.target_class) {\r\n        let targetClass = window.VDM.uikit.config.target_class;\r\n        let elements = document.getElementsByClassName(targetClass);\r\n        for (let i = 0; i < elements.length; i++) {\r\n            elements[i].style.display = '';\r\n        }\r\n        let subformArea = document.getElementById('subform-display-area');\r\n        if (subformArea) {\r\n            subformArea.style.display = 'none';\r\n        }\r\n    }\r\n});\r\n<\/script>\r\n<?php endif; ?>",
     "snippet": "0",
@@ -14,9 +14,9 @@
     "@dependencies": [
         {
             "key": "guid",
-            "value": "ebfab0ae-d368-4d2a-807b-c9d2d0809a60",
-            "entity": "dynamic_get",
-            "table": "#__componentbuilder_dynamic_get",
+            "value": "5eeee148-cebd-4a92-bc0e-56efea3cffdc",
+            "entity": "library",
+            "table": "#__componentbuilder_library",
             "direction": "out"
         },
         {

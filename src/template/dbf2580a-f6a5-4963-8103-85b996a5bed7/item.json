@@ -1,7 +1,7 @@
 {
     "name": "Importer Queue",
     "description": "Importer Queue",
-    "dynamic_get": "0ac7277b-8f9f-4119-b22b-26f8c22e988b",
+    "dynamic_get": "",
     "guid": "dbf2580a-f6a5-4963-8103-85b996a5bed7",
     "php_view": "function reorderObjectKeysByMap(&$arrayOfObjects, $headers)\r\n{\r\n\t$headerKeys = array_keys($headers); \/\/ Get the desired key order from the headers\r\n\tforeach ($arrayOfObjects as &$object)\r\n\t{\r\n\t\t$array = (array) $object; \/\/ Convert object to associative array\r\n\t\t\/\/ Create a new array with keys ordered according to the headers\r\n\t\t$reorderedArray = [];\r\n\t\tforeach ($headerKeys as $key)\r\n\t\t{\r\n\t\t\t\/\/ Add the key in the defined order, even if it doesn't exist in the object\r\n\t\t\t$reorderedArray[$key] = isset($array[$key]) ? $array[$key] : null;\r\n\t\t}\r\n\t\t\/\/ Convert the reordered array back to an object\r\n\t\t$object = (object) $reorderedArray;\r\n\t}\r\n}\r\n\r\nif ($this->queue)\r\n{\r\n\t$table_id = Super___1f28cb53_60d9_4db1_b517_3c7dc6b429ef___Power::random(7);\r\n\t$headers = [\r\n\t\t'guid' => '',\r\n\t\t'target' => '',\r\n\t\t'number' => '',\r\n\t\t'file_name' => Text::_('File Name'),\r\n\t\t'import_status' => Text::_('Status'),\r\n\t\t'created' => Text::_('Date')\r\n\t];\r\n\t\/\/ Reorder the keys of each object according to the map\r\n\treorderObjectKeysByMap($this->queue, $headers);\r\n}\r\n\r\n\/\/ Create the message endpoint\r\n$url = '';\r\nif ($this->app->isClient('site'))\r\n{\r\n\t$url = Joomla___eecc143e_b5cf_4c33_ba4d_97da1df61422___Power::root();\r\n}\r\n$token = Joomla___5ba38513_5c4f_4b0d_935e_49e986a6bce8___Power::getFormToken();\r\n$messageEndpoint = \"{$url}index.php?option=com_[[[component]]]&task=ajax.getMessages&format=json&raw=true&{$token}=1\";\r\n\r\n\/\/ create the modal details for messages\r\n$message_id = 'message-modal-' . Super___1f28cb53_60d9_4db1_b517_3c7dc6b429ef___Power::random(7);\r\n$message_header = Text::_('Import Message Log(s)');\r\n$message_content = '<div id=\"' . $message_id . '-area\">...<\/div>';",
     "add_php_view": 1,
@@ -15,9 +15,16 @@
     "@dependencies": [
         {
             "key": "guid",
-            "value": "0ac7277b-8f9f-4119-b22b-26f8c22e988b",
-            "entity": "dynamic_get",
-            "table": "#__componentbuilder_dynamic_get",
+            "value": "4c3e3dce-0845-46cb-9e4a-494f75dc7dd8",
+            "entity": "library",
+            "table": "#__componentbuilder_library",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "5eeee148-cebd-4a92-bc0e-56efea3cffdc",
+            "entity": "library",
+            "table": "#__componentbuilder_library",
             "direction": "out"
         },
         {

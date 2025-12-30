@@ -20,7 +20,7 @@
         },
         "addadmin_views1": {
             "adminview": "595ba2c9-21fa-43a4-9af7-93c9cfb21b82",
-            "icomoon": "plus",
+            "icomoon": "address",
             "mainmenu": "1",
             "dashboard_list": "1",
             "submenu": "1",
@@ -33,7 +33,7 @@
             "edit_create_site_view": "",
             "order": "2"
         },
-        "addadmin_views13": {
+        "addadmin_views2": {
             "adminview": "b7b2aba5-8a94-443b-814b-aed5b0b7c550",
             "icomoon": "location",
             "mainmenu": "1",
@@ -46,7 +46,7 @@
             "edit_create_site_view": "",
             "order": "3"
         },
-        "addadmin_views2": {
+        "addadmin_views3": {
             "adminview": "9eefa86b-6294-4512-8d62-979abf16c00d",
             "icomoon": "shield",
             "mainmenu": "1",
@@ -61,7 +61,7 @@
             "edit_create_site_view": "",
             "order": "4"
         },
-        "addadmin_views3": {
+        "addadmin_views4": {
             "adminview": "2e451812-45af-4015-aa0c-f5912702c9af",
             "icomoon": "pie",
             "mainmenu": "1",
@@ -76,7 +76,7 @@
             "edit_create_site_view": "",
             "order": "5"
         },
-        "addadmin_views4": {
+        "addadmin_views5": {
             "adminview": "6acc4069-1c33-4470-85a6-07bc9bb16d10",
             "icomoon": "camera",
             "mainmenu": "1",
@@ -91,7 +91,7 @@
             "edit_create_site_view": "",
             "order": "6"
         },
-        "addadmin_views5": {
+        "addadmin_views6": {
             "adminview": "6c6345a1-e3e4-4840-8918-831034e95b19",
             "icomoon": "flag",
             "mainmenu": "1",
@@ -106,9 +106,9 @@
             "edit_create_site_view": "",
             "order": "7"
         },
-        "addadmin_views6": {
+        "addadmin_views7": {
             "adminview": "3dbb581b-619a-4fb0-a6f6-e4a136ea31e2",
-            "icomoon": "cart",
+            "icomoon": "home",
             "mainmenu": "1",
             "dashboard_list": "1",
             "submenu": "1",
@@ -121,7 +121,7 @@
             "edit_create_site_view": "",
             "order": "8"
         },
-        "addadmin_views7": {
+        "addadmin_views8": {
             "adminview": "224eb9c7-8b40-48cf-bf77-2afa291fd54a",
             "icomoon": "file",
             "mainmenu": "1",
@@ -136,7 +136,7 @@
             "edit_create_site_view": "",
             "order": "9"
         },
-        "addadmin_views8": {
+        "addadmin_views9": {
             "adminview": "75061367-79c2-4d5b-a75d-eca6d33507df",
             "icomoon": "clock",
             "mainmenu": "1",
@@ -150,7 +150,7 @@
             "edit_create_site_view": "",
             "order": "10"
         },
-        "addadmin_views14": {
+        "addadmin_views10": {
             "adminview": "5992077e-15a5-4ea9-b882-e6e0e1b723ae",
             "icomoon": "compass",
             "mainmenu": "1",
@@ -162,9 +162,9 @@
             "edit_create_site_view": "",
             "order": "11"
         },
-        "addadmin_views9": {
+        "addadmin_views11": {
             "adminview": "19a973ea-cdfa-4c79-bbbd-1b8a37286b27",
-            "icomoon": "file-check",
+            "icomoon": "cart",
             "mainmenu": "1",
             "submenu": "1",
             "checkin": "1",
@@ -176,7 +176,7 @@
             "edit_create_site_view": "",
             "order": "12"
         },
-        "addadmin_views10": {
+        "addadmin_views12": {
             "adminview": "60b7b30d-9229-4ce2-b055-9efbb7ac4cea",
             "icomoon": "users",
             "mainmenu": "1",
@@ -189,7 +189,7 @@
             "edit_create_site_view": "",
             "order": "13"
         },
-        "addadmin_views11": {
+        "addadmin_views13": {
             "adminview": "a9f19a16-fadb-44ea-a9b6-41130aad05ec",
             "icomoon": "upload",
             "mainmenu": "1",
@@ -202,7 +202,7 @@
             "edit_create_site_view": "",
             "order": "14"
         },
-        "addadmin_views12": {
+        "addadmin_views14": {
             "adminview": "ab2bbdfc-c0a0-4ffc-9556-67d5af8bec64",
             "icomoon": "envelope",
             "submenu": "1",

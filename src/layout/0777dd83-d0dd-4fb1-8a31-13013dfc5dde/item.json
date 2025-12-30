@@ -1,21 +1,12 @@
 {
     "name": "Importer Messages Log",
     "description": "Importer Messages Log",
-    "dynamic_get": "c3542e52-cba1-42de-9ffa-0919c0082285",
+    "dynamic_get": "",
     "snippet": "0",
     "guid": "0777dd83-d0dd-4fb1-8a31-13013dfc5dde",
     "php_view": "",
     "add_php_view": 0,
     "layout": "<?php foreach ($displayData as $item): ?>\r\n\t<?php if ($item->message_status == 1): ?>\r\n\t\t<div class=\"uk-alert-success\" uk-alert>\r\n\t\t\t<?php echo $item->message; ?>\r\n\t\t<\/div>\r\n\t<?php elseif ($item->message_status == 3): ?>\r\n\t\t<div class=\"uk-alert-danger\" uk-alert>\r\n\t\t\t<?php echo $item->message; ?>\r\n\t\t<\/div>\r\n\t<?php else: ?>\r\n\t\t<div class=\"uk-alert-primary\" uk-alert>\r\n\t\t\t<?php echo $item->message; ?>\r\n\t\t<\/div>\r\n\t<?php endif; ?>\r\n<?php endforeach; ?>",
     "libraries": null,
-    "alias": "importermessagelog",
-    "@dependencies": [
-        {
-            "key": "guid",
-            "value": "c3542e52-cba1-42de-9ffa-0919c0082285",
-            "entity": "dynamic_get",
-            "table": "#__componentbuilder_dynamic_get",
-            "direction": "out"
-        }
-    ]
+    "alias": "importermessagelog"
 }

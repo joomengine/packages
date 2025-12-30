@@ -1,0 +1,70 @@
+{
+    "name": "Looking (demo-J6)",
+    "main_source": 1,
+    "gettype": 1,
+    "php_calculation": "",
+    "php_router_parse": null,
+    "add_php_after_getitems": 0,
+    "add_php_router_parse": 0,
+    "view_selection": "a.*",
+    "add_php_before_getitems": 0,
+    "add_php_before_getitem": 0,
+    "add_php_after_getitem": 0,
+    "db_table_main": null,
+    "php_custom_get": null,
+    "plugin_events": null,
+    "db_selection": null,
+    "view_table_main": "93a34bf3-aa25-4a14-8496-ae7d0340e0b9",
+    "add_php_getlistquery": 0,
+    "join_db_table": null,
+    "select_all": 1,
+    "php_before_getitem": "",
+    "getcustom": "",
+    "php_after_getitem": "",
+    "pagination": 1,
+    "php_getlistquery": "",
+    "php_before_getitems": "",
+    "filter": {
+        "filter0": {
+            "filter_type": 1,
+            "state_key": "id",
+            "operator": 1,
+            "table_key": "a.id"
+        }
+    },
+    "php_after_getitems": "",
+    "where": null,
+    "order": null,
+    "addcalculation": 0,
+    "group": null,
+    "global": null,
+    "guid": "9e74033f-f49e-486f-9879-779fa3bd2417",
+    "join_view_table": {
+        "join_view_table0": {
+            "view_table": "595ba2c9-21fa-43a4-9af7-93c9cfb21b82",
+            "row_type": 2,
+            "as": "d",
+            "type": 1,
+            "on_field": "a.guid",
+            "operator": 1,
+            "join_field": "d.entity",
+            "selection": "d.email AS email\r\nd.mobile_phone AS mobile_phone\r\nd.dateofbirth AS dateofbirth\r\nd.website AS website"
+        }
+    },
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "93a34bf3-aa25-4a14-8496-ae7d0340e0b9",
+            "entity": "admin_view",
+            "table": "#__componentbuilder_admin_view",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "595ba2c9-21fa-43a4-9af7-93c9cfb21b82",
+            "entity": "admin_view",
+            "table": "#__componentbuilder_admin_view",
+            "direction": "out"
+        }
+    ]
+}

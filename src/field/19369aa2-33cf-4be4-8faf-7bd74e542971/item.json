@@ -1,6 +1,6 @@
 {
-    "name": "Address Type (address)",
-    "fieldtype": "a51dfc06-1b9b-4d0a-86ba-f705bcd40d4d",
+    "name": "Type (address)",
+    "fieldtype": "a1cdb0a5-517c-425c-998a-333e92af3e32",
     "datatype": "VARCHAR",
     "indexes": "2",
     "null_switch": "NULL",
@@ -8,14 +8,14 @@
     "on_get_model_field": null,
     "on_save_model_field": null,
     "initiator_on_get_model": "",
-    "xml": "<field\n\ttype=\"list\"\n\tname=\"address_type\"\n\tlabel=\"Address Type\"\n\tdescription=\"The Type of address.\"\n\tclass=\"list_class\"\n\tlayout=\"joomla.form.field.list-fancy-select\"\n\tmultiple=\"false\"\n\toption=\"home|Home,work|Work,temporary|Temporary,shelter|Shelter,institution|Institution,other|Other\"\n\/>",
-    "datalenght": "255",
+    "xml": "<field\n\ttype=\"ModalSelect\"\n\tname=\"type\"\n\tlabel=\"Type\"\n\tsql_title_table=\"#__###component###_address_type\"\n\tsql_title_column=\"name\"\n\tsql_title_key=\"guid\"\n\turlSelect=\"index.php?option=com_###component###&amp;view=address_types&amp;layout=modal&amp;tmpl=component&amp;titleKey=guid\"\n\turlNew=\"index.php?option=com_###component###&amp;task=address_type.add&amp;layout=modal&amp;tmpl=component\"\n\turlEdit=\"index.php?option=com_###component###&amp;task=address_type.edit&amp;guid={id}&amp;layout=modal&amp;tmpl=component&amp;titleKey=guid\"\n\ttitleSelect=\"Select a Type\"\n\ttitleNew=\"New Type\"\n\ttitleEdit=\"Edit Type\"\n\ticonSelect=\"icon-copy\"\n\tselect=\"true\"\n\tnew=\"true\"\n\tedit=\"true\"\n\tclear=\"true\"\n\trequired=\"true\"\n\tclass=\"input-large\"\n\tdescription=\"Specifies the purpose of the address, such as billing, shipping, or registered location.\"\n\thint=\"Select a Type\"\n\/>",
+    "datalenght": "Other",
     "javascript_view_footer": "",
     "css_views": "",
     "css_view": "",
     "datadefault_other": "",
     "datadefault": "",
-    "datalenght_other": "",
+    "datalenght_other": "36",
     "javascript_views_footer": "",
     "add_css_view": 0,
     "add_css_views": 0,
@@ -26,7 +26,7 @@
     "@dependencies": [
         {
             "key": "guid",
-            "value": "a51dfc06-1b9b-4d0a-86ba-f705bcd40d4d",
+            "value": "a1cdb0a5-517c-425c-998a-333e92af3e32",
             "entity": "fieldtype",
             "table": "#__componentbuilder_fieldtype",
             "direction": "out"

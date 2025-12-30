@@ -8,13 +8,11 @@
 
 ### Code
 ```php
-		/** @var Joomla\CMS\WebAsset\WebAssetManager $wa */
-		$wa = $this->getDocument()->getWebAssetManager();
+		$app = $this->app ?? Joomla___39403062_84fb_46e0_bac4_0023f766e827___Power::getApplication();
 
 		// set the url as needed
-		$app = Joomla___39403062_84fb_46e0_bac4_0023f766e827___Power::getApplication();
 		$url = '';
-		if ($app->isClient('site'))
+		if (method_exists($app, 'isClient') && $app->isClient('site'))
 		{
 			$url = Joomla___eecc143e_b5cf_4c33_ba4d_97da1df61422___Power::root();
 		}
@@ -37,13 +35,22 @@
 
 		// Convert the PHP array to a JavaScript object
 		$uploaderConfigJson = json_encode($uploaderConfig);
+		$script = "(window.VDM ??= {}).uikit ??= {}; window.VDM.uikit.config = {$uploaderConfigJson};";
 
-		// Add the inline script with the uploader configuration
-		$wa->addInlineScript("
-			window.VDM = window.VDM || {};
-			window.VDM.uikit = window.VDM.uikit || {};
-			window.VDM.uikit.config = $uploaderConfigJson;
-		");
+		/** @var \Joomla\CMS\Document\Document $document */
+		$document ??= ($this->getDocument() ?? $app->getDocument());
+
+		// Use WebAssetManager if available (Joomla 4+), otherwise fallback
+		if (method_exists($document, 'getWebAssetManager'))
+		{
+			/** @var \Joomla\CMS\WebAsset\WebAssetManager $wa */
+			$wa = $document -> getWebAssetManager(); // note the ...ment[space]->[space]getWebAs... convention (without it JCB will convert the call to $this->getDocument())
+			$wa->addInlineScript($script);
+		}
+		else
+		{
+			$document -> addScriptDeclaration($script);
+		}
 ```
 
 > Add clean, self-contained code into your components with this reusable custom-code snippet designed for seamless integration and easy updates in JCB.

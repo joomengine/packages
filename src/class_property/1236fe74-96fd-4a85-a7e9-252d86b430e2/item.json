@@ -1,0 +1,18 @@
+{
+    "name": "autoloadLanguage",
+    "visibility": "protected",
+    "extension_type": "plugins",
+    "guid": "1236fe74-96fd-4a85-a7e9-252d86b430e2",
+    "comment": "\t\/**\r\n\t * Affects constructor behavior. If true, language files will be loaded automatically.\r\n\t *\r\n\t * @var    boolean\r\n\t * @since  1.0.0\r\n\t *\/",
+    "joomla_plugin_group": "93940067-92d1-4cc2-b4e2-d3fc118d99bd",
+    "default": "true",
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "93940067-92d1-4cc2-b4e2-d3fc118d99bd",
+            "entity": "joomla_plugin_group",
+            "table": "#__componentbuilder_joomla_plugin_group",
+            "direction": "out"
+        }
+    ]
+}

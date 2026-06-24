@@ -1,0 +1,14 @@
+{
+    "name": "installer",
+    "class_extends": "ae2fafb4-e84b-4534-ba9c-6c9e1700b318",
+    "guid": "93940067-92d1-4cc2-b4e2-d3fc118d99bd",
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "ae2fafb4-e84b-4534-ba9c-6c9e1700b318",
+            "entity": "class_extends",
+            "table": "#__componentbuilder_class_extends",
+            "direction": "out"
+        }
+    ]
+}

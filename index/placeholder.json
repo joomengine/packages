@@ -16,5 +16,11 @@
         "path": "src\/placeholder\/[[[get_component_link]]]",
         "settings": "src\/placeholder\/[[[get_component_link]]]\/item.json",
         "guid": "[[[get_component_link]]]"
+    },
+    "[[[gitea_url]]]": {
+        "name": "[[[gitea_url]]]",
+        "path": "src\/placeholder\/[[[gitea_url]]]",
+        "settings": "src\/placeholder\/[[[gitea_url]]]\/item.json",
+        "guid": "[[[gitea_url]]]"
     }
 }

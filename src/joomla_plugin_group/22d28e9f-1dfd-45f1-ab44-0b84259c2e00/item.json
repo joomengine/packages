@@ -1,0 +1,14 @@
+{
+    "name": "user",
+    "class_extends": "ae2fafb4-e84b-4534-ba9c-6c9e1700b318",
+    "guid": "22d28e9f-1dfd-45f1-ab44-0b84259c2e00",
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "ae2fafb4-e84b-4534-ba9c-6c9e1700b318",
+            "entity": "class_extends",
+            "table": "#__componentbuilder_class_extends",
+            "direction": "out"
+        }
+    ]
+}

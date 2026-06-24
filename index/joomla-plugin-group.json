@@ -22,5 +22,11 @@
         "path": "src\/joomla_plugin_group\/63638841-11b1-45ef-b42b-475d0f1635c1",
         "settings": "src\/joomla_plugin_group\/63638841-11b1-45ef-b42b-475d0f1635c1\/item.json",
         "guid": "63638841-11b1-45ef-b42b-475d0f1635c1"
+    },
+    "93940067-92d1-4cc2-b4e2-d3fc118d99bd": {
+        "name": "installer",
+        "path": "src\/joomla_plugin_group\/93940067-92d1-4cc2-b4e2-d3fc118d99bd",
+        "settings": "src\/joomla_plugin_group\/93940067-92d1-4cc2-b4e2-d3fc118d99bd\/item.json",
+        "guid": "93940067-92d1-4cc2-b4e2-d3fc118d99bd"
     }
 }

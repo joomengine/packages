@@ -12,5 +12,19 @@
         "path": "src\/joomla_plugin\/5df401b4-c9a6-42c8-b50d-87f67c8a15f3",
         "settings": "src\/joomla_plugin\/5df401b4-c9a6-42c8-b50d-87f67c8a15f3\/item.json",
         "guid": "5df401b4-c9a6-42c8-b50d-87f67c8a15f3"
+    },
+    "86dd28b5-18d4-437e-8a53-7eaf23478fc8": {
+        "name": "Powers Autoloader",
+        "desc": "Plugin to autoload the powers of [[[component]]]",
+        "path": "src\/joomla_plugin\/86dd28b5-18d4-437e-8a53-7eaf23478fc8",
+        "settings": "src\/joomla_plugin\/86dd28b5-18d4-437e-8a53-7eaf23478fc8\/item.json",
+        "guid": "86dd28b5-18d4-437e-8a53-7eaf23478fc8"
+    },
+    "5236660d-5dee-492b-925c-15b96cb6ea44": {
+        "name": "Update (git.vdm.dev) J5+",
+        "desc": "Add Access Token to easy update [[[Component]]]",
+        "path": "src\/joomla_plugin\/5236660d-5dee-492b-925c-15b96cb6ea44",
+        "settings": "src\/joomla_plugin\/5236660d-5dee-492b-925c-15b96cb6ea44\/item.json",
+        "guid": "5236660d-5dee-492b-925c-15b96cb6ea44"
     }
 }

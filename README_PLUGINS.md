@@ -47,6 +47,7 @@ while still allowing full customization per project.
 ### Index of Joomla Plugins
 
 
+ - **Component API Routes** | [Details](src/joomla_plugin/d8252031-d758-4ed3-90a5-24e1c39efc6a) | [Settings](src/joomla_plugin/d8252031-d758-4ed3-90a5-24e1c39efc6a/item.json) | Registers the [[[ComponentNamespace]]] JSON:API routes.
  - **Component Commands** | [Details](src/joomla_plugin/5df401b4-c9a6-42c8-b50d-87f67c8a15f3) | [Settings](src/joomla_plugin/5df401b4-c9a6-42c8-b50d-87f67c8a15f3/item.json) | Register [[[ComponentNamespace]]] Commands @since 4.0.0
  - **Global Privacy J5** | [Details](src/joomla_plugin/8aa96d76-94e3-47d1-8dd8-f430b72ed0f7) | [Settings](src/joomla_plugin/8aa96d76-94e3-47d1-8dd8-f430b72ed0f7/item.json) | The plugin to fully integrate [[[component]]] with the privacy suite of Joomla.
  - **Powers Autoloader** | [Details](src/joomla_plugin/86dd28b5-18d4-437e-8a53-7eaf23478fc8) | [Settings](src/joomla_plugin/86dd28b5-18d4-437e-8a53-7eaf23478fc8/item.json) | Plugin to autoload the powers of [[[component]]]

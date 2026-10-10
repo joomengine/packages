@@ -8,6 +8,10 @@
         "addjoomla_plugins1": {
             "plugin": "5df401b4-c9a6-42c8-b50d-87f67c8a15f3",
             "target": "1"
+        },
+        "addjoomla_plugins2": {
+            "plugin": "d8252031-d758-4ed3-90a5-24e1c39efc6a",
+            "target": "1"
         }
     },
     "@dependencies": [
@@ -28,6 +32,13 @@
         {
             "key": "guid",
             "value": "5df401b4-c9a6-42c8-b50d-87f67c8a15f3",
+            "entity": "joomla_plugin",
+            "table": "#__componentbuilder_joomla_plugin",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "d8252031-d758-4ed3-90a5-24e1c39efc6a",
             "entity": "joomla_plugin",
             "table": "#__componentbuilder_joomla_plugin",
             "direction": "out"

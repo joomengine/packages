@@ -34,5 +34,11 @@
         "path": "src\/joomla_plugin_group\/22d28e9f-1dfd-45f1-ab44-0b84259c2e00",
         "settings": "src\/joomla_plugin_group\/22d28e9f-1dfd-45f1-ab44-0b84259c2e00\/item.json",
         "guid": "22d28e9f-1dfd-45f1-ab44-0b84259c2e00"
+    },
+    "0fce80d6-8cac-493c-8127-19a4b02557ee": {
+        "name": "webservices",
+        "path": "src\/joomla_plugin_group\/0fce80d6-8cac-493c-8127-19a4b02557ee",
+        "settings": "src\/joomla_plugin_group\/0fce80d6-8cac-493c-8127-19a4b02557ee\/item.json",
+        "guid": "0fce80d6-8cac-493c-8127-19a4b02557ee"
     }
 }

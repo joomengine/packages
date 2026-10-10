@@ -1,0 +1,14 @@
+{
+    "name": "webservices",
+    "class_extends": "ae2fafb4-e84b-4534-ba9c-6c9e1700b318",
+    "guid": "0fce80d6-8cac-493c-8127-19a4b02557ee",
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "ae2fafb4-e84b-4534-ba9c-6c9e1700b318",
+            "entity": "class_extends",
+            "table": "#__componentbuilder_class_extends",
+            "direction": "out"
+        }
+    ]
+}

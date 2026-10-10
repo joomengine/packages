@@ -28,7 +28,7 @@
             "history": "1",
             "metadata": "1",
             "access": "1",
-            "add_api": "0",
+            "add_api": "2",
             "filter": "2",
             "edit_create_site_view": "",
             "order": "2"
@@ -43,7 +43,7 @@
             "history": "1",
             "metadata": "1",
             "access": "1",
-            "add_api": "0",
+            "add_api": "2",
             "filter": "2",
             "edit_create_site_view": "",
             "order": "3"
@@ -58,7 +58,7 @@
             "history": "1",
             "metadata": "1",
             "access": "1",
-            "add_api": "0",
+            "add_api": "2",
             "filter": "2",
             "edit_create_site_view": "",
             "order": "4"
@@ -73,7 +73,7 @@
             "history": "1",
             "metadata": "1",
             "access": "1",
-            "add_api": "0",
+            "add_api": "2",
             "filter": "2",
             "edit_create_site_view": "",
             "order": "5"
@@ -88,7 +88,7 @@
             "history": "1",
             "metadata": "1",
             "access": "1",
-            "add_api": "0",
+            "add_api": "2",
             "filter": "2",
             "edit_create_site_view": "",
             "order": "6"
@@ -103,7 +103,7 @@
             "history": "1",
             "metadata": "1",
             "access": "1",
-            "add_api": "0",
+            "add_api": "2",
             "filter": "2",
             "edit_create_site_view": "",
             "order": "7"
@@ -118,7 +118,7 @@
             "history": "1",
             "metadata": "1",
             "access": "1",
-            "add_api": "0",
+            "add_api": "2",
             "filter": "2",
             "edit_create_site_view": "",
             "order": "8"
@@ -132,7 +132,7 @@
             "history": "1",
             "metadata": "1",
             "access": "1",
-            "add_api": "0",
+            "add_api": "2",
             "filter": "2",
             "edit_create_site_view": "",
             "order": "9"
@@ -146,7 +146,7 @@
             "history": "1",
             "metadata": "1",
             "access": "1",
-            "add_api": "0",
+            "add_api": "2",
             "filter": "2",
             "edit_create_site_view": "",
             "order": "10"
@@ -159,7 +159,7 @@
             "history": "1",
             "metadata": "1",
             "access": "1",
-            "add_api": "0",
+            "add_api": "2",
             "filter": "2",
             "edit_create_site_view": "",
             "order": "11"
@@ -172,7 +172,7 @@
             "checkin": "1",
             "history": "1",
             "access": "1",
-            "add_api": "0",
+            "add_api": "2",
             "filter": "2",
             "edit_create_site_view": "",
             "order": "12"
@@ -184,7 +184,7 @@
             "checkin": "1",
             "history": "1",
             "access": "1",
-            "add_api": "0",
+            "add_api": "2",
             "filter": "2",
             "edit_create_site_view": "",
             "order": "13"
